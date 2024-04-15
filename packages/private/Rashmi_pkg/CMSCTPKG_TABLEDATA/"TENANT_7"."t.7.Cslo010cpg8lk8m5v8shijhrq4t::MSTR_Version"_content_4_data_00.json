@@ -1,0 +1,73 @@
+{
+  "metadata" : {
+    "contentDataTableInfo" : {
+      "tableName" : "\"TENANT_7\".\"t.7.Cslo010cpg8lk8m5v8shijhrq4t::MSTR_Version\"",
+      "isEmptyBeforeImport" : true,
+      "whereFilter" : "",
+      "isFPATable" : false,
+      "columnsHasTenantId" : [ ],
+      "columnsHasHANAUser" : [ ],
+      "generated" : false,
+      "repositoryId" : null,
+      "dataProcName" : ""
+    },
+    "tableColumns" : [ "ID", "VERSION", "CATEGORY", "CURRENCY_CONVERSION_CATEGORY", "RATE_VERSION" ],
+    "tableColumnsMetadata" : [ {
+      "columnName" : "ID",
+      "position" : 1,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 8,
+      "length" : 300,
+      "scale" : null,
+      "isNullable" : false,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    }, {
+      "columnName" : "VERSION",
+      "position" : 2,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 8,
+      "length" : 300,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    }, {
+      "columnName" : "CATEGORY",
+      "position" : 3,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 8,
+      "length" : 127,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    }, {
+      "columnName" : "CURRENCY_CONVERSION_CATEGORY",
+      "position" : 4,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 8,
+      "length" : 127,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    }, {
+      "columnName" : "RATE_VERSION",
+      "position" : 5,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 8,
+      "length" : 127,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    } ]
+  },
+  "content" : [ [ "public.Actual", "Actual", "Actuals", "Actuals", "" ] ]
+}

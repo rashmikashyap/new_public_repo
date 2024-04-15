@@ -1,0 +1,84 @@
+{
+  "metadata" : {
+    "contentDataTableInfo" : {
+      "tableName" : "\"TENANT_7\".\"t.7.Cslo010cpg8lk8m5v8shijhrq4t::TRNS_Cslo010cpg8lk8m5v8shijhrq4t\"",
+      "isEmptyBeforeImport" : true,
+      "whereFilter" : "",
+      "isFPATable" : false,
+      "columnsHasTenantId" : [ ],
+      "columnsHasHANAUser" : [ ],
+      "generated" : false,
+      "repositoryId" : null,
+      "dataProcName" : ""
+    },
+    "tableColumns" : [ "House.ID", "Place.ID", "Rates_in_lakhs_", "rashmi_pd.ID", "Version.ID", "_Package_" ],
+    "tableColumnsMetadata" : [ {
+      "columnName" : "House.ID",
+      "position" : 1,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 8,
+      "length" : 5000,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    }, {
+      "columnName" : "Place.ID",
+      "position" : 2,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 24,
+      "length" : 5000,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    }, {
+      "columnName" : "Rates_in_lakhs_",
+      "position" : 3,
+      "dataTypeName" : "INTEGER",
+      "offset" : 1,
+      "length" : 10,
+      "scale" : 0,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : "INT"
+    }, {
+      "columnName" : "rashmi_pd.ID",
+      "position" : 4,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 40,
+      "length" : 256,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "1",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    }, {
+      "columnName" : "Version.ID",
+      "position" : 5,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 40,
+      "length" : 300,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "public.Actual",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    }, {
+      "columnName" : "_Package_",
+      "position" : 6,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 40,
+      "length" : 265,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "UNUSED",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    } ]
+  },
+  "content" : [ [ "Duplex", "Mattu", 9, "1", "public.Actual", "UNUSED" ], [ "1BHK", "Katapady", 93, "1", "public.Actual", "UNUSED" ], [ "2BHK", "Belman", 30, "1", "public.Actual", "UNUSED" ], [ "3BHK", "SVT", 50, "1", "public.Actual", "UNUSED" ], [ "Pent", "Bengaluru", 88, "1", "public.Actual", "UNUSED" ] ]
+}

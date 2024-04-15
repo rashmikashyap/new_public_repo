@@ -1,0 +1,89 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:t.7:rashmi_pd",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "t.7:rashmi_pd",
+    "type" : "Generic",
+    "mode" : "standalone",
+    "isLocal" : false,
+    "packageName" : "t.7",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : true,
+      "multiLangEnabled" : false,
+      "showOrphans" : false,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true
+    },
+    "description" : "rashmi_pd",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "Member ID",
+      "descriptions" : {
+        "en" : "Member ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "hierarchies" : [ ],
+    "memberCount" : 3,
+    "lastUpdated" : "2024-04-04T14:10:02.273Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_7",
+    "descriptions" : {
+      "en" : "rashmi_pd"
+    },
+    "name" : "rashmi_pd",
+    "dimensionId" : "rashmi_pd",
+    "masterDataTableName" : "t.7::MSTR_rashmi_pd",
+    "textTableName" : "t.7::TEXT_rashmi_pd",
+    "hierarchyCount" : 0,
+    "propertyCount" : 1,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "Member ID",
+      "descriptions" : {
+        "en" : "Member ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : false,
+    "isTemporary" : false
+  },
+  "status" : { },
+  "hasSecurityInfo" : false
+}

@@ -1,0 +1,48 @@
+{
+  "contentDataTableInfo" : {
+    "tableName" : "\"TENANT_7\".\"t.7::TEXT_rashmi_pd\"",
+    "isEmptyBeforeImport" : true,
+    "whereFilter" : "",
+    "isFPATable" : false,
+    "columnsHasTenantId" : [ ],
+    "columnsHasHANAUser" : [ ],
+    "generated" : false,
+    "repositoryId" : null
+  },
+  "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+  "tableColumnsMetadata" : [ {
+    "columnName" : "ID",
+    "position" : 1,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 8,
+    "length" : 256,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "_LANG",
+    "position" : 2,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 8,
+    "length" : 5,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "_DESCRIPTION",
+    "position" : 3,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 8,
+    "length" : 256,
+    "scale" : null,
+    "isNullable" : true,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  } ],
+  "recordCount" : 3
+}
