@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "contentDataTableInfo" : {
+      "tableName" : "\"TENANT_7\".\"t.7::MSTR_rashmi_pd\"",
+      "isEmptyBeforeImport" : true,
+      "whereFilter" : "",
+      "isFPATable" : false,
+      "columnsHasTenantId" : [ ],
+      "columnsHasHANAUser" : [ ],
+      "generated" : false,
+      "repositoryId" : null,
+      "dataProcName" : ""
+    },
+    "tableColumns" : [ "ID" ],
+    "tableColumnsMetadata" : [ {
+      "columnName" : "ID",
+      "position" : 1,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 8,
+      "length" : 256,
+      "scale" : null,
+      "isNullable" : false,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : "STRING"
+    } ]
+  },
+  "content" : [ [ "#" ], [ "1" ], [ "2" ] ]
+}
