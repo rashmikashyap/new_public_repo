@@ -1,0 +1,42 @@
+{
+  "ASHWINI" : {
+    "##spaceContent" : {
+      "spaces" : {
+        "ASHWINI" : {
+          "version" : "1.0.4",
+          "label" : "ashwini",
+          "assignedStorage" : 2000000000,
+          "assignedRam" : 1000000000,
+          "enableDataLake" : false,
+          "priority" : 5,
+          "allowConsumption" : false,
+          "auditing" : {
+            "dppRead" : {
+              "retentionPeriod" : 7,
+              "isAuditPolicyActive" : false
+            },
+            "dppChange" : {
+              "retentionPeriod" : 7,
+              "isAuditPolicyActive" : false
+            }
+          },
+          "members" : [ ],
+          "hdicontainers" : { },
+          "dbusers" : { },
+          "workloadClass" : {
+            "totalStatementMemoryLimit" : {
+              "value" : null,
+              "unit" : "Gigabyte"
+            },
+            "totalStatementThreadLimit" : {
+              "value" : null,
+              "unit" : "Counter"
+            }
+          },
+          "workloadType" : "default"
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.13"
+  }
+}

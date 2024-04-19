@@ -1,0 +1,24 @@
+{
+  "id" : "sap.dis.transformationflow:ASHWINI\\1183_10",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\Opportunities_d",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\Opportunities_d_Delta",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\x11",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\x11_Delta",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

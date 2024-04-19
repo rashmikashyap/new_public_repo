@@ -1,0 +1,131 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "x11_Delta" : {
+        "definitions" : {
+          "x11_Delta" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "x11",
+            "elements" : {
+              "Opp_ID" : {
+                "@EndUserText.label" : "Opp_ID",
+                "type" : "cds.Integer64",
+                "key" : true,
+                "notNull" : true
+              },
+              "Name" : {
+                "@EndUserText.label" : "Name",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Account" : {
+                "@EndUserText.label" : "Account",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Deal Size" : {
+                "@EndUserText.label" : "Deal Size",
+                "type" : "cds.Integer64",
+                "key" : false
+              },
+              "Owner" : {
+                "@EndUserText.label" : "Owner",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Email" : {
+                "@EndUserText.label" : "Email",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Sales Phase" : {
+                "@EndUserText.label" : "Sales Phase",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Forecast" : {
+                "@EndUserText.label" : "Forecast",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Projected Close Date" : {
+                "@EndUserText.label" : "Projected Close Date",
+                "type" : "cds.Date",
+                "key" : false
+              },
+              "Close Probability" : {
+                "@EndUserText.label" : "Close Probability",
+                "type" : "cds.Decimal",
+                "key" : false,
+                "precision" : 38,
+                "scale" : 19
+              },
+              "Opportunity Phase" : {
+                "@EndUserText.label" : "Opportunity Phase",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "RFP completed" : {
+                "@EndUserText.label" : "RFP completed",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Discount Pct" : {
+                "@EndUserText.label" : "Discount Pct",
+                "type" : "cds.Decimal",
+                "key" : false,
+                "precision" : 38,
+                "scale" : 19
+              },
+              "Change_Type" : {
+                "@EndUserText.label" : "Change Type",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 1,
+                "notNull" : true,
+                "default" : {
+                  "val" : "I"
+                }
+              },
+              "Change_Date" : {
+                "@EndUserText.label" : "Change Date",
+                "type" : "cds.Timestamp",
+                "key" : false,
+                "notNull" : true,
+                "default" : {
+                  "func" : "CURRENT_UTCTIMESTAMP"
+                }
+              }
+            },
+            "@DataWarehouse.delta" : {
+              "type" : {
+                "#" : "UPSERT"
+              },
+              "dateTimeElement" : {
+                "=" : "Change_Date"
+              },
+              "modeElement" : {
+                "=" : "Change_Type"
+              }
+            },
+            "@DataWarehouse.enclosingObject" : "x11",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.13"
+  }
+}

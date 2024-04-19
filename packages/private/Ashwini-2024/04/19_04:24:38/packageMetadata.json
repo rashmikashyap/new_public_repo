@@ -1,0 +1,76 @@
+{
+  "info" : null,
+  "objects" : [ {
+    "objectType" : "FOLDER",
+    "objectName" : "ASHWINI",
+    "objectId" : "sap.dwc.space:ASHWINI",
+    "parentResId" : "SPACE",
+    "isSampleRelated" : false,
+    "name" : "ASHWINI",
+    "description" : "ashwini",
+    "objectInfo" : null,
+    "dependents" : [ ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_TRANSFORMATIONFLOW",
+    "objectName" : "1183_10",
+    "objectId" : "sap.dis.transformationflow:ASHWINI\\1183_10",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "1183_10",
+    "description" : "1183_10",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI", "entity:ASHWINI\\Opportunities_d", "entity:ASHWINI\\Opportunities_d_Delta", "entity:ASHWINI\\x11", "entity:ASHWINI\\x11_Delta" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "Opportunities_d",
+    "objectId" : "entity:ASHWINI\\Opportunities_d",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "Opportunities_d",
+    "description" : "Opportunities_d",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI", "entity:ASHWINI\\Opportunities_d_Delta" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "Opportunities_d_Delta",
+    "objectId" : "entity:ASHWINI\\Opportunities_d_Delta",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "Opportunities_d_Delta",
+    "description" : "Opportunities_d",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI", "entity:ASHWINI\\Opportunities_d" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "x11",
+    "objectId" : "entity:ASHWINI\\x11",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "x11",
+    "description" : "x11",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI", "entity:ASHWINI\\x11_Delta" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "x11_Delta",
+    "objectId" : "entity:ASHWINI\\x11_Delta",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "x11_Delta",
+    "description" : "x11",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI", "entity:ASHWINI\\x11" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  } ]
+}

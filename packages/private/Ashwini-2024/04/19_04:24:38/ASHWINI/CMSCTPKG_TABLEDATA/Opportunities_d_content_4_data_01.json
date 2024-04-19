@@ -1,0 +1,260 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "Opportunities_d" : {
+        "definitions" : {
+          "Opportunities_d" : {
+            "kind" : "entity",
+            "elements" : {
+              "Opp_ID" : {
+                "@EndUserText.label" : "Opp_ID",
+                "type" : "cds.Integer64",
+                "key" : true,
+                "notNull" : true
+              },
+              "Name" : {
+                "@EndUserText.label" : "Name",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Account" : {
+                "@EndUserText.label" : "Account",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Deal Size" : {
+                "@EndUserText.label" : "Deal Size",
+                "type" : "cds.Integer64"
+              },
+              "Owner" : {
+                "@EndUserText.label" : "Owner",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Email" : {
+                "@EndUserText.label" : "Email",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Sales Phase" : {
+                "@EndUserText.label" : "Sales Phase",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Forecast" : {
+                "@EndUserText.label" : "Forecast",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Projected Close Date" : {
+                "@EndUserText.label" : "Projected Close Date",
+                "type" : "cds.Date"
+              },
+              "Close Probability" : {
+                "@EndUserText.label" : "Close Probability",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "Opportunity Phase" : {
+                "@EndUserText.label" : "Opportunity Phase",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "RFP completed" : {
+                "@EndUserText.label" : "RFP completed",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Discount Pct" : {
+                "@EndUserText.label" : "Discount Pct",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              }
+            },
+            "@DataWarehouse.delta" : {
+              "type" : {
+                "#" : "ACTIVE"
+              },
+              "deltaFromEntities" : [ "Opportunities_d_Delta" ]
+            },
+            "@EndUserText.label" : "Opportunities_d",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "@DataWarehouse.consumption.external" : false,
+            "query" : {
+              "SELECT" : {
+                "from" : {
+                  "ref" : [ "Opportunities_d_Delta" ]
+                },
+                "columns" : [ {
+                  "ref" : [ "Opp_ID" ]
+                }, {
+                  "ref" : [ "Name" ]
+                }, {
+                  "ref" : [ "Account" ]
+                }, {
+                  "ref" : [ "Deal Size" ]
+                }, {
+                  "ref" : [ "Owner" ]
+                }, {
+                  "ref" : [ "Email" ]
+                }, {
+                  "ref" : [ "Sales Phase" ]
+                }, {
+                  "ref" : [ "Forecast" ]
+                }, {
+                  "ref" : [ "Projected Close Date" ]
+                }, {
+                  "ref" : [ "Close Probability" ]
+                }, {
+                  "ref" : [ "Opportunity Phase" ]
+                }, {
+                  "ref" : [ "RFP completed" ]
+                }, {
+                  "ref" : [ "Discount Pct" ]
+                } ],
+                "where" : [ {
+                  "ref" : [ "Change_Type" ]
+                }, "not", "in", {
+                  "list" : [ {
+                    "val" : "D"
+                  }, {
+                    "val" : "M"
+                  } ]
+                } ]
+              }
+            },
+            "@DataWarehouse.repository.technicalType" : {
+              "#" : "DWC_LOCAL_TABLE"
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "DOD"
+            }
+          },
+          "Opportunities_d_Delta" : {
+            "kind" : "entity",
+            "elements" : {
+              "Opp_ID" : {
+                "@EndUserText.label" : "Opp_ID",
+                "type" : "cds.Integer64",
+                "key" : true,
+                "notNull" : true
+              },
+              "Name" : {
+                "@EndUserText.label" : "Name",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Account" : {
+                "@EndUserText.label" : "Account",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Deal Size" : {
+                "@EndUserText.label" : "Deal Size",
+                "type" : "cds.Integer64"
+              },
+              "Owner" : {
+                "@EndUserText.label" : "Owner",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Email" : {
+                "@EndUserText.label" : "Email",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Sales Phase" : {
+                "@EndUserText.label" : "Sales Phase",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Forecast" : {
+                "@EndUserText.label" : "Forecast",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Projected Close Date" : {
+                "@EndUserText.label" : "Projected Close Date",
+                "type" : "cds.Date"
+              },
+              "Close Probability" : {
+                "@EndUserText.label" : "Close Probability",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "Opportunity Phase" : {
+                "@EndUserText.label" : "Opportunity Phase",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "RFP completed" : {
+                "@EndUserText.label" : "RFP completed",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Discount Pct" : {
+                "@EndUserText.label" : "Discount Pct",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "Change_Type" : {
+                "@EndUserText.label" : "Change Type",
+                "type" : "cds.String",
+                "length" : 1,
+                "notNull" : true,
+                "default" : {
+                  "val" : "I"
+                }
+              },
+              "Change_Date" : {
+                "@EndUserText.label" : "Change Date",
+                "type" : "cds.Timestamp",
+                "notNull" : true,
+                "default" : {
+                  "func" : "CURRENT_UTCTIMESTAMP"
+                }
+              }
+            },
+            "@DataWarehouse.delta" : {
+              "type" : {
+                "#" : "UPSERT"
+              },
+              "dateTimeElement" : {
+                "=" : "Change_Date"
+              },
+              "modeElement" : {
+                "=" : "Change_Type"
+              }
+            },
+            "@DataWarehouse.enclosingObject" : "Opportunities_d",
+            "@EndUserText.label" : "Opportunities_d",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.13"
+  }
+}
