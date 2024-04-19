@@ -1,0 +1,16 @@
+{
+  "id" : "sap.dwc.businessEntityVariant:RASHMI_DWC\\BE_Rashmi_table_V1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:RASHMI_DWC",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:RASHMI_DWC\\Rashmi_table",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dwc.businessEntity:RASHMI_DWC\\BE_Rashmi_table",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

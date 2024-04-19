@@ -1,0 +1,52 @@
+{
+  "info" : null,
+  "objects" : [ {
+    "objectType" : "FOLDER",
+    "objectName" : "RASHMI_DWC",
+    "objectId" : "sap.dwc.space:RASHMI_DWC",
+    "parentResId" : "SPACE",
+    "isSampleRelated" : false,
+    "name" : "RASHMI_DWC",
+    "description" : "rashmi_dwc",
+    "objectInfo" : null,
+    "dependents" : [ ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_BUSINESS_ENTITY",
+    "objectName" : "BE_Rashmi_table",
+    "objectId" : "sap.dwc.businessEntity:RASHMI_DWC\\BE_Rashmi_table",
+    "parentResId" : "sap.dwc.space:RASHMI_DWC",
+    "isSampleRelated" : false,
+    "name" : "BE_Rashmi_table",
+    "description" : "Rashmi_table",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:RASHMI_DWC", "entity:RASHMI_DWC\\Rashmi_table", "sap.dwc.businessEntityVariant:RASHMI_DWC\\BE_Rashmi_table_V1" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_BUSINESS_ENTITY_VARIANT",
+    "objectName" : "BE_Rashmi_table_V1",
+    "objectId" : "sap.dwc.businessEntityVariant:RASHMI_DWC\\BE_Rashmi_table_V1",
+    "parentResId" : "sap.dwc.space:RASHMI_DWC",
+    "isSampleRelated" : false,
+    "name" : "BE_Rashmi_table_V1",
+    "description" : "Rashmi_table: V1 Initial",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:RASHMI_DWC", "entity:RASHMI_DWC\\Rashmi_table", "sap.dwc.businessEntity:RASHMI_DWC\\BE_Rashmi_table" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "Rashmi_table",
+    "objectId" : "entity:RASHMI_DWC\\Rashmi_table",
+    "parentResId" : "sap.dwc.space:RASHMI_DWC",
+    "isSampleRelated" : false,
+    "name" : "Rashmi_table",
+    "description" : "Rashmi_table",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:RASHMI_DWC" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  } ]
+}
