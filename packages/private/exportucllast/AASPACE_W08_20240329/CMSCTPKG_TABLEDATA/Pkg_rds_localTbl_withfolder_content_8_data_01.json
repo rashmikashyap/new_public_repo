@@ -1,0 +1,28 @@
+{
+  "AASPACE_W08_20240329" : {
+    "objects" : {
+      "Pkg_rds_localTbl_withfolder" : {
+        "repositoryPackages" : {
+          "Pkg_rds_localTbl_withfolder" : {
+            "requires" : [ ],
+            "_kind" : "repositoryPackage",
+            "_packageProperties" : {
+              "@EndUserText.label" : "Pkg_rds_localTbl_withfolder",
+              "purpose" : "",
+              "contentDelivery" : {
+                "category" : "myContent",
+                "semantic_version" : "0.0.1"
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.17"
+  }
+}

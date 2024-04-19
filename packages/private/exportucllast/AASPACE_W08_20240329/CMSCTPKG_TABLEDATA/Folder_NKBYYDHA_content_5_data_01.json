@@ -1,0 +1,15 @@
+{
+  "AASPACE_W08_20240329" : {
+    "objects" : {
+      "Folder_NKBYYDHA" : {
+        "Folder_NKBYYDHA" : {
+          "_kind" : "sap.repo.folder",
+          "_folderProperties" : {
+            "name" : "RDS"
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.17"
+  }
+}

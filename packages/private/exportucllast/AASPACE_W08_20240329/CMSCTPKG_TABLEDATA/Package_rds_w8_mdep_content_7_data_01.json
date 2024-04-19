@@ -1,0 +1,29 @@
+{
+  "AASPACE_W08_20240329" : {
+    "objects" : {
+      "Package_rds_w8_mdep" : {
+        "repositoryPackages" : {
+          "Package_rds_w8_mdep" : {
+            "requires" : [ ],
+            "_kind" : "repositoryPackage",
+            "_packageProperties" : {
+              "@EndUserText.label" : "Package_rds_w8_mdep",
+              "purpose" : "",
+              "contentDelivery" : {
+                "category" : "myContent",
+                "location" : "RDS/",
+                "semantic_version" : "0.0.1"
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.17"
+  }
+}

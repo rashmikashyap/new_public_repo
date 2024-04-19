@@ -1,0 +1,37 @@
+{
+  "AASPACE_W08_20240329" : {
+    "objects" : {
+      "HDL_FILES_saphxmanalytics" : {
+        "objects" : {
+          "HDL_FILES_saphxmanalytics" : {
+            "businessName" : "ucl-poc-fr02-ectafvwk (HDL_FILES)",
+            "name" : "HDL_FILES_saphxmanalytics",
+            "configuration" : { },
+            "typeId" : "HDL_FILES",
+            "isUclSpaceConnection" : true,
+            "uclSystemTenantId" : "7dd80fe6-2180-4c80-b3b7-612d1b06d506",
+            "uclFormationTypeId" : "c592fc1f-1410-4d1f-a2ad-2de5d6ab4941",
+            "uclApplicationNamespace" : "sap.hxm-analytics",
+            "capabilityReplicationflowTarget" : "false",
+            "capabilityReplicationflowSource" : "true",
+            "capabilityDataflowSource" : "false",
+            "adapterName" : "file",
+            "remoteSourceName" : "DWC_AASPACE_W08_20240329.HDL_FILES_saphxmanalytics",
+            "kind" : "repository.remote",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            },
+            "isLogical" : true,
+            "acnInfoUclSharedConnection" : {
+              "applicationNamespace" : "sap.hxm-analytics",
+              "typeId" : "HDL_FILES"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.17"
+  }
+}

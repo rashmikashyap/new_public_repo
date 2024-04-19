@@ -1,0 +1,12 @@
+{
+  "id" : "sap.dis.replicationflow:AASPACE_W08_20240329\\Replication_Flow_1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:AASPACE_W08_20240329",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "repository.remote:AASPACE_W08_20240329\\HDL_FILES_saphxmanalytics",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

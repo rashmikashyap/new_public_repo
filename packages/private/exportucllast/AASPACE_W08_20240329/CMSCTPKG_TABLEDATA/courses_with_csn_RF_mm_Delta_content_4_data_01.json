@@ -1,0 +1,79 @@
+{
+  "AASPACE_W08_20240329" : {
+    "objects" : {
+      "courses_with_csn_RF_mm_Delta" : {
+        "definitions" : {
+          "courses_with_csn_RF_mm_Delta" : {
+            "kind" : "entity",
+            "elements" : {
+              "cid" : {
+                "@EndUserText.label" : "cid",
+                "type" : "cds.Integer",
+                "key" : true,
+                "notNull" : true
+              },
+              "department" : {
+                "@EndUserText.label" : "department",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "cap" : {
+                "@EndUserText.label" : "cap",
+                "type" : "cds.Integer"
+              },
+              "instructor" : {
+                "@EndUserText.label" : "instructor",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Change_Type" : {
+                "@EndUserText.label" : "Change_Type",
+                "type" : "cds.String",
+                "notNull" : true,
+                "length" : 1,
+                "default" : {
+                  "val" : "I"
+                }
+              },
+              "Change_Date" : {
+                "@EndUserText.label" : "Change_Date",
+                "type" : "cds.Timestamp",
+                "notNull" : true,
+                "default" : {
+                  "func" : "CURRENT_UTCTIMESTAMP"
+                }
+              }
+            },
+            "@EndUserText.label" : "courses_with_csn_RF_mm",
+            "@DataWarehouse.delta" : {
+              "type" : {
+                "#" : "UPSERT"
+              },
+              "dateTimeElement" : {
+                "=" : "Change_Date"
+              },
+              "modeElement" : {
+                "=" : "Change_Type"
+              }
+            },
+            "@DataWarehouse.enclosingObject" : "courses_with_csn_RF_mm",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            }, {
+              "#" : "SQL_DATA_SOURCE"
+            } ],
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.17"
+  }
+}

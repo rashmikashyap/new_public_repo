@@ -1,0 +1,100 @@
+{
+  "info" : null,
+  "objects" : [ {
+    "objectType" : "FOLDER",
+    "objectName" : "AASPACE_W08_20240329",
+    "objectId" : "sap.dwc.space:AASPACE_W08_20240329",
+    "parentResId" : "SPACE",
+    "isSampleRelated" : false,
+    "name" : "AASPACE_W08_20240329",
+    "description" : "AASPACE_W08_20240329",
+    "objectInfo" : null,
+    "dependents" : [ ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "courses_with_csn_RF_mm",
+    "objectId" : "entity:AASPACE_W08_20240329\\courses_with_csn_RF_mm",
+    "parentResId" : "sap.dwc.space:AASPACE_W08_20240329",
+    "isSampleRelated" : false,
+    "name" : "courses_with_csn_RF_mm",
+    "description" : "courses_with_csn_RF_mm",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:AASPACE_W08_20240329", "entity:AASPACE_W08_20240329\\courses_with_csn_RF_mm_Delta" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "courses_with_csn_RF_mm_Delta",
+    "objectId" : "entity:AASPACE_W08_20240329\\courses_with_csn_RF_mm_Delta",
+    "parentResId" : "sap.dwc.space:AASPACE_W08_20240329",
+    "isSampleRelated" : false,
+    "name" : "courses_with_csn_RF_mm_Delta",
+    "description" : "courses_with_csn_RF_mm",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:AASPACE_W08_20240329", "entity:AASPACE_W08_20240329\\courses_with_csn_RF_mm" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_FOLDER",
+    "objectName" : "Folder_NKBYYDHA",
+    "objectId" : "sap.repo.folder:AASPACE_W08_20240329\\Folder_NKBYYDHA",
+    "parentResId" : "sap.dwc.space:AASPACE_W08_20240329",
+    "isSampleRelated" : false,
+    "name" : "Folder_NKBYYDHA",
+    "description" : "RDS",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:AASPACE_W08_20240329" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_REMOTECONNECTION",
+    "objectName" : "HDL_FILES_saphxmanalytics",
+    "objectId" : "repository.remote:AASPACE_W08_20240329\\HDL_FILES_saphxmanalytics",
+    "parentResId" : "sap.dwc.space:AASPACE_W08_20240329",
+    "isSampleRelated" : false,
+    "name" : "HDL_FILES_saphxmanalytics",
+    "description" : "ucl-poc-fr02-ectafvwk (HDL_FILES)",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:AASPACE_W08_20240329" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_REPOSITORY_PACKAGE",
+    "objectName" : "Package_rds_w8_mdep",
+    "objectId" : "repositoryPackage:AASPACE_W08_20240329\\Package_rds_w8_mdep",
+    "parentResId" : "sap.dwc.space:AASPACE_W08_20240329",
+    "isSampleRelated" : false,
+    "name" : "Package_rds_w8_mdep",
+    "description" : "Package_rds_w8_mdep",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:AASPACE_W08_20240329" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_REPOSITORY_PACKAGE",
+    "objectName" : "Pkg_rds_localTbl_withfolder",
+    "objectId" : "repositoryPackage:AASPACE_W08_20240329\\Pkg_rds_localTbl_withfolder",
+    "parentResId" : "sap.dwc.space:AASPACE_W08_20240329",
+    "isSampleRelated" : false,
+    "name" : "Pkg_rds_localTbl_withfolder",
+    "description" : "Pkg_rds_localTbl_withfolder",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:AASPACE_W08_20240329" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_REPLICATIONFLOW",
+    "objectName" : "Replication_Flow_1",
+    "objectId" : "sap.dis.replicationflow:AASPACE_W08_20240329\\Replication_Flow_1",
+    "parentResId" : "sap.dwc.space:AASPACE_W08_20240329",
+    "isSampleRelated" : false,
+    "name" : "Replication_Flow_1",
+    "description" : "Replication Flow 1",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:AASPACE_W08_20240329", "repository.remote:AASPACE_W08_20240329\\HDL_FILES_saphxmanalytics" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  } ]
+}

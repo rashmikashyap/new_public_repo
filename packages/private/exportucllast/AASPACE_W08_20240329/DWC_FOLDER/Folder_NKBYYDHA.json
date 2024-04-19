@@ -1,0 +1,8 @@
+{
+  "id" : "sap.repo.folder:AASPACE_W08_20240329\\Folder_NKBYYDHA",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:AASPACE_W08_20240329",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

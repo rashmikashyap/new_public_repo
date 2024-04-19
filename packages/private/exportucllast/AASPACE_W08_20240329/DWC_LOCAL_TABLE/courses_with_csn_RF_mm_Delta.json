@@ -1,0 +1,12 @@
+{
+  "id" : "entity:AASPACE_W08_20240329\\courses_with_csn_RF_mm_Delta",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:AASPACE_W08_20240329",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:AASPACE_W08_20240329\\courses_with_csn_RF_mm",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

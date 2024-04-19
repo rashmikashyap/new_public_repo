@@ -1,0 +1,154 @@
+{
+  "AASPACE_W08_20240329" : {
+    "objects" : {
+      "Replication_Flow_1" : {
+        "replicationflows" : {
+          "Replication_Flow_1" : {
+            "kind" : "sap.dis.replicationflow",
+            "@EndUserText.label" : "Replication Flow 1",
+            "contents" : {
+              "description" : "Replication_Flow_1",
+              "sourceSystem" : [ {
+                "connectionId" : "HDL_FILES_saphxmanalytics",
+                "connectionType" : "HDL_FILES",
+                "container" : "/_SYS_SAP_DSP_HANA_REMOTE_SOURCES%2FDWC_AASPACE_W08_20240329.HDL_FILES_saphxmanalytics%2Fshare3/test",
+                "maxConnections" : 10,
+                "metadata" : {
+                  "isSourceHDLFDeltashare" : true,
+                  "containerPathHDLFDeltashare" : "/_SYS_SAP_DSP_HANA_REMOTE_SOURCES/DWC_AASPACE_W08_20240329.HDL_FILES_saphxmanalytics"
+                }
+              } ],
+              "targetSystem" : [ {
+                "connectionId" : "$DWC",
+                "connectionType" : "HANA",
+                "container" : "/AASPACE_W08_20240329",
+                "maxConnections" : 10,
+                "metadata" : {
+                  "connectionMetaschema" : {
+                    "sources" : [ "SAP" ]
+                  }
+                }
+              } ],
+              "vTypes" : {
+                "scalar" : {
+                  "string_5000" : {
+                    "name" : "string_5000",
+                    "description" : "String(5000)",
+                    "vflow.type" : "scalar",
+                    "template" : "string",
+                    "value.length" : 5000
+                  },
+                  "string_1" : {
+                    "name" : "string_1",
+                    "description" : "String(1)",
+                    "vflow.type" : "scalar",
+                    "template" : "string",
+                    "value.length" : 1
+                  }
+                }
+              },
+              "replicationTasks" : [ {
+                "name" : "replicationtask1",
+                "loadType" : "REPLICATE",
+                "priority" : 50,
+                "truncate" : false,
+                "sourceObject" : {
+                  "name" : "courses_with_csn_RF_mm",
+                  "definition" : {
+                    "columns" : [ {
+                      "name" : "cid",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.int32"
+                    }, {
+                      "name" : "department",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    }, {
+                      "name" : "cap",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.int32"
+                    }, {
+                      "name" : "instructor",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    } ]
+                  },
+                  "metadata" : { }
+                },
+                "targetObject" : {
+                  "name" : "courses_with_csn_RF_mm_Delta",
+                  "definition" : {
+                    "columns" : [ {
+                      "name" : "cid",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.int32",
+                      "key" : true
+                    }, {
+                      "name" : "department",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    }, {
+                      "name" : "cap",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.int32"
+                    }, {
+                      "name" : "instructor",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    }, {
+                      "name" : "Change_Type",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_1"
+                    }, {
+                      "name" : "Change_Date",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.timestamp"
+                    } ]
+                  },
+                  "metadata" : {
+                    "isNew" : false
+                  },
+                  "properties" : {
+                    "com.sap.datasuite.cdc.mode.column" : "Change_Type",
+                    "com.sap.datasuite.cdc.timestamp.column" : "Change_Date",
+                    "com.sap.datasuite.tableCategory" : "DELTA"
+                  },
+                  "businessName" : "courses_with_csn_RF_mm"
+                },
+                "transform" : {
+                  "name" : "proj_2",
+                  "attributeMappings" : [ ],
+                  "filters" : [ ]
+                },
+                "deltaCheckInterval" : 3600
+              } ],
+              "replicationTaskSetting" : { }
+            },
+            "sources" : { },
+            "targets" : {
+              "courses_with_csn_RF_mm_Delta" : {
+                "elements" : {
+                  "cid" : { },
+                  "department" : { },
+                  "cap" : { },
+                  "instructor" : { },
+                  "Change_Type" : { },
+                  "Change_Date" : { }
+                }
+              }
+            },
+            "connections" : {
+              "HDL_FILES_saphxmanalytics" : { }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.17"
+  }
+}

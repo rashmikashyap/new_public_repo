@@ -1,0 +1,8 @@
+{
+  "id" : "repositoryPackage:AASPACE_W08_20240329\\Package_rds_w8_mdep",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:AASPACE_W08_20240329",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

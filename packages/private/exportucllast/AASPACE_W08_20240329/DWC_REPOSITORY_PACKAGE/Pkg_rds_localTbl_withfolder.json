@@ -1,0 +1,8 @@
+{
+  "id" : "repositoryPackage:AASPACE_W08_20240329\\Pkg_rds_localTbl_withfolder",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:AASPACE_W08_20240329",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}
