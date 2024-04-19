@@ -1,0 +1,8 @@
+{
+  "id" : "entity:ASHWINI\\Opportunities",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

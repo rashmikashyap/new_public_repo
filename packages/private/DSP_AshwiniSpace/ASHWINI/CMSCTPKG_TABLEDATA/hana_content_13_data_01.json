@@ -1,0 +1,27 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "hana" : {
+        "objects" : {
+          "hana" : {
+            "businessName" : "hana",
+            "name" : "hana",
+            "description" : "",
+            "credentialMode" : "technicaluser",
+            "configuration" : { },
+            "remoteSourceName" : "DWC_ASHWINI.hana",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            },
+            "kind" : "repository.remote",
+            "isLogical" : true,
+            "typeId" : "HANA"
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

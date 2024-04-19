@@ -1,0 +1,44 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "DI_CDC_ALIASES" : {
+        "definitions" : {
+          "DI_CDC_ALIASES" : {
+            "kind" : "entity",
+            "elements" : {
+              "TABLE_NAME" : {
+                "@EndUserText.label" : "TABLE_NAME",
+                "type" : "cds.String",
+                "key" : true,
+                "notNull" : true,
+                "length" : 128
+              },
+              "TABLE_ALIAS" : {
+                "@EndUserText.label" : "TABLE_ALIAS",
+                "type" : "cds.String",
+                "key" : true,
+                "notNull" : true,
+                "length" : 28
+              }
+            },
+            "@EndUserText.label" : "DI_CDC_ALIASES",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            }, {
+              "#" : "SQL_DATA_SOURCE"
+            } ],
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

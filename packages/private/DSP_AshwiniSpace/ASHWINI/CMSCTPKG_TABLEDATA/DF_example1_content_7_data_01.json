@@ -1,0 +1,236 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "DF_example1" : {
+        "dataflows" : {
+          "DF_example1" : {
+            "kind" : "sap.dis.dataflow",
+            "@EndUserText.label" : "DF_example1",
+            "contents" : {
+              "description" : "DF_example1",
+              "processes" : {
+                "source1" : {
+                  "component" : "com.sap.database.table.consumer",
+                  "metadata" : {
+                    "label" : "SalesReps",
+                    "x" : 84,
+                    "y" : 292,
+                    "height" : 60,
+                    "width" : 120,
+                    "config" : {
+                      "service" : "HANA",
+                      "hanaConnection" : {
+                        "configurationType" : "Configuration Manager",
+                        "connectionID" : "$DWC"
+                      },
+                      "qualifiedName" : "SalesReps",
+                      "dwcEntity" : "SalesReps",
+                      "remoteObjectType" : "TABLE",
+                      "fetchSize" : 1000,
+                      "forceFetchSize" : false,
+                      "failOnStringTruncation" : true
+                    },
+                    "outports" : [ {
+                      "name" : "outTable",
+                      "type" : "table",
+                      "vtype-ID" : "$INLINE.source1_outTable"
+                    } ]
+                  }
+                },
+                "producer1" : {
+                  "component" : "com.sap.database.table.producer",
+                  "metadata" : {
+                    "label" : "Table_12",
+                    "x" : 284,
+                    "y" : 292,
+                    "height" : 60,
+                    "width" : 120,
+                    "config" : {
+                      "dwcEntity" : "Table_12",
+                      "hanaConnection" : {
+                        "configurationType" : "Configuration Manager",
+                        "connectionID" : "$DWC"
+                      },
+                      "mode" : "append",
+                      "qualifiedName" : "Table_12",
+                      "remoteObjectType" : "TABLE",
+                      "service" : "HANA",
+                      "forceBatchSize" : false,
+                      "batchSize" : 1000,
+                      "attributeMappings" : [ {
+                        "expression" : "\"ID\"",
+                        "target" : "ID"
+                      }, {
+                        "expression" : "\"First Name\"",
+                        "target" : "First Name"
+                      }, {
+                        "expression" : "\"Last Name\"",
+                        "target" : "Last Name"
+                      }, {
+                        "expression" : "\"Full Name\"",
+                        "target" : "Full Name"
+                      }, {
+                        "expression" : "\"Full Name Space\"",
+                        "target" : "Full Name Space"
+                      }, {
+                        "expression" : "\"Org Unit\"",
+                        "target" : "Org Unit"
+                      } ],
+                      "hanaAdaptedDataset" : {
+                        "schema" : {
+                          "genericType" : "TABLE",
+                          "tableBasedRepresentation" : {
+                            "attributes" : [ {
+                              "name" : "ID",
+                              "templateType" : "string",
+                              "length" : 5000
+                            }, {
+                              "name" : "First Name",
+                              "templateType" : "string",
+                              "length" : 5000
+                            }, {
+                              "name" : "Last Name",
+                              "templateType" : "string",
+                              "length" : 5000
+                            }, {
+                              "name" : "Full Name",
+                              "templateType" : "string",
+                              "length" : 5000
+                            }, {
+                              "name" : "Full Name Space",
+                              "templateType" : "string",
+                              "length" : 5000
+                            }, {
+                              "name" : "Org Unit",
+                              "templateType" : "string",
+                              "length" : 5000
+                            } ],
+                            "uniqueKeys" : [ {
+                              "attributeReferences" : [ "ID" ]
+                            } ]
+                          }
+                        }
+                      }
+                    },
+                    "inports" : [ {
+                      "name" : "inTable",
+                      "type" : "table",
+                      "vtype-ID" : "$INLINE.source1_outTable"
+                    } ]
+                  }
+                }
+              },
+              "groups" : [ ],
+              "connections" : [ {
+                "metadata" : {
+                  "points" : "204,322 280.5,322"
+                },
+                "src" : {
+                  "port" : "outTable",
+                  "process" : "source1"
+                },
+                "tgt" : {
+                  "port" : "inTable",
+                  "process" : "producer1"
+                }
+              } ],
+              "inports" : { },
+              "outports" : { },
+              "properties" : { },
+              "vTypes" : {
+                "scalar" : {
+                  "string_5000" : {
+                    "name" : "string_5000",
+                    "description" : "String(5000)",
+                    "vflow.type" : "scalar",
+                    "template" : "string",
+                    "value.length" : 5000
+                  }
+                },
+                "structure" : { },
+                "table" : {
+                  "source1_outTable" : {
+                    "name" : "source1_outTable",
+                    "vflow.type" : "table",
+                    "rows" : {
+                      "components" : [ {
+                        "ID" : {
+                          "vflow.type" : "scalar",
+                          "vtype-ID" : "$INLINE.string_5000"
+                        }
+                      }, {
+                        "First Name" : {
+                          "vflow.type" : "scalar",
+                          "vtype-ID" : "$INLINE.string_5000"
+                        }
+                      }, {
+                        "Last Name" : {
+                          "vflow.type" : "scalar",
+                          "vtype-ID" : "$INLINE.string_5000"
+                        }
+                      }, {
+                        "Full Name" : {
+                          "vflow.type" : "scalar",
+                          "vtype-ID" : "$INLINE.string_5000"
+                        }
+                      }, {
+                        "Full Name Space" : {
+                          "vflow.type" : "scalar",
+                          "vtype-ID" : "$INLINE.string_5000"
+                        }
+                      }, {
+                        "Org Unit" : {
+                          "vflow.type" : "scalar",
+                          "vtype-ID" : "$INLINE.string_5000"
+                        }
+                      } ]
+                    },
+                    "keys" : [ "ID" ]
+                  }
+                }
+              },
+              "metadata" : {
+                "dwc-isPrimaryKeysProcessed" : true,
+                "dwc-restartOnFail" : false
+              },
+              "parameters" : { },
+              "parameterMapping" : { }
+            },
+            "sources" : {
+              "SalesReps" : {
+                "elements" : {
+                  "ID" : { },
+                  "First Name" : { },
+                  "Last Name" : { },
+                  "Full Name" : { },
+                  "Full Name Space" : { },
+                  "Org Unit" : { }
+                }
+              }
+            },
+            "targets" : {
+              "Table_12" : {
+                "elements" : {
+                  "ID" : { },
+                  "First Name" : { },
+                  "Last Name" : { },
+                  "Full Name" : { },
+                  "Full Name Space" : { },
+                  "Org Unit" : { }
+                }
+              }
+            },
+            "connections" : { },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "Felix_Test_Package"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

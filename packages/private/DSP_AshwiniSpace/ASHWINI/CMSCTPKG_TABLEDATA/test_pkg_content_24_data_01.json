@@ -1,0 +1,57 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "test_pkg" : {
+        "definitions" : {
+          "test_pkg" : {
+            "kind" : "entity",
+            "elements" : {
+              "a" : {
+                "@EndUserText.label" : "a",
+                "type" : "cds.String",
+                "length" : 100,
+                "key" : true,
+                "notNull" : true
+              },
+              "b" : {
+                "@EndUserText.label" : "b",
+                "type" : "cds.String",
+                "length" : 100
+              }
+            },
+            "query" : {
+              "SELECT" : {
+                "from" : {
+                  "ref" : [ "mytab_2" ],
+                  "as" : "mytab_2(1)"
+                },
+                "columns" : [ {
+                  "key" : true,
+                  "ref" : [ "a" ]
+                }, {
+                  "ref" : [ "b" ]
+                } ]
+              }
+            },
+            "@EndUserText.label" : "test_pkg",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "@DataWarehouse.consumption.external" : false,
+            "@DataWarehouse.querybuilder.model" : "{\"contents\":{\"360115a7-bdef-41e5-9820-a0d25215e24b\":{\"classDefinition\":\"sap.cdw.querybuilder.Model\",\"name\":\"test_pkg\",\"label\":\"test_pkg\",\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"output\":\"133ca1d2-2391-47da-ab48-a03d7aed5657\",\"nodes\":{\"133ca1d2-2391-47da-ab48-a03d7aed5657\":{\"name\":\"View_1\"},\"cbea9839-a735-4ac2-93c1-825c1fc9f984\":{\"name\":\"mytab_2\"}},\"diagrams\":{\"3312b3a1-cbfe-4c02-9ddb-93ed44f18be0\":{}}},\"133ca1d2-2391-47da-ab48-a03d7aed5657\":{\"classDefinition\":\"sap.cdw.querybuilder.Output\",\"name\":\"View_1\",\"type\":\"graphicView\",\"isPinToMemoryEnabled\":false,\"isAllowConsumption\":false,\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"packageValue\":\"Felix_Test_Package\",\"packageStatus\":\"VAL_PACKAGE_CHANGED\",\"elements\":{\"14902188-b6ba-46d8-9637-0081964a38f3\":{\"name\":\"a\"},\"0eea04e7-083c-4bf5-b5c6-10c0e579c546\":{\"name\":\"b\"}}},\"3312b3a1-cbfe-4c02-9ddb-93ed44f18be0\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.Diagram\",\"symbols\":{\"8dbc3d0b-58f7-4ac8-be90-fa7f57781c80\":{},\"47d17cc6-1889-433d-a5fa-3a39baaaed6d\":{\"name\":\"Entity Symbol 1\"},\"a9335b3e-d97a-4020-a3da-2da3b08c30fd\":{}}},\"8dbc3d0b-58f7-4ac8-be90-fa7f57781c80\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.OutputSymbol\",\"x\":47,\"y\":-20,\"width\":140,\"height\":40,\"object\":\"133ca1d2-2391-47da-ab48-a03d7aed5657\"},\"cbea9839-a735-4ac2-93c1-825c1fc9f984\":{\"classDefinition\":\"sap.cdw.querybuilder.Entity\",\"name\":\"mytab_2\",\"label\":\"mytab_2\",\"type\":9,\"isPinToMemoryEnabled\":false,\"isAllowConsumption\":false,\"isHiddenInUi\":false,\"modificationDate\":0,\"deploymentDate\":1693392162000,\"#objectStatus\":\"1\",\"alias\":\"mytab_2(1)\",\"elements\":{\"ba0110a6-8745-4135-916f-c6f05f815fbc\":{\"name\":\"a\"},\"c7f9da2c-3bec-4bbd-9aa6-ae3846ab2e87\":{\"name\":\"b\"}},\"successorNode\":\"133ca1d2-2391-47da-ab48-a03d7aed5657\"},\"ba0110a6-8745-4135-916f-c6f05f815fbc\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"a\",\"label\":\"a\",\"newName\":\"a\",\"indexOrder\":0,\"isKey\":true,\"length\":100,\"precision\":0,\"scale\":0,\"isNotNull\":true,\"successorElement\":\"14902188-b6ba-46d8-9637-0081964a38f3\"},\"c7f9da2c-3bec-4bbd-9aa6-ae3846ab2e87\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"b\",\"label\":\"b\",\"newName\":\"b\",\"indexOrder\":1,\"length\":100,\"precision\":0,\"scale\":0,\"successorElement\":\"0eea04e7-083c-4bf5-b5c6-10c0e579c546\"},\"47d17cc6-1889-433d-a5fa-3a39baaaed6d\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.EntitySymbol\",\"name\":\"Entity Symbol 1\",\"x\":-163,\"y\":-20,\"width\":160,\"height\":40,\"displayName\":\"Entity Symbol 1\",\"object\":\"cbea9839-a735-4ac2-93c1-825c1fc9f984\"},\"14902188-b6ba-46d8-9637-0081964a38f3\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"a\",\"label\":\"a\",\"newName\":\"a\",\"indexOrder\":0,\"isKey\":true,\"length\":100,\"precision\":0,\"scale\":0,\"isNotNull\":true},\"0eea04e7-083c-4bf5-b5c6-10c0e579c546\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"b\",\"label\":\"b\",\"newName\":\"b\",\"indexOrder\":1,\"length\":100,\"precision\":0,\"scale\":0},\"a9335b3e-d97a-4020-a3da-2da3b08c30fd\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.AssociationSymbol\",\"points\":\"-3,0 47,0\",\"contentOffsetX\":5,\"contentOffsetY\":5,\"sourceSymbol\":\"47d17cc6-1889-433d-a5fa-3a39baaaed6d\",\"targetSymbol\":\"8dbc3d0b-58f7-4ac8-be90-fa7f57781c80\"}}}",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "Felix_Test_Package"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "sap.dis.transformationflow:ASHWINI\\TF_example1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\del3",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\SalesReps",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

@@ -1,0 +1,57 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "tar1_8893" : {
+        "definitions" : {
+          "tar1_8893" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "tar1_8893",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "elements" : {
+              "Name" : {
+                "@EndUserText.label" : "Name",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 100
+              },
+              "Age" : {
+                "@EndUserText.label" : "Age",
+                "type" : "cds.Integer",
+                "key" : false
+              },
+              "Date" : {
+                "@EndUserText.label" : "Date",
+                "type" : "cds.Date",
+                "key" : false
+              },
+              "Sal" : {
+                "@EndUserText.label" : "Sal",
+                "type" : "cds.Decimal",
+                "key" : false,
+                "precision" : 5,
+                "scale" : 2
+              },
+              "no" : {
+                "@EndUserText.label" : "no",
+                "type" : "cds.Integer",
+                "key" : true,
+                "notNull" : true
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

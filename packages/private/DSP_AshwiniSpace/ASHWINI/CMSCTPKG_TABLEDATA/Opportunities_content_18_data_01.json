@@ -1,0 +1,100 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "Opportunities" : {
+        "definitions" : {
+          "Opportunities" : {
+            "kind" : "entity",
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "elements" : {
+              "Opp_ID" : {
+                "@EndUserText.label" : "Opp_ID",
+                "type" : "cds.Integer64",
+                "key" : true,
+                "notNull" : true
+              },
+              "Name" : {
+                "@EndUserText.label" : "Name",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Account" : {
+                "@EndUserText.label" : "Account",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Deal Size" : {
+                "@EndUserText.label" : "Deal Size",
+                "type" : "cds.Integer64"
+              },
+              "Owner" : {
+                "@EndUserText.label" : "Owner",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Email" : {
+                "@EndUserText.label" : "Email",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Sales Phase" : {
+                "@EndUserText.label" : "Sales Phase",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Forecast" : {
+                "@EndUserText.label" : "Forecast",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Projected Close Date" : {
+                "@EndUserText.label" : "Projected Close Date",
+                "type" : "cds.Date"
+              },
+              "Close Probability" : {
+                "@EndUserText.label" : "Close Probability",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "Opportunity Phase" : {
+                "@EndUserText.label" : "Opportunity Phase",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "RFP completed" : {
+                "@EndUserText.label" : "RFP completed",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Discount Pct" : {
+                "@EndUserText.label" : "Discount Pct",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              }
+            },
+            "@EndUserText.label" : "Opportunities",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@DataWarehouse.dataSource.schema" : "ASHWINI#WRG_2FW57AE5L09Y0OEV",
+            "@DataWarehouse.dataSource.entity" : "sap.dataset.conf_ebd2c8fa-909d-4630-bfa9-4eabbf280368_view",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "DOD_PKG"
+            }
+          }
+        },
+        "importExportProperties" : {
+          "sharedSpaces" : "D068183_TEST;ASHWINI_DELTA"
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

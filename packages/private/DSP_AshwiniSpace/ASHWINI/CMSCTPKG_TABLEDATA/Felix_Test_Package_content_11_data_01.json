@@ -1,0 +1,62 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "Felix_Test_Package" : {
+        "repositoryPackages" : {
+          "Felix_Test_Package" : {
+            "requires" : [ ],
+            "_kind" : "repositoryPackage",
+            "_packageProperties" : {
+              "@EndUserText.label" : "Felix Test Package",
+              "purpose" : "",
+              "contentDelivery" : {
+                "category" : "myContent",
+                "semantic_version" : "0.0.1"
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : "8893_1",
+                "sap.package.assignment" : [ "8893_1", "test_pkg", "test_pkg1", "mytab_2", "mytab_2_Delta", "DF_example1", "Replication_Flow_1", "TC_example1", "ExampleTransformationFlow1", "TF_example1", "Mydelta", "Mydelta_Delta", "ExampleTransformationFlow2" ]
+              }
+            }
+          }
+        },
+        "editorData" : {
+          "Felix_Test_Package" : {
+            "editorValidation" : [ {
+              "code" : "MISSING_DEPENDENCY|sap.package.assignment",
+              "level" : "Error",
+              "message" : "MISSING_DEPENDENCY|sap.package.assignment"
+            }, {
+              "code" : "MISSING_DEPENDENCY|sap.package.assignment",
+              "level" : "Error",
+              "message" : "MISSING_DEPENDENCY|sap.package.assignment"
+            }, {
+              "code" : "MISSING_DEPENDENCY|sap.package.assignment",
+              "level" : "Error",
+              "message" : "MISSING_DEPENDENCY|sap.package.assignment"
+            }, {
+              "code" : "MISSING_DEPENDENCY|sap.package.assignment",
+              "level" : "Error",
+              "message" : "MISSING_DEPENDENCY|sap.package.assignment"
+            }, {
+              "code" : "MISSING_DEPENDENCY|sap.package.assignment",
+              "level" : "Error",
+              "message" : "MISSING_DEPENDENCY|sap.package.assignment"
+            }, {
+              "code" : "MISSING_DEPENDENCY|sap.package.assignment",
+              "level" : "Error",
+              "message" : "MISSING_DEPENDENCY|sap.package.assignment"
+            }, {
+              "code" : "MISSING_DEPENDENCY|sap.package.assignment",
+              "level" : "Error",
+              "message" : "MISSING_DEPENDENCY|sap.package.assignment"
+            } ]
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id" : "repositoryPackage:ASHWINI\\Felix_Test_Package",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\mytab_2",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\mytab_2_Delta",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\Table_12",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\SalesReps",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dis.dataflow:ASHWINI\\DF_example1",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.repo.folder:ASHWINI\\Folder_KYKAXNVW",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\country_vaccinations",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\View_1",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dwc.taskChain:ASHWINI\\TC_example1",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\Mydelta_Delta",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\Mydelta",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\tar1_8893",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dis.dataflow:ASHWINI\\8893_1",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\Opportunities",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\TFTable1",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dis.transformationflow:ASHWINI\\ExampleTransformationFlow2",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\del3",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dis.transformationflow:ASHWINI\\TF_example1",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dwc.space:ASHWINI_DELTA",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI_DELTA\\Employess_Delta",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI_DELTA\\Employess",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\test_pkg1",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "repository.remote:ASHWINI\\hana",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\DI_CDC_ALIASES",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dis.replicationflow:ASHWINI\\Replication_Flow_1",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dis.transformationflow:ASHWINI\\ExampleTransformationFlow1",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\test_pkg",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

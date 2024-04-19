@@ -1,0 +1,8 @@
+{
+  "id" : "repository.remote:ASHWINI\\hana",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

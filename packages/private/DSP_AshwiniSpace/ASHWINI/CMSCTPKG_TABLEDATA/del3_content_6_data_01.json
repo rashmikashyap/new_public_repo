@@ -1,0 +1,65 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "del3" : {
+        "definitions" : {
+          "del3" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "del3",
+            "elements" : {
+              "ID" : {
+                "@EndUserText.label" : "ID",
+                "type" : "cds.String",
+                "key" : true,
+                "length" : 5000,
+                "notNull" : true
+              },
+              "First Name" : {
+                "@EndUserText.label" : "First Name",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Last Name" : {
+                "@EndUserText.label" : "Last Name",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Full Name" : {
+                "@EndUserText.label" : "Full Name",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Full Name Space" : {
+                "@EndUserText.label" : "Full Name Space",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Org Unit" : {
+                "@EndUserText.label" : "Org Unit",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "Column_1" : {
+                "@EndUserText.label" : "Column 1",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 100
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

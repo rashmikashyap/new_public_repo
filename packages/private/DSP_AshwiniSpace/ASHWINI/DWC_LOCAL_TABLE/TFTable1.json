@@ -1,0 +1,8 @@
+{
+  "id" : "entity:ASHWINI\\TFTable1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

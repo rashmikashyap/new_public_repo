@@ -1,0 +1,70 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "test_pkg1" : {
+        "definitions" : {
+          "test_pkg1" : {
+            "kind" : "entity",
+            "elements" : {
+              "ID" : {
+                "@EndUserText.label" : "ID",
+                "type" : "cds.String",
+                "length" : 100,
+                "key" : true,
+                "notNull" : true
+              },
+              "Name" : {
+                "@EndUserText.label" : "Name",
+                "type" : "cds.String",
+                "length" : 100
+              },
+              "ManagerID" : {
+                "@EndUserText.label" : "ManagerID",
+                "type" : "cds.String",
+                "length" : 100
+              }
+            },
+            "query" : {
+              "SELECT" : {
+                "from" : {
+                  "ref" : [ "ASHWINI_DELTA.Employess" ],
+                  "as" : "Employess"
+                },
+                "columns" : [ {
+                  "key" : true,
+                  "ref" : [ "ID" ]
+                }, {
+                  "ref" : [ "Name" ]
+                }, {
+                  "ref" : [ "ManagerID" ]
+                } ]
+              }
+            },
+            "@EndUserText.label" : "test_pkg1",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "@DataWarehouse.consumption.external" : false,
+            "@DataWarehouse.querybuilder.model" : "{\"contents\":{\"44f448df-70cb-4517-b539-085d7f1df47e\":{\"classDefinition\":\"sap.cdw.querybuilder.Model\",\"name\":\"test_pkg1\",\"label\":\"test_pkg1\",\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"output\":\"27d3fcc2-0046-4366-b4e3-454b8e17f29f\",\"nodes\":{\"27d3fcc2-0046-4366-b4e3-454b8e17f29f\":{\"name\":\"View_1\"},\"7ffdf92e-47ad-40b2-b810-a7fc8b9d8722\":{\"name\":\"ASHWINI_DELTA.Employess\"}},\"contexts\":{\"5d49f075-c293-418d-a8a4-b3ca140b1e94\":{\"name\":\"ASHWINI_DELTA\"}},\"diagrams\":{\"b1465f9f-b99d-43c1-974a-eff6d0f4b291\":{}}},\"27d3fcc2-0046-4366-b4e3-454b8e17f29f\":{\"classDefinition\":\"sap.cdw.querybuilder.Output\",\"name\":\"View_1\",\"type\":\"graphicView\",\"isPinToMemoryEnabled\":false,\"isAllowConsumption\":false,\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"packageValue\":\"Felix_Test_Package\",\"packageStatus\":\"VAL_PACKAGE_CHANGED\",\"elements\":{\"8ae9080d-df9a-4a7c-929a-2eaf83382d64\":{\"name\":\"ID\"},\"ebca9e5b-6a55-4b78-a023-800ab948098c\":{\"name\":\"Name\"},\"3f404d09-833f-4786-b170-96e5238ede8d\":{\"name\":\"ManagerID\"}}},\"b1465f9f-b99d-43c1-974a-eff6d0f4b291\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.Diagram\",\"symbols\":{\"5f13d305-1e43-4330-8796-5f48db9684e9\":{},\"2340eda5-6a89-47b1-94de-6f55da94dd39\":{\"name\":\"Entity Symbol 1\"},\"1999e83e-d454-4e02-9fd3-70b58d7b8f71\":{}}},\"5f13d305-1e43-4330-8796-5f48db9684e9\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.OutputSymbol\",\"x\":47,\"y\":-20,\"width\":140,\"height\":40,\"object\":\"27d3fcc2-0046-4366-b4e3-454b8e17f29f\"},\"7ffdf92e-47ad-40b2-b810-a7fc8b9d8722\":{\"classDefinition\":\"sap.cdw.querybuilder.Entity\",\"name\":\"ASHWINI_DELTA.Employess\",\"label\":\"Employess\",\"type\":9,\"deltaTable\":{\"type\":\"ACTIVE\"},\"isPersistenceExists\":true,\"isPinToMemoryEnabled\":false,\"isAllowConsumption\":false,\"isHiddenInUi\":false,\"modificationDate\":0,\"deploymentDate\":1692805350000,\"#objectStatus\":\"1\",\"alias\":\"Employess\",\"context\":\"5d49f075-c293-418d-a8a4-b3ca140b1e94\",\"elements\":{\"391c0f19-1d3d-441e-bb81-1baf9bd91220\":{\"name\":\"ID\"},\"a1b7a3a7-b202-4604-badf-fe72954c2208\":{\"name\":\"Name\"},\"83a61619-405f-44a1-9290-68de7b93942d\":{\"name\":\"ManagerID\"}},\"successorNode\":\"27d3fcc2-0046-4366-b4e3-454b8e17f29f\"},\"391c0f19-1d3d-441e-bb81-1baf9bd91220\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"ID\",\"label\":\"ID\",\"newName\":\"ID\",\"indexOrder\":0,\"isKey\":true,\"length\":100,\"precision\":0,\"scale\":0,\"isNotNull\":true,\"successorElement\":\"8ae9080d-df9a-4a7c-929a-2eaf83382d64\"},\"a1b7a3a7-b202-4604-badf-fe72954c2208\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Name\",\"label\":\"Name\",\"newName\":\"Name\",\"indexOrder\":1,\"length\":100,\"precision\":0,\"scale\":0,\"successorElement\":\"ebca9e5b-6a55-4b78-a023-800ab948098c\"},\"83a61619-405f-44a1-9290-68de7b93942d\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"ManagerID\",\"label\":\"ManagerID\",\"newName\":\"ManagerID\",\"indexOrder\":2,\"length\":100,\"precision\":0,\"scale\":0,\"successorElement\":\"3f404d09-833f-4786-b170-96e5238ede8d\"},\"5d49f075-c293-418d-a8a4-b3ca140b1e94\":{\"classDefinition\":\"sap.cdw.commonmodel.Context\",\"name\":\"ASHWINI_DELTA\",\"label\":\"Ashwini_delta\",\"crossSpace\":{\"schema\":\"ASHWINI_DELTA\",\"space\":\"ASHWINI_DELTA\"}},\"2340eda5-6a89-47b1-94de-6f55da94dd39\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.EntitySymbol\",\"name\":\"Entity Symbol 1\",\"x\":-163,\"y\":-20,\"width\":160,\"height\":40,\"displayName\":\"Entity Symbol 1\",\"object\":\"7ffdf92e-47ad-40b2-b810-a7fc8b9d8722\"},\"8ae9080d-df9a-4a7c-929a-2eaf83382d64\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"ID\",\"label\":\"ID\",\"newName\":\"ID\",\"indexOrder\":0,\"isKey\":true,\"length\":100,\"precision\":0,\"scale\":0,\"isNotNull\":true},\"ebca9e5b-6a55-4b78-a023-800ab948098c\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Name\",\"label\":\"Name\",\"newName\":\"Name\",\"indexOrder\":1,\"length\":100,\"precision\":0,\"scale\":0},\"3f404d09-833f-4786-b170-96e5238ede8d\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"ManagerID\",\"label\":\"ManagerID\",\"newName\":\"ManagerID\",\"indexOrder\":2,\"length\":100,\"precision\":0,\"scale\":0},\"1999e83e-d454-4e02-9fd3-70b58d7b8f71\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.AssociationSymbol\",\"points\":\"-3,0 47,0\",\"contentOffsetX\":5,\"contentOffsetY\":5,\"sourceSymbol\":\"2340eda5-6a89-47b1-94de-6f55da94dd39\",\"targetSymbol\":\"5f13d305-1e43-4330-8796-5f48db9684e9\"}}}",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "Felix_Test_Package"
+            }
+          },
+          "ASHWINI_DELTA" : {
+            "kind" : "context",
+            "@EndUserText.label" : "Ashwini_delta",
+            "@DataWarehouse.space.schema" : "ASHWINI_DELTA",
+            "@DataWarehouse.space.name" : "ASHWINI_DELTA"
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

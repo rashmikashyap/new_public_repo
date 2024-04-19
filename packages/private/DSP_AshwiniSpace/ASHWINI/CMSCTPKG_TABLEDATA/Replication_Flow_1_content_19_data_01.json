@@ -1,0 +1,110 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "Replication_Flow_1" : {
+        "replicationflows" : {
+          "Replication_Flow_1" : {
+            "kind" : "sap.dis.replicationflow",
+            "@EndUserText.label" : "Replication Flow 1",
+            "contents" : {
+              "description" : "Replication_Flow_1",
+              "sourceSystem" : [ {
+                "connectionId" : "hana",
+                "connectionType" : "HANA",
+                "container" : "/DEMO",
+                "maxConnections" : 10,
+                "metadata" : { }
+              } ],
+              "targetSystem" : [ {
+                "connectionId" : "$DWC",
+                "connectionType" : "HANA",
+                "container" : "/ASHWINI",
+                "maxConnections" : 10,
+                "metadata" : { }
+              } ],
+              "vTypes" : {
+                "scalar" : {
+                  "string_128" : {
+                    "name" : "string_128",
+                    "description" : "String(128)",
+                    "vflow.type" : "scalar",
+                    "template" : "string",
+                    "value.length" : 128
+                  },
+                  "string_28" : {
+                    "name" : "string_28",
+                    "description" : "String(28)",
+                    "vflow.type" : "scalar",
+                    "template" : "string",
+                    "value.length" : 28
+                  }
+                }
+              },
+              "replicationTasks" : [ {
+                "name" : "replicationtask1",
+                "loadType" : "INITIAL",
+                "priority" : 50,
+                "truncate" : false,
+                "sourceObject" : {
+                  "name" : "DI_CDC_ALIASES",
+                  "definition" : {
+                    "columns" : [ {
+                      "name" : "TABLE_NAME",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_128",
+                      "key" : true
+                    }, {
+                      "name" : "TABLE_ALIAS",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_28",
+                      "key" : true
+                    } ]
+                  },
+                  "metadata" : { }
+                },
+                "targetObject" : {
+                  "name" : "DI_CDC_ALIASES",
+                  "definition" : {
+                    "columns" : [ {
+                      "name" : "TABLE_NAME",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_128",
+                      "key" : true
+                    }, {
+                      "name" : "TABLE_ALIAS",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_28",
+                      "key" : true
+                    } ]
+                  },
+                  "metadata" : {
+                    "isNew" : false
+                  }
+                }
+              } ]
+            },
+            "sources" : { },
+            "targets" : {
+              "DI_CDC_ALIASES" : {
+                "elements" : {
+                  "TABLE_NAME" : { },
+                  "TABLE_ALIAS" : { }
+                }
+              }
+            },
+            "connections" : {
+              "hana" : { }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "Felix_Test_Package"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

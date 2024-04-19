@@ -1,0 +1,43 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "TC_example1" : {
+        "taskchains" : {
+          "TC_example1" : {
+            "kind" : "sap.dwc.taskChain",
+            "@EndUserText.label" : "TC_example1",
+            "nodes" : [ {
+              "id" : 0,
+              "type" : "START"
+            }, {
+              "id" : 1,
+              "type" : "TASK",
+              "taskIdentifier" : {
+                "applicationId" : "VIEWS",
+                "activity" : "PERSIST",
+                "objectId" : "View_1"
+              }
+            } ],
+            "links" : [ {
+              "startNode" : {
+                "nodeId" : 0,
+                "statusRequired" : "ANY"
+              },
+              "endNode" : {
+                "nodeId" : 1
+              },
+              "id" : 0
+            } ],
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "Felix_Test_Package"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

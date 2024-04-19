@@ -1,0 +1,339 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "ExampleTransformationFlow1" : {
+        "transformationflows" : {
+          "ExampleTransformationFlow1" : {
+            "kind" : "sap.dis.transformationflow",
+            "@EndUserText.label" : "ExampleTransformationFlow1",
+            "contents" : {
+              "properties" : { },
+              "metadata" : {
+                "loadType" : "INITIAL_ONLY"
+              },
+              "description" : "Transformation Flow 1",
+              "processes" : {
+                "viewtransform1" : {
+                  "component" : "com.sap.dwc.viewtransform",
+                  "metadata" : {
+                    "label" : "View Transform",
+                    "x" : 0,
+                    "y" : 12,
+                    "height" : 40,
+                    "width" : 120,
+                    "outports" : [ {
+                      "name" : "outTable",
+                      "type" : "table"
+                    } ],
+                    "config" : {
+                      "name" : "ExampleTransformationFlow1$TRF_TV_viewtransform1",
+                      "definition" : {
+                        "kind" : "entity",
+                        "elements" : {
+                          "Opp_ID" : {
+                            "@EndUserText.label" : "Opp_ID",
+                            "type" : "cds.Integer64",
+                            "key" : true,
+                            "notNull" : true
+                          },
+                          "Name" : {
+                            "@EndUserText.label" : "Name",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Account" : {
+                            "@EndUserText.label" : "Account",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Deal Size" : {
+                            "@EndUserText.label" : "Deal Size",
+                            "type" : "cds.Integer64"
+                          },
+                          "Owner" : {
+                            "@EndUserText.label" : "Owner",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Email" : {
+                            "@EndUserText.label" : "Email",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Sales Phase" : {
+                            "@EndUserText.label" : "Sales Phase",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Forecast" : {
+                            "@EndUserText.label" : "Forecast",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Projected Close Date" : {
+                            "@EndUserText.label" : "Projected Close Date",
+                            "type" : "cds.Date"
+                          },
+                          "Close Probability" : {
+                            "@EndUserText.label" : "Close Probability",
+                            "precision" : 38,
+                            "scale" : 19,
+                            "type" : "cds.Decimal"
+                          },
+                          "Opportunity Phase" : {
+                            "@EndUserText.label" : "Opportunity Phase",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "RFP completed" : {
+                            "@EndUserText.label" : "RFP completed",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Discount Pct" : {
+                            "@EndUserText.label" : "Discount Pct",
+                            "precision" : 38,
+                            "scale" : 19,
+                            "type" : "cds.Decimal"
+                          }
+                        },
+                        "query" : {
+                          "SELECT" : {
+                            "from" : {
+                              "ref" : [ "Opportunities" ]
+                            },
+                            "columns" : [ {
+                              "key" : true,
+                              "ref" : [ "Opp_ID" ]
+                            }, {
+                              "ref" : [ "Name" ]
+                            }, {
+                              "ref" : [ "Account" ]
+                            }, {
+                              "ref" : [ "Deal Size" ]
+                            }, {
+                              "ref" : [ "Owner" ]
+                            }, {
+                              "ref" : [ "Email" ]
+                            }, {
+                              "ref" : [ "Sales Phase" ]
+                            }, {
+                              "ref" : [ "Forecast" ]
+                            }, {
+                              "ref" : [ "Projected Close Date" ]
+                            }, {
+                              "ref" : [ "Close Probability" ]
+                            }, {
+                              "ref" : [ "Opportunity Phase" ]
+                            }, {
+                              "ref" : [ "RFP completed" ]
+                            }, {
+                              "ref" : [ "Discount Pct" ]
+                            } ]
+                          }
+                        },
+                        "@EndUserText.label" : "viewtransform1",
+                        "@ObjectModel.modelingPattern" : {
+                          "#" : "DATA_STRUCTURE"
+                        },
+                        "@ObjectModel.supportedCapabilities" : [ {
+                          "#" : "DATA_STRUCTURE"
+                        } ],
+                        "@DataWarehouse.consumption.external" : false
+                      },
+                      "editorSettings" : {
+                        "editor" : {
+                          "lastModifier" : "GRAPHICALVIEWBUILDER",
+                          "default" : "GRAPHICALVIEWBUILDER"
+                        },
+                        "uiModel" : "{\"contents\":{\"3d13f5aa-a044-4c3b-b058-37b36b09ae5e\":{\"classDefinition\":\"sap.cdw.querybuilder.Model\",\"name\":\"viewtransform1\",\"label\":\"viewtransform1\",\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"output\":\"0e509da9-eec0-465b-bd85-4087d5888f21\",\"nodes\":{\"0e509da9-eec0-465b-bd85-4087d5888f21\":{\"name\":\"viewtransform1\"},\"9853eef1-4fe6-438e-91a9-c664cdf7b61c\":{\"name\":\"Opportunities\"}},\"diagrams\":{\"b11089e2-0504-49bd-a1ba-98bb92b347eb\":{}}},\"0e509da9-eec0-465b-bd85-4087d5888f21\":{\"classDefinition\":\"sap.cdw.querybuilder.Output\",\"name\":\"viewtransform1\",\"type\":\"graphicView\",\"isPinToMemoryEnabled\":false,\"isAllowConsumption\":false,\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"elements\":{\"863de026-aff8-45d9-ab8c-c2091f5cc1a7\":{\"name\":\"Opp_ID\"},\"3359cc2e-1fee-40be-81db-652531c0c00c\":{\"name\":\"Name\"},\"dc1e1e5e-e6d7-4a86-b7b9-18af3736c3e3\":{\"name\":\"Account\"},\"cc7b6b7b-e4c1-4c18-b045-0992844e45ce\":{\"name\":\"Deal Size\"},\"8bc14d85-d2ae-4194-8857-21c6ddc21bee\":{\"name\":\"Owner\"},\"acf0ea23-207b-4c7a-8755-91c1e8b8cbea\":{\"name\":\"Email\"},\"cf06b56d-707f-4736-a251-fcff0ac4bec2\":{\"name\":\"Sales Phase\"},\"2c13296f-0440-4d66-87b1-f42e25bfc757\":{\"name\":\"Forecast\"},\"f5148982-ae42-46c1-bfdd-2f1bc7c17cc8\":{\"name\":\"Projected Close Date\"},\"3291f14f-e7e4-4a14-a632-04166efe099e\":{\"name\":\"Close Probability\"},\"a387cb21-0ac6-4e1c-8396-c9388fdde2ed\":{\"name\":\"Opportunity Phase\"},\"93ce8ef5-70ef-47e9-9d25-7e2128ebeecf\":{\"name\":\"RFP completed\"},\"3b62d3d1-2eff-4634-ac89-58213c824133\":{\"name\":\"Discount Pct\"}}},\"b11089e2-0504-49bd-a1ba-98bb92b347eb\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.Diagram\",\"symbols\":{\"86a43205-2221-4a8d-b96d-8d74cf1434d4\":{},\"58588563-8535-492b-8f5f-6078c892d4d9\":{\"name\":\"Entity Symbol 1\"},\"9e056bab-d40c-426b-a318-7eecb93a8157\":{}}},\"86a43205-2221-4a8d-b96d-8d74cf1434d4\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.OutputSymbol\",\"x\":47,\"y\":-20,\"width\":140,\"height\":40,\"object\":\"0e509da9-eec0-465b-bd85-4087d5888f21\"},\"9853eef1-4fe6-438e-91a9-c664cdf7b61c\":{\"classDefinition\":\"sap.cdw.querybuilder.Entity\",\"name\":\"Opportunities\",\"label\":\"Opportunities\",\"type\":9,\"isPinToMemoryEnabled\":false,\"isAllowConsumption\":false,\"isHiddenInUi\":false,\"modificationDate\":0,\"deploymentDate\":1698383302000,\"#objectStatus\":\"1\",\"packageValue\":\"DOD_PKG\",\"elements\":{\"87a14800-96dc-428e-ba01-6f1c26b39e89\":{\"name\":\"Opp_ID\"},\"8adb6a06-d29b-46b4-8830-2c694b1f299f\":{\"name\":\"Name\"},\"a9b368f2-56fa-497f-a94d-9fb684ca3b08\":{\"name\":\"Account\"},\"3615bb65-3794-4335-bbc7-7c6cd0ee287a\":{\"name\":\"Deal Size\"},\"a30527cd-46b6-435f-bc13-79c9049c03b3\":{\"name\":\"Owner\"},\"fbf5b16d-b936-4a11-a4c1-b20bdf2c218b\":{\"name\":\"Email\"},\"de55f97f-d491-4c1b-b525-7a266d9db358\":{\"name\":\"Sales Phase\"},\"4375a858-6f97-44fc-a88d-366f56df64c8\":{\"name\":\"Forecast\"},\"1abc367d-a37c-459c-937d-573f42f82589\":{\"name\":\"Projected Close Date\"},\"f074acad-cfb1-4161-933f-c45545b3f7ed\":{\"name\":\"Close Probability\"},\"93ea7653-a8ef-4d36-a83d-f2935ecf5430\":{\"name\":\"Opportunity Phase\"},\"058d1675-388f-4f80-932f-fdf5c919199f\":{\"name\":\"RFP completed\"},\"9c1e8d80-7f3b-42f3-ad46-a2b640e27fa0\":{\"name\":\"Discount Pct\"}},\"successorNode\":\"0e509da9-eec0-465b-bd85-4087d5888f21\"},\"87a14800-96dc-428e-ba01-6f1c26b39e89\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Opp_ID\",\"label\":\"Opp_ID\",\"newName\":\"Opp_ID\",\"indexOrder\":0,\"isKey\":true,\"dataType\":\"cds.Integer64\",\"length\":0,\"precision\":0,\"scale\":0,\"isNotNull\":true,\"successorElement\":\"863de026-aff8-45d9-ab8c-c2091f5cc1a7\"},\"8adb6a06-d29b-46b4-8830-2c694b1f299f\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Name\",\"label\":\"Name\",\"newName\":\"Name\",\"indexOrder\":1,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"3359cc2e-1fee-40be-81db-652531c0c00c\"},\"a9b368f2-56fa-497f-a94d-9fb684ca3b08\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Account\",\"label\":\"Account\",\"newName\":\"Account\",\"indexOrder\":2,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"dc1e1e5e-e6d7-4a86-b7b9-18af3736c3e3\"},\"3615bb65-3794-4335-bbc7-7c6cd0ee287a\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Deal Size\",\"label\":\"Deal Size\",\"newName\":\"Deal Size\",\"indexOrder\":3,\"dataType\":\"cds.Integer64\",\"length\":0,\"precision\":0,\"scale\":0,\"successorElement\":\"cc7b6b7b-e4c1-4c18-b045-0992844e45ce\"},\"a30527cd-46b6-435f-bc13-79c9049c03b3\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Owner\",\"label\":\"Owner\",\"newName\":\"Owner\",\"indexOrder\":4,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"8bc14d85-d2ae-4194-8857-21c6ddc21bee\"},\"fbf5b16d-b936-4a11-a4c1-b20bdf2c218b\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Email\",\"label\":\"Email\",\"newName\":\"Email\",\"indexOrder\":5,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"acf0ea23-207b-4c7a-8755-91c1e8b8cbea\"},\"de55f97f-d491-4c1b-b525-7a266d9db358\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Sales Phase\",\"label\":\"Sales Phase\",\"newName\":\"Sales Phase\",\"indexOrder\":6,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"cf06b56d-707f-4736-a251-fcff0ac4bec2\"},\"4375a858-6f97-44fc-a88d-366f56df64c8\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Forecast\",\"label\":\"Forecast\",\"newName\":\"Forecast\",\"indexOrder\":7,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"2c13296f-0440-4d66-87b1-f42e25bfc757\"},\"1abc367d-a37c-459c-937d-573f42f82589\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Projected Close Date\",\"label\":\"Projected Close Date\",\"newName\":\"Projected Close Date\",\"indexOrder\":8,\"dataType\":\"cds.Date\",\"length\":0,\"precision\":0,\"scale\":0,\"successorElement\":\"f5148982-ae42-46c1-bfdd-2f1bc7c17cc8\"},\"f074acad-cfb1-4161-933f-c45545b3f7ed\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Close Probability\",\"label\":\"Close Probability\",\"newName\":\"Close Probability\",\"indexOrder\":9,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"3291f14f-e7e4-4a14-a632-04166efe099e\"},\"93ea7653-a8ef-4d36-a83d-f2935ecf5430\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Opportunity Phase\",\"label\":\"Opportunity Phase\",\"newName\":\"Opportunity Phase\",\"indexOrder\":10,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"a387cb21-0ac6-4e1c-8396-c9388fdde2ed\"},\"058d1675-388f-4f80-932f-fdf5c919199f\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"RFP completed\",\"label\":\"RFP completed\",\"newName\":\"RFP completed\",\"indexOrder\":11,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"93ce8ef5-70ef-47e9-9d25-7e2128ebeecf\"},\"9c1e8d80-7f3b-42f3-ad46-a2b640e27fa0\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Discount Pct\",\"label\":\"Discount Pct\",\"newName\":\"Discount Pct\",\"indexOrder\":12,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"3b62d3d1-2eff-4634-ac89-58213c824133\"},\"58588563-8535-492b-8f5f-6078c892d4d9\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.EntitySymbol\",\"name\":\"Entity Symbol 1\",\"x\":-163,\"y\":-20,\"width\":160,\"height\":40,\"displayName\":\"Entity Symbol 1\",\"object\":\"9853eef1-4fe6-438e-91a9-c664cdf7b61c\"},\"863de026-aff8-45d9-ab8c-c2091f5cc1a7\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Opp_ID\",\"label\":\"Opp_ID\",\"newName\":\"Opp_ID\",\"indexOrder\":0,\"isKey\":true,\"dataType\":\"cds.Integer64\",\"length\":0,\"precision\":0,\"scale\":0,\"isNotNull\":true},\"3359cc2e-1fee-40be-81db-652531c0c00c\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Name\",\"label\":\"Name\",\"newName\":\"Name\",\"indexOrder\":1,\"length\":5000,\"precision\":0,\"scale\":0},\"dc1e1e5e-e6d7-4a86-b7b9-18af3736c3e3\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Account\",\"label\":\"Account\",\"newName\":\"Account\",\"indexOrder\":2,\"length\":5000,\"precision\":0,\"scale\":0},\"cc7b6b7b-e4c1-4c18-b045-0992844e45ce\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Deal Size\",\"label\":\"Deal Size\",\"newName\":\"Deal Size\",\"indexOrder\":3,\"dataType\":\"cds.Integer64\",\"length\":0,\"precision\":0,\"scale\":0},\"8bc14d85-d2ae-4194-8857-21c6ddc21bee\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Owner\",\"label\":\"Owner\",\"newName\":\"Owner\",\"indexOrder\":4,\"length\":5000,\"precision\":0,\"scale\":0},\"acf0ea23-207b-4c7a-8755-91c1e8b8cbea\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Email\",\"label\":\"Email\",\"newName\":\"Email\",\"indexOrder\":5,\"length\":5000,\"precision\":0,\"scale\":0},\"cf06b56d-707f-4736-a251-fcff0ac4bec2\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Sales Phase\",\"label\":\"Sales Phase\",\"newName\":\"Sales Phase\",\"indexOrder\":6,\"length\":5000,\"precision\":0,\"scale\":0},\"2c13296f-0440-4d66-87b1-f42e25bfc757\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Forecast\",\"label\":\"Forecast\",\"newName\":\"Forecast\",\"indexOrder\":7,\"length\":5000,\"precision\":0,\"scale\":0},\"f5148982-ae42-46c1-bfdd-2f1bc7c17cc8\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Projected Close Date\",\"label\":\"Projected Close Date\",\"newName\":\"Projected Close Date\",\"indexOrder\":8,\"dataType\":\"cds.Date\",\"length\":0,\"precision\":0,\"scale\":0},\"3291f14f-e7e4-4a14-a632-04166efe099e\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Close Probability\",\"label\":\"Close Probability\",\"newName\":\"Close Probability\",\"indexOrder\":9,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"a387cb21-0ac6-4e1c-8396-c9388fdde2ed\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Opportunity Phase\",\"label\":\"Opportunity Phase\",\"newName\":\"Opportunity Phase\",\"indexOrder\":10,\"length\":5000,\"precision\":0,\"scale\":0},\"93ce8ef5-70ef-47e9-9d25-7e2128ebeecf\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"RFP completed\",\"label\":\"RFP completed\",\"newName\":\"RFP completed\",\"indexOrder\":11,\"length\":5000,\"precision\":0,\"scale\":0},\"3b62d3d1-2eff-4634-ac89-58213c824133\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Discount Pct\",\"label\":\"Discount Pct\",\"newName\":\"Discount Pct\",\"indexOrder\":12,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"9e056bab-d40c-426b-a318-7eecb93a8157\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.AssociationSymbol\",\"points\":\"-3,0 47,0\",\"contentOffsetX\":5,\"contentOffsetY\":5,\"sourceSymbol\":\"58588563-8535-492b-8f5f-6078c892d4d9\",\"targetSymbol\":\"86a43205-2221-4a8d-b96d-8d74cf1434d4\"}}}"
+                      },
+                      "version" : {
+                        "csn" : "1.0"
+                      },
+                      "meta" : {
+                        "creator" : "View Editor",
+                        "kind" : "sap.dwc.viewmodel"
+                      },
+                      "$version" : "1.0"
+                    }
+                  }
+                },
+                "target1" : {
+                  "component" : "com.sap.dwc.target",
+                  "metadata" : {
+                    "label" : "TFTable1",
+                    "x" : 200,
+                    "y" : 12,
+                    "height" : 40,
+                    "width" : 120,
+                    "inports" : [ {
+                      "name" : "inTable",
+                      "type" : "table"
+                    } ],
+                    "config" : {
+                      "attributeMappings" : [ {
+                        "source" : "Opp_ID",
+                        "target" : "Opp_ID"
+                      }, {
+                        "source" : "Name",
+                        "target" : "Name"
+                      }, {
+                        "source" : "Account",
+                        "target" : "Account"
+                      }, {
+                        "source" : "Deal Size",
+                        "target" : "Deal Size"
+                      }, {
+                        "source" : "Owner",
+                        "target" : "Owner"
+                      }, {
+                        "source" : "Email",
+                        "target" : "Email"
+                      }, {
+                        "source" : "Sales Phase",
+                        "target" : "Sales Phase"
+                      }, {
+                        "source" : "Forecast",
+                        "target" : "Forecast"
+                      }, {
+                        "source" : "Projected Close Date",
+                        "target" : "Projected Close Date"
+                      }, {
+                        "source" : "Close Probability",
+                        "target" : "Close Probability"
+                      }, {
+                        "source" : "Opportunity Phase",
+                        "target" : "Opportunity Phase"
+                      }, {
+                        "source" : "RFP completed",
+                        "target" : "RFP completed"
+                      }, {
+                        "source" : "Discount Pct",
+                        "target" : "Discount Pct"
+                      } ],
+                      "definition" : {
+                        "kind" : "entity",
+                        "@EndUserText.label" : "TFTable1",
+                        "elements" : {
+                          "Opp_ID" : {
+                            "@EndUserText.label" : "Opp_ID",
+                            "type" : "cds.Integer64",
+                            "key" : true,
+                            "notNull" : true
+                          },
+                          "Name" : {
+                            "@EndUserText.label" : "Name",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Account" : {
+                            "@EndUserText.label" : "Account",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Deal Size" : {
+                            "@EndUserText.label" : "Deal Size",
+                            "type" : "cds.Integer64",
+                            "key" : false
+                          },
+                          "Owner" : {
+                            "@EndUserText.label" : "Owner",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Email" : {
+                            "@EndUserText.label" : "Email",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Sales Phase" : {
+                            "@EndUserText.label" : "Sales Phase",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Forecast" : {
+                            "@EndUserText.label" : "Forecast",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Projected Close Date" : {
+                            "@EndUserText.label" : "Projected Close Date",
+                            "type" : "cds.Date",
+                            "key" : false
+                          },
+                          "Close Probability" : {
+                            "@EndUserText.label" : "Close Probability",
+                            "type" : "cds.Decimal",
+                            "key" : false,
+                            "precision" : 38,
+                            "scale" : 19
+                          },
+                          "Opportunity Phase" : {
+                            "@EndUserText.label" : "Opportunity Phase",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "RFP completed" : {
+                            "@EndUserText.label" : "RFP completed",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Discount Pct" : {
+                            "@EndUserText.label" : "Discount Pct",
+                            "type" : "cds.Decimal",
+                            "key" : false,
+                            "precision" : 38,
+                            "scale" : 19
+                          }
+                        },
+                        "_meta" : {
+                          "dependencies" : {
+                            "folderAssignment" : null
+                          }
+                        }
+                      },
+                      "name" : "TFTable1",
+                      "truncate" : false
+                    }
+                  }
+                }
+              },
+              "groups" : [ ],
+              "connections" : [ {
+                "metadata" : {
+                  "points" : "125,32 195,32"
+                },
+                "src" : {
+                  "port" : "outTable",
+                  "process" : "viewtransform1"
+                },
+                "tgt" : {
+                  "port" : "inTable",
+                  "process" : "target1"
+                }
+              } ],
+              "inports" : { },
+              "outports" : { }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "Felix_Test_Package"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

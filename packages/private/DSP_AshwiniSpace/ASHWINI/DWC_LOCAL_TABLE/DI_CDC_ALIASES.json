@@ -1,0 +1,8 @@
+{
+  "id" : "entity:ASHWINI\\DI_CDC_ALIASES",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

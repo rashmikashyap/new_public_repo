@@ -1,0 +1,20 @@
+{
+  "id" : "sap.dwc.taskChain:ASHWINI\\TC_example1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.repo.folder:ASHWINI\\Folder_KYKAXNVW",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\country_vaccinations",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\View_1",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

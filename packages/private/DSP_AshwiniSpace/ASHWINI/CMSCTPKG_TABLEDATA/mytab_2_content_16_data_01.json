@@ -1,0 +1,130 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "mytab_2" : {
+        "definitions" : {
+          "mytab_2" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "mytab_2",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "@DataWarehouse.delta" : {
+              "type" : {
+                "#" : "ACTIVE"
+              },
+              "deltaFromEntities" : [ "mytab_2_Delta" ]
+            },
+            "elements" : {
+              "a" : {
+                "@EndUserText.label" : "a",
+                "type" : "cds.String",
+                "length" : 100,
+                "key" : true,
+                "notNull" : true
+              },
+              "b" : {
+                "@EndUserText.label" : "b",
+                "type" : "cds.String",
+                "length" : 100
+              }
+            },
+            "@DataWarehouse.consumption.external" : false,
+            "query" : {
+              "SELECT" : {
+                "from" : {
+                  "ref" : [ "mytab_2_Delta" ]
+                },
+                "columns" : [ {
+                  "ref" : [ "a" ]
+                }, {
+                  "ref" : [ "b" ]
+                } ],
+                "where" : [ {
+                  "ref" : [ "Change_Type" ]
+                }, "not", "in", {
+                  "list" : [ {
+                    "val" : "D"
+                  }, {
+                    "val" : "M"
+                  } ]
+                } ]
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "Felix_Test_Package"
+            }
+          },
+          "mytab_2_Delta" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "mytab_2",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "@DataWarehouse.delta" : {
+              "type" : {
+                "#" : "UPSERT"
+              },
+              "dateTimeElement" : {
+                "=" : "Change_Date"
+              },
+              "modeElement" : {
+                "=" : "Change_Type"
+              }
+            },
+            "@DataWarehouse.enclosingObject" : "mytab_2",
+            "elements" : {
+              "Change_Type" : {
+                "@EndUserText.label" : "Change Type",
+                "type" : "cds.String",
+                "length" : 1,
+                "notNull" : true,
+                "default" : {
+                  "val" : "I"
+                }
+              },
+              "Change_Date" : {
+                "@EndUserText.label" : "Change Date",
+                "type" : "cds.Timestamp",
+                "notNull" : true,
+                "default" : {
+                  "func" : "CURRENT_UTCTIMESTAMP"
+                }
+              },
+              "a" : {
+                "@EndUserText.label" : "a",
+                "type" : "cds.String",
+                "length" : 100,
+                "key" : true,
+                "notNull" : true
+              },
+              "b" : {
+                "@EndUserText.label" : "b",
+                "type" : "cds.String",
+                "length" : 100
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        },
+        "importExportProperties" : {
+          "sharedSpaces" : "ASHWINI_DELTA"
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

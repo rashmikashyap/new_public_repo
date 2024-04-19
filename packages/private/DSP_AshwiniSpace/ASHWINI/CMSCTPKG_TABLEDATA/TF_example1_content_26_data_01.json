@@ -1,0 +1,240 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "TF_example1" : {
+        "transformationflows" : {
+          "TF_example1" : {
+            "kind" : "sap.dis.transformationflow",
+            "@EndUserText.label" : "TF_example1",
+            "contents" : {
+              "properties" : { },
+              "metadata" : {
+                "loadType" : "INITIAL_ONLY"
+              },
+              "description" : "Transformation Flow 1",
+              "processes" : {
+                "viewtransform1" : {
+                  "component" : "com.sap.dwc.viewtransform",
+                  "metadata" : {
+                    "label" : "View Transform",
+                    "x" : 0,
+                    "y" : 12,
+                    "height" : 40,
+                    "width" : 120,
+                    "outports" : [ {
+                      "name" : "outTable",
+                      "type" : "table"
+                    } ],
+                    "config" : {
+                      "name" : "TF_example1$TRF_TV_viewtransform1",
+                      "definition" : {
+                        "kind" : "entity",
+                        "elements" : {
+                          "ID" : {
+                            "@EndUserText.label" : "ID",
+                            "type" : "cds.String",
+                            "length" : 5000,
+                            "key" : true,
+                            "notNull" : true
+                          },
+                          "First Name" : {
+                            "@EndUserText.label" : "First Name",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Last Name" : {
+                            "@EndUserText.label" : "Last Name",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Full Name" : {
+                            "@EndUserText.label" : "Full Name",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Full Name Space" : {
+                            "@EndUserText.label" : "Full Name Space",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Org Unit" : {
+                            "@EndUserText.label" : "Org Unit",
+                            "type" : "cds.String",
+                            "length" : 5000
+                          },
+                          "Column_1" : {
+                            "@EndUserText.label" : "Column 1",
+                            "type" : "cds.String",
+                            "length" : 100
+                          }
+                        },
+                        "query" : {
+                          "SELECT" : {
+                            "from" : {
+                              "ref" : [ "SalesReps" ]
+                            },
+                            "columns" : [ {
+                              "key" : true,
+                              "ref" : [ "ID" ]
+                            }, {
+                              "ref" : [ "First Name" ]
+                            }, {
+                              "ref" : [ "Last Name" ]
+                            }, {
+                              "ref" : [ "Full Name" ]
+                            }, {
+                              "ref" : [ "Full Name Space" ]
+                            }, {
+                              "ref" : [ "Org Unit" ]
+                            }, {
+                              "ref" : [ "Column_1" ]
+                            } ]
+                          }
+                        },
+                        "@EndUserText.label" : "viewtransform1",
+                        "@ObjectModel.modelingPattern" : {
+                          "#" : "DATA_STRUCTURE"
+                        },
+                        "@ObjectModel.supportedCapabilities" : [ {
+                          "#" : "DATA_STRUCTURE"
+                        } ],
+                        "@DataWarehouse.consumption.external" : false
+                      },
+                      "editorSettings" : {
+                        "editor" : {
+                          "lastModifier" : "GRAPHICALVIEWBUILDER",
+                          "default" : "GRAPHICALVIEWBUILDER"
+                        },
+                        "uiModel" : "{\"contents\":{\"19d512d3-b51f-435c-994e-275deed98795\":{\"classDefinition\":\"sap.cdw.querybuilder.Model\",\"name\":\"viewtransform1\",\"label\":\"viewtransform1\",\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"output\":\"b31d5564-9aa3-43de-9f9a-2d09740e4529\",\"nodes\":{\"b31d5564-9aa3-43de-9f9a-2d09740e4529\":{\"name\":\"viewtransform1\"},\"53b71bca-026a-428f-baa9-baff67ca53b0\":{\"name\":\"SalesReps\"},\"49049b90-b161-4d80-ae0c-9e6bc721af2a\":{\"name\":\"Projection 1\"}},\"diagrams\":{\"a7a77403-1f7f-4f0a-979d-15509d61cc2c\":{}}},\"b31d5564-9aa3-43de-9f9a-2d09740e4529\":{\"classDefinition\":\"sap.cdw.querybuilder.Output\",\"name\":\"viewtransform1\",\"type\":\"graphicView\",\"isPinToMemoryEnabled\":false,\"isAllowConsumption\":false,\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"elements\":{\"eb0ec714-2225-4f54-83db-27b0ed8228fc\":{\"name\":\"ID\"},\"16b70d50-dffd-42f0-aca6-b0ac507c5a75\":{\"name\":\"First Name\"},\"e913d5ec-87fe-44cd-bc6b-11975fc0231d\":{\"name\":\"Last Name\"},\"133dd940-9b3a-4f61-8c8b-d702cb928197\":{\"name\":\"Full Name\"},\"f1a57f29-a5a7-44f1-b0a8-84aaaa6b74a1\":{\"name\":\"Full Name Space\"},\"ede6fa11-9e88-4612-b6e7-baf9f4e75a2d\":{\"name\":\"Org Unit\"},\"d203ff44-97da-4d71-bdac-32ce510d38f9\":{\"name\":\"Column_1\"}}},\"53b71bca-026a-428f-baa9-baff67ca53b0\":{\"classDefinition\":\"sap.cdw.querybuilder.Entity\",\"name\":\"SalesReps\",\"label\":\"SalesReps\",\"type\":9,\"isPinToMemoryEnabled\":false,\"isAllowConsumption\":false,\"isHiddenInUi\":false,\"modificationDate\":1699445404407,\"deploymentDate\":1699445435906,\"#objectStatus\":\"1\",\"elements\":{\"8049c63a-933e-47b6-995f-3d31e276951b\":{\"name\":\"ID\"},\"674a9c61-7063-4f2d-b9ec-74fd9017b51c\":{\"name\":\"First Name\"},\"89476cd4-9286-4177-8475-2d2dd21213e1\":{\"name\":\"Last Name\"},\"11c108bc-ef58-4fcc-9943-ea582aaf2f92\":{\"name\":\"Full Name\"},\"d77c92bd-42dc-4509-b214-ab65234fd6f4\":{\"name\":\"Full Name Space\"},\"00458efc-5247-4adb-9d66-b8497c7a7151\":{\"name\":\"Org Unit\"},\"2e8d95d4-4110-461c-b322-8fde8d526809\":{\"name\":\"Column_1\"}},\"successorNode\":\"49049b90-b161-4d80-ae0c-9e6bc721af2a\"},\"a7a77403-1f7f-4f0a-979d-15509d61cc2c\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.Diagram\",\"symbols\":{\"74d1185a-01ad-463b-89d6-654f8376804d\":{},\"6574872c-d6e3-494c-b9f3-b084466d045e\":{\"name\":\"Entity Symbol 1\"},\"ed5f4b20-c0cf-46cf-9953-e3f280931c40\":{},\"4ad71f6f-96fc-4d54-a4f7-9a4a9dc6feb7\":{},\"d86b71e7-fcda-4e8a-a1bd-51c196de5481\":{}}},\"eb0ec714-2225-4f54-83db-27b0ed8228fc\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"ID\",\"label\":\"ID\",\"newName\":\"ID\",\"indexOrder\":0,\"isKey\":true,\"length\":5000,\"precision\":0,\"scale\":0,\"isNotNull\":true},\"16b70d50-dffd-42f0-aca6-b0ac507c5a75\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"First Name\",\"label\":\"First Name\",\"newName\":\"First Name\",\"indexOrder\":1,\"length\":5000,\"precision\":0,\"scale\":0},\"e913d5ec-87fe-44cd-bc6b-11975fc0231d\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Last Name\",\"label\":\"Last Name\",\"newName\":\"Last Name\",\"indexOrder\":2,\"length\":5000,\"precision\":0,\"scale\":0},\"133dd940-9b3a-4f61-8c8b-d702cb928197\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Full Name\",\"label\":\"Full Name\",\"newName\":\"Full Name\",\"indexOrder\":3,\"length\":5000,\"precision\":0,\"scale\":0},\"f1a57f29-a5a7-44f1-b0a8-84aaaa6b74a1\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Full Name Space\",\"label\":\"Full Name Space\",\"newName\":\"Full Name Space\",\"indexOrder\":4,\"length\":5000,\"precision\":0,\"scale\":0},\"ede6fa11-9e88-4612-b6e7-baf9f4e75a2d\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Org Unit\",\"label\":\"Org Unit\",\"newName\":\"Org Unit\",\"indexOrder\":5,\"length\":5000,\"precision\":0,\"scale\":0},\"74d1185a-01ad-463b-89d6-654f8376804d\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.OutputSymbol\",\"x\":96,\"y\":-20,\"width\":140,\"height\":40,\"object\":\"b31d5564-9aa3-43de-9f9a-2d09740e4529\"},\"6574872c-d6e3-494c-b9f3-b084466d045e\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.EntitySymbol\",\"name\":\"Entity Symbol 1\",\"x\":-212,\"y\":-19.999999999999993,\"width\":160,\"height\":40,\"displayName\":\"Entity Symbol 1\",\"object\":\"53b71bca-026a-428f-baa9-baff67ca53b0\"},\"8049c63a-933e-47b6-995f-3d31e276951b\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"ID\",\"label\":\"ID\",\"newName\":\"ID\",\"indexOrder\":0,\"isKey\":true,\"length\":5000,\"precision\":0,\"scale\":0,\"isNotNull\":true,\"successorElement\":\"1a38aa8a-70da-49f2-98eb-f230cff2c7ec\"},\"674a9c61-7063-4f2d-b9ec-74fd9017b51c\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"First Name\",\"label\":\"First Name\",\"newName\":\"First Name\",\"indexOrder\":1,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"aa2c7c3f-0f5b-4b5a-8ba5-6de347b4abef\"},\"89476cd4-9286-4177-8475-2d2dd21213e1\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Last Name\",\"label\":\"Last Name\",\"newName\":\"Last Name\",\"indexOrder\":2,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"7f32426b-8152-4e9a-9c75-816efd5e1ee6\"},\"11c108bc-ef58-4fcc-9943-ea582aaf2f92\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Full Name\",\"label\":\"Full Name\",\"newName\":\"Full Name\",\"indexOrder\":3,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"519a0d7d-7e26-4055-bd33-cce5618e16bd\"},\"d77c92bd-42dc-4509-b214-ab65234fd6f4\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Full Name Space\",\"label\":\"Full Name Space\",\"newName\":\"Full Name Space\",\"indexOrder\":4,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"bd1d38d5-d164-46d8-8842-9e1bac4eea29\"},\"00458efc-5247-4adb-9d66-b8497c7a7151\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Org Unit\",\"label\":\"Org Unit\",\"newName\":\"Org Unit\",\"indexOrder\":5,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"9aed2b8f-2aa5-4a64-8532-f8e1322064e1\"},\"2e8d95d4-4110-461c-b322-8fde8d526809\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Column_1\",\"label\":\"Column 1\",\"newName\":\"Column_1\",\"indexOrder\":6,\"length\":100,\"precision\":0,\"scale\":0,\"successorElement\":\"a5798a3a-0dee-4089-9181-dc52f8e5da61\"},\"49049b90-b161-4d80-ae0c-9e6bc721af2a\":{\"classDefinition\":\"sap.cdw.querybuilder.RenameElements\",\"_isProjectionNode\":false,\"name\":\"Projection 1\",\"elements\":{\"1a38aa8a-70da-49f2-98eb-f230cff2c7ec\":{\"name\":\"ID\"},\"aa2c7c3f-0f5b-4b5a-8ba5-6de347b4abef\":{\"name\":\"First Name\"},\"7f32426b-8152-4e9a-9c75-816efd5e1ee6\":{\"name\":\"Last Name\"},\"519a0d7d-7e26-4055-bd33-cce5618e16bd\":{\"name\":\"Full Name\"},\"bd1d38d5-d164-46d8-8842-9e1bac4eea29\":{\"name\":\"Full Name Space\"},\"9aed2b8f-2aa5-4a64-8532-f8e1322064e1\":{\"name\":\"Org Unit\"},\"a5798a3a-0dee-4089-9181-dc52f8e5da61\":{\"name\":\"Column_1\"}},\"successorNode\":\"b31d5564-9aa3-43de-9f9a-2d09740e4529\"},\"1a38aa8a-70da-49f2-98eb-f230cff2c7ec\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"ID\",\"label\":\"ID\",\"newName\":\"ID\",\"indexOrder\":0,\"isKey\":true,\"length\":5000,\"precision\":0,\"scale\":0,\"isNotNull\":true,\"successorElement\":\"eb0ec714-2225-4f54-83db-27b0ed8228fc\"},\"aa2c7c3f-0f5b-4b5a-8ba5-6de347b4abef\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"First Name\",\"label\":\"First Name\",\"newName\":\"First Name\",\"indexOrder\":1,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"16b70d50-dffd-42f0-aca6-b0ac507c5a75\"},\"7f32426b-8152-4e9a-9c75-816efd5e1ee6\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Last Name\",\"label\":\"Last Name\",\"newName\":\"Last Name\",\"indexOrder\":2,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"e913d5ec-87fe-44cd-bc6b-11975fc0231d\"},\"519a0d7d-7e26-4055-bd33-cce5618e16bd\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Full Name\",\"label\":\"Full Name\",\"newName\":\"Full Name\",\"indexOrder\":3,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"133dd940-9b3a-4f61-8c8b-d702cb928197\"},\"bd1d38d5-d164-46d8-8842-9e1bac4eea29\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Full Name Space\",\"label\":\"Full Name Space\",\"newName\":\"Full Name Space\",\"indexOrder\":4,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"f1a57f29-a5a7-44f1-b0a8-84aaaa6b74a1\"},\"9aed2b8f-2aa5-4a64-8532-f8e1322064e1\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Org Unit\",\"label\":\"Org Unit\",\"newName\":\"Org Unit\",\"indexOrder\":5,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"ede6fa11-9e88-4612-b6e7-baf9f4e75a2d\"},\"a5798a3a-0dee-4089-9181-dc52f8e5da61\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Column_1\",\"label\":\"Column 1\",\"newName\":\"Column_1\",\"indexOrder\":6,\"length\":100,\"precision\":0,\"scale\":0,\"successorElement\":\"d203ff44-97da-4d71-bdac-32ce510d38f9\"},\"ed5f4b20-c0cf-46cf-9953-e3f280931c40\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.RenameSymbol\",\"x\":-2,\"y\":-16,\"object\":\"49049b90-b161-4d80-ae0c-9e6bc721af2a\"},\"4ad71f6f-96fc-4d54-a4f7-9a4a9dc6feb7\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.AssociationSymbol\",\"points\":\"-52,0 -2,0\",\"contentOffsetX\":5,\"contentOffsetY\":5,\"sourceSymbol\":\"6574872c-d6e3-494c-b9f3-b084466d045e\",\"targetSymbol\":\"ed5f4b20-c0cf-46cf-9953-e3f280931c40\"},\"d86b71e7-fcda-4e8a-a1bd-51c196de5481\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.AssociationSymbol\",\"points\":\"46,0 96,0\",\"contentOffsetX\":5,\"contentOffsetY\":5,\"sourceSymbol\":\"ed5f4b20-c0cf-46cf-9953-e3f280931c40\",\"targetSymbol\":\"74d1185a-01ad-463b-89d6-654f8376804d\"},\"d203ff44-97da-4d71-bdac-32ce510d38f9\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"Column_1\",\"label\":\"Column 1\",\"newName\":\"Column_1\",\"indexOrder\":6,\"length\":100,\"precision\":0,\"scale\":0}}}"
+                      },
+                      "version" : {
+                        "csn" : "1.0"
+                      },
+                      "meta" : {
+                        "creator" : "View Editor",
+                        "kind" : "sap.dwc.viewmodel"
+                      },
+                      "$version" : "1.0"
+                    }
+                  }
+                },
+                "target1" : {
+                  "component" : "com.sap.dwc.target",
+                  "metadata" : {
+                    "label" : "del3",
+                    "x" : 200,
+                    "y" : 12,
+                    "height" : 40,
+                    "width" : 120,
+                    "inports" : [ {
+                      "name" : "inTable",
+                      "type" : "table"
+                    } ],
+                    "config" : {
+                      "attributeMappings" : [ {
+                        "source" : "ID",
+                        "target" : "ID"
+                      }, {
+                        "source" : "First Name",
+                        "target" : "First Name"
+                      }, {
+                        "source" : "Last Name",
+                        "target" : "Last Name"
+                      }, {
+                        "source" : "Full Name",
+                        "target" : "Full Name"
+                      }, {
+                        "source" : "Full Name Space",
+                        "target" : "Full Name Space"
+                      }, {
+                        "source" : "Org Unit",
+                        "target" : "Org Unit"
+                      }, {
+                        "source" : "Column_1",
+                        "target" : "Column_1"
+                      } ],
+                      "definition" : {
+                        "kind" : "entity",
+                        "@EndUserText.label" : "del3",
+                        "elements" : {
+                          "ID" : {
+                            "@EndUserText.label" : "ID",
+                            "type" : "cds.String",
+                            "key" : true,
+                            "length" : 5000,
+                            "notNull" : true
+                          },
+                          "First Name" : {
+                            "@EndUserText.label" : "First Name",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Last Name" : {
+                            "@EndUserText.label" : "Last Name",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Full Name" : {
+                            "@EndUserText.label" : "Full Name",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Full Name Space" : {
+                            "@EndUserText.label" : "Full Name Space",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Org Unit" : {
+                            "@EndUserText.label" : "Org Unit",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 5000
+                          },
+                          "Column_1" : {
+                            "@EndUserText.label" : "Column 1",
+                            "type" : "cds.String",
+                            "key" : false,
+                            "length" : 100
+                          }
+                        }
+                      },
+                      "name" : "del3",
+                      "truncate" : false
+                    }
+                  }
+                }
+              },
+              "groups" : [ ],
+              "connections" : [ {
+                "metadata" : {
+                  "points" : "125,32 195,32"
+                },
+                "src" : {
+                  "port" : "outTable",
+                  "process" : "viewtransform1"
+                },
+                "tgt" : {
+                  "port" : "inTable",
+                  "process" : "target1"
+                }
+              } ],
+              "inports" : { },
+              "outports" : { }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "Felix_Test_Package"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

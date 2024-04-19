@@ -1,0 +1,12 @@
+{
+  "id" : "entity:ASHWINI\\Mydelta",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\Mydelta_Delta",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

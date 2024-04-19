@@ -1,0 +1,15 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "Folder_KYKAXNVW" : {
+        "Folder_KYKAXNVW" : {
+          "_kind" : "sap.repo.folder",
+          "_folderProperties" : {
+            "name" : "MT_DATAFLOW"
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

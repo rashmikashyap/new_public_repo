@@ -1,0 +1,16 @@
+{
+  "id" : "sap.dis.replicationflow:ASHWINI\\Replication_Flow_1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "repository.remote:ASHWINI\\hana",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\DI_CDC_ALIASES",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

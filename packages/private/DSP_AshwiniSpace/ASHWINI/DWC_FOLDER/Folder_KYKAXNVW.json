@@ -1,0 +1,8 @@
+{
+  "id" : "sap.repo.folder:ASHWINI\\Folder_KYKAXNVW",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

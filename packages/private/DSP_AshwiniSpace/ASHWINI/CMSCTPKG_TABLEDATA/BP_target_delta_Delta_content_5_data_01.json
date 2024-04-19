@@ -1,0 +1,124 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "BP_target_delta_Delta" : {
+        "definitions" : {
+          "BP_target_delta_Delta" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "BP_target_delta",
+            "elements" : {
+              "PARTNERID" : {
+                "@EndUserText.label" : "PARTNERID",
+                "type" : "cds.Integer64",
+                "key" : true,
+                "notNull" : true
+              },
+              "PARTNERROLE" : {
+                "@EndUserText.label" : "PARTNERROLE",
+                "type" : "cds.Integer64",
+                "key" : false
+              },
+              "EMAILADDRESS" : {
+                "@EndUserText.label" : "EMAILADDRESS",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "PHONENUMBER" : {
+                "@EndUserText.label" : "PHONENUMBER",
+                "type" : "cds.Integer64",
+                "key" : false
+              },
+              "FAXNUMBER" : {
+                "@EndUserText.label" : "FAXNUMBER",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "WEBADDRESS" : {
+                "@EndUserText.label" : "WEBADDRESS",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "ADDRESSID" : {
+                "@EndUserText.label" : "ADDRESSID",
+                "type" : "cds.Integer64",
+                "key" : false
+              },
+              "COMPANYNAME" : {
+                "@EndUserText.label" : "COMPANYNAME",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "LEGALFORM" : {
+                "@EndUserText.label" : "LEGALFORM",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 5000
+              },
+              "CREATEDBY" : {
+                "@EndUserText.label" : "CREATEDBY",
+                "type" : "cds.Integer64",
+                "key" : false
+              },
+              "CREATEDAT" : {
+                "@EndUserText.label" : "CREATEDAT",
+                "type" : "cds.Date",
+                "key" : false
+              },
+              "CHANGEDBY" : {
+                "@EndUserText.label" : "CHANGEDBY",
+                "type" : "cds.Integer64",
+                "key" : false
+              },
+              "CHANGEDAT" : {
+                "@EndUserText.label" : "CHANGEDAT",
+                "type" : "cds.Date",
+                "key" : false
+              },
+              "Change_Type" : {
+                "@EndUserText.label" : "Change Type",
+                "type" : "cds.String",
+                "key" : false,
+                "length" : 1,
+                "notNull" : true,
+                "default" : {
+                  "val" : "I"
+                }
+              },
+              "Change_Date" : {
+                "@EndUserText.label" : "Change Date",
+                "type" : "cds.Timestamp",
+                "key" : false,
+                "notNull" : true,
+                "default" : {
+                  "func" : "CURRENT_UTCTIMESTAMP"
+                }
+              }
+            },
+            "@DataWarehouse.delta" : {
+              "type" : {
+                "#" : "UPSERT"
+              },
+              "dateTimeElement" : {
+                "=" : "Change_Date"
+              },
+              "modeElement" : {
+                "=" : "Change_Type"
+              }
+            },
+            "@DataWarehouse.enclosingObject" : "BP_target_delta",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "entity:ASHWINI\\test_pkg",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\mytab_2",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\mytab_2_Delta",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

@@ -1,0 +1,152 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "View_1" : {
+        "definitions" : {
+          "View_1" : {
+            "kind" : "entity",
+            "elements" : {
+              "country" : {
+                "@EndUserText.label" : "country",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "iso_code" : {
+                "@EndUserText.label" : "iso_code",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "date" : {
+                "@EndUserText.label" : "date",
+                "type" : "cds.Date"
+              },
+              "total_vaccinations" : {
+                "@EndUserText.label" : "total_vaccinations",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "people_vaccinated" : {
+                "@EndUserText.label" : "people_vaccinated",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "people_fully_vaccinated" : {
+                "@EndUserText.label" : "people_fully_vaccinated",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "daily_vaccinations_raw" : {
+                "@EndUserText.label" : "daily_vaccinations_raw",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "daily_vaccinations" : {
+                "@EndUserText.label" : "daily_vaccinations",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "total_vaccinations_per_hundred" : {
+                "@EndUserText.label" : "total_vaccinations_per_hundred",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "people_vaccinated_per_hundred" : {
+                "@EndUserText.label" : "people_vaccinated_per_hundred",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "people_fully_vaccinated_per_hundred" : {
+                "@EndUserText.label" : "people_fully_vaccinated_per_hundred",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "daily_vaccinations_per_million" : {
+                "@EndUserText.label" : "daily_vaccinations_per_million",
+                "precision" : 38,
+                "scale" : 19,
+                "type" : "cds.Decimal"
+              },
+              "vaccines" : {
+                "@EndUserText.label" : "vaccines",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "source_name" : {
+                "@EndUserText.label" : "source_name",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "source_website" : {
+                "@EndUserText.label" : "source_website",
+                "type" : "cds.String",
+                "length" : 5000
+              }
+            },
+            "query" : {
+              "SELECT" : {
+                "from" : {
+                  "ref" : [ "country_vaccinations" ]
+                },
+                "columns" : [ {
+                  "ref" : [ "country" ]
+                }, {
+                  "ref" : [ "iso_code" ]
+                }, {
+                  "ref" : [ "date" ]
+                }, {
+                  "ref" : [ "total_vaccinations" ]
+                }, {
+                  "ref" : [ "people_vaccinated" ]
+                }, {
+                  "ref" : [ "people_fully_vaccinated" ]
+                }, {
+                  "ref" : [ "daily_vaccinations_raw" ]
+                }, {
+                  "ref" : [ "daily_vaccinations" ]
+                }, {
+                  "ref" : [ "total_vaccinations_per_hundred" ]
+                }, {
+                  "ref" : [ "people_vaccinated_per_hundred" ]
+                }, {
+                  "ref" : [ "people_fully_vaccinated_per_hundred" ]
+                }, {
+                  "ref" : [ "daily_vaccinations_per_million" ]
+                }, {
+                  "ref" : [ "vaccines" ]
+                }, {
+                  "ref" : [ "source_name" ]
+                }, {
+                  "ref" : [ "source_website" ]
+                } ]
+              }
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "@EndUserText.label" : "View 1",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@DataWarehouse.consumption.external" : false,
+            "@DataWarehouse.querybuilder.model" : "{\"contents\":{\"6ad11660-4aef-4664-8829-11604f09d9a6\":{\"classDefinition\":\"sap.cdw.querybuilder.Model\",\"name\":\"View_1\",\"label\":\"View 1\",\"modificationDate\":1687255982552,\"deploymentDate\":1687255998311,\"#objectStatus\":\"1\",\"output\":\"0a5dd039-0a11-4b25-bf48-33eb07cd36e0\",\"nodes\":{\"0a5dd039-0a11-4b25-bf48-33eb07cd36e0\":{\"name\":\"View_1\"},\"b5dcb039-92b0-4e00-8b7f-00ac76a9d5c1\":{\"name\":\"country_vaccinations\"}},\"diagrams\":{\"c7a3ddd4-b5a5-4f2d-821e-2c4be3d945d4\":{}}},\"0a5dd039-0a11-4b25-bf48-33eb07cd36e0\":{\"classDefinition\":\"sap.cdw.querybuilder.Output\",\"name\":\"View_1\",\"type\":\"graphicView\",\"isPinToMemoryEnabled\":false,\"isAllowConsumption\":false,\"modificationDate\":1687255982552,\"deploymentDate\":1687255998311,\"#objectStatus\":\"1\",\"packageValue\":\"ashpackage\",\"packageStatus\":\"VAL_PACKAGE_CHANGED\",\"elements\":{\"8cca50d2-86ea-4b2d-b840-d65968af5ce0\":{\"name\":\"country\"},\"d07b4541-31e6-4834-88c7-c69c17078576\":{\"name\":\"iso_code\"},\"c535e10b-3d28-4b60-84d1-cdc8cd5d31f6\":{\"name\":\"date\"},\"ab5063cd-5b49-40d2-9b08-0d921de5ae39\":{\"name\":\"total_vaccinations\"},\"118e1c3e-1ab3-4533-a5a4-2adc70c85c4a\":{\"name\":\"people_vaccinated\"},\"35c02137-9960-46c1-84c0-6e018d85c923\":{\"name\":\"people_fully_vaccinated\"},\"e68c1379-1a2a-4909-ad18-5ba5eaf2494d\":{\"name\":\"daily_vaccinations_raw\"},\"aa32bf15-0dc5-4475-bed3-01fd15949f46\":{\"name\":\"daily_vaccinations\"},\"4793bf1e-d0c2-4c78-a877-f982f2a1e424\":{\"name\":\"total_vaccinations_per_hundred\"},\"aa3d9c0d-11b1-4270-ae1a-cbaf38d69a49\":{\"name\":\"people_vaccinated_per_hundred\"},\"c4d6448b-9393-4dda-ad99-7824f6f2d56b\":{\"name\":\"people_fully_vaccinated_per_hundred\"},\"04c7cdd6-176c-4784-a31f-deb8fba34db8\":{\"name\":\"daily_vaccinations_per_million\"},\"41ab9d78-cc31-438c-b471-f296821cf6c0\":{\"name\":\"vaccines\"},\"82491a4a-b314-4afb-9bec-acf579cfb5f8\":{\"name\":\"source_name\"},\"3ec07702-454f-4b55-a976-17e95b439c5b\":{\"name\":\"source_website\"}}},\"b5dcb039-92b0-4e00-8b7f-00ac76a9d5c1\":{\"classDefinition\":\"sap.cdw.querybuilder.Entity\",\"name\":\"country_vaccinations\",\"label\":\"country_vaccinations\",\"type\":9,\"isPinToMemoryEnabled\":false,\"isAllowConsumption\":false,\"isHiddenInUi\":false,\"modificationDate\":1686647486904,\"deploymentDate\":1689229232328,\"#objectStatus\":\"1\",\"elements\":{\"12af6ac9-c2d6-466a-876e-12d972d84b72\":{\"name\":\"country\"},\"c5a0bc0b-b324-42f9-98eb-ed6750bfe22a\":{\"name\":\"iso_code\"},\"9c6c5045-ef7c-42e8-a61e-96318d04bf43\":{\"name\":\"date\"},\"0038577c-b002-4929-9068-35d9e0b72df4\":{\"name\":\"total_vaccinations\"},\"bbf71c28-0406-4fc3-94ca-270f30f92b07\":{\"name\":\"people_vaccinated\"},\"8220530f-2fae-43fc-8ca7-1a4d3f1598f2\":{\"name\":\"people_fully_vaccinated\"},\"94d1cfac-bfc4-42e0-8122-71a84f2bd460\":{\"name\":\"daily_vaccinations_raw\"},\"30825130-017d-4d92-a091-91b78fc51d7d\":{\"name\":\"daily_vaccinations\"},\"a9652a53-7191-451b-ba0e-c64757176861\":{\"name\":\"total_vaccinations_per_hundred\"},\"c94c8209-a721-41cd-b2bc-38f2dcb1ac58\":{\"name\":\"people_vaccinated_per_hundred\"},\"440531b3-4ee7-4d45-84cd-ea002cd18895\":{\"name\":\"people_fully_vaccinated_per_hundred\"},\"3929dd45-20f2-47a9-8940-6e2159aa703a\":{\"name\":\"daily_vaccinations_per_million\"},\"62993114-6932-4b40-9223-d7a2eee32b05\":{\"name\":\"vaccines\"},\"b861bc1d-d307-4965-9cd0-7889ccfe0ffa\":{\"name\":\"source_name\"},\"7b9d0d93-d733-4341-95ff-9dc095ec208d\":{\"name\":\"source_website\"}},\"successorNode\":\"0a5dd039-0a11-4b25-bf48-33eb07cd36e0\"},\"c7a3ddd4-b5a5-4f2d-821e-2c4be3d945d4\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.Diagram\",\"symbols\":{\"ee82f98d-ee7a-4d1e-a66e-fcb657e98e4a\":{},\"60685300-51b2-4737-99ed-201deaf3b443\":{\"name\":\"Entity Symbol 1\"},\"745464be-e137-41f4-a5ea-e95abf97b221\":{}}},\"8cca50d2-86ea-4b2d-b840-d65968af5ce0\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"country\",\"label\":\"country\",\"newName\":\"country\",\"indexOrder\":0,\"length\":5000,\"precision\":0,\"scale\":0},\"d07b4541-31e6-4834-88c7-c69c17078576\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"iso_code\",\"label\":\"iso_code\",\"newName\":\"iso_code\",\"indexOrder\":1,\"length\":5000,\"precision\":0,\"scale\":0},\"c535e10b-3d28-4b60-84d1-cdc8cd5d31f6\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"date\",\"label\":\"date\",\"newName\":\"date\",\"indexOrder\":2,\"dataType\":\"cds.Date\",\"length\":0,\"precision\":0,\"scale\":0},\"ab5063cd-5b49-40d2-9b08-0d921de5ae39\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"total_vaccinations\",\"label\":\"total_vaccinations\",\"newName\":\"total_vaccinations\",\"indexOrder\":3,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"118e1c3e-1ab3-4533-a5a4-2adc70c85c4a\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"people_vaccinated\",\"label\":\"people_vaccinated\",\"newName\":\"people_vaccinated\",\"indexOrder\":4,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"35c02137-9960-46c1-84c0-6e018d85c923\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"people_fully_vaccinated\",\"label\":\"people_fully_vaccinated\",\"newName\":\"people_fully_vaccinated\",\"indexOrder\":5,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"e68c1379-1a2a-4909-ad18-5ba5eaf2494d\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"daily_vaccinations_raw\",\"label\":\"daily_vaccinations_raw\",\"newName\":\"daily_vaccinations_raw\",\"indexOrder\":6,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"aa32bf15-0dc5-4475-bed3-01fd15949f46\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"daily_vaccinations\",\"label\":\"daily_vaccinations\",\"newName\":\"daily_vaccinations\",\"indexOrder\":7,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"4793bf1e-d0c2-4c78-a877-f982f2a1e424\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"total_vaccinations_per_hundred\",\"label\":\"total_vaccinations_per_hundred\",\"newName\":\"total_vaccinations_per_hundred\",\"indexOrder\":8,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"aa3d9c0d-11b1-4270-ae1a-cbaf38d69a49\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"people_vaccinated_per_hundred\",\"label\":\"people_vaccinated_per_hundred\",\"newName\":\"people_vaccinated_per_hundred\",\"indexOrder\":9,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"c4d6448b-9393-4dda-ad99-7824f6f2d56b\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"people_fully_vaccinated_per_hundred\",\"label\":\"people_fully_vaccinated_per_hundred\",\"newName\":\"people_fully_vaccinated_per_hundred\",\"indexOrder\":10,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"04c7cdd6-176c-4784-a31f-deb8fba34db8\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"daily_vaccinations_per_million\",\"label\":\"daily_vaccinations_per_million\",\"newName\":\"daily_vaccinations_per_million\",\"indexOrder\":11,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19},\"41ab9d78-cc31-438c-b471-f296821cf6c0\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"vaccines\",\"label\":\"vaccines\",\"newName\":\"vaccines\",\"indexOrder\":12,\"length\":5000,\"precision\":0,\"scale\":0},\"82491a4a-b314-4afb-9bec-acf579cfb5f8\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"source_name\",\"label\":\"source_name\",\"newName\":\"source_name\",\"indexOrder\":13,\"length\":5000,\"precision\":0,\"scale\":0},\"3ec07702-454f-4b55-a976-17e95b439c5b\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"source_website\",\"label\":\"source_website\",\"newName\":\"source_website\",\"indexOrder\":14,\"length\":5000,\"precision\":0,\"scale\":0},\"ee82f98d-ee7a-4d1e-a66e-fcb657e98e4a\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.OutputSymbol\",\"x\":47,\"y\":-20,\"width\":140,\"height\":40,\"object\":\"0a5dd039-0a11-4b25-bf48-33eb07cd36e0\"},\"60685300-51b2-4737-99ed-201deaf3b443\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.EntitySymbol\",\"name\":\"Entity Symbol 1\",\"x\":-163,\"y\":-20,\"width\":160,\"height\":40,\"displayName\":\"Entity Symbol 1\",\"object\":\"b5dcb039-92b0-4e00-8b7f-00ac76a9d5c1\"},\"745464be-e137-41f4-a5ea-e95abf97b221\":{\"classDefinition\":\"sap.cdw.querybuilder.ui.AssociationSymbol\",\"points\":\"-3,0 47,0\",\"contentOffsetX\":5,\"contentOffsetY\":5,\"sourceSymbol\":\"60685300-51b2-4737-99ed-201deaf3b443\",\"targetSymbol\":\"ee82f98d-ee7a-4d1e-a66e-fcb657e98e4a\"},\"12af6ac9-c2d6-466a-876e-12d972d84b72\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"country\",\"label\":\"country\",\"newName\":\"country\",\"indexOrder\":0,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"8cca50d2-86ea-4b2d-b840-d65968af5ce0\"},\"c5a0bc0b-b324-42f9-98eb-ed6750bfe22a\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"iso_code\",\"label\":\"iso_code\",\"newName\":\"iso_code\",\"indexOrder\":1,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"d07b4541-31e6-4834-88c7-c69c17078576\"},\"9c6c5045-ef7c-42e8-a61e-96318d04bf43\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"date\",\"label\":\"date\",\"newName\":\"date\",\"indexOrder\":2,\"dataType\":\"cds.Date\",\"length\":0,\"precision\":0,\"scale\":0,\"successorElement\":\"c535e10b-3d28-4b60-84d1-cdc8cd5d31f6\"},\"0038577c-b002-4929-9068-35d9e0b72df4\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"total_vaccinations\",\"label\":\"total_vaccinations\",\"newName\":\"total_vaccinations\",\"indexOrder\":3,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"ab5063cd-5b49-40d2-9b08-0d921de5ae39\"},\"bbf71c28-0406-4fc3-94ca-270f30f92b07\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"people_vaccinated\",\"label\":\"people_vaccinated\",\"newName\":\"people_vaccinated\",\"indexOrder\":4,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"118e1c3e-1ab3-4533-a5a4-2adc70c85c4a\"},\"8220530f-2fae-43fc-8ca7-1a4d3f1598f2\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"people_fully_vaccinated\",\"label\":\"people_fully_vaccinated\",\"newName\":\"people_fully_vaccinated\",\"indexOrder\":5,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"35c02137-9960-46c1-84c0-6e018d85c923\"},\"94d1cfac-bfc4-42e0-8122-71a84f2bd460\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"daily_vaccinations_raw\",\"label\":\"daily_vaccinations_raw\",\"newName\":\"daily_vaccinations_raw\",\"indexOrder\":6,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"e68c1379-1a2a-4909-ad18-5ba5eaf2494d\"},\"30825130-017d-4d92-a091-91b78fc51d7d\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"daily_vaccinations\",\"label\":\"daily_vaccinations\",\"newName\":\"daily_vaccinations\",\"indexOrder\":7,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"aa32bf15-0dc5-4475-bed3-01fd15949f46\"},\"a9652a53-7191-451b-ba0e-c64757176861\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"total_vaccinations_per_hundred\",\"label\":\"total_vaccinations_per_hundred\",\"newName\":\"total_vaccinations_per_hundred\",\"indexOrder\":8,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"4793bf1e-d0c2-4c78-a877-f982f2a1e424\"},\"c94c8209-a721-41cd-b2bc-38f2dcb1ac58\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"people_vaccinated_per_hundred\",\"label\":\"people_vaccinated_per_hundred\",\"newName\":\"people_vaccinated_per_hundred\",\"indexOrder\":9,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"aa3d9c0d-11b1-4270-ae1a-cbaf38d69a49\"},\"440531b3-4ee7-4d45-84cd-ea002cd18895\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"people_fully_vaccinated_per_hundred\",\"label\":\"people_fully_vaccinated_per_hundred\",\"newName\":\"people_fully_vaccinated_per_hundred\",\"indexOrder\":10,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"c4d6448b-9393-4dda-ad99-7824f6f2d56b\"},\"3929dd45-20f2-47a9-8940-6e2159aa703a\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"daily_vaccinations_per_million\",\"label\":\"daily_vaccinations_per_million\",\"newName\":\"daily_vaccinations_per_million\",\"indexOrder\":11,\"dataType\":\"cds.Decimal\",\"length\":0,\"precision\":38,\"scale\":19,\"successorElement\":\"04c7cdd6-176c-4784-a31f-deb8fba34db8\"},\"62993114-6932-4b40-9223-d7a2eee32b05\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"vaccines\",\"label\":\"vaccines\",\"newName\":\"vaccines\",\"indexOrder\":12,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"41ab9d78-cc31-438c-b471-f296821cf6c0\"},\"b861bc1d-d307-4965-9cd0-7889ccfe0ffa\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"source_name\",\"label\":\"source_name\",\"newName\":\"source_name\",\"indexOrder\":13,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"82491a4a-b314-4afb-9bec-acf579cfb5f8\"},\"7b9d0d93-d733-4341-95ff-9dc095ec208d\":{\"classDefinition\":\"sap.cdw.querybuilder.Element\",\"name\":\"source_website\",\"label\":\"source_website\",\"newName\":\"source_website\",\"indexOrder\":14,\"length\":5000,\"precision\":0,\"scale\":0,\"successorElement\":\"3ec07702-454f-4b55-a976-17e95b439c5b\"}}}",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "ashpackage"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "SalesReps" : {
+        "definitions" : {
+          "SalesReps" : {
+            "kind" : "entity",
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "elements" : {
+              "ID" : {
+                "@EndUserText.label" : "ID",
+                "type" : "cds.String",
+                "length" : 5000,
+                "key" : true
+              },
+              "First Name" : {
+                "@EndUserText.label" : "First Name",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Last Name" : {
+                "@EndUserText.label" : "Last Name",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Full Name" : {
+                "@EndUserText.label" : "Full Name",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Full Name Space" : {
+                "@EndUserText.label" : "Full Name Space",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Org Unit" : {
+                "@EndUserText.label" : "Org Unit",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Column_1" : {
+                "@EndUserText.label" : "Column 1",
+                "type" : "cds.String",
+                "length" : 100
+              }
+            },
+            "@EndUserText.label" : "SalesReps",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@DataWarehouse.dataSource.schema" : "ASHWINI#WRG_2FW57AE5L09Y0OEV",
+            "@DataWarehouse.dataSource.entity" : "sap.dataset.conf_0559f0fe-7e06-4a71-b85c-ff1bd123e0bf_view",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        },
+        "importExportProperties" : {
+          "sharedSpaces" : "ASHWINI_DELTA"
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

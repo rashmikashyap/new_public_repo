@@ -1,0 +1,8 @@
+{
+  "id" : "entity:ASHWINI\\BP_TAR",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

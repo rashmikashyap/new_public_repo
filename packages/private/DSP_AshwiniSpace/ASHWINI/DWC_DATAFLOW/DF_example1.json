@@ -1,0 +1,16 @@
+{
+  "id" : "sap.dis.dataflow:ASHWINI\\DF_example1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\Table_12",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\SalesReps",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}
