@@ -1,0 +1,28 @@
+{
+  "info" : null,
+  "objects" : [ {
+    "objectType" : "FOLDER",
+    "objectName" : "SPACE_VIEWER",
+    "objectId" : "sap.dwc.space:SPACE_VIEWER",
+    "parentResId" : "SPACE",
+    "isSampleRelated" : false,
+    "name" : "SPACE_VIEWER",
+    "description" : "Space_Viewer",
+    "objectInfo" : null,
+    "dependents" : [ ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "Table_1",
+    "objectId" : "entity:SPACE_VIEWER\\Table_1",
+    "parentResId" : "sap.dwc.space:SPACE_VIEWER",
+    "isSampleRelated" : false,
+    "name" : "Table_1",
+    "description" : "Table 1",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:SPACE_VIEWER" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  } ]
+}

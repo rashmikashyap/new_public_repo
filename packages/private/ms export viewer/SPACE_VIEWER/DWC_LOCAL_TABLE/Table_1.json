@@ -1,0 +1,8 @@
+{
+  "id" : "entity:SPACE_VIEWER\\Table_1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:SPACE_VIEWER",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

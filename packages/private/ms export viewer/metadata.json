@@ -1,0 +1,175 @@
+{
+  "item" : {
+    "allowsSubscriptions" : false,
+    "lastChangedByUserId" : null,
+    "licenseTagName" : "",
+    "publisherName" : null,
+    "parentItemId" : 0,
+    "globalItemId" : "sac-orcamaster-94098",
+    "itemId" : 94098,
+    "updated" : 1714138441013,
+    "stateName" : "ACTIVE",
+    "created" : 1714138441013,
+    "lastChangedByTenantUuid" : null,
+    "lastUpdatedBy" : null,
+    "creatorUserId" : null,
+    "ownerDetails" : {
+      "oemIdFromList" : null,
+      "tenantType" : null,
+      "tenantLandscape" : "sac-orcamaster",
+      "tenantUuid" : "25398E6F-68BD-4049-A99A-0ECEC64EF432",
+      "erpNumber" : null,
+      "oemList" : null,
+      "tenantUrl" : null,
+      "userId" : "MS02",
+      "userName" : null,
+      "id" : 0
+    },
+    "creatorTenantUuid" : null,
+    "type" : "PACKAGE",
+    "provider" : "DWC",
+    "metadata" : {
+      "canBeRestricted" : null,
+      "purchaseUrl" : null,
+      "isFree" : null
+    }
+  },
+  "waveItems" : [ {
+    "includeAuditData" : false,
+    "globalWaveItemId" : "sac-orcamaster-98716",
+    "waveItemId" : 98716,
+    "waveVersion" : "20241100",
+    "itemId" : 94098,
+    "updated" : 1714138441013,
+    "sizeBytes" : 1212,
+    "waveItemFields" : [ {
+      "fieldType" : "summary",
+      "fieldI18n" : [ {
+        "langCode" : "en",
+        "value" : "ms export viewer"
+      } ],
+      "description" : null,
+      "lastUpdated" : 1714138441013
+    }, {
+      "fieldType" : "name",
+      "fieldI18n" : [ {
+        "langCode" : "en",
+        "value" : "ms export viewer"
+      } ],
+      "description" : null,
+      "lastUpdated" : 1714138441013
+    }, {
+      "fieldType" : "description",
+      "fieldI18n" : [ {
+        "langCode" : "en",
+        "value" : "ms export viewer"
+      } ],
+      "description" : null,
+      "lastUpdated" : 1714138441013
+    } ],
+    "packageVersion" : null,
+    "created" : 1714138441013,
+    "artifactRootUri" : "packages/private/94098/98716",
+    "ownerDetails" : {
+      "oemIdFromList" : null,
+      "tenantType" : null,
+      "tenantLandscape" : "sac-orcamaster",
+      "tenantUuid" : "25398E6F-68BD-4049-A99A-0ECEC64EF432",
+      "erpNumber" : null,
+      "oemList" : null,
+      "tenantUrl" : null,
+      "userId" : "MS02",
+      "userName" : null,
+      "id" : 0
+    },
+    "expires" : null,
+    "waveItemContents" : [ {
+      "contentType" : "CMSCTPKG_DETAILINFO",
+      "contentId" : "content_1",
+      "waveItemId" : 98716,
+      "updated" : 1714138441013,
+      "sizeBytes" : 257,
+      "created" : 1714138441013,
+      "elementCount" : 0,
+      "sourceId" : "CMSCTPKG_DETAILINFO",
+      "createdBy" : 1524980,
+      "updatedBy" : 1524980,
+      "description" : "CMSCTPKG_DETAILINFO",
+      "name" : "CMSCTPKG_DETAILINFO",
+      "metadata" : null
+    }, {
+      "contentType" : "FOLDER",
+      "contentId" : "content_2",
+      "waveItemId" : 98716,
+      "updated" : 1714138441013,
+      "sizeBytes" : 73,
+      "created" : 1714138441013,
+      "elementCount" : 0,
+      "sourceId" : "sap.dwc.space:SPACE_VIEWER",
+      "createdBy" : 1524980,
+      "updatedBy" : 1524980,
+      "description" : "Space_Viewer",
+      "name" : "SPACE_VIEWER",
+      "metadata" : "{\"provider\":\"DWC\",\"isHidden\":false,\"hasData\":false,\"hasChildren\":true,\"parentId\":\"SPACE\",\"ancestorPath\":null,\"isDependencySelected\":false,\"ownerType\":null,\"hasSecurityInfo\":false,\"supportDataRepo\":false,\"spaceId\":null,\"dependents\":[]}"
+    }, {
+      "contentType" : "CMSCTPKG_TABLEDATA",
+      "contentId" : "content_2_data_0",
+      "waveItemId" : 98716,
+      "updated" : 1714138441013,
+      "sizeBytes" : 431,
+      "created" : 1714138441013,
+      "elementCount" : 1,
+      "sourceId" : "sap.dwc.space:SPACE_VIEWER",
+      "createdBy" : 1524980,
+      "updatedBy" : 1524980,
+      "description" : "Space_Viewer",
+      "name" : "SPACE_VIEWER",
+      "metadata" : "{\"totalChunks\":1}"
+    }, {
+      "contentType" : "DWC_LOCAL_TABLE",
+      "contentId" : "content_3",
+      "waveItemId" : 98716,
+      "updated" : 1714138441013,
+      "sizeBytes" : 121,
+      "created" : 1714138441013,
+      "elementCount" : 0,
+      "sourceId" : "entity:SPACE_VIEWER\\Table_1",
+      "createdBy" : 1524980,
+      "updatedBy" : 1524980,
+      "description" : "Table 1",
+      "name" : "Table_1",
+      "metadata" : "{\"provider\":\"DWC\",\"isHidden\":false,\"hasData\":false,\"hasChildren\":false,\"parentId\":\"sap.dwc.space:SPACE_VIEWER\",\"ancestorPath\":null,\"isDependencySelected\":true,\"ownerType\":null,\"hasSecurityInfo\":false,\"supportDataRepo\":false,\"spaceId\":null,\"dependents\":[]}"
+    }, {
+      "contentType" : "CMSCTPKG_TABLEDATA",
+      "contentId" : "content_3_data_0",
+      "waveItemId" : 98716,
+      "updated" : 1714138441013,
+      "sizeBytes" : 330,
+      "created" : 1714138441013,
+      "elementCount" : 1,
+      "sourceId" : "entity:SPACE_VIEWER\\Table_1",
+      "createdBy" : 1524980,
+      "updatedBy" : 1524980,
+      "description" : "Table 1",
+      "name" : "Table_1",
+      "metadata" : "{\"totalChunks\":1}"
+    } ],
+    "state" : "ACTIVE"
+  } ],
+  "permissions" : [ ],
+  "globalParentId" : null,
+  "parentCategoryName" : null,
+  "isPublic" : false,
+  "tags" : [ ],
+  "creationDate" : 1714621561660,
+  "contentStoreMap" : {
+    "content_1/metadata" : "packages/private/ms export viewer/packageMetadata.json",
+    "content_2_data_0/content_2_data_01" : "packages/private/ms export viewer/SPACE_VIEWER/CMSCTPKG_TABLEDATA/SPACE_VIEWER_content_2_data_01.json",
+    "content_2_data_0/metadata" : "packages/private/ms export viewer/SPACE_VIEWER/CMSCTPKG_TABLEDATA/SPACE_VIEWER_metadata.json",
+    "content_3_data_0/content_3_data_01" : "packages/private/ms export viewer/SPACE_VIEWER/CMSCTPKG_TABLEDATA/Table_1_content_3_data_01.json",
+    "content_3_data_0/metadata" : "packages/private/ms export viewer/SPACE_VIEWER/CMSCTPKG_TABLEDATA/Table_1_metadata.json",
+    "content_3/metadata" : "packages/private/ms export viewer/SPACE_VIEWER/DWC_LOCAL_TABLE/Table_1.json",
+    "content_2/metadata" : "packages/private/ms export viewer/SPACE_VIEWER/FOLDER/SPACE_VIEWER.json"
+  },
+  "checksum" : "C+aE3q8ZXQ2fiQMAjY2iLw=="
+}

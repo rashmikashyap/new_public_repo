@@ -1,0 +1,50 @@
+{
+  "SPACE_VIEWER" : {
+    "##spaceContent" : {
+      "spaces" : {
+        "SPACE_VIEWER" : {
+          "version" : "1.0.4",
+          "label" : "Space_Viewer",
+          "assignedStorage" : 2000000000,
+          "assignedRam" : 1000000000,
+          "enableDataLake" : false,
+          "priority" : 5,
+          "allowConsumption" : false,
+          "auditing" : {
+            "dppRead" : {
+              "retentionPeriod" : 7,
+              "isAuditPolicyActive" : false
+            },
+            "dppChange" : {
+              "retentionPeriod" : 7,
+              "isAuditPolicyActive" : false
+            }
+          },
+          "members" : [ ],
+          "hdicontainers" : { },
+          "dbusers" : { },
+          "workloadClass" : {
+            "totalStatementMemoryLimit" : {
+              "value" : null,
+              "unit" : "Gigabyte"
+            },
+            "totalStatementThreadLimit" : {
+              "value" : null,
+              "unit" : "Counter"
+            }
+          },
+          "workloadType" : "default",
+          "largeSystem" : {
+            "lsHdlFilesContainer" : {
+              "isEnable" : false
+            },
+            "lsSparkTenant" : {
+              "isEnable" : false
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.11.10"
+  }
+}
