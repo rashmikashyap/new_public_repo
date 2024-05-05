@@ -1,0 +1,29 @@
+{
+  "DWCE2E_SPACE_A" : {
+    "objects" : {
+      "FR0_Package_1" : {
+        "repositoryPackages" : {
+          "FR0_Package_1" : {
+            "requires" : [ ],
+            "_kind" : "repositoryPackage",
+            "_packageProperties" : {
+              "@EndUserText.label" : "FR0 Package 1",
+              "purpose" : "",
+              "contentDelivery" : {
+                "category" : "myContent",
+                "semantic_version" : "0.0.1"
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : "FR0_Replication_Flow_1",
+                "sap.package.assignment" : [ "FR0_Replication_Flow_1", "orders", "orders_Delta", "sap_hxmanalytics_HDL_FILES" ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.11.12"
+  }
+}

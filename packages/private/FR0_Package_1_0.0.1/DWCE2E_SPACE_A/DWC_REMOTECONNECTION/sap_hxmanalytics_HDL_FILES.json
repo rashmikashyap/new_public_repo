@@ -1,0 +1,12 @@
+{
+  "id" : "repository.remote:DWCE2E_SPACE_A\\sap_hxmanalytics_HDL_FILES",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:DWCE2E_SPACE_A",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "repositoryPackage:DWCE2E_SPACE_A\\FR0_Package_1",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

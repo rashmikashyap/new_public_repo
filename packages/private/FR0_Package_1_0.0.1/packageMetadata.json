@@ -1,0 +1,76 @@
+{
+  "info" : null,
+  "objects" : [ {
+    "objectType" : "FOLDER",
+    "objectName" : "DWCE2E_SPACE_A",
+    "objectId" : "sap.dwc.space:DWCE2E_SPACE_A",
+    "parentResId" : "SPACE",
+    "isSampleRelated" : false,
+    "name" : "DWCE2E_SPACE_A",
+    "description" : "DWCE2E_SPACE_A",
+    "objectInfo" : null,
+    "dependents" : [ "repositoryPackage:DWCE2E_SPACE_A\\FR0_Package_1" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_REPLICATIONFLOW",
+    "objectName" : "FR0_Replication_Flow_1",
+    "objectId" : "sap.dis.replicationflow:DWCE2E_SPACE_A\\FR0_Replication_Flow_1",
+    "parentResId" : "sap.dwc.space:DWCE2E_SPACE_A",
+    "isSampleRelated" : false,
+    "name" : "FR0_Replication_Flow_1",
+    "description" : "FR0 Replication Flow 1",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:DWCE2E_SPACE_A", "repository.remote:DWCE2E_SPACE_A\\sap_hxmanalytics_HDL_FILES", "repositoryPackage:DWCE2E_SPACE_A\\FR0_Package_1" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "orders",
+    "objectId" : "entity:DWCE2E_SPACE_A\\orders",
+    "parentResId" : "sap.dwc.space:DWCE2E_SPACE_A",
+    "isSampleRelated" : false,
+    "name" : "orders",
+    "description" : "orders",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:DWCE2E_SPACE_A", "entity:DWCE2E_SPACE_A\\orders_Delta", "repositoryPackage:DWCE2E_SPACE_A\\FR0_Package_1" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "orders_Delta",
+    "objectId" : "entity:DWCE2E_SPACE_A\\orders_Delta",
+    "parentResId" : "sap.dwc.space:DWCE2E_SPACE_A",
+    "isSampleRelated" : false,
+    "name" : "orders_Delta",
+    "description" : "orders",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:DWCE2E_SPACE_A", "entity:DWCE2E_SPACE_A\\orders", "repositoryPackage:DWCE2E_SPACE_A\\FR0_Package_1" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_REMOTECONNECTION",
+    "objectName" : "sap_hxmanalytics_HDL_FILES",
+    "objectId" : "repository.remote:DWCE2E_SPACE_A\\sap_hxmanalytics_HDL_FILES",
+    "parentResId" : "sap.dwc.space:DWCE2E_SPACE_A",
+    "isSampleRelated" : false,
+    "name" : "sap_hxmanalytics_HDL_FILES",
+    "description" : "ucl-poc-fro-gguiarku (HDL_FILES)",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:DWCE2E_SPACE_A", "repositoryPackage:DWCE2E_SPACE_A\\FR0_Package_1" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_REPOSITORY_PACKAGE",
+    "objectName" : "FR0_Package_1",
+    "objectId" : "repositoryPackage:DWCE2E_SPACE_A\\FR0_Package_1",
+    "parentResId" : "sap.dwc.space:DWCE2E_SPACE_A",
+    "isSampleRelated" : false,
+    "name" : "FR0_Package_1",
+    "description" : "FR0 Package 1",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:DWCE2E_SPACE_A" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  } ]
+}

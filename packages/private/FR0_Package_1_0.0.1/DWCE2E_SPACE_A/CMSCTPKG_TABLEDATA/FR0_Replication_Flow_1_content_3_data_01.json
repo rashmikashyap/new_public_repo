@@ -1,0 +1,208 @@
+{
+  "DWCE2E_SPACE_A" : {
+    "objects" : {
+      "FR0_Replication_Flow_1" : {
+        "replicationflows" : {
+          "FR0_Replication_Flow_1" : {
+            "kind" : "sap.dis.replicationflow",
+            "@EndUserText.label" : "FR0 Replication Flow 1",
+            "contents" : {
+              "description" : "FR0_Replication_Flow_1",
+              "sourceSystem" : [ {
+                "connectionId" : "sap_hxmanalytics_HDL_FILES",
+                "connectionType" : "HDL_FILES",
+                "container" : "/_SYS_SAP_DSP_HANA_REMOTE_SOURCES%2FDWC_DWCE2E_SPACE_A.sap_hxmanalytics_HDL_FILES%2FS4DemoShare/schema1",
+                "maxConnections" : 10,
+                "metadata" : {
+                  "isSourceHDLFDeltashare" : true,
+                  "containerPathHDLFDeltashare" : "/_SYS_SAP_DSP_HANA_REMOTE_SOURCES/DWC_DWCE2E_SPACE_A.sap_hxmanalytics_HDL_FILES"
+                }
+              } ],
+              "targetSystem" : [ {
+                "connectionId" : "$DWC",
+                "connectionType" : "HANA",
+                "container" : "/DWCE2E_SPACE_A",
+                "maxConnections" : 10,
+                "metadata" : {
+                  "connectionMetaschema" : {
+                    "sources" : [ "SAP" ]
+                  }
+                }
+              } ],
+              "vTypes" : {
+                "scalar" : {
+                  "string_5000" : {
+                    "name" : "string_5000",
+                    "description" : "String(5000)",
+                    "vflow.type" : "scalar",
+                    "template" : "string",
+                    "value.length" : 5000
+                  },
+                  "decimal_12_2" : {
+                    "name" : "decimal_12_2",
+                    "description" : "Decimal(12,2)",
+                    "vflow.type" : "scalar",
+                    "template" : "decimal",
+                    "value.precision" : 12,
+                    "value.scale" : 2
+                  },
+                  "string_1" : {
+                    "name" : "string_1",
+                    "description" : "String(1)",
+                    "vflow.type" : "scalar",
+                    "template" : "string",
+                    "value.length" : 1
+                  }
+                }
+              },
+              "replicationTasks" : [ {
+                "name" : "replicationtask1",
+                "loadType" : "REPLICATE",
+                "priority" : 50,
+                "truncate" : false,
+                "sourceObject" : {
+                  "name" : "orders",
+                  "definition" : {
+                    "columns" : [ {
+                      "name" : "o_orderkey",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.int64"
+                    }, {
+                      "name" : "o_custkey",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.int32"
+                    }, {
+                      "name" : "o_orderstatus",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    }, {
+                      "name" : "o_totalprice",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.decimal_12_2"
+                    }, {
+                      "name" : "o_orderdate",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.date"
+                    }, {
+                      "name" : "o_orderpriority",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    }, {
+                      "name" : "o_clerk",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    }, {
+                      "name" : "o_shippriority",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.int32"
+                    }, {
+                      "name" : "o_comment",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    } ]
+                  },
+                  "metadata" : { }
+                },
+                "targetObject" : {
+                  "name" : "orders_Delta",
+                  "definition" : {
+                    "columns" : [ {
+                      "name" : "o_orderkey",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.int64",
+                      "key" : true
+                    }, {
+                      "name" : "o_custkey",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.int32"
+                    }, {
+                      "name" : "o_orderstatus",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    }, {
+                      "name" : "o_totalprice",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.decimal_12_2"
+                    }, {
+                      "name" : "o_orderdate",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.date"
+                    }, {
+                      "name" : "o_orderpriority",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    }, {
+                      "name" : "o_clerk",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    }, {
+                      "name" : "o_shippriority",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.int32"
+                    }, {
+                      "name" : "o_comment",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_5000"
+                    }, {
+                      "name" : "Change_Type",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "$DYNAMIC.string_1"
+                    }, {
+                      "name" : "Change_Date",
+                      "vflow.type" : "scalar",
+                      "vtype-ID" : "com.sap.core.timestamp"
+                    } ]
+                  },
+                  "metadata" : {
+                    "isNew" : false
+                  },
+                  "properties" : {
+                    "com.sap.datasuite.cdc.mode.column" : "Change_Type",
+                    "com.sap.datasuite.cdc.timestamp.column" : "Change_Date",
+                    "com.sap.datasuite.tableCategory" : "DELTA"
+                  },
+                  "businessName" : "orders"
+                },
+                "transform" : {
+                  "name" : "K",
+                  "attributeMappings" : [ ],
+                  "filters" : [ ]
+                },
+                "deltaCheckInterval" : 0
+              } ],
+              "replicationTaskSetting" : { }
+            },
+            "sources" : { },
+            "targets" : {
+              "orders_Delta" : {
+                "elements" : {
+                  "o_orderkey" : { },
+                  "o_custkey" : { },
+                  "o_orderstatus" : { },
+                  "o_totalprice" : { },
+                  "o_orderdate" : { },
+                  "o_orderpriority" : { },
+                  "o_clerk" : { },
+                  "o_shippriority" : { },
+                  "o_comment" : { },
+                  "Change_Type" : { },
+                  "Change_Date" : { }
+                }
+              }
+            },
+            "connections" : {
+              "sap_hxmanalytics_HDL_FILES" : { }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "FR0_Package_1"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.11.12"
+  }
+}

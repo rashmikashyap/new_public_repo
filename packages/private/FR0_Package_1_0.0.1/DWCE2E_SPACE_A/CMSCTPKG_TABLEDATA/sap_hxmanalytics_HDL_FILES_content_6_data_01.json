@@ -1,0 +1,38 @@
+{
+  "DWCE2E_SPACE_A" : {
+    "objects" : {
+      "sap_hxmanalytics_HDL_FILES" : {
+        "objects" : {
+          "sap_hxmanalytics_HDL_FILES" : {
+            "businessName" : "ucl-poc-fro-gguiarku (HDL_FILES)",
+            "name" : "sap_hxmanalytics_HDL_FILES",
+            "configuration" : { },
+            "typeId" : "HDL_FILES",
+            "isUclSpaceConnection" : true,
+            "uclSystemTenantId" : "57edfa50-c17f-4cd0-9f74-00f58bba0065",
+            "uclFormationTypeId" : "c592fc1f-1410-4d1f-a2ad-2de5d6ab4941",
+            "uclApplicationNamespace" : "sap.hxm-analytics",
+            "capabilityReplicationflowTarget" : "false",
+            "capabilityReplicationflowSource" : "true",
+            "capabilityDataflowSource" : "false",
+            "adapterName" : "file",
+            "remoteSourceName" : "DWC_DWCE2E_SPACE_A.sap_hxmanalytics_HDL_FILES",
+            "kind" : "repository.remote",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "FR0_Package_1"
+            },
+            "isLogical" : true,
+            "acnInfoUclSharedConnection" : {
+              "applicationNamespace" : "sap.hxm-analytics",
+              "typeId" : "HDL_FILES"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.11.12"
+  }
+}

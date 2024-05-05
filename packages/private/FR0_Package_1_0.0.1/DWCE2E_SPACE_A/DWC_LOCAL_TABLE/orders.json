@@ -1,0 +1,16 @@
+{
+  "id" : "entity:DWCE2E_SPACE_A\\orders",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:DWCE2E_SPACE_A",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:DWCE2E_SPACE_A\\orders_Delta",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "repositoryPackage:DWCE2E_SPACE_A\\FR0_Package_1",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

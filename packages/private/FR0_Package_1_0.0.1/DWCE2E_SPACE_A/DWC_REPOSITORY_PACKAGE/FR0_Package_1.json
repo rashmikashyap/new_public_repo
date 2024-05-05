@@ -1,0 +1,8 @@
+{
+  "id" : "repositoryPackage:DWCE2E_SPACE_A\\FR0_Package_1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:DWCE2E_SPACE_A",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

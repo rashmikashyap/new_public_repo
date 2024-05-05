@@ -1,0 +1,104 @@
+{
+  "DWCE2E_SPACE_A" : {
+    "objects" : {
+      "orders_Delta" : {
+        "definitions" : {
+          "orders_Delta" : {
+            "kind" : "entity",
+            "elements" : {
+              "o_orderkey" : {
+                "@EndUserText.label" : "o_orderkey",
+                "type" : "cds.Integer64",
+                "key" : true,
+                "notNull" : true
+              },
+              "o_custkey" : {
+                "@EndUserText.label" : "o_custkey",
+                "type" : "cds.Integer"
+              },
+              "o_orderstatus" : {
+                "@EndUserText.label" : "o_orderstatus",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "o_totalprice" : {
+                "@EndUserText.label" : "o_totalprice",
+                "type" : "cds.Decimal",
+                "precision" : 12,
+                "scale" : 2
+              },
+              "o_orderdate" : {
+                "@EndUserText.label" : "o_orderdate",
+                "type" : "cds.Date"
+              },
+              "o_orderpriority" : {
+                "@EndUserText.label" : "o_orderpriority",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "o_clerk" : {
+                "@EndUserText.label" : "o_clerk",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "o_shippriority" : {
+                "@EndUserText.label" : "o_shippriority",
+                "type" : "cds.Integer"
+              },
+              "o_comment" : {
+                "@EndUserText.label" : "o_comment",
+                "type" : "cds.String",
+                "length" : 5000
+              },
+              "Change_Type" : {
+                "@EndUserText.label" : "Change_Type",
+                "type" : "cds.String",
+                "notNull" : true,
+                "length" : 1,
+                "default" : {
+                  "val" : "I"
+                }
+              },
+              "Change_Date" : {
+                "@EndUserText.label" : "Change_Date",
+                "type" : "cds.Timestamp",
+                "notNull" : true,
+                "default" : {
+                  "func" : "CURRENT_UTCTIMESTAMP"
+                }
+              }
+            },
+            "@EndUserText.label" : "orders",
+            "@DataWarehouse.delta" : {
+              "type" : {
+                "#" : "UPSERT"
+              },
+              "dateTimeElement" : {
+                "=" : "Change_Date"
+              },
+              "modeElement" : {
+                "=" : "Change_Type"
+              }
+            },
+            "@DataWarehouse.enclosingObject" : "orders",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            }, {
+              "#" : "SQL_DATA_SOURCE"
+            } ],
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              },
+              "#repositoryPackage" : "FR0_Package_1"
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.11.12"
+  }
+}
