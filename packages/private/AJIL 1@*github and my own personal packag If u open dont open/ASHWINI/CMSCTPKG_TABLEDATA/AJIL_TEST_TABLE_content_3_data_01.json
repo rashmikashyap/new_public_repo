@@ -1,0 +1,38 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "AJIL_TEST_TABLE" : {
+        "definitions" : {
+          "AJIL_TEST_TABLE" : {
+            "kind" : "entity",
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "elements" : {
+              "Column_1" : {
+                "@EndUserText.label" : "Column 1",
+                "type" : "cds.String",
+                "length" : 100
+              },
+              "Column_2" : {
+                "@EndUserText.label" : "Column 2",
+                "type" : "cds.String",
+                "length" : 100
+              }
+            },
+            "@EndUserText.label" : "AJIL TEST TABLE",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

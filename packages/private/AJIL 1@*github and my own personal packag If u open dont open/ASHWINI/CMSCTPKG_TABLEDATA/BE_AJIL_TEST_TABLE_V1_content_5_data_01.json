@@ -1,0 +1,38 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "BE_AJIL_TEST_TABLE_V1" : {
+        "definitions" : {
+          "BE_AJIL_TEST_TABLE_V1" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "AJIL TEST TABLE: V1 Initial",
+            "@cds.persistence.skip" : true,
+            "@ObjectModel.semanticObject" : {
+              "=" : "BE_AJIL_TEST_TABLE"
+            },
+            "@ObjectModel.modelingPattern" : "#_DWC_BUSINESS_ENTITY_VARIANT",
+            "@ObjectModel.supportedCapabilities" : [ "#_DWC_BUSINESS_ENTITY_VARIANT" ],
+            "@AccessControl.authorizationCheck" : "#NOT_REQUIRED",
+            "@DataWarehouse.dataAccessControl.authorizationScenarioUsage" : [ ],
+            "@ObjectModel.alternativeKey" : [ ],
+            "elements" : { },
+            "query" : {
+              "SELECT" : {
+                "from" : {
+                  "ref" : [ "AJIL_TEST_TABLE" ]
+                },
+                "columns" : [ ]
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

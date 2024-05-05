@@ -1,0 +1,8 @@
+{
+  "id" : "entity:ASHWINI\\AJIL_TEST_TABLE",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

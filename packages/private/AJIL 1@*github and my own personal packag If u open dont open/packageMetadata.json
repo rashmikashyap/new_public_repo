@@ -1,0 +1,52 @@
+{
+  "info" : null,
+  "objects" : [ {
+    "objectType" : "FOLDER",
+    "objectName" : "ASHWINI",
+    "objectId" : "sap.dwc.space:ASHWINI",
+    "parentResId" : "SPACE",
+    "isSampleRelated" : false,
+    "name" : "ASHWINI",
+    "description" : "ashwini",
+    "objectInfo" : null,
+    "dependents" : [ ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "AJIL_TEST_TABLE",
+    "objectId" : "entity:ASHWINI\\AJIL_TEST_TABLE",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "AJIL_TEST_TABLE",
+    "description" : "AJIL TEST TABLE",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_BUSINESS_ENTITY",
+    "objectName" : "BE_AJIL_TEST_TABLE",
+    "objectId" : "sap.dwc.businessEntity:ASHWINI\\BE_AJIL_TEST_TABLE",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "BE_AJIL_TEST_TABLE",
+    "description" : "AJIL TEST TABLE",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI", "entity:ASHWINI\\AJIL_TEST_TABLE", "sap.dwc.businessEntityVariant:ASHWINI\\BE_AJIL_TEST_TABLE_V1" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_BUSINESS_ENTITY_VARIANT",
+    "objectName" : "BE_AJIL_TEST_TABLE_V1",
+    "objectId" : "sap.dwc.businessEntityVariant:ASHWINI\\BE_AJIL_TEST_TABLE_V1",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "BE_AJIL_TEST_TABLE_V1",
+    "description" : "AJIL TEST TABLE: V1 Initial",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI", "entity:ASHWINI\\AJIL_TEST_TABLE", "sap.dwc.businessEntity:ASHWINI\\BE_AJIL_TEST_TABLE" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  } ]
+}

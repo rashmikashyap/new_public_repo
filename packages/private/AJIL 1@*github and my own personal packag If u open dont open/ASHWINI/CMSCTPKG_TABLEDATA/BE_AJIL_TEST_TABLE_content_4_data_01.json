@@ -1,0 +1,69 @@
+{
+  "ASHWINI" : {
+    "objects" : {
+      "BE_AJIL_TEST_TABLE" : {
+        "definitions" : {
+          "BE_AJIL_TEST_TABLE" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "AJIL TEST TABLE",
+            "@cds.persistence.skip" : true,
+            "@ObjectModel.semanticObject" : {
+              "=" : "BE_AJIL_TEST_TABLE"
+            },
+            "@ObjectModel.modelingPattern" : "#_DWC_BUSINESS_ENTITY",
+            "@ObjectModel.supportedCapabilities" : [ "#_DWC_BUSINESS_ENTITY" ],
+            "@Analytics.dataCategory" : {
+              "#" : "DIMENSION"
+            },
+            "@AccessControl.authorizationCheck" : "#NOT_REQUIRED",
+            "@DataWarehouse.dataAccessControl.authorizationScenarioUsage" : [ ],
+            "@ObjectModel.alternativeKey" : [ ],
+            "elements" : { },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        },
+        "businessLayerDefinitions" : {
+          "BE_AJIL_TEST_TABLE" : {
+            "AllowPublicAccess" : true,
+            "Associations" : [ ],
+            "AuthorizationScenarioAssignment" : [ ],
+            "Hierarchies" : [ ],
+            "Keys" : [ ],
+            "StandardBusinessEntityVersion" : {
+              "VersionTechnicalTitle" : "BE_AJIL_TEST_TABLE_V1"
+            },
+            "TargetPackage" : {
+              "PackageTechnicalTitle" : "0"
+            },
+            "TechnicalTitle" : "BE_AJIL_TEST_TABLE",
+            "Title" : "AJIL TEST TABLE",
+            "Type" : 3,
+            "Versions" : [ {
+              "AssociationKeyMapping" : [ ],
+              "Attributes" : [ ],
+              "AuthorizationScenarioRestrictionContexts" : [ ],
+              "Description" : "Initial Version",
+              "HierarchyKeyMemberMapping" : [ ],
+              "HierarchySourceMapping" : [ ],
+              "InputParameters" : [ ],
+              "KeyMapping" : [ ],
+              "Measures" : [ ],
+              "SourceSpaceID" : "ASHWINI",
+              "SourceTechnicalName" : "AJIL_TEST_TABLE",
+              "Status" : 3,
+              "Title" : "Initial",
+              "VersionNumber" : 1,
+              "VersionTechnicalTitle" : "BE_AJIL_TEST_TABLE_V1",
+              "IsSelectedVersion" : true
+            } ]
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.10.19"
+  }
+}

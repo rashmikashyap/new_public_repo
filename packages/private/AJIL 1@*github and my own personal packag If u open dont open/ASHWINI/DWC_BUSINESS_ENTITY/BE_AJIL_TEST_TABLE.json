@@ -1,0 +1,16 @@
+{
+  "id" : "sap.dwc.businessEntity:ASHWINI\\BE_AJIL_TEST_TABLE",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:ASHWINI",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:ASHWINI\\AJIL_TEST_TABLE",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dwc.businessEntityVariant:ASHWINI\\BE_AJIL_TEST_TABLE_V1",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}
