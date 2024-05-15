@@ -1,0 +1,421 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:sap.epm:Date_703i1904sd",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "sap.epm:Date_703i1904sd",
+    "type" : "TimeHANA",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "sap.epm",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : false,
+      "multiLangEnabled" : false,
+      "showOrphans" : false,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "useSharedTimeTable" : true,
+      "emptyValueIsNull" : false,
+      "exposeMdsAggregation" : true,
+      "useMetadataBasedGeneration" : true,
+      "hasCustomTimeMembers" : false
+    },
+    "description" : "Date",
+    "properties" : [ {
+      "property" : "DATE",
+      "propertyType" : "",
+      "description" : "Date",
+      "descriptions" : {
+        "en" : "Date"
+      },
+      "sourceField" : "",
+      "semanticType" : "DATE_DAY",
+      "dataTypeName" : "DATE",
+      "scale" : 0,
+      "length" : 0,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : "DAY",
+      "tableColumnName" : "DATE"
+    }, {
+      "property" : "YEAR",
+      "propertyType" : "",
+      "description" : "Year",
+      "descriptions" : {
+        "en" : "Year"
+      },
+      "sourceField" : "",
+      "semanticType" : "DATE_YEAR",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 4,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : "YEARDESC",
+      "tableColumnName" : "YEAR"
+    }, {
+      "property" : "CALQUARTER",
+      "propertyType" : "",
+      "description" : "Calendar Quarter",
+      "descriptions" : {
+        "en" : "Calendar Quarter"
+      },
+      "sourceField" : "",
+      "semanticType" : "DATE_QUARTER",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 5,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : "QUARTERDESC",
+      "tableColumnName" : "CALQUARTER"
+    }, {
+      "property" : "CALMONTH",
+      "propertyType" : "ID",
+      "description" : "Calendar Month",
+      "descriptions" : {
+        "en" : "Calendar Month"
+      },
+      "sourceField" : "",
+      "semanticType" : "DATE_MONTH",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 6,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : "MONTHDESC",
+      "tableColumnName" : "CALMONTH"
+    }, {
+      "property" : "CALWEEK",
+      "propertyType" : "",
+      "description" : "Calendar Week",
+      "descriptions" : {
+        "en" : "Calendar Week"
+      },
+      "sourceField" : "",
+      "semanticType" : "DATE_WEEK",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 6,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : "WEEK",
+      "tableColumnName" : "CALWEEK"
+    }, {
+      "property" : "DATE2",
+      "propertyType" : "",
+      "description" : "Extended Date",
+      "descriptions" : {
+        "en" : "Extended Date"
+      },
+      "sourceField" : "",
+      "semanticType" : "DATE_DAY",
+      "dataTypeName" : "DATE",
+      "scale" : 0,
+      "length" : 0,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : "MONTHDAYDESC",
+      "tableColumnName" : "DATE2"
+    }, {
+      "property" : "YEARDESC",
+      "propertyType" : "",
+      "description" : "Year Description",
+      "descriptions" : {
+        "en" : "Year Description"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 4,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "YEARDESC"
+    }, {
+      "property" : "HALFYEARDESC",
+      "propertyType" : "",
+      "description" : "Half-Year",
+      "descriptions" : {
+        "en" : "Half-Year"
+      },
+      "sourceField" : "",
+      "semanticType" : "DATE_HALF_YEAR",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 2,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "HALFYEARDESC"
+    }, {
+      "property" : "QUARTERDESC",
+      "propertyType" : "",
+      "description" : "Quarter",
+      "descriptions" : {
+        "en" : "Quarter"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 2,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "QUARTERDESC"
+    }, {
+      "property" : "MONTHDESC",
+      "propertyType" : "",
+      "description" : "Month",
+      "descriptions" : {
+        "en" : "Month"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 3,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "MONTHDESC"
+    }, {
+      "property" : "WEEK",
+      "propertyType" : "",
+      "description" : "Week",
+      "descriptions" : {
+        "en" : "Week"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 5,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "WEEK"
+    }, {
+      "property" : "DAY",
+      "propertyType" : "",
+      "description" : "Day",
+      "descriptions" : {
+        "en" : "Day"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 2,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "DAY"
+    }, {
+      "property" : "MONTHDAYDESC",
+      "propertyType" : "",
+      "description" : "Extended Day",
+      "descriptions" : {
+        "en" : "Extended Day"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 7,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "MONTHDAYDESC"
+    }, {
+      "property" : "DAYNAME",
+      "propertyType" : "",
+      "description" : "Day Name",
+      "descriptions" : {
+        "en" : "Day Name"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 9,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "DAYNAME"
+    } ],
+    "hierarchies" : [ {
+      "hierarchy" : "YQM",
+      "hierarchyType" : "leveled",
+      "description" : "Year, Quarter, Month",
+      "descriptions" : {
+        "en" : "Year, Quarter, Month"
+      },
+      "hierarchyViewName" : "\"TENANT_7\".\"$MDX//TENANT_7/sap.epm:Date_703i1904sd//hier/YQM\"",
+      "isMandatory" : false,
+      "levels" : [ {
+        "level" : 1,
+        "property" : "YEAR",
+        "levelType" : "MDLEVEL_TYPE_TIME_YEARS"
+      }, {
+        "level" : 2,
+        "property" : "CALQUARTER",
+        "levelType" : "MDLEVEL_TYPE_TIME_QUARTERS"
+      }, {
+        "level" : 3,
+        "property" : "CALMONTH",
+        "levelType" : "MDLEVEL_TYPE_TIME_MONTHS"
+      } ],
+      "nodeStyle" : "NAME_PATH"
+    }, {
+      "hierarchy" : "YHQM",
+      "hierarchyType" : "leveled",
+      "description" : "Year, Half-Year, Quarter, Month",
+      "descriptions" : {
+        "en" : "Year, Half-Year, Quarter, Month"
+      },
+      "hierarchyViewName" : "\"TENANT_7\".\"$MDX//TENANT_7/sap.epm:Date_703i1904sd//hier/YHQM\"",
+      "isMandatory" : false,
+      "levels" : [ {
+        "level" : 1,
+        "property" : "YEAR",
+        "levelType" : "MDLEVEL_TYPE_TIME_YEARS"
+      }, {
+        "level" : 2,
+        "property" : "HALFYEARDESC",
+        "levelType" : "MDLEVEL_TYPE_TIME_HALF_YEAR"
+      }, {
+        "level" : 3,
+        "property" : "CALQUARTER",
+        "levelType" : "MDLEVEL_TYPE_TIME_QUARTERS"
+      }, {
+        "level" : 4,
+        "property" : "CALMONTH",
+        "levelType" : "MDLEVEL_TYPE_TIME_MONTHS"
+      } ],
+      "nodeStyle" : "NAME_PATH"
+    }, {
+      "hierarchy" : "YHM",
+      "hierarchyType" : "leveled",
+      "description" : "Year, Half-Year, Month",
+      "descriptions" : {
+        "en" : "Year, Half-Year, Month"
+      },
+      "hierarchyViewName" : "\"TENANT_7\".\"$MDX//TENANT_7/sap.epm:Date_703i1904sd//hier/YHM\"",
+      "isMandatory" : false,
+      "levels" : [ {
+        "level" : 1,
+        "property" : "YEAR",
+        "levelType" : "MDLEVEL_TYPE_TIME_YEARS"
+      }, {
+        "level" : 2,
+        "property" : "HALFYEARDESC",
+        "levelType" : "MDLEVEL_TYPE_TIME_HALF_YEAR"
+      }, {
+        "level" : 3,
+        "property" : "CALMONTH",
+        "levelType" : "MDLEVEL_TYPE_TIME_MONTHS"
+      } ],
+      "nodeStyle" : "NAME_PATH"
+    }, {
+      "hierarchy" : "YM",
+      "hierarchyType" : "leveled",
+      "description" : "Year, Month",
+      "descriptions" : {
+        "en" : "Year, Month"
+      },
+      "hierarchyViewName" : "\"TENANT_7\".\"$MDX//TENANT_7/sap.epm:Date_703i1904sd//hier/YM\"",
+      "isMandatory" : false,
+      "levels" : [ {
+        "level" : 1,
+        "property" : "YEAR",
+        "levelType" : "MDLEVEL_TYPE_TIME_YEARS"
+      }, {
+        "level" : 2,
+        "property" : "CALMONTH",
+        "levelType" : "MDLEVEL_TYPE_TIME_MONTHS"
+      } ],
+      "nodeStyle" : "NAME_PATH"
+    } ],
+    "memberCount" : 36,
+    "lastUpdated" : "2024-04-08T10:04:07.253Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_7",
+    "descriptions" : {
+      "en" : "Date"
+    },
+    "granularity" : "Month",
+    "isUserManaged" : false,
+    "minDate" : "2014/01/01",
+    "maxDate" : "2016/12/01",
+    "fromDate" : "2014/01/01",
+    "toDate" : "2016/12/31",
+    "fromYear" : "2014",
+    "toYear" : "2016",
+    "isFiscalYear" : false,
+    "fiscalConfig" : {
+      "enabled" : false
+    },
+    "timeConfig" : {
+      "enablePattern" : false
+    },
+    "name" : "Date_703i1904sd",
+    "dimensionId" : "Date_703i1904sd",
+    "defaultHierarchy" : "YHM",
+    "masterDataTableName" : "sap.fpa.services.modeling.dimension::Dimension.TIME",
+    "hierarchyCount" : 4,
+    "propertyCount" : 14,
+    "idProperties" : [ {
+      "property" : "CALMONTH",
+      "propertyType" : "ID",
+      "description" : "Calendar Month",
+      "descriptions" : {
+        "en" : "Calendar Month"
+      },
+      "sourceField" : "",
+      "semanticType" : "DATE_MONTH",
+      "dataTypeName" : "VARCHAR",
+      "scale" : 0,
+      "length" : 6,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : "MONTHDESC",
+      "tableColumnName" : "CALMONTH"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : true,
+    "isTemporary" : false
+  },
+  "status" : { },
+  "hasSecurityInfo" : false
+}

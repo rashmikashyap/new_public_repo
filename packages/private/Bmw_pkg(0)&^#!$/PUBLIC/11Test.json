@@ -1,0 +1,630 @@
+{
+  "objectType" : "RESOURCE",
+  "packageId" : "t.7",
+  "objectId" : "RESOURCE:t.7:3A6002068D5164608232E434191C84AB",
+  "isEmbedded" : false,
+  "content" : {
+    "resourceId" : "3A6002068D5164608232E434191C84AB",
+    "resourceType" : "STORY",
+    "ownerId" : "PUBLIC",
+    "ownerType" : "PUBLIC",
+    "parentResId" : "PUBLIC",
+    "updateCounter" : 0,
+    "origLangu" : "E",
+    "packageId" : "t.7",
+    "name" : "11Test",
+    "resourceSubtype" : "",
+    "mobileSupport" : 1,
+    "description" : "",
+    "createdBy" : "RASHMI",
+    "createdTime" : "2024-05-10T07:46:27.578Z",
+    "modifiedBy" : "RASHMI",
+    "modifiedTime" : "2024-05-10T07:46:27.578Z",
+    "createdByDisplayName" : "",
+    "modifiedByDisplayName" : "",
+    "objectId" : "STORY:t.7:3A6002068D5164608232E434191C84AB",
+    "access" : { },
+    "accessExt" : { },
+    "texts" : [ {
+      "langu" : "E",
+      "description" : ""
+    } ],
+    "views" : [ ],
+    "sourceResource" : {
+      "resourceId" : "",
+      "parentResId" : "",
+      "updateCounter" : 0,
+      "origLangu" : "E",
+      "packageId" : "t.7",
+      "name" : "",
+      "resourceSubtype" : "",
+      "mobileSupport" : 0,
+      "description" : "",
+      "createdBy" : "",
+      "createdTime" : "2024-05-15T08:13:32.806Z",
+      "modifiedBy" : "",
+      "modifiedTime" : "2024-05-15T08:13:32.806Z",
+      "createdByDisplayName" : "",
+      "modifiedByDisplayName" : "",
+      "access" : { },
+      "accessExt" : { },
+      "texts" : [ ],
+      "views" : [ ],
+      "sourceResource" : { },
+      "favResId" : "",
+      "shareResId" : "",
+      "ancestorResource" : [ ],
+      "ancestorPath" : [ ],
+      "auth" : null,
+      "canShare" : false,
+      "cdata" : null,
+      "storyContent" : null,
+      "metadata" : null,
+      "dependentObjects" : [ ],
+      "subObjects" : [ ],
+      "data" : null,
+      "featured" : 0,
+      "spaceId" : null
+    },
+    "favResId" : "",
+    "shareResId" : "",
+    "ancestorResource" : [ ],
+    "ancestorPath" : [ ],
+    "auth" : null,
+    "canShare" : false,
+    "cdata" : {
+      "storyId" : "STORY:t.7:3A6002068D5164608232E434191C84AB",
+      "title" : "11Test",
+      "description" : "",
+      "contentOptimized" : {
+        "version" : "4.2",
+        "entities" : [ {
+          "id" : "6e8b7961-9994-4bfd-bce6-e1ace133f6f5",
+          "name" : "New Infographic",
+          "type" : "story",
+          "data" : {
+            "id" : "6f4a624a-57dd-4707-a67b-38a93ce19b16",
+            "title" : "New Infographic",
+            "pages" : [ {
+              "title" : "Page_1",
+              "hidden" : false,
+              "definition" : {
+                "layoutId" : "4cc7413a-2211-42f2-b183-131f2827a020",
+                "type" : "CANVAS",
+                "behaviorMode" : "RESPONSIVE",
+                "fitPageToDevice" : true,
+                "snapToGrid" : false
+              },
+              "content" : {
+                "version" : "2.0",
+                "layouts" : [ {
+                  "id" : "4cc7413a-2211-42f2-b183-131f2827a020",
+                  "definition" : {
+                    "type" : "sap.lumira.story.layout.unified",
+                    "page" : {
+                      "sections" : [ {
+                        "sectionId" : "42367436-2141-4080-8784-936187770983",
+                        "widgets" : [ {
+                          "widgetId" : "22818848-5839-4112-b543-211053799061",
+                          "definition" : {
+                            "removeable" : true,
+                            "x" : 0,
+                            "y" : 0,
+                            "height" : 553,
+                            "width" : 1256,
+                            "angle" : 0,
+                            "backgroundColor" : "transparent",
+                            "border" : {
+                              "format" : "none",
+                              "style" : "solid",
+                              "color" : "rgb(88,89,91)",
+                              "thickness" : "1",
+                              "radius" : 0,
+                              "max_thickness" : "8"
+                            },
+                            "dynamicLayout" : {
+                              "top" : 0,
+                              "height" : 100,
+                              "bottom" : 0,
+                              "left" : 0,
+                              "width" : 100,
+                              "right" : 0,
+                              "leftUnit" : "pixel",
+                              "rightUnit" : "pixel",
+                              "widthUnit" : "auto",
+                              "topUnit" : "pixel",
+                              "bottomUnit" : "pixel",
+                              "heightUnit" : "auto",
+                              "minWidth" : 290,
+                              "minHeight" : 192,
+                              "minOccupiedWidth" : 290,
+                              "minOccupiedHeight" : 165,
+                              "fixedHeight" : false,
+                              "fixedWidth" : false
+                            }
+                          }
+                        } ],
+                        "definition" : {
+                          "title" : "Section",
+                          "width" : 1256,
+                          "height" : 553,
+                          "x" : 0,
+                          "y" : 0
+                        }
+                      } ],
+                      "definition" : {
+                        "backgroundColor" : "#FFFFFF",
+                        "type" : "CANVAS",
+                        "height" : 553,
+                        "width" : 1256
+                      }
+                    }
+                  }
+                }, {
+                  "id" : "16859610-2236-4579-b501-157015601028",
+                  "definition" : {
+                    "type" : "sap.lumira.story.layout.unified",
+                    "page" : {
+                      "sections" : [ {
+                        "sectionId" : "18574727-0022-4166-b127-615721243884",
+                        "widgets" : [ {
+                          "widgetId" : "26437155-7911-4407-8559-726701527501",
+                          "definition" : {
+                            "removeable" : true,
+                            "x" : 0,
+                            "y" : 0,
+                            "height" : 553,
+                            "width" : 1256,
+                            "angle" : 0,
+                            "backgroundColor" : "transparent",
+                            "border" : {
+                              "format" : "none",
+                              "style" : "solid",
+                              "color" : "rgb(88,89,91)",
+                              "thickness" : "1",
+                              "radius" : 0,
+                              "max_thickness" : "8"
+                            },
+                            "dynamicLayout" : {
+                              "top" : 0,
+                              "height" : 1016,
+                              "bottom" : 0,
+                              "left" : 0,
+                              "width" : 100,
+                              "right" : 0,
+                              "leftUnit" : "pixel",
+                              "rightUnit" : "auto",
+                              "widthUnit" : "percent",
+                              "topUnit" : "pixel",
+                              "bottomUnit" : "auto",
+                              "heightUnit" : "pixel",
+                              "minWidth" : 32,
+                              "minHeight" : 32,
+                              "minOccupiedWidth" : 1983,
+                              "minOccupiedHeight" : 1016,
+                              "fixedHeight" : false,
+                              "fixedWidth" : false,
+                              "laneRowId" : "40780993-7674-4880-9492-215578901822"
+                            }
+                          }
+                        } ],
+                        "definition" : {
+                          "title" : "Section",
+                          "width" : 1256,
+                          "height" : 553,
+                          "x" : 0,
+                          "y" : 0
+                        }
+                      } ],
+                      "definition" : {
+                        "backgroundColor" : "transparent",
+                        "type" : "CANVAS",
+                        "layoutType" : "RESPONSIVE",
+                        "width" : 1256,
+                        "height" : 553
+                      }
+                    }
+                  }
+                }, {
+                  "id" : "46089624-9421-4071-b939-349560302032",
+                  "definition" : {
+                    "type" : "sap.lumira.story.layout.unified",
+                    "page" : {
+                      "sections" : [ {
+                        "sectionId" : "30771783-8818-4467-b501-941577212045",
+                        "definition" : {
+                          "width" : 136,
+                          "height" : 26,
+                          "x" : 315,
+                          "y" : 135,
+                          "title" : "Section"
+                        },
+                        "widgets" : [ {
+                          "widgetId" : "17160526-2241-4023-9189-512512237372",
+                          "definition" : {
+                            "removeable" : true,
+                            "x" : 0,
+                            "y" : 0,
+                            "height" : 26,
+                            "width" : 136,
+                            "dynamicLayout" : {
+                              "top" : 9,
+                              "height" : 2,
+                              "bottom" : 0,
+                              "left" : 9,
+                              "width" : 4,
+                              "right" : 0,
+                              "leftUnit" : "grid",
+                              "rightUnit" : "auto",
+                              "widthUnit" : "grid",
+                              "topUnit" : "grid",
+                              "bottomUnit" : "auto",
+                              "heightUnit" : "grid",
+                              "minWidth" : 32,
+                              "minHeight" : 16,
+                              "minOccupiedWidth" : 451,
+                              "minOccupiedHeight" : 161,
+                              "fixedHeight" : false,
+                              "fixedWidth" : false
+                            }
+                          }
+                        } ]
+                      } ],
+                      "definition" : {
+                        "backgroundColor" : "transparent",
+                        "background" : {
+                          "type" : "color",
+                          "value" : "transparent"
+                        },
+                        "type" : "CANVAS",
+                        "layoutType" : "GRID",
+                        "width" : 1256,
+                        "height" : 553
+                      }
+                    }
+                  }
+                } ],
+                "widgets" : [ {
+                  "class" : "sap.fpa.ui.appBuilding.entity.responsiveContainer.ResponsiveContainerWidget",
+                  "definition" : {
+                    "entityId" : "29344866-3295-4455-b842-299400854116",
+                    "data" : { },
+                    "restrictedLayout" : true,
+                    "layoutIds" : [ "16859610-2236-4579-b501-157015601028" ]
+                  },
+                  "themeClasses" : [ ],
+                  "dimension" : {
+                    "width" : 496,
+                    "height" : 416
+                  },
+                  "serviceValidationHashes" : { },
+                  "id" : "22818848-5839-4112-b543-211053799061"
+                }, {
+                  "class" : "sap.fpa.ui.appBuilding.entity.lane.GridLaneWidget",
+                  "definition" : {
+                    "entityId" : "90339138-8243-4991-9612-225803050814",
+                    "data" : { },
+                    "layoutIds" : [ "46089624-9421-4071-b939-349560302032" ]
+                  },
+                  "themeClasses" : [ ],
+                  "dimension" : {
+                    "width" : 496,
+                    "height" : 416
+                  },
+                  "serviceValidationHashes" : { },
+                  "id" : "26437155-7911-4407-8559-726701527501"
+                }, {
+                  "id" : "17160526-2241-4023-9189-512512237372",
+                  "class" : "sap.fpa.ui.story.entity.text.TextWidget",
+                  "definition" : {
+                    "entityId" : "bdf2a20c-04f6-4252-a546-0e88eaa27c75",
+                    "text" : "<p>11Test</p>",
+                    "autoResize" : true,
+                    "defaultFont" : {
+                      "color" : "",
+                      "font-family" : ""
+                    },
+                    "isPlaceholder" : false,
+                    "placeholderMetatype" : "",
+                    "dtExcludeFormatting" : true,
+                    "dtMaxMembers" : 10,
+                    "useSmallHeight" : false
+                  },
+                  "themeClasses" : [ ],
+                  "dimension" : {
+                    "width" : 384,
+                    "height" : 32,
+                    "x" : 318,
+                    "y" : 137
+                  },
+                  "serviceValidationHashes" : { }
+                } ],
+                "filters" : [ ],
+                "uqmPageFilters" : [ ],
+                "uqmScopedPageGroups" : [ ],
+                "uqmCascadeGroupings" : [ ]
+              },
+              "applyThemeSettings" : "applyToNew",
+              "id" : "a31b3cd2-f023-4b22-ac46-3e90b81c8e7a",
+              "suggestedVizSettings" : { },
+              "thumbnail" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABQCAYAAADRAH3kAAAAAXNSR0IArs4c6QAAAT5JREFUeF7t2EENADAMw8CWP+hOGg3fGHT2I8ne3Y2X/YElQJb9P5wAbf4EiPMnAAGEwLQDMkAavxAYx08AAtgB2g7IAG3+amCcPwEIYAdIOyADpPGrgXH8BCCAHaDtgAzQ5q8GxvkTgAB2gLQDMkAavxoYx08AAtgB2g7IAG3+amCcPwEIYAdIOyADpPGrgXH8BCCAHaDtgAzQ5q8GxvkTgAB2gLQDMkAavxoYx08AAtgB2g7IAG3+amCcPwEIYAdIOyADpPGrgXH8BCCAHaDtgAzQ5q8GxvkTgAB2gLQDMkAavxoYx08AAtgB2g7IAG3+amCcPwEIYAdIOyADpPGrgXH8BCCAHaDtgAzQ5q8GxvkTgAB2gLQDMkAavxoYx08AAtgB2g7IAG3+amCcPwEIYAdIOyADpPGrgXH8Mw/63z8gpF2JKwAAAABJRU5ErkJggg=="
+            } ],
+            "storyFilters" : [ ],
+            "hyperlinkFilters" : [ ],
+            "queryDefinitions" : [ ],
+            "themingReference" : null,
+            "colorSync" : {
+              "version" : "1.0.0"
+            },
+            "promptTokenDetails" : [ ],
+            "uqmIntegrationEnabled" : true,
+            "uqmStoryFilters" : [ ],
+            "uqmHyperlinkFilters" : [ ],
+            "uqmStoryLAFilters" : [ ],
+            "thresholds" : {
+              "model" : { },
+              "story" : { }
+            },
+            "gradientSync" : {
+              "version" : "1.0.0"
+            },
+            "measureSync" : [ ],
+            "patternSync" : { },
+            "waterfallColorSync" : {
+              "version" : "1.0.0"
+            },
+            "storyWideSettings" : {
+              "custom.color.palettes" : [ ],
+              "custom.markers" : [ ],
+              "markers.recent" : [ ],
+              "markers.recent.custom" : [ ]
+            },
+            "uqmDeletedDynamicFilters" : { },
+            "uqmDatasetAliasMap" : { },
+            "scaledMeasures" : [ ],
+            "uqmStoryLAFilterContributors" : [ ],
+            "filterBarSettings" : {
+              "runtimeVisibility" : "auto",
+              "layoutType" : "vertical",
+              "runtimeToolbarEnabled" : true
+            },
+            "supportsBatchQuery" : false,
+            "uqmRemoteSystemNames" : [ ],
+            "filterBarInfo" : { },
+            "persistedUqmQuery" : [ ],
+            "persistedUdm" : [ ],
+            "preExecuteUqmQueryIds" : [ ],
+            "uqmVariablesDataModelInfo" : {
+              "dataAccessLanguage" : "en"
+            },
+            "persistedMergeGroupQuery" : "",
+            "persistedUqmQueryAndDMInfo" : { }
+          },
+          "dynamicText" : { }
+        }, {
+          "appPages" : [ {
+            "instanceId" : "[{\"appPage\":\"a31b3cd2-f023-4b22-ac46-3e90b81c8e7a\"}]",
+            "payload" : {
+              "pageId" : "a31b3cd2-f023-4b22-ac46-3e90b81c8e7a",
+              "behaviorMode" : "RESPONSIVE",
+              "referencedWidgetInstanceIds" : [ ]
+            }
+          } ],
+          "bookmarks" : [ {
+            "instanceId" : "[{\"bookmark\":\"33107021-4823-4347-b952-515133573111\"}]",
+            "payload" : {
+              "version" : 1,
+              "isOnlyChangedWidget" : true
+            }
+          } ],
+          "app" : {
+            "names" : {
+              "[{\"appPage\":\"a31b3cd2-f023-4b22-ac46-3e90b81c8e7a\"}]" : "Page_1",
+              "[{\"bookmark\":\"33107021-4823-4347-b952-515133573111\"}]" : "Bookmarks",
+              "[{\"story\":\"storyID\"},{\"gridlane\":\"26437155-7911-4407-8559-726701527501\"}]" : "GridLane_1",
+              "[{\"story\":\"storyID\"},{\"textWidget\":\"17160526-2241-4023-9189-512512237372\"}]" : "Text_1"
+            },
+            "events" : { },
+            "globalVars" : { },
+            "partialLibraryLoading" : true,
+            "busyIndicatorProperties" : {
+              "enabledAuto" : false,
+              "delay" : 1000,
+              "text" : "Loading the application"
+            },
+            "loadInvisibleWidgets" : "inBackground",
+            "navigation" : {
+              "overrideDefaultSetting" : false,
+              "navigationType" : "tabs"
+            },
+            "devicePreview" : {
+              "enableDevicePreview" : true,
+              "devicePreviewSize" : {
+                "width" : "auto",
+                "height" : "auto"
+              }
+            },
+            "scheduling" : {
+              "isAuto" : true
+            },
+            "planning" : {
+              "showPlanningLeaveDialog" : true
+            }
+          },
+          "id" : "6e8b7961-9994-4bfd-bce6-e1ace133f6f5:application"
+        }, {
+          "type" : "responsiveContainer",
+          "id" : "29344866-3295-4455-b842-299400854116",
+          "vendorId" : "sap.epm.appBuilding.entity.responsiveContainer.ResponsiveContainerWidgetVendor",
+          "data" : {
+            "spacing" : 4,
+            "breakPointRules" : [ {
+              "breakPointName" : "BreakPoint",
+              "containerBreakPoint" : 480,
+              "entries" : [ {
+                "entryId" : "*",
+                "width" : 100
+              } ]
+            } ],
+            "panelPadding" : {
+              "topPadding" : {
+                "value" : 0,
+                "unit" : "pixel"
+              },
+              "bottomPadding" : {
+                "value" : 0,
+                "unit" : "pixel"
+              },
+              "leftPadding" : {
+                "value" : 0,
+                "unit" : "pixel"
+              },
+              "rightPadding" : {
+                "value" : 0,
+                "unit" : "pixel"
+              }
+            },
+            "showGrid" : false
+          }
+        }, {
+          "type" : "gridlane",
+          "id" : "90339138-8243-4991-9612-225803050814",
+          "vendorId" : "sap.epm.appBuilding.entity.gridlane.GridLaneWidgetVendor",
+          "data" : {
+            "breakPointRules" : [ {
+              "breakPointName" : "Break Point 1",
+              "enabled" : true,
+              "containerBreakPoint" : 375,
+              "deviceType" : "ios",
+              "widthEntries" : [ {
+                "entryId" : "*",
+                "value" : 36,
+                "unit" : "grid"
+              } ],
+              "heightEntries" : [ ],
+              "leftEntries" : [ ],
+              "topEntries" : [ ],
+              "visibilityEntries" : [ ],
+              "verticalPriority" : true,
+              "autoFlow" : true
+            }, {
+              "breakPointName" : "Break Point 2",
+              "enabled" : true,
+              "containerBreakPoint" : 480,
+              "deviceType" : "ios",
+              "widthEntries" : [ {
+                "entryId" : "*",
+                "value" : 36,
+                "unit" : "grid"
+              } ],
+              "heightEntries" : [ ],
+              "leftEntries" : [ ],
+              "topEntries" : [ ],
+              "visibilityEntries" : [ ],
+              "verticalPriority" : true,
+              "autoFlow" : true
+            }, {
+              "breakPointName" : "Break Point 3",
+              "enabled" : true,
+              "containerBreakPoint" : 480,
+              "deviceType" : "android",
+              "widthEntries" : [ {
+                "entryId" : "*",
+                "value" : 36,
+                "unit" : "grid"
+              } ],
+              "heightEntries" : [ ],
+              "leftEntries" : [ ],
+              "topEntries" : [ ],
+              "visibilityEntries" : [ ],
+              "verticalPriority" : true,
+              "autoFlow" : true
+            } ],
+            "showGrid" : false,
+            "applyRuleInDesignTime" : true
+          }
+        }, {
+          "type" : "sap.lumira.story.entity.text",
+          "id" : "bdf2a20c-04f6-4252-a546-0e88eaa27c75",
+          "vendorId" : "sap.epm.story.entity.text.TextWidgetVendor",
+          "originatorId" : "1",
+          "data" : {
+            "text" : "",
+            "autoResize" : true
+          }
+        }, {
+          "id" : "6e8b7961-9994-4bfd-bce6-e1ace133f6f5:fieldSelection",
+          "type" : "fieldSelection",
+          "entities" : [ ],
+          "version" : "1.0"
+        }, {
+          "id" : "98203964-6a1c-4781-9c37-d0dcd786c5a8",
+          "entities" : [ ],
+          "type" : "uqmCustomCurrentDateEntityType",
+          "version" : "4.2"
+        }, {
+          "version" : "2.0",
+          "type" : "predictiveContainer",
+          "data" : {
+            "workflows" : { }
+          },
+          "id" : "06ac09b0-3d84-404b-83f8-4d0f7791b6e6"
+        } ],
+        "optimizedDesignEnabled" : true,
+        "folder" : "PRIVATE",
+        "title" : "11Test",
+        "optimizedEnabled" : true,
+        "optimizedBlockingUnsupportedFeatures" : false,
+        "bookmarkSettings" : {
+          "keepLastValueForDynamicVariable" : true,
+          "overrideDefaultSettings" : true,
+          "customDialogLicense" : true
+        },
+        "mobileSupportCanvasPage" : false
+      },
+      "isOptimizedEnabled" : true,
+      "tiles" : [ ],
+      "isSample" : false,
+      "isTemporary" : false
+    },
+    "storyContent" : null,
+    "metadata" : {
+      "id" : {
+        "type" : "STORY",
+        "name" : "3A6002068D5164608232E434191C84AB",
+        "package" : "t.7"
+      },
+      "description" : "11Test",
+      "owner" : "RASHMI",
+      "changedBy" : "RASHMI",
+      "version" : 1,
+      "active" : true,
+      "tmCreated" : "2024-05-10T07:46:27.584Z",
+      "tmModified" : "2024-05-10T07:46:27.584Z",
+      "parentId" : null,
+      "isPrivate" : false,
+      "isSample" : false,
+      "dataSize" : 9857,
+      "createAppVer" : "2024.12.0",
+      "changeAppVer" : "2024.12.0",
+      "isEmbedded" : false,
+      "isTemporary" : false,
+      "ownerDisplayName" : "Rashmi Kashyap",
+      "changedByDisplayName" : "Rashmi Kashyap"
+    },
+    "dependentObjects" : [ ],
+    "subObjects" : [ ],
+    "data" : null,
+    "translationEnabled" : 0,
+    "featured" : 0,
+    "spaceId" : null,
+    "properties" : null,
+    "refObjects" : [ ],
+    "privateSubItemCount" : 0,
+    "privateRefObjCount" : 0,
+    "enhancedProperties" : {
+      "STORY_OPTIMIZED_INFO" : "VIEW_EDIT_STORY2"
+    }
+  },
+  "hasSecurityInfo" : false
+}
