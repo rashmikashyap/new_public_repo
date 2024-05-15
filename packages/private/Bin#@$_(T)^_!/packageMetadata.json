@@ -1,0 +1,52 @@
+{
+  "info" : null,
+  "objects" : [ {
+    "objectType" : "FOLDER",
+    "objectName" : "RASHMI_DWC",
+    "objectId" : "sap.dwc.space:RASHMI_DWC",
+    "parentResId" : "SPACE",
+    "isSampleRelated" : false,
+    "name" : "RASHMI_DWC",
+    "description" : "rashmi_dwc",
+    "objectInfo" : null,
+    "dependents" : [ ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_ERMODEL",
+    "objectName" : "gitTableView",
+    "objectId" : "sap.dwc.ermodel:RASHMI_DWC\\gitTableView",
+    "parentResId" : "sap.dwc.space:RASHMI_DWC",
+    "isSampleRelated" : false,
+    "name" : "gitTableView",
+    "description" : "gitTableView",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:RASHMI_DWC" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "Table_1",
+    "objectId" : "entity:RASHMI_DWC\\Table_1",
+    "parentResId" : "sap.dwc.space:RASHMI_DWC",
+    "isSampleRelated" : false,
+    "name" : "Table_1",
+    "description" : "Table 1",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:RASHMI_DWC" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "Table1",
+    "objectId" : "entity:RASHMI_DWC\\Table1",
+    "parentResId" : "sap.dwc.space:RASHMI_DWC",
+    "isSampleRelated" : false,
+    "name" : "Table1",
+    "description" : "Table1",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:RASHMI_DWC" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  } ]
+}

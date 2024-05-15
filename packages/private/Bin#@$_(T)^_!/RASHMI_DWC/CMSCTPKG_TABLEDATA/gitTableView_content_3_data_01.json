@@ -1,0 +1,43 @@
+{
+  "RASHMI_DWC" : {
+    "objects" : {
+      "gitTableView" : {
+        "objects" : {
+          "gitTableView" : {
+            "kind" : "sap.dwc.erdiagram",
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        },
+        "editorSettings" : {
+          "gitTableView" : {
+            "editor" : {
+              "lastModifier" : "ERMODELER",
+              "default" : "ERMODELER"
+            },
+            "uiModel" : {
+              "guiModel" : "{\"contents\":{\"b577c75b-67e9-4dcd-bb24-6131be76181e\":{\"classDefinition\":\"sap.cdw.ermodeler.Model\",\"name\":\"gitTableView\",\"label\":\"gitTableView\",\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"entities\":{\"577a07d9-c73d-4378-9e95-d2025c2fa183\":{\"name\":\"Table_1\"}},\"diagrams\":{\"56af6f71-df96-4f69-aa46-45b3e1ec0f76\":{}}},\"56af6f71-df96-4f69-aa46-45b3e1ec0f76\":{\"classDefinition\":\"sap.cdw.ermodeler.ui.Diagram\",\"symbols\":{\"979a15cd-ba75-4c42-98bd-0addda443b48\":{\"name\":\"Table Symbol1\"}}},\"577a07d9-c73d-4378-9e95-d2025c2fa183\":{\"classDefinition\":\"sap.cdw.ermodeler.Table\",\"name\":\"Table_1\",\"label\":\"Table 1\",\"isPinToMemoryEnabled\":false,\"modificationDate\":0,\"deploymentDate\":0,\"#objectStatus\":0,\"elements\":{\"b41e6dd6-99e4-4a8d-8490-35a4d4279de6\":{\"name\":\"Column_1\"}}},\"979a15cd-ba75-4c42-98bd-0addda443b48\":{\"classDefinition\":\"sap.cdw.ermodeler.ui.TableSymbol\",\"name\":\"Table Symbol1\",\"x\":312,\"y\":171,\"width\":169.7041015625,\"height\":46,\"displayName\":\"Table Symbol1\",\"object\":\"577a07d9-c73d-4378-9e95-d2025c2fa183\"},\"b41e6dd6-99e4-4a8d-8490-35a4d4279de6\":{\"classDefinition\":\"sap.cdw.commonmodel.Element\",\"name\":\"Column_1\",\"label\":\"Column 1\",\"length\":100,\"precision\":0,\"scale\":0,\"indexOrder\":0}}}",
+              "kind" : "sap.dwc.erdiagram"
+            }
+          }
+        },
+        "definitions" : {
+          "Table_1" : { }
+        },
+        "version" : {
+          "csn" : "1.0"
+        },
+        "meta" : {
+          "creator" : "ER Modeler",
+          "kind" : "sap.dwc.ermodel",
+          "label" : "gitTableView"
+        },
+        "$version" : "1.0"
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.12.19"
+  }
+}

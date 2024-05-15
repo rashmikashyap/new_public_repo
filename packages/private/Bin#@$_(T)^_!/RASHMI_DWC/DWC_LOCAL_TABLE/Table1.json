@@ -1,0 +1,8 @@
+{
+  "id" : "entity:RASHMI_DWC\\Table1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:RASHMI_DWC",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

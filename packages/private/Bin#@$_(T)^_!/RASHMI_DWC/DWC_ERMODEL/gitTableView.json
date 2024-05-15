@@ -1,0 +1,8 @@
+{
+  "id" : "sap.dwc.ermodel:RASHMI_DWC\\gitTableView",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:RASHMI_DWC",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

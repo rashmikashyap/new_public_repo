@@ -1,0 +1,33 @@
+{
+  "RASHMI_DWC" : {
+    "objects" : {
+      "Table1" : {
+        "definitions" : {
+          "Table1" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "Table1",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "elements" : {
+              "Column_2" : {
+                "@EndUserText.label" : "Column 2",
+                "type" : "cds.String",
+                "length" : 100
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.12.19"
+  }
+}
