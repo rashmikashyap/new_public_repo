@@ -1,0 +1,89 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:sap.epm.Planned_Events_Sample:Event_672z323k1f",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "sap.epm.Planned_Events_Sample:Event_672z323k1f",
+    "type" : "Generic",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "sap.epm.Planned_Events_Sample",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : false,
+      "multiLangEnabled" : false,
+      "showOrphans" : false,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true
+    },
+    "description" : "Event",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "hierarchies" : [ ],
+    "memberCount" : 4,
+    "lastUpdated" : "2024-04-08T10:03:47.435Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_7",
+    "descriptions" : {
+      "en" : "Event"
+    },
+    "name" : "Event_672z323k1f",
+    "dimensionId" : "Event_672z323k1f",
+    "masterDataTableName" : "sap.epm.Planned_Events_Sample::MSTR_Event_672z323k1f",
+    "textTableName" : "sap.epm.Planned_Events_Sample::TEXT_Event_672z323k1f",
+    "hierarchyCount" : 0,
+    "propertyCount" : 1,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : true,
+    "isTemporary" : false
+  },
+  "status" : { },
+  "hasSecurityInfo" : false
+}

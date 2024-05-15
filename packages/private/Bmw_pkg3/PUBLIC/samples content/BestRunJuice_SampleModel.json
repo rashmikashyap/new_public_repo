@@ -1,0 +1,486 @@
+{
+  "objectType" : "RESOURCE",
+  "packageId" : "sap.epm",
+  "objectId" : "RESOURCE:sap.epm:sap.epm%3ABestRunJuice_SampleModel",
+  "isEmbedded" : false,
+  "content" : {
+    "resourceId" : "sap.epm:BestRunJuice_SampleModel",
+    "resourceType" : "CUBE",
+    "ownerId" : "PUBLIC",
+    "ownerType" : "PUBLIC",
+    "parentResId" : "C3F00005BFB7115DFBF328851BA3528C",
+    "updateCounter" : 21,
+    "origLangu" : "E",
+    "packageId" : "sap.epm",
+    "name" : "BestRunJuice_SampleModel",
+    "resourceSubtype" : "ANALYTIC",
+    "mobileSupport" : 0,
+    "description" : "Model for the sample story1",
+    "createdBy" : "ABHISHEK",
+    "createdTime" : "2019-03-19T00:29:01.340Z",
+    "modifiedBy" : "SHIVAMM",
+    "modifiedTime" : "2024-03-29T10:26:34.944Z",
+    "createdByDisplayName" : "",
+    "modifiedByDisplayName" : "",
+    "objectId" : "CUBE:sap.epm:BestRunJuice_SampleModel",
+    "access" : { },
+    "accessExt" : { },
+    "texts" : [ {
+      "langu" : "E",
+      "description" : "Model for the sample story1"
+    } ],
+    "views" : [ ],
+    "sourceResource" : {
+      "resourceId" : "",
+      "parentResId" : "",
+      "updateCounter" : 0,
+      "origLangu" : "E",
+      "packageId" : "t.7",
+      "name" : "",
+      "resourceSubtype" : "",
+      "mobileSupport" : 0,
+      "description" : "",
+      "createdBy" : "",
+      "createdTime" : "2024-05-15T08:13:33.264Z",
+      "modifiedBy" : "",
+      "modifiedTime" : "2024-05-15T08:13:33.264Z",
+      "createdByDisplayName" : "",
+      "modifiedByDisplayName" : "",
+      "access" : { },
+      "accessExt" : { },
+      "texts" : [ ],
+      "views" : [ ],
+      "sourceResource" : { },
+      "favResId" : "",
+      "shareResId" : "",
+      "ancestorResource" : [ ],
+      "ancestorPath" : [ ],
+      "auth" : null,
+      "canShare" : false,
+      "cdata" : null,
+      "storyContent" : null,
+      "metadata" : null,
+      "dependentObjects" : [ ],
+      "subObjects" : [ ],
+      "data" : null,
+      "featured" : 0,
+      "spaceId" : null
+    },
+    "favResId" : "",
+    "shareResId" : "",
+    "ancestorResource" : [ ],
+    "ancestorPath" : [ ],
+    "auth" : null,
+    "canShare" : false,
+    "cdata" : {
+      "id" : "sap.epm:BestRunJuice_SampleModel",
+      "descriptions" : {
+        "E" : "Model for the sample story1",
+        "en" : "Model for the sample story"
+      },
+      "name" : "BestRunJuice_SampleModel",
+      "type" : "Analytic",
+      "mode" : "standalone",
+      "status" : "valid",
+      "secured" : false,
+      "packageName" : "sap.epm",
+      "enableDataAudit" : false,
+      "rate" : "",
+      "defaultCurrency" : "USD",
+      "description" : "Model for the sample story1",
+      "currencyDimension" : "",
+      "dataLockingEnabled" : false,
+      "dataExportRestricted" : false,
+      "planningTimeDimension" : "",
+      "currencyConversionTimeDimension" : "",
+      "dimensions" : [ {
+        "dimensionId" : "Account_BestRunJ_sold",
+        "isSingleColumnDim" : false,
+        "name" : "Account_BestRunJ_sold",
+        "dataTypeName" : "NVARCHAR",
+        "packageName" : "sap.epm",
+        "schemaName" : "TENANT_7",
+        "type" : "Account",
+        "idColumnName" : "ID",
+        "idColumnLength" : 256,
+        "description" : "Account",
+        "descriptions" : {
+          "en" : "Account"
+        },
+        "isLocal" : true,
+        "dacEnabled" : false,
+        "masterDataTableName" : "sap.epm::MSTR_Account_BestRunJ_sold",
+        "translation" : {
+          "enabled" : false,
+          "status" : "NOT_TRANSLATED",
+          "originalLanguage" : "en",
+          "languages" : [ ]
+        },
+        "textTableName" : "sap.epm::TEXT_Account_BestRunJ_sold",
+        "formulaTableName" : "sap.epm::FRML_Account_BestRunJ_sold",
+        "dacHideParents" : false,
+        "multiLangEnabled" : false,
+        "defaultHierarchy" : "parentId",
+        "accountTypeAttributeName" : "Account_BestRunJ_sold.accType"
+      }, {
+        "dimensionId" : "Store_3z2g5g06m4",
+        "isSingleColumnDim" : false,
+        "name" : "Store_3z2g5g06m4",
+        "dataTypeName" : "NVARCHAR",
+        "packageName" : "sap.epm",
+        "schemaName" : "TENANT_7",
+        "type" : "Generic",
+        "idColumnName" : "ID",
+        "idColumnLength" : 256,
+        "description" : "Store",
+        "descriptions" : {
+          "en" : "Store"
+        },
+        "isLocal" : true,
+        "dacEnabled" : false,
+        "masterDataTableName" : "sap.epm::MSTR_Store_3z2g5g06m4",
+        "translation" : {
+          "enabled" : false,
+          "status" : "NOT_TRANSLATED",
+          "originalLanguage" : "en",
+          "languages" : [ ]
+        },
+        "textTableName" : "sap.epm::TEXT_Store_3z2g5g06m4",
+        "dacHideParents" : false,
+        "multiLangEnabled" : false
+      }, {
+        "dimensionId" : "Location_4nm2e04531",
+        "isSingleColumnDim" : false,
+        "name" : "Location_4nm2e04531",
+        "dataTypeName" : "NVARCHAR",
+        "packageName" : "sap.epm",
+        "schemaName" : "TENANT_7",
+        "type" : "Generic",
+        "idColumnName" : "ID",
+        "idColumnLength" : 256,
+        "description" : "Location",
+        "descriptions" : {
+          "E" : "Location",
+          "en" : "Location"
+        },
+        "isLocal" : true,
+        "dacEnabled" : false,
+        "masterDataTableName" : "sap.epm::MSTR_Location_4nm2e04531",
+        "translation" : {
+          "enabled" : false,
+          "status" : "NOT_TRANSLATED",
+          "originalLanguage" : "en",
+          "languages" : [ ]
+        },
+        "textTableName" : "sap.epm::TEXT_Location_4nm2e04531",
+        "dacHideParents" : false,
+        "multiLangEnabled" : false,
+        "defaultHierarchy" : "State_47acc246_4m5x6u3k6s"
+      }, {
+        "dimensionId" : "Product_3e315003an",
+        "isSingleColumnDim" : false,
+        "name" : "Product_3e315003an",
+        "dataTypeName" : "NVARCHAR",
+        "packageName" : "sap.epm",
+        "schemaName" : "TENANT_7",
+        "type" : "Generic",
+        "idColumnName" : "ID",
+        "idColumnLength" : 256,
+        "description" : "Product",
+        "descriptions" : {
+          "en" : "Product"
+        },
+        "isLocal" : true,
+        "dacEnabled" : false,
+        "masterDataTableName" : "sap.epm::MSTR_Product_3e315003an",
+        "translation" : {
+          "enabled" : false,
+          "status" : "NOT_TRANSLATED",
+          "originalLanguage" : "en",
+          "languages" : [ ]
+        },
+        "textTableName" : "sap.epm::TEXT_Product_3e315003an",
+        "dacHideParents" : false,
+        "multiLangEnabled" : false,
+        "defaultHierarchy" : "Product_Catego_3o3x5e06y2"
+      }, {
+        "dimensionId" : "Sales_Manager__5w3m5d06b5",
+        "isSingleColumnDim" : false,
+        "name" : "Sales_Manager__5w3m5d06b5",
+        "dataTypeName" : "NVARCHAR",
+        "packageName" : "sap.epm",
+        "schemaName" : "TENANT_7",
+        "type" : "Generic",
+        "idColumnName" : "ID",
+        "idColumnLength" : 256,
+        "description" : "SM Test 6",
+        "descriptions" : {
+          "E" : "Sales Manager",
+          "en" : "SM Test 6"
+        },
+        "isLocal" : true,
+        "dacEnabled" : false,
+        "masterDataTableName" : "sap.epm::MSTR_Sales_Manager__5w3m5d06b5",
+        "translation" : {
+          "enabled" : false,
+          "status" : "NOT_TRANSLATED",
+          "originalLanguage" : "en",
+          "languages" : [ ]
+        },
+        "textTableName" : "sap.epm::TEXT_Sales_Manager__5w3m5d06b5",
+        "dacHideParents" : false,
+        "multiLangEnabled" : false
+      }, {
+        "dimensionId" : "Date_703i1904sd",
+        "isSingleColumnDim" : false,
+        "name" : "Date_703i1904sd",
+        "dataTypeName" : "VARCHAR",
+        "packageName" : "sap.epm",
+        "schemaName" : "TENANT_7",
+        "type" : "TimeHANA",
+        "idColumnName" : "CALMONTH",
+        "idColumnLength" : 6,
+        "description" : "Date",
+        "descriptions" : {
+          "en" : "Date"
+        },
+        "isLocal" : true,
+        "dacEnabled" : false,
+        "masterDataTableName" : "sap.fpa.services.modeling.dimension::Dimension.TIME",
+        "translation" : {
+          "enabled" : false,
+          "status" : "NOT_TRANSLATED",
+          "originalLanguage" : "en",
+          "languages" : [ ]
+        },
+        "dacHideParents" : false,
+        "multiLangEnabled" : false,
+        "defaultHierarchy" : "YHM",
+        "granularity" : "Month",
+        "toDate" : "2016/12/31",
+        "fromDate" : "2014/01/01",
+        "minDate" : "2014/01/01",
+        "maxDate" : "2016/12/01",
+        "isFiscalYear" : false,
+        "fiscalConfig" : {
+          "enabled" : false
+        },
+        "timeConfig" : {
+          "enablePattern" : false
+        },
+        "isUserManaged" : false,
+        "toYear" : "2016",
+        "fromYear" : "2014"
+      }, {
+        "dimensionId" : "Version_BestRunJsold_V",
+        "isSingleColumnDim" : false,
+        "name" : "Version_BestRunJsold_V",
+        "dataTypeName" : "NVARCHAR",
+        "packageName" : "sap.epm",
+        "schemaName" : "TENANT_7",
+        "type" : "VersionDim",
+        "idColumnName" : "ID",
+        "idColumnLength" : 300,
+        "description" : "Category",
+        "descriptions" : {
+          "en" : "Category"
+        },
+        "isLocal" : true,
+        "dacEnabled" : false,
+        "masterDataTableName" : "sap.epm::MSTR_Version_BestRunJsold_V",
+        "translation" : {
+          "enabled" : false,
+          "status" : "NOT_TRANSLATED",
+          "originalLanguage" : "en",
+          "languages" : [ ]
+        },
+        "textTableName" : "sap.epm::TEXT_Version_BestRunJsold_V",
+        "dacHideParents" : false,
+        "multiLangEnabled" : false
+      } ],
+      "extendedDimensions" : [ {
+        "primaryDimensionId" : "sap.epm:Store_3z2g5g06m4",
+        "extendedDimensionId" : "sap.epm:Store_G4j6d2702o30183k",
+        "extensionDefinition" : {
+          "dimension" : {
+            "description" : "",
+            "dataSource" : {
+              "objectName" : "Store_G4j6d2702o30183k",
+              "packageName" : "sap.epm"
+            }
+          },
+          "join" : {
+            "sourceField" : "Store_3z2g5g06m4.Store_GEOID",
+            "targetField" : "Store_G4j6d2702o30183k.GEOID",
+            "type" : "LEFT_OUTER",
+            "cardinality" : "N_1"
+          }
+        }
+      } ],
+      "measures" : [ {
+        "measure" : "SignedData",
+        "aggregationType" : "",
+        "exceptionAggregationType" : "",
+        "aggregationDimensionName" : [ ],
+        "measureUnits" : null,
+        "unitType" : null,
+        "numericPrecision" : null,
+        "numericScale" : null,
+        "numericShift" : null,
+        "calculated" : false,
+        "extended" : false,
+        "formula" : "",
+        "jsonFormula" : "",
+        "visible" : true,
+        "type" : null,
+        "refMeasure" : null,
+        "filter" : null,
+        "refDimensions" : null,
+        "minimumDrillstate" : [ ],
+        "description" : "",
+        "dataTypeName" : "DECIMAL",
+        "length" : 31,
+        "scale" : 7,
+        "unitDimension" : null,
+        "unitDimensionProperty" : null,
+        "rateType" : "",
+        "solveOrder" : -1,
+        "currencyTranslation" : null,
+        "unitTranslation" : null,
+        "formulaType" : null,
+        "technical" : false
+      } ],
+      "sources" : [ {
+        "objectName" : "sap.epm::TRNS_BestRunJuice_SampleModel",
+        "schemaName" : "TENANT_7",
+        "objectType" : "COLUMNTABLE",
+        "packageName" : "",
+        "origin" : "generated"
+      } ],
+      "variables" : [ ],
+      "displayName" : "BestRunJuice_SampleModel",
+      "model" : "Global",
+      "capability" : {
+        "addDimensions" : true,
+        "originBPC" : false,
+        "ctEnabled" : false,
+        "preConvertedCurrency" : false,
+        "simpleColumnNames" : true,
+        "automaticWriteBack" : false,
+        "nlqIndexingEnabled" : true,
+        "hasDatasetSource" : false,
+        "hasUserDefinedMeasures" : false,
+        "virtualVersion" : false,
+        "hasCustomSolveOrder" : false,
+        "useOlapView" : true,
+        "exposeCubeDimProperties" : false,
+        "legacyExport" : false,
+        "expensiveModel" : false,
+        "useCubeMasterdataView" : false,
+        "detailsDeprecation" : false,
+        "useVersionAppId" : false,
+        "auditApplicationUser" : false,
+        "versionStatistics" : true,
+        "hasQuerySourceInfo" : false,
+        "navAttributeVisibility" : true,
+        "hasUnbookedHandlingNone" : true,
+        "hasFullQuerySourceInfo" : false,
+        "supportsClearInvalidFactChanges" : true
+      },
+      "schemaName" : "TENANT_7",
+      "epmModelName" : "/sap.epm/BestRunJuice_SampleModel",
+      "epmQuerySourceName" : "/sap.epm/BestRunJuice_SampleModel_qs",
+      "allVersionsFactSourceName" : "\"TENANT_7\".\"sap.epm::TRNS_BestRunJuice_SampleModel\"",
+      "localVersionsFactTableName" : "\"TENANT_7\".\"sap.epm::TRNS_BestRunJuice_SampleModel\"",
+      "DataSource" : {
+        "Type" : "Planning",
+        "SchemaName" : "TENANT_7",
+        "ObjectName" : "/sap.epm/BestRunJuice_SampleModel_qs",
+        "ExtendedDimensions" : [ {
+          "DataSource" : {
+            "Type" : "View",
+            "SchemaName" : "_SYS_BIC",
+            "PackageName" : "t.7.sap.epm",
+            "ObjectName" : "Store_G4j6d2702o30183k"
+          },
+          "Description" : "",
+          "JoinCardinality" : "N_1",
+          "JoinFieldName" : "Store_3z2g5g06m4.Store_GEOID",
+          "JoinFieldNameInExtendedDimension" : "Store_G4j6d2702o30183k.GEOID",
+          "JoinType" : "LEFT_OUTER",
+          "Name" : "Store_G4j6d2702o30183k",
+          "Visibility" : "Metadata"
+        } ]
+      },
+      "translation" : {
+        "enabled" : false,
+        "status" : "NOT_TRANSLATED",
+        "originalLanguage" : "E",
+        "languages" : [ ]
+      },
+      "dimensionValidationRules" : false,
+      "leadingStructure" : "Account",
+      "hints" : [ {
+        "Key" : "mds_plan_use_ce_new",
+        "Value" : "true"
+      } ],
+      "repositoryId" : null,
+      "hierarchies" : [ ],
+      "visualizations" : { },
+      "isRemote" : false,
+      "factTableName" : "\"TENANT_7\".\"sap.epm::TRNS_BestRunJuice_SampleModel\"",
+      "linkedCubes" : { },
+      "planning" : {
+        "checks" : {
+          "defaultPlanningAreaFilters" : [ ],
+          "globalLocks" : [ {
+            "type" : "Data Locking",
+            "value" : false
+          }, {
+            "type" : "Relationship",
+            "value" : true
+          } ]
+        }
+      },
+      "aCrossFormula" : [ ],
+      "isSample" : true,
+      "isTemporary" : false
+    },
+    "storyContent" : null,
+    "metadata" : {
+      "id" : {
+        "type" : "CUBE",
+        "name" : "BestRunJuice_SampleModel",
+        "package" : "sap.epm"
+      },
+      "description" : "Model for the sample story1",
+      "owner" : "ABHISHEK",
+      "changedBy" : "SHIVAMM",
+      "version" : 23,
+      "active" : true,
+      "tmCreated" : "2019-08-30T07:55:15.981Z",
+      "tmModified" : "2024-03-29T10:26:38.148Z",
+      "parentId" : null,
+      "isPrivate" : false,
+      "isSample" : true,
+      "dataSize" : 27066,
+      "createAppVer" : "2019.20.0",
+      "changeAppVer" : "2024.8.0",
+      "isEmbedded" : false,
+      "isTemporary" : false,
+      "ownerDisplayName" : "Abhishek",
+      "changedByDisplayName" : "Shivam"
+    },
+    "dependentObjects" : [ ],
+    "subObjects" : [ ],
+    "data" : null,
+    "translationEnabled" : 0,
+    "featured" : 0,
+    "spaceId" : null,
+    "properties" : null,
+    "refObjects" : [ ],
+    "privateSubItemCount" : 0,
+    "privateRefObjCount" : 0
+  },
+  "hasSecurityInfo" : false
+}

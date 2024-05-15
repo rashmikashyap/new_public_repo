@@ -1,0 +1,2204 @@
+{
+  "info" : {
+    "version" : {
+      "major" : 2024,
+      "minor" : 12,
+      "revision" : 0,
+      "extension" : "d69c8a66d5b1",
+      "qrc" : false,
+      "githash" : "d69c8a66d5b1e86dc374534027f717c7c7eda4e9"
+    },
+    "chunk" : {
+      "n" : "1100",
+      "j" : "11111101000",
+      "r" : "0",
+      "a" : "110100001"
+    },
+    "tenant" : "7"
+  },
+  "objects" : [ {
+    "objectType" : "RESOURCE",
+    "objectName" : "2sample",
+    "objectId" : "RESOURCE:t.D:5DC2DAECBE4E253E50852CD59C94BEDB",
+    "parentResId" : "RESOURCE:t.D:PUBLIC",
+    "hasParentRes" : true,
+    "isSampleRelated" : false,
+    "name" : "t.D:5DC2DAECBE4E253E50852CD59C94BEDB",
+    "description" : "2sample",
+    "objectInfo" : { },
+    "dependents" : [ "RESOURCE:sap.epm.Planned_Events_Sample:sap.epm.Planned_Events_Sample%3APlanned_Events_Sample", "DIMENSION:sap.epm.Planned_Events_Sample:Account_Planned__66z5a03o60", "DIMENSION:sap.epm.Planned_Events_Sample:City_4t38560363", "DIMENSION:sap.epm.Planned_Events_Sample:Date_5x2a25042z", "DIMENSION:sap.epm.Planned_Events_Sample:Event_672z323k1f", "DIMENSION:sap.epm.Planned_Events_Sample:State_66z5a03o60", "DIMENSION:sap.epm.Planned_Events_Sample:Version_Planned_66z5a03_V", "RESOURCE:t.7:C3F00005BFB7115DFBF328851BA3528C", "RESOURCE:sap.epm:sap.epm%3ABestRunJuice_SampleModel", "DIMENSION:sap.epm:Account_BestRunJ_sold", "DIMENSION:sap.epm:Date_703i1904sd", "DIMENSION:sap.epm:Location_4nm2e04531", "DIMENSION:sap.epm:Product_3e315003an", "DIMENSION:sap.epm:Sales_Manager__5w3m5d06b5", "DIMENSION:sap.epm:Store_3z2g5g06m4", "DIMENSION:sap.epm:Store_G4j6d2702o30183k", "DIMENSION:sap.epm:Version_BestRunJsold_V" ],
+    "provider" : null,
+    "ancestorPath" : [ "PUBLIC" ],
+    "ownerType" : "PUBLIC"
+  }, {
+    "objectType" : "RESOURCE",
+    "objectName" : "11Test",
+    "objectId" : "RESOURCE:t.7:3A6002068D5164608232E434191C84AB",
+    "parentResId" : "RESOURCE:t.7:PUBLIC",
+    "hasParentRes" : true,
+    "isSampleRelated" : false,
+    "name" : "t.7:3A6002068D5164608232E434191C84AB",
+    "description" : "",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : [ "PUBLIC" ],
+    "ownerType" : "PUBLIC"
+  }, {
+    "objectType" : "RESOURCE",
+    "objectName" : "BestRunJuice_SampleModel",
+    "objectId" : "RESOURCE:sap.epm:sap.epm%3ABestRunJuice_SampleModel",
+    "parentResId" : "RESOURCE:t.7:C3F00005BFB7115DFBF328851BA3528C",
+    "hasParentRes" : true,
+    "isSampleRelated" : false,
+    "name" : "sap.epm:sap.epm%3ABestRunJuice_SampleModel",
+    "description" : "Model for the sample story1",
+    "objectInfo" : { },
+    "dependents" : [ "DIMENSION:sap.epm:Account_BestRunJ_sold", "DIMENSION:sap.epm:Date_703i1904sd", "DIMENSION:sap.epm:Location_4nm2e04531", "DIMENSION:sap.epm:Product_3e315003an", "DIMENSION:sap.epm:Sales_Manager__5w3m5d06b5", "DIMENSION:sap.epm:Store_3z2g5g06m4", "DIMENSION:sap.epm:Store_G4j6d2702o30183k", "DIMENSION:sap.epm:Version_BestRunJsold_V", "RESOURCE:t.7:C3F00005BFB7115DFBF328851BA3528C" ],
+    "provider" : null,
+    "ancestorPath" : [ "PUBLIC", "samples content" ],
+    "ownerType" : "PUBLIC",
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::TRNS_BestRunJuice_SampleModel\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "Account_BestRunJ_sold.ID", "Store_3z2g5g06m4.ID", "Location_4nm2e04531.ID", "Product_3e315003an.ID", "Sales_Manager__5w3m5d06b5.ID", "Date_703i1904sd.CALMONTH", "Version_BestRunJsold_V.ID", "SignedData", "_Package_" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "Account_BestRunJ_sold.ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Store_3z2g5g06m4.ID",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Location_4nm2e04531.ID",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Product_3e315003an.ID",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Sales_Manager__5w3m5d06b5.ID",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Date_703i1904sd.CALMONTH",
+        "position" : 6,
+        "dataTypeName" : "VARCHAR",
+        "offset" : 16,
+        "length" : 6,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Version_BestRunJsold_V.ID",
+        "position" : 7,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 40,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "SignedData",
+        "position" : 8,
+        "dataTypeName" : "DECIMAL",
+        "offset" : 1,
+        "length" : 31,
+        "scale" : 7,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "FIXED"
+      }, {
+        "columnName" : "_Package_",
+        "position" : 9,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 40,
+        "length" : 265,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "UNUSED",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 271300
+    } ]
+  }, {
+    "objectType" : "RESOURCE",
+    "objectName" : "Planned_Events_Sample",
+    "objectId" : "RESOURCE:sap.epm.Planned_Events_Sample:sap.epm.Planned_Events_Sample%3APlanned_Events_Sample",
+    "parentResId" : "RESOURCE:t.7:C3F00005BFB7115DFBF328851BA3528C",
+    "hasParentRes" : true,
+    "isSampleRelated" : false,
+    "name" : "sap.epm.Planned_Events_Sample:sap.epm.Planned_Events_Sample%3APlanned_Events_Sample",
+    "description" : "Model for sample",
+    "objectInfo" : { },
+    "dependents" : [ "DIMENSION:sap.epm.Planned_Events_Sample:Account_Planned__66z5a03o60", "DIMENSION:sap.epm.Planned_Events_Sample:City_4t38560363", "DIMENSION:sap.epm.Planned_Events_Sample:Date_5x2a25042z", "DIMENSION:sap.epm.Planned_Events_Sample:Event_672z323k1f", "DIMENSION:sap.epm.Planned_Events_Sample:State_66z5a03o60", "DIMENSION:sap.epm.Planned_Events_Sample:Version_Planned_66z5a03_V", "RESOURCE:t.7:C3F00005BFB7115DFBF328851BA3528C" ],
+    "provider" : null,
+    "ancestorPath" : [ "PUBLIC", "samples content" ],
+    "ownerType" : "PUBLIC",
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::TRNS_Planned_Events_Sample\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "Account_Planned__66z5a03o60.ID", "State_66z5a03o60.ID", "City_4t38560363.ID", "Event_672z323k1f.ID", "Date_5x2a25042z.ID", "Version_Planned_66z5a03_V.ID", "SignedData", "_Package_" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "Account_Planned__66z5a03o60.ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "State_66z5a03o60.ID",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "City_4t38560363.ID",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Event_672z323k1f.ID",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Date_5x2a25042z.ID",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Version_Planned_66z5a03_V.ID",
+        "position" : 6,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 40,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "SignedData",
+        "position" : 7,
+        "dataTypeName" : "DECIMAL",
+        "offset" : 1,
+        "length" : 31,
+        "scale" : 7,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "FIXED"
+      }, {
+        "columnName" : "_Package_",
+        "position" : 8,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 40,
+        "length" : 265,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "UNUSED",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 644
+    } ]
+  }, {
+    "objectType" : "RESOURCE",
+    "objectName" : "samples content",
+    "objectId" : "RESOURCE:t.7:C3F00005BFB7115DFBF328851BA3528C",
+    "parentResId" : "RESOURCE:t.7:PUBLIC",
+    "hasParentRes" : true,
+    "isSampleRelated" : false,
+    "name" : "t.7:C3F00005BFB7115DFBF328851BA3528C",
+    "description" : "moved",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : [ "PUBLIC" ],
+    "ownerType" : "PUBLIC"
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Account_Planned__66z5a03o60",
+    "objectId" : "DIMENSION:sap.epm.Planned_Events_Sample:Account_Planned__66z5a03o60",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm.Planned_Events_Sample:Account_Planned__66z5a03o60",
+    "description" : "Account",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::MSTR_Account_Planned__66z5a03o60\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "ACCTYPE" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "ACCTYPE",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 22
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::HIER_Account_Planned__66z5a03o60\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "HIERARCHY", "NODEID", "PARENTID", "PREVID", "ORDERID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "HIERARCHY",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 30,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "NODEID",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "PARENTID",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "PREVID",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "ORDERID",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 50,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 22
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::TEXT_Account_Planned__66z5a03o60\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 22
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::FRML_Account_Planned__66z5a03o60\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ACCOUNT_ID", "ACCOUNT", "MDS_FORMULA", "MDS_AGGREGATION", "MDS_MEASURE_UNITS", "MDS_UNIT_TYPE", "MDS_UNIT_COLUMN_NAME", "MDS_NUMERIC_PRECISION", "MDS_NUMERIC_SCALE", "MDS_NUMERIC_SHIFT", "MDS_EXECUTION_STEP", "MDS_MEMBER_VISIBILITY", "REFER_DIMEN", "MDS_EXCEPTION_AGGREGATION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ACCOUNT_ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "ACCOUNT",
+        "position" : 2,
+        "dataTypeName" : "NCLOB",
+        "offset" : 8,
+        "length" : 2147483647,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "LOB"
+      }, {
+        "columnName" : "MDS_FORMULA",
+        "position" : 3,
+        "dataTypeName" : "NCLOB",
+        "offset" : 32,
+        "length" : 2147483647,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "LOB"
+      }, {
+        "columnName" : "MDS_AGGREGATION",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 20,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_MEASURE_UNITS",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 30,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_UNIT_TYPE",
+        "position" : 6,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 3,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_UNIT_COLUMN_NAME",
+        "position" : 7,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_NUMERIC_PRECISION",
+        "position" : 8,
+        "dataTypeName" : "INTEGER",
+        "offset" : 56,
+        "length" : 10,
+        "scale" : 0,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "INT"
+      }, {
+        "columnName" : "MDS_NUMERIC_SCALE",
+        "position" : 9,
+        "dataTypeName" : "INTEGER",
+        "offset" : 61,
+        "length" : 10,
+        "scale" : 0,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "INT"
+      }, {
+        "columnName" : "MDS_NUMERIC_SHIFT",
+        "position" : 10,
+        "dataTypeName" : "INTEGER",
+        "offset" : 66,
+        "length" : 10,
+        "scale" : 0,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "INT"
+      }, {
+        "columnName" : "MDS_EXECUTION_STEP",
+        "position" : 11,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_MEMBER_VISIBILITY",
+        "position" : 12,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 20,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "REFER_DIMEN",
+        "position" : 13,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 96,
+        "length" : 5000,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_EXCEPTION_AGGREGATION",
+        "position" : 14,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 112,
+        "length" : 20,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 22
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "City_4t38560363",
+    "objectId" : "DIMENSION:sap.epm.Planned_Events_Sample:City_4t38560363",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm.Planned_Events_Sample:City_4t38560363",
+    "description" : "City",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::MSTR_City_4t38560363\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 16
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::TEXT_City_4t38560363\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 16
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Date_5x2a25042z",
+    "objectId" : "DIMENSION:sap.epm.Planned_Events_Sample:Date_5x2a25042z",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm.Planned_Events_Sample:Date_5x2a25042z",
+    "description" : "Date",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::MSTR_Date_5x2a25042z\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 12
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::TEXT_Date_5x2a25042z\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 12
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Event_672z323k1f",
+    "objectId" : "DIMENSION:sap.epm.Planned_Events_Sample:Event_672z323k1f",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm.Planned_Events_Sample:Event_672z323k1f",
+    "description" : "Event",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::MSTR_Event_672z323k1f\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 4
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::TEXT_Event_672z323k1f\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 4
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "State_66z5a03o60",
+    "objectId" : "DIMENSION:sap.epm.Planned_Events_Sample:State_66z5a03o60",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm.Planned_Events_Sample:State_66z5a03o60",
+    "description" : "State",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::MSTR_State_66z5a03o60\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 3
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::TEXT_State_66z5a03o60\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 3
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Version_Planned_66z5a03_V",
+    "objectId" : "DIMENSION:sap.epm.Planned_Events_Sample:Version_Planned_66z5a03_V",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm.Planned_Events_Sample:Version_Planned_66z5a03_V",
+    "description" : "Category",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::MSTR_Version_Planned_66z5a03_V\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "VERSION", "CATEGORY", "CURRENCY_CONVERSION_CATEGORY", "RATE_VERSION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "VERSION",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "CATEGORY",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "CURRENCY_CONVERSION_CATEGORY",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "RATE_VERSION",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 1
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm.Planned_Events_Sample::TEXT_Version_Planned_66z5a03_V\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 1
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Account_BestRunJ_sold",
+    "objectId" : "DIMENSION:sap.epm:Account_BestRunJ_sold",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm:Account_BestRunJ_sold",
+    "description" : "Account",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::MSTR_Account_BestRunJ_sold\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "ACCTYPE" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "ACCTYPE",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 25
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::HIER_Account_BestRunJ_sold\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "HIERARCHY", "NODEID", "PARENTID", "PREVID", "ORDERID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "HIERARCHY",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 30,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "NODEID",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "PARENTID",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "PREVID",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "ORDERID",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 50,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 25
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::TEXT_Account_BestRunJ_sold\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 25
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::FRML_Account_BestRunJ_sold\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ACCOUNT_ID", "ACCOUNT", "MDS_FORMULA", "MDS_AGGREGATION", "MDS_MEASURE_UNITS", "MDS_UNIT_TYPE", "MDS_UNIT_COLUMN_NAME", "MDS_NUMERIC_PRECISION", "MDS_NUMERIC_SCALE", "MDS_NUMERIC_SHIFT", "MDS_EXECUTION_STEP", "MDS_MEMBER_VISIBILITY", "REFER_DIMEN", "MDS_EXCEPTION_AGGREGATION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ACCOUNT_ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "ACCOUNT",
+        "position" : 2,
+        "dataTypeName" : "NCLOB",
+        "offset" : 8,
+        "length" : 2147483647,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "LOB"
+      }, {
+        "columnName" : "MDS_FORMULA",
+        "position" : 3,
+        "dataTypeName" : "NCLOB",
+        "offset" : 32,
+        "length" : 2147483647,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "LOB"
+      }, {
+        "columnName" : "MDS_AGGREGATION",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 20,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_MEASURE_UNITS",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 30,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_UNIT_TYPE",
+        "position" : 6,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 3,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_UNIT_COLUMN_NAME",
+        "position" : 7,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_NUMERIC_PRECISION",
+        "position" : 8,
+        "dataTypeName" : "INTEGER",
+        "offset" : 56,
+        "length" : 10,
+        "scale" : 0,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "INT"
+      }, {
+        "columnName" : "MDS_NUMERIC_SCALE",
+        "position" : 9,
+        "dataTypeName" : "INTEGER",
+        "offset" : 61,
+        "length" : 10,
+        "scale" : 0,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "INT"
+      }, {
+        "columnName" : "MDS_NUMERIC_SHIFT",
+        "position" : 10,
+        "dataTypeName" : "INTEGER",
+        "offset" : 66,
+        "length" : 10,
+        "scale" : 0,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "INT"
+      }, {
+        "columnName" : "MDS_EXECUTION_STEP",
+        "position" : 11,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_MEMBER_VISIBILITY",
+        "position" : 12,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 72,
+        "length" : 20,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "REFER_DIMEN",
+        "position" : 13,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 96,
+        "length" : 5000,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "MDS_EXCEPTION_AGGREGATION",
+        "position" : 14,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 112,
+        "length" : 20,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 25
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Date_703i1904sd",
+    "objectId" : "DIMENSION:sap.epm:Date_703i1904sd",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm:Date_703i1904sd",
+    "description" : "Date",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Location_4nm2e04531",
+    "objectId" : "DIMENSION:sap.epm:Location_4nm2e04531",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm:Location_4nm2e04531",
+    "description" : "Location",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::MSTR_Location_4nm2e04531\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 21
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::HIER_Location_4nm2e04531\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "HIERARCHY", "NODEID", "PARENTID", "PREVID", "ORDERID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "HIERARCHY",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 30,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "NODEID",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "PARENTID",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "PREVID",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "ORDERID",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 50,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 21
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::TEXT_Location_4nm2e04531\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 21
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Product_3e315003an",
+    "objectId" : "DIMENSION:sap.epm:Product_3e315003an",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm:Product_3e315003an",
+    "description" : "Product",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::MSTR_Product_3e315003an\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 33
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::HIER_Product_3e315003an\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "HIERARCHY", "NODEID", "PARENTID", "PREVID", "ORDERID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "HIERARCHY",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 30,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "NODEID",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "PARENTID",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "PREVID",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "ORDERID",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 50,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 33
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::TEXT_Product_3e315003an\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 33
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Sales_Manager__5w3m5d06b5",
+    "objectId" : "DIMENSION:sap.epm:Sales_Manager__5w3m5d06b5",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm:Sales_Manager__5w3m5d06b5",
+    "description" : "SM Test 6",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::MSTR_Sales_Manager__5w3m5d06b5\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 11
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::TEXT_Sales_Manager__5w3m5d06b5\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 11
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Store_3z2g5g06m4",
+    "objectId" : "DIMENSION:sap.epm:Store_3z2g5g06m4",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm:Store_3z2g5g06m4",
+    "description" : "Store",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::MSTR_Store_3z2g5g06m4\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "STORE_DISPLAYNAME", "STORE_GEOID" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "STORE_DISPLAYNAME",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "STORE_GEOID",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 220
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::TEXT_Store_3z2g5g06m4\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 220
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Store_G4j6d2702o30183k",
+    "objectId" : "DIMENSION:sap.epm:Store_G4j6d2702o30183k",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm:Store_G4j6d2702o30183k",
+    "description" : "Store_G4j6d2702o30183k",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::MSTR_Store_G4j6d2702o30183k\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "GEOID", "STORE" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "GEOID",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 16,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "STORE",
+        "position" : 3,
+        "dataTypeName" : "ST_GEOMETRY",
+        "offset" : 8,
+        "length" : 8,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "GEOMETRY"
+      } ],
+      "recordCount" : 220
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::TEXT_Store_G4j6d2702o30183k\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 220
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Version_BestRunJsold_V",
+    "objectId" : "DIMENSION:sap.epm:Version_BestRunJsold_V",
+    "parentResId" : "",
+    "isSampleRelated" : true,
+    "name" : "sap.epm:Version_BestRunJsold_V",
+    "description" : "Category",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::MSTR_Version_BestRunJsold_V\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "VERSION", "CATEGORY", "CURRENCY_CONVERSION_CATEGORY", "RATE_VERSION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "VERSION",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "CATEGORY",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "CURRENCY_CONVERSION_CATEGORY",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "RATE_VERSION",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 1
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_7\".\"sap.epm::TEXT_Version_BestRunJsold_V\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 1,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 1
+    } ]
+  } ]
+}

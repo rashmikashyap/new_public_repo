@@ -1,0 +1,123 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:sap.epm:Store_G4j6d2702o30183k",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "sap.epm:Store_G4j6d2702o30183k",
+    "type" : "Geo",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "sap.epm",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : false,
+      "multiLangEnabled" : false,
+      "showOrphans" : false,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true
+    },
+    "description" : "Store_G4j6d2702o30183k",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    }, {
+      "property" : "GEOID",
+      "propertyType" : "",
+      "description" : "GEOID",
+      "descriptions" : {
+        "en" : "GEOID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "GEOID"
+    }, {
+      "property" : "Store",
+      "propertyType" : "ST_GEOMETRY",
+      "description" : "Store",
+      "descriptions" : {
+        "en" : "Store"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "ST_GEOMETRY",
+      "scale" : 0,
+      "length" : 8,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "STORE"
+    } ],
+    "hierarchies" : [ ],
+    "memberCount" : 220,
+    "lastUpdated" : "2024-04-08T10:04:35.392Z",
+    "status" : "new",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_7",
+    "descriptions" : {
+      "en" : "Store_G4j6d2702o30183k"
+    },
+    "name" : "Store_G4j6d2702o30183k",
+    "dimensionId" : "Store_G4j6d2702o30183k",
+    "masterDataTableName" : "sap.epm::MSTR_Store_G4j6d2702o30183k",
+    "textTableName" : "sap.epm::TEXT_Store_G4j6d2702o30183k",
+    "hierarchyCount" : 0,
+    "propertyCount" : 3,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : true,
+    "isTemporary" : false
+  },
+  "status" : { },
+  "hasSecurityInfo" : false
+}

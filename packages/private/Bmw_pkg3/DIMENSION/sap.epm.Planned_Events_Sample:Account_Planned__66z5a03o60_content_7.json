@@ -1,0 +1,121 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:sap.epm.Planned_Events_Sample:Account_Planned__66z5a03o60",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "sap.epm.Planned_Events_Sample:Account_Planned__66z5a03o60",
+    "type" : "Account",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "sap.epm.Planned_Events_Sample",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : false,
+      "multiLangEnabled" : false,
+      "showOrphans" : true,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true
+    },
+    "description" : "Account",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "",
+      "descriptions" : {
+        "en" : ""
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    }, {
+      "property" : "accType",
+      "propertyType" : "ACCOUNT_TYPE",
+      "description" : "Account Type",
+      "descriptions" : {
+        "en" : "Account Type"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 127,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ACCTYPE"
+    } ],
+    "hierarchies" : [ {
+      "hierarchy" : "parentId",
+      "hierarchyType" : "parent_child",
+      "description" : "Hierarchy",
+      "descriptions" : {
+        "en" : "Hierarchy"
+      },
+      "hierarchyViewName" : "\"TENANT_7\".\"$MDX//TENANT_7/sap.epm.Planned_Events_Sample:Account_Planned__66z5a03o60//hier/parentId\"",
+      "isMandatory" : false,
+      "levels" : [ ],
+      "nodeStyle" : null
+    } ],
+    "memberCount" : 2,
+    "lastUpdated" : "2024-04-08T10:03:30.793Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_7",
+    "descriptions" : {
+      "en" : "Account"
+    },
+    "calculationMembersCount" : 20,
+    "name" : "Account_Planned__66z5a03o60",
+    "dimensionId" : "Account_Planned__66z5a03o60",
+    "defaultHierarchy" : "parentId",
+    "masterDataTableName" : "sap.epm.Planned_Events_Sample::MSTR_Account_Planned__66z5a03o60",
+    "textTableName" : "sap.epm.Planned_Events_Sample::TEXT_Account_Planned__66z5a03o60",
+    "hierarchyTableName" : "sap.epm.Planned_Events_Sample::HIER_Account_Planned__66z5a03o60",
+    "formulaTableName" : "sap.epm.Planned_Events_Sample::FRML_Account_Planned__66z5a03o60",
+    "hierarchyCount" : 1,
+    "propertyCount" : 2,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "",
+      "descriptions" : {
+        "en" : ""
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : true,
+    "isTemporary" : false
+  },
+  "status" : { },
+  "hasSecurityInfo" : false
+}

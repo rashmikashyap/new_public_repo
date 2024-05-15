@@ -1,0 +1,102 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:sap.epm:Product_3e315003an",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "sap.epm:Product_3e315003an",
+    "type" : "Generic",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "sap.epm",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : false,
+      "multiLangEnabled" : false,
+      "showOrphans" : false,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true
+    },
+    "description" : "Product",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "hierarchies" : [ {
+      "hierarchy" : "Product_Catego_3o3x5e06y2",
+      "hierarchyType" : "parent_child",
+      "description" : "Product Category",
+      "descriptions" : {
+        "en" : "Product Category"
+      },
+      "hierarchyViewName" : "\"TENANT_7\".\"$MDX//TENANT_7/sap.epm:Product_3e315003an//hier/Product_Catego_3o3x5e06y2\"",
+      "isMandatory" : false,
+      "levels" : [ ],
+      "nodeStyle" : null
+    } ],
+    "memberCount" : 33,
+    "lastUpdated" : "2024-04-08T10:04:19.990Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_7",
+    "descriptions" : {
+      "en" : "Product"
+    },
+    "name" : "Product_3e315003an",
+    "dimensionId" : "Product_3e315003an",
+    "defaultHierarchy" : "Product_Catego_3o3x5e06y2",
+    "masterDataTableName" : "sap.epm::MSTR_Product_3e315003an",
+    "textTableName" : "sap.epm::TEXT_Product_3e315003an",
+    "hierarchyTableName" : "sap.epm::HIER_Product_3e315003an",
+    "hierarchyCount" : 1,
+    "propertyCount" : 1,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : true,
+    "isTemporary" : false
+  },
+  "status" : { },
+  "hasSecurityInfo" : false
+}
