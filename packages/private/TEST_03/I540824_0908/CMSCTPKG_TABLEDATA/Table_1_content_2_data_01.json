@@ -1,0 +1,48 @@
+{
+  "I540824_0908" : {
+    "objects" : {
+      "Table_1" : {
+        "definitions" : {
+          "Table_1" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "Table 1",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "elements" : {
+              "Column_1" : {
+                "@EndUserText.label" : "Column 1",
+                "type" : "cds.String",
+                "length" : 100
+              },
+              "Column_2" : {
+                "@EndUserText.label" : "Column 2",
+                "type" : "cds.String",
+                "length" : 100
+              },
+              "Column_3" : {
+                "@EndUserText.label" : "Column 3",
+                "type" : "cds.String",
+                "length" : 100
+              },
+              "Column_4" : {
+                "@EndUserText.label" : "Column 4",
+                "type" : "cds.String",
+                "length" : 100
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.12.19"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "item" : {
+    "lastUpdatedBy" : null,
+    "creatorUserId" : null,
+    "stateName" : "ACTIVE",
+    "creatorTenantUuid" : null,
+    "lastChangedByUserId" : null,
+    "allowsSubscriptions" : false,
+    "itemId" : 95799,
+    "updated" : 1715754538853,
+    "created" : 1715754538853,
+    "licenseTagName" : "",
+    "publisherName" : null,
+    "lastChangedByTenantUuid" : null,
+    "ownerDetails" : {
+      "userName" : null,
+      "oemIdFromList" : null,
+      "tenantLandscape" : "sac-orcamaster",
+      "tenantUuid" : "25398E6F-68BD-4049-A99A-0ECEC64EF432",
+      "userId" : "BARONCHU",
+      "tenantUrl" : null,
+      "id" : 0,
+      "erpNumber" : null,
+      "oemList" : null,
+      "tenantType" : null
+    },
+    "globalItemId" : "sac-orcamaster-95799",
+    "type" : "PACKAGE",
+    "provider" : "DWC",
+    "parentItemId" : 0,
+    "metadata" : {
+      "isFree" : null,
+      "purchaseUrl" : null,
+      "canBeRestricted" : null
+    }
+  },
+  "waveItems" : [ {
+    "includeAuditData" : false,
+    "artifactRootUri" : "packages/private/95799/100590",
+    "waveItemContents" : [ {
+      "createdBy" : 1505560,
+      "updatedBy" : 1505560,
+      "description" : "CMSCTPKG_DETAILINFO",
+      "elementCount" : 0,
+      "contentId" : "content_1",
+      "sourceId" : "CMSCTPKG_DETAILINFO",
+      "updated" : 1715754538853,
+      "sizeBytes" : 217,
+      "created" : 1715754538853,
+      "waveItemId" : 100590,
+      "name" : "CMSCTPKG_DETAILINFO",
+      "contentType" : "CMSCTPKG_DETAILINFO",
+      "metadata" : null
+    }, {
+      "createdBy" : 1505560,
+      "updatedBy" : 1505560,
+      "description" : "Table 1",
+      "elementCount" : 0,
+      "contentId" : "content_2",
+      "sourceId" : "entity:I540824_0908\\Table_1",
+      "updated" : 1715754538853,
+      "sizeBytes" : 75,
+      "created" : 1715754538853,
+      "waveItemId" : 100590,
+      "name" : "Table_1",
+      "contentType" : "DWC_LOCAL_TABLE",
+      "metadata" : "{\"provider\":\"DWC\",\"isHidden\":false,\"hasData\":false,\"hasChildren\":false,\"parentId\":\"sap.dwc.space:I540824_0908\",\"ancestorPath\":null,\"isDependencySelected\":false,\"ownerType\":null,\"hasSecurityInfo\":false,\"supportDataRepo\":false,\"spaceId\":null,\"dependents\":[]}"
+    }, {
+      "createdBy" : 1505560,
+      "updatedBy" : 1505560,
+      "description" : "Table 1",
+      "elementCount" : 1,
+      "contentId" : "content_2_data_0",
+      "sourceId" : "entity:I540824_0908\\Table_1",
+      "updated" : 1715754538853,
+      "sizeBytes" : 344,
+      "created" : 1715754538853,
+      "waveItemId" : 100590,
+      "name" : "Table_1",
+      "contentType" : "CMSCTPKG_TABLEDATA",
+      "metadata" : "{\"totalChunks\":1}"
+    } ],
+    "itemId" : 95799,
+    "waveItemFields" : [ {
+      "fieldType" : "summary",
+      "fieldI18n" : [ {
+        "langCode" : "en",
+        "value" : "TEST_03"
+      } ],
+      "description" : null,
+      "lastUpdated" : 1715754538853
+    }, {
+      "fieldType" : "name",
+      "fieldI18n" : [ {
+        "langCode" : "en",
+        "value" : "TEST_03"
+      } ],
+      "description" : null,
+      "lastUpdated" : 1715754538853
+    }, {
+      "fieldType" : "description",
+      "fieldI18n" : [ {
+        "langCode" : "en",
+        "value" : "TEST_03"
+      } ],
+      "description" : null,
+      "lastUpdated" : 1715754538853
+    } ],
+    "updated" : 1715754538853,
+    "sizeBytes" : 636,
+    "packageVersion" : "1.0.0",
+    "created" : 1715754538853,
+    "waveItemId" : 100590,
+    "expires" : null,
+    "ownerDetails" : {
+      "userName" : "",
+      "oemIdFromList" : null,
+      "tenantLandscape" : "sac-orcamaster",
+      "tenantUuid" : "25398E6F-68BD-4049-A99A-0ECEC64EF432",
+      "userId" : "BARONCHU",
+      "tenantUrl" : null,
+      "id" : 0,
+      "erpNumber" : null,
+      "oemList" : null,
+      "tenantType" : null
+    },
+    "waveVersion" : "20241200",
+    "globalWaveItemId" : "sac-orcamaster-100590",
+    "state" : "ACTIVE"
+  } ],
+  "permissions" : [ ],
+  "globalParentId" : null,
+  "parentCategoryName" : null,
+  "isPublic" : false,
+  "tags" : [ ],
+  "creationDate" : 1715771676316,
+  "contentStoreMap" : {
+    "content_1/metadata" : "packages/private/TEST_03/packageMetadata.json",
+    "content_2_data_0/content_2_data_01" : "packages/private/TEST_03/I540824_0908/CMSCTPKG_TABLEDATA/Table_1_content_2_data_01.json",
+    "content_2_data_0/metadata" : "packages/private/TEST_03/I540824_0908/CMSCTPKG_TABLEDATA/Table_1_metadata.json",
+    "content_2/metadata" : "packages/private/TEST_03/I540824_0908/DWC_LOCAL_TABLE/Table_1.json"
+  },
+  "checksum" : "1KFHk8wgtnrfjeA9vAQIPQ=="
+}

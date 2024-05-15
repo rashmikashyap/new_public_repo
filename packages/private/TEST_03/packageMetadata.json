@@ -1,0 +1,16 @@
+{
+  "info" : null,
+  "objects" : [ {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "Table_1",
+    "objectId" : "entity:I540824_0908\\Table_1",
+    "parentResId" : "sap.dwc.space:I540824_0908",
+    "isSampleRelated" : false,
+    "name" : "Table_1",
+    "description" : "Table 1",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:I540824_0908" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  } ]
+}
