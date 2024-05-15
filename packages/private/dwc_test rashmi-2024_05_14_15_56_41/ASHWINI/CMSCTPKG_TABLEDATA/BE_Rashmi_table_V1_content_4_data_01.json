@@ -1,0 +1,38 @@
+{
+  "RASHMI_DWC" : {
+    "objects" : {
+      "BE_Rashmi_table_V1" : {
+        "definitions" : {
+          "BE_Rashmi_table_V1" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "Rashmi_table: V1 Initial",
+            "@cds.persistence.skip" : true,
+            "@ObjectModel.semanticObject" : {
+              "=" : "BE_Rashmi_table"
+            },
+            "@ObjectModel.modelingPattern" : "#_DWC_BUSINESS_ENTITY_VARIANT",
+            "@ObjectModel.supportedCapabilities" : [ "#_DWC_BUSINESS_ENTITY_VARIANT" ],
+            "@AccessControl.authorizationCheck" : "#NOT_REQUIRED",
+            "@DataWarehouse.dataAccessControl.authorizationScenarioUsage" : [ ],
+            "@ObjectModel.alternativeKey" : [ ],
+            "elements" : { },
+            "query" : {
+              "SELECT" : {
+                "from" : {
+                  "ref" : [ "Rashmi_table" ]
+                },
+                "columns" : [ ]
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.11.15"
+  }
+}

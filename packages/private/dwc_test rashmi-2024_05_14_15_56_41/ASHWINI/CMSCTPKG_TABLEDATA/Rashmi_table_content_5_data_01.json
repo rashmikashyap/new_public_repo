@@ -1,0 +1,36 @@
+{
+  "RASHMI_DWC" : {
+    "objects" : {
+      "Rashmi_table" : {
+        "definitions" : {
+          "Rashmi_table" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "Rashmi_table",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "elements" : {
+              "Column_1" : {
+                "@EndUserText.label" : "Column 1",
+                "type" : "cds.String",
+                "length" : 100,
+                "default" : {
+                  "val" : "rashmi"
+                }
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.11.15"
+  }
+}

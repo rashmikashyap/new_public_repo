@@ -1,0 +1,69 @@
+{
+  "RASHMI_DWC" : {
+    "objects" : {
+      "BE_Rashmi_table" : {
+        "definitions" : {
+          "BE_Rashmi_table" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "Rashmi_table",
+            "@cds.persistence.skip" : true,
+            "@ObjectModel.semanticObject" : {
+              "=" : "BE_Rashmi_table"
+            },
+            "@ObjectModel.modelingPattern" : "#_DWC_BUSINESS_ENTITY",
+            "@ObjectModel.supportedCapabilities" : [ "#_DWC_BUSINESS_ENTITY" ],
+            "@Analytics.dataCategory" : {
+              "#" : "DIMENSION"
+            },
+            "@AccessControl.authorizationCheck" : "#NOT_REQUIRED",
+            "@DataWarehouse.dataAccessControl.authorizationScenarioUsage" : [ ],
+            "@ObjectModel.alternativeKey" : [ ],
+            "elements" : { },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        },
+        "businessLayerDefinitions" : {
+          "BE_Rashmi_table" : {
+            "AllowPublicAccess" : true,
+            "Associations" : [ ],
+            "AuthorizationScenarioAssignment" : [ ],
+            "Hierarchies" : [ ],
+            "Keys" : [ ],
+            "StandardBusinessEntityVersion" : {
+              "VersionTechnicalTitle" : "BE_Rashmi_table_V1"
+            },
+            "TargetPackage" : {
+              "PackageTechnicalTitle" : "0"
+            },
+            "TechnicalTitle" : "BE_Rashmi_table",
+            "Title" : "Rashmi_table",
+            "Type" : 3,
+            "Versions" : [ {
+              "AssociationKeyMapping" : [ ],
+              "Attributes" : [ ],
+              "AuthorizationScenarioRestrictionContexts" : [ ],
+              "Description" : "Initial Version",
+              "HierarchyKeyMemberMapping" : [ ],
+              "HierarchySourceMapping" : [ ],
+              "InputParameters" : [ ],
+              "KeyMapping" : [ ],
+              "Measures" : [ ],
+              "SourceSpaceID" : "RASHMI_DWC",
+              "SourceTechnicalName" : "Rashmi_table",
+              "Status" : 3,
+              "Title" : "Initial",
+              "VersionNumber" : 1,
+              "VersionTechnicalTitle" : "BE_Rashmi_table_V1",
+              "IsSelectedVersion" : true
+            } ]
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.11.15"
+  }
+}

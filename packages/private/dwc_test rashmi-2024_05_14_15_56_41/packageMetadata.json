@@ -1,0 +1,52 @@
+{
+  "info" : null,
+  "objects" : [ {
+    "objectType" : "FOLDER",
+    "objectName" : "ASHWINI",
+    "objectId" : "sap.dwc.space:ASHWINI",
+    "parentResId" : "SPACE",
+    "isSampleRelated" : false,
+    "name" : "ASHWINI",
+    "description" : "ASHWINI",
+    "objectInfo" : null,
+    "dependents" : [ ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_BUSINESS_ENTITY",
+    "objectName" : "BE_Rashmi_table",
+    "objectId" : "sap.dwc.businessEntity:ASHWINI\\BE_Rashmi_table",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "BE_Rashmi_table",
+    "description" : "Rashmi_table",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI", "entity:ASHWINI\\Rashmi_table", "sap.dwc.businessEntityVariant:ASHWINI\\BE_Rashmi_table_V1" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_BUSINESS_ENTITY_VARIANT",
+    "objectName" : "BE_Rashmi_table_V1",
+    "objectId" : "sap.dwc.businessEntityVariant:ASHWINI\\BE_Rashmi_table_V1",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "BE_Rashmi_table_V1",
+    "description" : "Rashmi_table: V1 Initial",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI", "entity:ASHWINI\\Rashmi_table", "sap.dwc.businessEntity:ASHWINI\\BE_Rashmi_table" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "Rashmi_table",
+    "objectId" : "entity:ASHWINI\\Rashmi_table",
+    "parentResId" : "sap.dwc.space:ASHWINI",
+    "isSampleRelated" : false,
+    "name" : "Rashmi_table",
+    "description" : "Rashmi_table",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:ASHWINI" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  } ]
+}
