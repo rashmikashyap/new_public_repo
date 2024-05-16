@@ -1,0 +1,38 @@
+{
+  "GITHUB_SPACE" : {
+    "objects" : {
+      "BE_gitTableView_V1" : {
+        "definitions" : {
+          "BE_gitTableView_V1" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "gitTableView: V1 Initial",
+            "@cds.persistence.skip" : true,
+            "@ObjectModel.semanticObject" : {
+              "=" : "BE_gitTableView"
+            },
+            "@ObjectModel.modelingPattern" : "#_DWC_BUSINESS_ENTITY_VARIANT",
+            "@ObjectModel.supportedCapabilities" : [ "#_DWC_BUSINESS_ENTITY_VARIANT" ],
+            "@AccessControl.authorizationCheck" : "#NOT_REQUIRED",
+            "@DataWarehouse.dataAccessControl.authorizationScenarioUsage" : [ ],
+            "@ObjectModel.alternativeKey" : [ ],
+            "elements" : { },
+            "query" : {
+              "SELECT" : {
+                "from" : {
+                  "ref" : [ "gitTableView" ]
+                },
+                "columns" : [ ]
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.12.22"
+  }
+}

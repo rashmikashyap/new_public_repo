@@ -1,0 +1,16 @@
+{
+  "id" : "sap.dwc.businessEntityVariant:GITHUB_SPACE\\BE_gitTableView_V1",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:GITHUB_SPACE",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "entity:GITHUB_SPACE\\gitTableView",
+    "provider" : "DWC",
+    "container" : ""
+  }, {
+    "id" : "sap.dwc.businessEntity:GITHUB_SPACE\\BE_gitTableView",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}
