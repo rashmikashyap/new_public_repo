@@ -13,18 +13,6 @@
     "provider" : "DWC",
     "ancestorPath" : null
   }, {
-    "objectType" : "DWC_BUSINESS_ENTITY",
-    "objectName" : "BE_gitTableView",
-    "objectId" : "sap.dwc.businessEntity:GITHUB_SPACE\\BE_gitTableView",
-    "parentResId" : "sap.dwc.space:GITHUB_SPACE",
-    "isSampleRelated" : false,
-    "name" : "BE_gitTableView",
-    "description" : "gitTableView",
-    "objectInfo" : null,
-    "dependents" : [ "sap.dwc.space:GITHUB_SPACE", "entity:GITHUB_SPACE\\gitTableView", "sap.dwc.businessEntityVariant:GITHUB_SPACE\\BE_gitTableView_V1" ],
-    "provider" : "DWC",
-    "ancestorPath" : null
-  }, {
     "objectType" : "DWC_BUSINESS_ENTITY_VARIANT",
     "objectName" : "BE_gitTableView_V1",
     "objectId" : "sap.dwc.businessEntityVariant:GITHUB_SPACE\\BE_gitTableView_V1",
