@@ -1,0 +1,46 @@
+{
+  "GITHUB_SPACE" : {
+    "objects" : {
+      "gitTableView" : {
+        "definitions" : {
+          "gitTableView" : {
+            "kind" : "entity",
+            "@EndUserText.label" : "gitTableView",
+            "@ObjectModel.modelingPattern" : {
+              "#" : "DATA_STRUCTURE"
+            },
+            "@ObjectModel.supportedCapabilities" : [ {
+              "#" : "DATA_STRUCTURE"
+            } ],
+            "elements" : {
+              "Column_1" : {
+                "@EndUserText.label" : "Column 1",
+                "type" : "cds.String",
+                "length" : 100,
+                "notNull" : true,
+                "default" : {
+                  "val" : "value string"
+                }
+              },
+              "Column_2" : {
+                "@EndUserText.label" : "Column 2",
+                "type" : "cds.String",
+                "length" : 100,
+                "notNull" : true,
+                "default" : {
+                  "val" : "Rashm_i"
+                }
+              }
+            },
+            "_meta" : {
+              "dependencies" : {
+                "folderAssignment" : null
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlatformRepositoryVersion" : "2024.12.22"
+  }
+}

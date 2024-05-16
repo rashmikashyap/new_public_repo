@@ -1,0 +1,8 @@
+{
+  "id" : "entity:GITHUB_SPACE\\gitTableView",
+  "dependencies" : [ {
+    "id" : "sap.dwc.space:GITHUB_SPACE",
+    "provider" : "DWC",
+    "container" : ""
+  } ]
+}

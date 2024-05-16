@@ -1,0 +1,52 @@
+{
+  "info" : null,
+  "objects" : [ {
+    "objectType" : "FOLDER",
+    "objectName" : "GITHUB_SPACE",
+    "objectId" : "sap.dwc.space:GITHUB_SPACE",
+    "parentResId" : "SPACE",
+    "isSampleRelated" : false,
+    "name" : "GITHUB_SPACE",
+    "description" : "Github_space",
+    "objectInfo" : null,
+    "dependents" : [ ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_BUSINESS_ENTITY",
+    "objectName" : "BE_gitTableView",
+    "objectId" : "sap.dwc.businessEntity:GITHUB_SPACE\\BE_gitTableView",
+    "parentResId" : "sap.dwc.space:GITHUB_SPACE",
+    "isSampleRelated" : false,
+    "name" : "BE_gitTableView",
+    "description" : "gitTableView",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:GITHUB_SPACE", "entity:GITHUB_SPACE\\gitTableView", "sap.dwc.businessEntityVariant:GITHUB_SPACE\\BE_gitTableView_V1" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_BUSINESS_ENTITY_VARIANT",
+    "objectName" : "BE_gitTableView_V1",
+    "objectId" : "sap.dwc.businessEntityVariant:GITHUB_SPACE\\BE_gitTableView_V1",
+    "parentResId" : "sap.dwc.space:GITHUB_SPACE",
+    "isSampleRelated" : false,
+    "name" : "BE_gitTableView_V1",
+    "description" : "gitTableView: V1 Initial",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:GITHUB_SPACE", "entity:GITHUB_SPACE\\gitTableView", "sap.dwc.businessEntity:GITHUB_SPACE\\BE_gitTableView" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  }, {
+    "objectType" : "DWC_LOCAL_TABLE",
+    "objectName" : "gitTableView",
+    "objectId" : "entity:GITHUB_SPACE\\gitTableView",
+    "parentResId" : "sap.dwc.space:GITHUB_SPACE",
+    "isSampleRelated" : false,
+    "name" : "gitTableView",
+    "description" : "gitTableView",
+    "objectInfo" : null,
+    "dependents" : [ "sap.dwc.space:GITHUB_SPACE" ],
+    "provider" : "DWC",
+    "ancestorPath" : null
+  } ]
+}
