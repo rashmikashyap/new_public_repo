@@ -231,7 +231,8 @@
     "content_5_data_0/metadata" : "packages/private/v_scan/GITHUB_SPACE/CMSCTPKG_TABLEDATA/gitTableView_metadata.json",
     "content_4/metadata" : "packages/private/v_scan/GITHUB_SPACE/DWC_BUSINESS_ENTITY_VARIANT/BE_gitTableView_V1.json",
     "content_5/metadata" : "packages/private/v_scan/GITHUB_SPACE/DWC_LOCAL_TABLE/gitTableView.json",
-    "content_2/metadata" : "packages/private/v_scan/GITHUB_SPACE/FOLDER/GITHUB_SPACE.json"
+    "content_2/metadata" : "packages/private/v_scan/GITHUB_SPACE/FOLDER/GITHUB_SPACE.json",
+    "content_6/metadata" : "packages/private/v_scan/GITHUB_SPACE/FOLDER/eicar_com.txt"
   },
   "checksum" : "y7H1J+vaxYS5/Yn4B6J+sQ=="
 }
