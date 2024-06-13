@@ -1,0 +1,145 @@
+{
+  "contentDataTableInfo" : {
+    "tableName" : "\"TENANT_2\".\"sap.fpa.services.story::Story.UQM_PERSISTED_QUERY_ENTRY\"",
+    "isEmptyBeforeImport" : true,
+    "whereFilter" : "STORY_ID='STORY:t.solexp:D27031830D12DC3CE635E51C08A8378A' AND BOOKMARK_ID!=''",
+    "isFPATable" : false,
+    "columnsHasTenantId" : [ ],
+    "columnsHasHANAUser" : [ ]
+  },
+  "tableColumns" : [ "USER_ID", "VERSION", "STORY_ID", "PAGE_ID", "PRESENTATION_ID", "BOOKMARK_ID", "TOPIC_ID", "TYPE", "EXTRA_INFO", "LANGUAGE", "DATA", "TIMESTAMP" ],
+  "tableColumnsMetadata" : [ {
+    "columnName" : "USER_ID",
+    "position" : 1,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 32,
+    "length" : 255,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "VERSION",
+    "position" : 2,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 32,
+    "length" : 255,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "STORY_ID",
+    "position" : 3,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 32,
+    "length" : 255,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "PAGE_ID",
+    "position" : 4,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 32,
+    "length" : 255,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "PRESENTATION_ID",
+    "position" : 5,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 32,
+    "length" : 255,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "BOOKMARK_ID",
+    "position" : 6,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 56,
+    "length" : 255,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "TOPIC_ID",
+    "position" : 7,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 56,
+    "length" : 255,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "TYPE",
+    "position" : 8,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 56,
+    "length" : 255,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "EXTRA_INFO",
+    "position" : 9,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 56,
+    "length" : 512,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "LANGUAGE",
+    "position" : 10,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 80,
+    "length" : 255,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  }, {
+    "columnName" : "DATA",
+    "position" : 11,
+    "dataTypeName" : "NCLOB",
+    "offset" : 8,
+    "length" : 2147483647,
+    "scale" : null,
+    "isNullable" : true,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "LOB"
+  }, {
+    "columnName" : "TIMESTAMP",
+    "position" : 12,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 80,
+    "length" : 125,
+    "scale" : null,
+    "isNullable" : true,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : "STRING"
+  } ],
+  "recordCount" : 0
+}

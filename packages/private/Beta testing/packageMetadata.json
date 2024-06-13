@@ -1,0 +1,408 @@
+{
+  "info" : {
+    "version" : {
+      "major" : 2024,
+      "minor" : 12,
+      "revision" : 0,
+      "extension" : "0014151",
+      "qrc" : false,
+      "githash" : "466bc5b5eba22ec2e8ca340501dd2ff615038123"
+    },
+    "chunk" : {
+      "n" : "1100",
+      "j" : "11111101000",
+      "r" : "0",
+      "a" : "1000010011"
+    },
+    "tenant" : "2"
+  },
+  "objects" : [ {
+    "objectType" : "RESOURCE",
+    "objectName" : "Github test Folder",
+    "objectId" : "RESOURCE:t.solexp:127831830D16600D95A3DFB57E8F6B08",
+    "parentResId" : "RESOURCE:t.solexp:PUBLIC",
+    "hasParentRes" : true,
+    "isSampleRelated" : false,
+    "name" : "t.solexp:127831830D16600D95A3DFB57E8F6B08",
+    "description" : "Github test Folder",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : [ "PUBLIC" ],
+    "ownerType" : "PUBLIC"
+  }, {
+    "objectType" : "RESOURCE",
+    "objectName" : "Git_Model",
+    "objectId" : "RESOURCE:t.solexp.Cmo19gc6hagp4iumj3jd73jp0a:Cmo19gc6hagp4iumj3jd73jp0a",
+    "parentResId" : "RESOURCE:t.solexp:127831830D16600D95A3DFB57E8F6B08",
+    "hasParentRes" : true,
+    "isSampleRelated" : false,
+    "name" : "t.solexp.Cmo19gc6hagp4iumj3jd73jp0a:Cmo19gc6hagp4iumj3jd73jp0a",
+    "description" : "",
+    "objectInfo" : { },
+    "dependents" : [ "DIMENSION:t.solexp.Cmo19gc6hagp4iumj3jd73jp0a:Version", "RESOURCE:t.solexp:127831830D16600D95A3DFB57E8F6B08" ],
+    "provider" : null,
+    "ancestorPath" : [ "PUBLIC", "Github test Folder" ],
+    "ownerType" : "PUBLIC",
+    "supportDataRepo" : true,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_2\".\"t.solexp.Cmo19gc6hagp4iumj3jd73jp0a::TRNS_Cmo19gc6hagp4iumj3jd73jp0a\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "Names.ID", "Place.ID", "Marks", "Version.ID", "_Package_" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "Names.ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 5000,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Place.ID",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 24,
+        "length" : 5000,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "Marks",
+        "position" : 3,
+        "dataTypeName" : "INTEGER",
+        "offset" : 1,
+        "length" : 10,
+        "scale" : 0,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "INT"
+      }, {
+        "columnName" : "Version.ID",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 40,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "public.Actual",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_Package_",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 40,
+        "length" : 265,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "UNUSED",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 5
+    } ]
+  }, {
+    "objectType" : "RESOURCE",
+    "objectName" : "Git_Story",
+    "objectId" : "RESOURCE:t.solexp:D27031830D12DC3CE635E51C08A8378A",
+    "parentResId" : "RESOURCE:t.solexp:127831830D16600D95A3DFB57E8F6B08",
+    "hasParentRes" : true,
+    "isSampleRelated" : false,
+    "name" : "t.solexp:D27031830D12DC3CE635E51C08A8378A",
+    "description" : "",
+    "objectInfo" : { },
+    "dependents" : [ "RESOURCE:t.solexp.Cmo19gc6hagp4iumj3jd73jp0a:Cmo19gc6hagp4iumj3jd73jp0a", "DIMENSION:t.solexp.Cmo19gc6hagp4iumj3jd73jp0a:Version", "RESOURCE:t.solexp:127831830D16600D95A3DFB57E8F6B08" ],
+    "provider" : null,
+    "ancestorPath" : [ "PUBLIC", "Github test Folder" ],
+    "ownerType" : "PUBLIC",
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_2\".\"sap.fpa.services.story::Story.UQM_PERSISTED_QUERY_ENTRY\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "STORY_ID='STORY:t.solexp:D27031830D12DC3CE635E51C08A8378A' AND BOOKMARK_ID!=''",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ]
+      },
+      "tableColumns" : [ "USER_ID", "VERSION", "STORY_ID", "PAGE_ID", "PRESENTATION_ID", "BOOKMARK_ID", "TOPIC_ID", "TYPE", "EXTRA_INFO", "LANGUAGE", "DATA", "TIMESTAMP" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "USER_ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 32,
+        "length" : 255,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "VERSION",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 32,
+        "length" : 255,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "STORY_ID",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 32,
+        "length" : 255,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "PAGE_ID",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 32,
+        "length" : 255,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "PRESENTATION_ID",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 32,
+        "length" : 255,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "BOOKMARK_ID",
+        "position" : 6,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 56,
+        "length" : 255,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "TOPIC_ID",
+        "position" : 7,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 56,
+        "length" : 255,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "TYPE",
+        "position" : 8,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 56,
+        "length" : 255,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "EXTRA_INFO",
+        "position" : 9,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 56,
+        "length" : 512,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "LANGUAGE",
+        "position" : 10,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 80,
+        "length" : 255,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "DATA",
+        "position" : 11,
+        "dataTypeName" : "NCLOB",
+        "offset" : 8,
+        "length" : 2147483647,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "LOB"
+      }, {
+        "columnName" : "TIMESTAMP",
+        "position" : 12,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 80,
+        "length" : 125,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 0
+    } ]
+  }, {
+    "objectType" : "DIMENSION",
+    "objectName" : "Version",
+    "objectId" : "DIMENSION:t.solexp.Cmo19gc6hagp4iumj3jd73jp0a:Version",
+    "parentResId" : "",
+    "isSampleRelated" : false,
+    "name" : "t.solexp.Cmo19gc6hagp4iumj3jd73jp0a:Version",
+    "description" : "Version",
+    "objectInfo" : { },
+    "dependents" : [ ],
+    "provider" : null,
+    "ancestorPath" : null,
+    "ownerType" : null,
+    "tables" : [ {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_2\".\"t.solexp.Cmo19gc6hagp4iumj3jd73jp0a::MSTR_Version\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "VERSION", "CATEGORY", "CURRENCY_CONVERSION_CATEGORY", "RATE_VERSION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "VERSION",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "CATEGORY",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "CURRENCY_CONVERSION_CATEGORY",
+        "position" : 4,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "RATE_VERSION",
+        "position" : 5,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 127,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 1
+    }, {
+      "contentDataTableInfo" : {
+        "tableName" : "\"TENANT_2\".\"t.solexp.Cmo19gc6hagp4iumj3jd73jp0a::TEXT_Version\"",
+        "isEmptyBeforeImport" : true,
+        "whereFilter" : "",
+        "isFPATable" : false,
+        "columnsHasTenantId" : [ ],
+        "columnsHasHANAUser" : [ ],
+        "generated" : false,
+        "repositoryId" : null
+      },
+      "tableColumns" : [ "ID", "_LANG", "_DESCRIPTION" ],
+      "tableColumnsMetadata" : [ {
+        "columnName" : "ID",
+        "position" : 1,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 300,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_LANG",
+        "position" : 2,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 5,
+        "scale" : null,
+        "isNullable" : false,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      }, {
+        "columnName" : "_DESCRIPTION",
+        "position" : 3,
+        "dataTypeName" : "NVARCHAR",
+        "offset" : 8,
+        "length" : 256,
+        "scale" : null,
+        "isNullable" : true,
+        "defaultValue" : "",
+        "comments" : "",
+        "csDataTypeName" : "STRING"
+      } ],
+      "recordCount" : 1
+    } ]
+  } ]
+}

@@ -1,0 +1,2032 @@
+{
+  "objectType" : "RESOURCE",
+  "packageId" : "t.solexp",
+  "objectId" : "RESOURCE:t.solexp:D27031830D12DC3CE635E51C08A8378A",
+  "isEmbedded" : false,
+  "content" : {
+    "resourceId" : "D27031830D12DC3CE635E51C08A8378A",
+    "resourceType" : "STORY",
+    "ownerId" : "PUBLIC",
+    "ownerType" : "PUBLIC",
+    "parentResId" : "127831830D16600D95A3DFB57E8F6B08",
+    "updateCounter" : 3,
+    "origLangu" : "E",
+    "packageId" : "t.solexp",
+    "name" : "Git_Story",
+    "resourceSubtype" : "",
+    "mobileSupport" : 1,
+    "description" : "",
+    "createdBy" : "I554236",
+    "createdTime" : "2024-06-11T05:10:41.507Z",
+    "modifiedBy" : "I554236",
+    "modifiedTime" : "2024-06-11T05:20:44.160Z",
+    "createdByDisplayName" : "",
+    "modifiedByDisplayName" : "",
+    "objectId" : "STORY:t.solexp:D27031830D12DC3CE635E51C08A8378A",
+    "access" : { },
+    "accessExt" : { },
+    "texts" : [ {
+      "langu" : "E",
+      "description" : ""
+    } ],
+    "views" : [ ],
+    "sourceResource" : {
+      "resourceId" : "",
+      "parentResId" : "",
+      "updateCounter" : 0,
+      "origLangu" : "E",
+      "packageId" : "t.solexp",
+      "name" : "",
+      "resourceSubtype" : "",
+      "mobileSupport" : 0,
+      "description" : "",
+      "createdBy" : "",
+      "createdTime" : "2024-06-11T05:29:17.139Z",
+      "modifiedBy" : "",
+      "modifiedTime" : "2024-06-11T05:29:17.139Z",
+      "createdByDisplayName" : "",
+      "modifiedByDisplayName" : "",
+      "access" : { },
+      "accessExt" : { },
+      "texts" : [ ],
+      "views" : [ ],
+      "sourceResource" : { },
+      "favResId" : "",
+      "shareResId" : "",
+      "ancestorResource" : [ ],
+      "ancestorPath" : [ ],
+      "auth" : null,
+      "canShare" : false,
+      "cdata" : null,
+      "storyContent" : null,
+      "metadata" : null,
+      "dependentObjects" : [ ],
+      "subObjects" : [ ],
+      "data" : null,
+      "featured" : 0,
+      "spaceId" : null
+    },
+    "favResId" : "",
+    "shareResId" : "",
+    "ancestorResource" : [ ],
+    "ancestorPath" : [ ],
+    "auth" : null,
+    "canShare" : false,
+    "cdata" : {
+      "storyId" : "STORY:t.solexp:D27031830D12DC3CE635E51C08A8378A",
+      "title" : "Git_Story",
+      "description" : "",
+      "contentOptimized" : {
+        "version" : "4.12",
+        "entities" : [ {
+          "id" : "6e8b7961-9994-4bfd-bce6-e1ace133f6f5",
+          "name" : "New Infographic",
+          "type" : "story",
+          "data" : {
+            "id" : "6f4a624a-57dd-4707-a67b-38a93ce19b16",
+            "title" : "New Infographic",
+            "pages" : [ {
+              "title" : "Page_1",
+              "hidden" : false,
+              "definition" : {
+                "layoutId" : "21cb8dd8-ef6c-4d9d-a843-8250a902db20",
+                "type" : "CANVAS",
+                "behaviorMode" : "RESPONSIVE",
+                "fitPageToDevice" : true,
+                "snapToGrid" : false
+              },
+              "content" : {
+                "version" : "2.0",
+                "layouts" : [ {
+                  "id" : "21cb8dd8-ef6c-4d9d-a843-8250a902db20",
+                  "definition" : {
+                    "type" : "sap.lumira.story.layout.unified",
+                    "page" : {
+                      "sections" : [ {
+                        "sectionId" : "83179619-1315-4182-8390-286251335936",
+                        "widgets" : [ {
+                          "widgetId" : "26655957-9732-4484-9745-817435371091",
+                          "definition" : {
+                            "removeable" : true,
+                            "x" : 0,
+                            "y" : 0,
+                            "height" : 491,
+                            "width" : 1060,
+                            "angle" : 0,
+                            "backgroundColor" : "transparent",
+                            "border" : {
+                              "format" : "none",
+                              "style" : "solid",
+                              "color" : "rgb(88,89,91)",
+                              "thickness" : "1",
+                              "radius" : 0,
+                              "max_thickness" : "8"
+                            },
+                            "dynamicLayout" : {
+                              "top" : 0,
+                              "height" : 100,
+                              "bottom" : 0,
+                              "left" : 0,
+                              "width" : 100,
+                              "right" : 0,
+                              "leftUnit" : "pixel",
+                              "rightUnit" : "pixel",
+                              "widthUnit" : "auto",
+                              "topUnit" : "pixel",
+                              "bottomUnit" : "pixel",
+                              "heightUnit" : "auto",
+                              "minWidth" : 290,
+                              "minHeight" : 192,
+                              "minOccupiedWidth" : 290,
+                              "minOccupiedHeight" : 484,
+                              "fixedHeight" : false,
+                              "fixedWidth" : false
+                            }
+                          }
+                        } ],
+                        "definition" : {
+                          "title" : "Section",
+                          "width" : 1060,
+                          "height" : 491,
+                          "x" : 0,
+                          "y" : 0
+                        }
+                      } ],
+                      "definition" : {
+                        "backgroundColor" : "#FFFFFF",
+                        "type" : "CANVAS",
+                        "height" : 491,
+                        "width" : 1060
+                      }
+                    }
+                  }
+                }, {
+                  "id" : "34853969-4311-4119-9879-112396751434",
+                  "definition" : {
+                    "type" : "sap.lumira.story.layout.unified",
+                    "page" : {
+                      "sections" : [ {
+                        "sectionId" : "29200731-0820-4483-8844-375790777326",
+                        "widgets" : [ {
+                          "widgetId" : "19445885-4140-4379-9174-341243551661",
+                          "definition" : {
+                            "removeable" : true,
+                            "x" : 0,
+                            "y" : 0,
+                            "height" : 483,
+                            "width" : 1052,
+                            "angle" : 0,
+                            "backgroundColor" : "transparent",
+                            "border" : {
+                              "format" : "none",
+                              "style" : "solid",
+                              "color" : "rgb(88,89,91)",
+                              "thickness" : "1",
+                              "radius" : 0,
+                              "max_thickness" : "8"
+                            },
+                            "dynamicLayout" : {
+                              "top" : 0,
+                              "height" : 1016,
+                              "bottom" : 0,
+                              "left" : 0,
+                              "width" : 100,
+                              "right" : 0,
+                              "leftUnit" : "pixel",
+                              "rightUnit" : "auto",
+                              "widthUnit" : "percent",
+                              "topUnit" : "pixel",
+                              "bottomUnit" : "auto",
+                              "heightUnit" : "pixel",
+                              "minWidth" : 32,
+                              "minHeight" : 32,
+                              "minOccupiedWidth" : 1983,
+                              "minOccupiedHeight" : 1016,
+                              "fixedHeight" : false,
+                              "fixedWidth" : false,
+                              "laneRowId" : "40780993-7674-4880-9492-215578901822"
+                            }
+                          }
+                        } ],
+                        "definition" : {
+                          "title" : "Section",
+                          "width" : 1052,
+                          "height" : 483,
+                          "x" : 4,
+                          "y" : 4
+                        }
+                      } ],
+                      "definition" : {
+                        "backgroundColor" : "transparent",
+                        "type" : "CANVAS",
+                        "layoutType" : "RESPONSIVE",
+                        "width" : 1060,
+                        "height" : 491
+                      }
+                    }
+                  }
+                }, {
+                  "id" : "21192715-2538-4464-9963-421640827563",
+                  "definition" : {
+                    "type" : "sap.lumira.story.layout.unified",
+                    "page" : {
+                      "sections" : [ {
+                        "sectionId" : "78373593-6170-4907-8261-324787897168",
+                        "definition" : {
+                          "x" : 0,
+                          "y" : 17,
+                          "width" : 553,
+                          "height" : 455,
+                          "title" : "Section"
+                        },
+                        "widgets" : [ {
+                          "widgetId" : "30427081-6376-4965-9329-152646669525",
+                          "definition" : {
+                            "removeable" : true,
+                            "x" : 0,
+                            "y" : 0,
+                            "height" : 455,
+                            "width" : 553,
+                            "dynamicLayout" : {
+                              "top" : 1,
+                              "height" : 27,
+                              "bottom" : 0,
+                              "left" : 0,
+                              "width" : 19,
+                              "right" : 0,
+                              "leftUnit" : "grid",
+                              "rightUnit" : "auto",
+                              "widthUnit" : "grid",
+                              "topUnit" : "grid",
+                              "bottomUnit" : "auto",
+                              "heightUnit" : "grid",
+                              "minWidth" : 32,
+                              "minHeight" : 32,
+                              "minOccupiedWidth" : 553,
+                              "minOccupiedHeight" : 472,
+                              "fixedHeight" : false,
+                              "fixedWidth" : false
+                            },
+                            "notFollowTheme" : true,
+                            "backgroundColor" : "rgba(255, 201, 51, 1)"
+                          }
+                        } ]
+                      } ],
+                      "definition" : {
+                        "backgroundColor" : "transparent",
+                        "background" : {
+                          "type" : "color",
+                          "value" : "transparent"
+                        },
+                        "type" : "CANVAS",
+                        "layoutType" : "GRID",
+                        "width" : 1052,
+                        "height" : 483
+                      }
+                    }
+                  }
+                } ],
+                "widgets" : [ {
+                  "class" : "sap.fpa.ui.appBuilding.entity.responsiveContainer.ResponsiveContainerWidget",
+                  "definition" : {
+                    "entityId" : "24180192-1018-4171-a092-138365627026",
+                    "data" : { },
+                    "restrictedLayout" : true,
+                    "layoutIds" : [ "34853969-4311-4119-9879-112396751434" ]
+                  },
+                  "themeClasses" : [ ],
+                  "dimension" : {
+                    "width" : 496,
+                    "height" : 416
+                  },
+                  "serviceValidationHashes" : { },
+                  "id" : "26655957-9732-4484-9745-817435371091"
+                }, {
+                  "class" : "sap.fpa.ui.appBuilding.entity.lane.GridLaneWidget",
+                  "definition" : {
+                    "entityId" : "19088912-4258-4719-b886-189439095129",
+                    "data" : { },
+                    "layoutIds" : [ "21192715-2538-4464-9963-421640827563" ]
+                  },
+                  "themeClasses" : [ ],
+                  "dimension" : {
+                    "width" : 496,
+                    "height" : 416
+                  },
+                  "serviceValidationHashes" : { },
+                  "id" : "19445885-4140-4379-9174-341243551661"
+                }, {
+                  "id" : "30427081-6376-4965-9329-152646669525",
+                  "class" : "sap.lumira.story.viz.VizWidget",
+                  "definition" : {
+                    "entityId" : "921f279a-c87a-4f4d-be80-b1b2044eb352",
+                    "vizDefinition" : {
+                      "properties" : {
+                        "categoryAxis" : {
+                          "axisLine" : {
+                            "size" : 3
+                          },
+                          "axisTick" : {
+                            "visible" : false
+                          },
+                          "color" : "rgb(0, 0, 0)",
+                          "label" : {
+                            "style" : {
+                              "color" : "rgb(166, 168, 171)",
+                              "fontFamily" : "'72-Web', Arial, Helvetica, sans-serif",
+                              "fontSize" : "13px"
+                            }
+                          },
+                          "showLabelGrids" : true
+                        },
+                        "general" : {
+                          "background" : {
+                            "containerWeight" : 10,
+                            "visible" : false
+                          },
+                          "label" : {
+                            "direction" : "automatic"
+                          },
+                          "layout" : {
+                            "paddingBottom" : 10
+                          },
+                          "varianceChart" : {
+                            "varianceLabel" : {
+                              "responsive" : true
+                            }
+                          },
+                          "collisionDetection" : true,
+                          "inverted" : false
+                        },
+                        "legend" : {
+                          "label" : {
+                            "style" : {
+                              "fontFamily" : "'72-Web', Arial, Helvetica, sans-serif",
+                              "fontSize" : "12px",
+                              "fontWeight" : "normal"
+                            }
+                          },
+                          "showFullLabel" : true
+                        },
+                        "legendGroup" : {
+                          "layout" : {
+                            "position" : "top"
+                          },
+                          "responsive" : true,
+                          "visible" : true
+                        },
+                        "plotArea" : {
+                          "background" : {
+                            "visible" : false
+                          },
+                          "dataLabel" : {
+                            "formatString" : "00.0",
+                            "hideWhenOverlap" : true,
+                            "style" : {
+                              "fontFamily" : "'72-Web', Arial, Helvetica, sans-serif",
+                              "fontSize" : "12px",
+                              "fontWeight" : "bold",
+                              "color" : "rgb(88,89,91)"
+                            },
+                            "visible" : true
+                          },
+                          "gap" : {
+                            "innerGroupSpacing" : 2
+                          },
+                          "gridline" : {
+                            "color" : "rgb(241,241,242)"
+                          },
+                          "showLabelNames" : false,
+                          "stackColumnLabel" : {
+                            "style" : {
+                              "color" : "rgb(88,89,91)",
+                              "fontFamily" : "'72-Web', Arial, Helvetica, sans-serif",
+                              "fontSize" : "12px",
+                              "fontWeight" : "normal"
+                            }
+                          }
+                        },
+                        "valueAxis" : {
+                          "axisLine" : {
+                            "visible" : false
+                          },
+                          "axisTick" : {
+                            "visible" : false
+                          },
+                          "label" : {
+                            "formatString" : "00.0",
+                            "style" : {
+                              "color" : "rgb(166, 168, 171)",
+                              "fontFamily" : "'72-Web', Arial, Helvetica, sans-serif",
+                              "fontSize" : "13px"
+                            }
+                          }
+                        },
+                        "variance" : [ ]
+                      },
+                      "datasetEntityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"}]",
+                      "cacheHintEnabled" : true,
+                      "bindings" : [ {
+                        "feed" : "color",
+                        "source" : [ "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Names\"}]", "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Place\"}]" ]
+                      }, {
+                        "feed" : "size",
+                        "source" : [ "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"},{\"measureId\":\"Marks\"}]" ]
+                      } ],
+                      "userPreferences" : {
+                        "varianceToken" : {
+                          "visible" : true
+                        },
+                        "chartDetail" : {
+                          "dataset" : {
+                            "visible" : false
+                          },
+                          "explorationViews" : {
+                            "visible" : true
+                          }
+                        },
+                        "measure" : {
+                          "colorByPrimaryMeasure" : true
+                        },
+                        "quickActionsVisibility" : {
+                          "visible" : true,
+                          "settingsSeq" : [ "chartDetail", "selectConversions", "sorting", "ranking", "compareTo", "CGR", "commenting", "titleExpandCollapse", "fullscreen", "copyWidgetId", "exportToCsv", "filtering", "drill", "expand", "zoom", "axisBreak", "openHyperlink" ],
+                          "chartDetail" : true,
+                          "selectConversions" : true,
+                          "sorting" : true,
+                          "ranking" : true,
+                          "compareTo" : true,
+                          "CGR" : true,
+                          "commenting" : true,
+                          "titleExpandCollapse" : true,
+                          "fullscreen" : true,
+                          "copyWidgetId" : false,
+                          "exportToCsv" : true,
+                          "filtering" : true,
+                          "drill" : true,
+                          "expand" : true,
+                          "zoom" : true,
+                          "axisBreak" : true,
+                          "openHyperlink" : true
+                        },
+                        "general" : {
+                          "label" : {
+                            "disableDiagonal" : true,
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          },
+                          "orientation" : "vertical",
+                          "axisLabel" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          },
+                          "axisTitle" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          },
+                          "varianceLabel" : {
+                            "fontFamily" : "'courgette','72-Web'",
+                            "fontStyle" : "normal",
+                            "fontWeight" : "normal"
+                          },
+                          "groupedDimensionLabel" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          },
+                          "errorMessage" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          }
+                        },
+                        "primaryDatapoint" : {
+                          "valueAxis" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          },
+                          "categoryAxis" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          }
+                        },
+                        "secondaryDatapoint" : {
+                          "valueAxis" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          },
+                          "categoryAxis" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          }
+                        },
+                        "footerTextSection" : {
+                          "style" : {
+                            "fontFamily" : "'courgette','72-Web'",
+                            "fontStyle" : "normal",
+                            "fontWeight" : "normal"
+                          }
+                        },
+                        "dataLabel" : {
+                          "style" : {
+                            "fontFamily" : "'courgette','72-Web'",
+                            "fontStyle" : "normal",
+                            "fontWeight" : "normal"
+                          }
+                        },
+                        "legend" : {
+                          "label" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          }
+                        },
+                        "trellisLabel" : {
+                          "style" : {
+                            "fontFamily" : "'courgette','72-Web'",
+                            "fontStyle" : "normal",
+                            "fontWeight" : "normal"
+                          }
+                        },
+                        "plotArea" : {
+                          "donutTotal" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          },
+                          "stackTotalLabel" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          }
+                        },
+                        "primaryVariance" : {
+                          "value" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          },
+                          "title" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          }
+                        },
+                        "secondaryVariance" : {
+                          "value" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          },
+                          "title" : {
+                            "style" : {
+                              "fontFamily" : "'courgette','72-Web'",
+                              "fontStyle" : "normal",
+                              "fontWeight" : "normal"
+                            }
+                          }
+                        }
+                      },
+                      "type" : "pie",
+                      "title" : "Marks per Names, Place",
+                      "subtitle" : "Subtitle",
+                      "isAutoLimiterOn" : false,
+                      "colorScheme" : {
+                        "paletteDesc" : {
+                          "colors" : [ "#00b3d7", "#0097bd", "#dcdf3b", "#adce00", "#cabfb5", "#a79f9c", "#fdafab", "#ff6d63", "#00909b", "#245b6d", "#ffc999", "#ffa567", "#e95293", "#c50064", "#a5dcab", "#00973c", "#9791be", "#7a67ad", "#ffaf21", "#ff7b0f", "#87dbdb", "#00bcc4", "#a29284", "#846a5d", "#ce7e9d", "#ad3963", "#d6e5ec", "#94bcc8", "#95d600", "#799900", "#fea3bb", "#f5426c" ],
+                          "type" : "standard",
+                          "id" : "16482974-4676-4304-8226-117291450588"
+                        },
+                        "categoryPatterns" : { },
+                        "versionOrders" : [ ]
+                      },
+                      "themeExternalOverrideSettings" : {
+                        "colorPalette" : {
+                          "type" : "standard",
+                          "id" : "16482974-4676-4304-8226-117291450588",
+                          "lastUpdatedUtcTime" : 1718082744523
+                        }
+                      },
+                      "themeOverrideSettings" : {
+                        "backgroundColor" : "rgba(255, 201, 51, 1)",
+                        "border" : {
+                          "format" : "none",
+                          "style" : "solid",
+                          "color" : "rgb(88,89,91)",
+                          "thickness" : 1,
+                          "radius" : 0
+                        },
+                        "font" : { },
+                        "varianceColors" : {
+                          "positiveColor" : "#77D36F",
+                          "negativeColor" : "#F24269",
+                          "nullZeroColor" : "#77D36F"
+                        },
+                        "axesColor" : "",
+                        "colorPalettes" : {
+                          "standard" : {
+                            "id" : ""
+                          },
+                          "gradient" : {
+                            "id" : ""
+                          },
+                          "waterfall_standard" : {
+                            "id" : ""
+                          },
+                          "null_color" : {
+                            "id" : ""
+                          }
+                        },
+                        "scales" : { },
+                        "decimalFormat" : {
+                          "measureTypes" : [ {
+                            "type" : "absolute"
+                          }, {
+                            "type" : "percentage"
+                          } ]
+                        },
+                        "currency" : "default"
+                      },
+                      "ffQuery" : {
+                        "CType" : "QueryModel",
+                        "CellContextRequests" : {
+                          "CType" : "CellContextManager",
+                          "Elements" : [ ]
+                        },
+                        "Cells" : { },
+                        "ComponentTags" : [ {
+                          "KEY" : "UDM_INSTANCE_ID",
+                          "VALUE" : "[{\"app\":\"MAIN_APPLICATION\"},{\"story\":\"storyID\"},{\"udm\":\"udm\"}]"
+                        }, {
+                          "KEY" : "localId",
+                          "VALUE" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]"
+                        } ],
+                        "ConditionsRepo" : { },
+                        "DataSource" : {
+                          "ObjectName" : "/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs",
+                          "SchemaName" : "TENANT_2",
+                          "System" : "EHS",
+                          "Type" : "Planning"
+                        },
+                        "DimensionsRepo" : {
+                          "CType" : "Dimensions",
+                          "ComponentTags" : [ {
+                            "KEY" : "UDM_INSTANCE_ID",
+                            "VALUE" : "[{\"app\":\"MAIN_APPLICATION\"},{\"story\":\"storyID\"},{\"udm\":\"udm\"}]"
+                          }, {
+                            "KEY" : "localId",
+                            "VALUE" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]"
+                          } ],
+                          "Elements" : [ {
+                            "Axis" : "Rows",
+                            "CType" : "Dimension",
+                            "FieldLayoutType" : "FieldBased",
+                            "FieldSettings" : [ ],
+                            "Name" : "Names",
+                            "ReadMode" : "BookedAndSpaceAndState",
+                            "ResultSetAttributeFields" : [ [ {
+                              "Name" : "Names.ID"
+                            } ] ],
+                            "ResultSetAttributeNodes" : [ "Names" ],
+                            "ResultSetFields" : [ {
+                              "Name" : "Names.ID"
+                            } ],
+                            "ResultStructureRepo" : {
+                              "CType" : "Totals",
+                              "ResultAlignment" : "Bottom",
+                              "Visibility" : "Hidden",
+                              "VisibilitySettings" : [ {
+                                "Result" : "Total",
+                                "ResultAlignment" : "Top",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "TotalIncludedMembers",
+                                "ResultAlignment" : "Top",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "TotalRemainingMembers",
+                                "ResultAlignment" : "Top",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "Total",
+                                "ResultAlignment" : "Bottom",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "TotalIncludedMembers",
+                                "ResultAlignment" : "Bottom",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "TotalRemainingMembers",
+                                "ResultAlignment" : "Bottom",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "Members",
+                                "ResultAlignment" : "Top",
+                                "Visibility" : "Visible"
+                              }, {
+                                "Result" : "Members",
+                                "ResultAlignment" : "Bottom",
+                                "Visibility" : "Visible"
+                              } ]
+                            },
+                            "SelectorReadMode" : "Booked"
+                          }, {
+                            "Axis" : "Rows",
+                            "CType" : "Dimension",
+                            "FieldLayoutType" : "FieldBased",
+                            "FieldSettings" : [ ],
+                            "Name" : "Place",
+                            "ReadMode" : "BookedAndSpaceAndState",
+                            "ResultSetAttributeFields" : [ [ {
+                              "Name" : "Place.ID"
+                            } ] ],
+                            "ResultSetAttributeNodes" : [ "Place" ],
+                            "ResultSetFields" : [ {
+                              "Name" : "Place.ID"
+                            } ],
+                            "ResultStructureRepo" : {
+                              "CType" : "Totals",
+                              "ResultAlignment" : "Bottom",
+                              "Visibility" : "Hidden",
+                              "VisibilitySettings" : [ {
+                                "Result" : "Total",
+                                "ResultAlignment" : "Top",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "TotalIncludedMembers",
+                                "ResultAlignment" : "Top",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "TotalRemainingMembers",
+                                "ResultAlignment" : "Top",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "Total",
+                                "ResultAlignment" : "Bottom",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "TotalIncludedMembers",
+                                "ResultAlignment" : "Bottom",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "TotalRemainingMembers",
+                                "ResultAlignment" : "Bottom",
+                                "Visibility" : "Hidden"
+                              }, {
+                                "Result" : "Members",
+                                "ResultAlignment" : "Top",
+                                "Visibility" : "Visible"
+                              }, {
+                                "Result" : "Members",
+                                "ResultAlignment" : "Bottom",
+                                "Visibility" : "Visible"
+                              } ]
+                            },
+                            "SelectorReadMode" : "Booked"
+                          }, {
+                            "Axis" : "Columns",
+                            "CType" : "Dimension",
+                            "FieldLayoutType" : "FieldBased",
+                            "FieldSettings" : [ ],
+                            "MembersRepo" : [ {
+                              "CType" : "BasicMeasure",
+                              "KeyRef" : {
+                                "GroupName" : "CustomDimension1",
+                                "ObjectName" : "Marks",
+                                "StorageName" : "main"
+                              }
+                            } ],
+                            "Name" : "CustomDimension1",
+                            "OrderedStructureMemberNames" : [ "Marks" ],
+                            "ReadMode" : "BookedAndSpaceAndState",
+                            "ResultSetAttributeFields" : [ [ {
+                              "Name" : "[Measures].[Measures]"
+                            }, {
+                              "Name" : "[Measures].[Description]"
+                            } ] ],
+                            "ResultSetAttributeNodes" : [ "CustomDimension1" ],
+                            "ResultSetFields" : [ {
+                              "Name" : "[Measures].[Measures]"
+                            }, {
+                              "Name" : "[Measures].[Description]"
+                            } ],
+                            "SelectorReadMode" : "Booked"
+                          }, {
+                            "Axis" : "None",
+                            "CType" : "Dimension",
+                            "FieldLayoutType" : "FieldBased",
+                            "FieldSettings" : [ ],
+                            "Name" : "Version",
+                            "ReadMode" : "BookedAndSpaceAndState",
+                            "ResultSetAttributeFields" : [ [ {
+                              "Name" : "Version.ID"
+                            }, {
+                              "Name" : "Version.Description"
+                            } ] ],
+                            "ResultSetAttributeNodes" : [ "Version" ],
+                            "ResultSetFields" : [ {
+                              "Name" : "Version.ID"
+                            }, {
+                              "Name" : "Version.Description"
+                            }, {
+                              "Name" : "Version.CATEGORY"
+                            } ],
+                            "SelectorReadMode" : "Booked"
+                          } ]
+                        },
+                        "ExceptionsRepo" : {
+                          "CType" : "Exceptions",
+                          "ComponentTags" : [ {
+                            "KEY" : "UDM_INSTANCE_ID",
+                            "VALUE" : "[{\"app\":\"MAIN_APPLICATION\"},{\"story\":\"storyID\"},{\"udm\":\"udm\"}]"
+                          }, {
+                            "KEY" : "localId",
+                            "VALUE" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]"
+                          } ]
+                        },
+                        "ExperimentalFeatures" : "Olap.AgileBI.CustomDimension2,Olap.AsyncBlendingBatchRequest,Olap.AutoVariableSubmitCapability,Olap.AutoVariableSubmitFunctionality,Olap.CDSProjectionViews,Olap.CalculateWithNullCellsUnitType,Olap.CellDocumentId,Olap.ClientInfoBatchSupport,Olap.ClientInfoMetadata,Olap.ConditionsWithVersionDimension,Olap.CorrectDimensionDescription,Olap.DataCellContexts,Olap.DimensionDisplayGroups,Olap.DimensionKeyAttributes,Olap.ErrorAboveLevel,Olap.ExceptionThresholdNoPrec,Olap.ExternalizeDynamicFilter,Olap.ExternalizeNonVariableFilter,Olap.FilterAcrossModelsLovCache,Olap.FlexibleTimeDynamicTime,Olap.HierarchyDefaults,Olap.HierarchyInfoInFilter,Olap.HierarchyPathPresentationType,Olap.ImprovedDynamicVariableUpdate,Olap.InAMergeProcessing,Olap.InAModel.CustomDimension2,Olap.InAModelExternalDimension,Olap.InAModelExternalValuehelp,Olap.InAPersisted,Olap.InAShiftPeriodForTransientTimeOperations,Olap.InputEnablementFilterSettings,Olap.InputReadinessWithNavigationalAttributes,Olap.IteratedFormula,Olap.LazyLoadingSFXAccountMembers,Olap.LightweightMetadata,Olap.LovBasedFilterAcrossModels,Olap.MDS_InAPersisted,Olap.MaintainsVariableVariants,Olap.MaxDrillLevel,Olap.MemberOverrideTexts,Olap.MetadataCaching,Olap.MetadataHasExternalHierarchies,Olap.MetadataResultFormatOptions,Olap.MultipleAccountHierarchies,Olap.NamedCustomDimensionMember,Olap.NoFixedFiltersInRepo,Olap.NullZeroSuppression,Olap.Olap.DimensionHierarchyMetadata,Olap.Olap.ResultSetNumericValueWithInternalPrecision,Olap.Olap.SpatialTransformDistanceFilter,Olap.OptimizeHierarchyExport,Olap.OthersFromConditions,Olap.PerformanceAnalysis,Olap.PersistPagingInRepo,Olap.PlanningBatch,Olap.ResultSetHierarchyLevel,Olap.ResultSetV2MetadataExtension1,Olap.ReturnMetadataExtensions,Olap.SemanticObject,Olap.SfxMinimumDrillState,Olap.SimpleVariableExit,Olap.SortAndRankWithDimensionsOnColumn,Olap.StoreHierarchyMemberNamesAsFlat,Olap.SupportMemberSelectStoryCalculations,Olap.SupportStructureOnFreeAxis,Olap.SupportsELTSIDPresentation,Olap.SupportsSIDPresentation,Olap.SuppressSupplements,Olap.TextInHierarchy,Olap.TimeMeasureWithFlatAndHierarchicalFilter,Olap.UnivModelInheritedPropsRaisedPriority,Olap.UniversalDisplayHierarchyAlignment,Olap.ValueHelpHierarchyPath,Olap.VersionValidarionForPrimaryCalculations,Olap.VirtualDataSourceTypeColumns,Olap.enhanceSortAndRankBySecondaryMeasure,Rpc.AutoCsrfCall,Rpc.BwSessionIdViaGetResponse,Rpc.SharedCsrfTokens",
+                        "FilterRepo" : {
+                          "CType" : "Filter",
+                          "DynamicFilter" : {
+                            "CType" : "FilterExpression",
+                            "CellValueOperand" : [ ],
+                            "FilterRoot" : {
+                              "CType" : "FilterAlgebra",
+                              "Code" : "And",
+                              "Id" : "88bd329e-b41e-14ac-3cbd-661b396cb2e5",
+                              "SubSelections" : [ {
+                                "CType" : "FilterCartesianList",
+                                "ConvertToFlatSelection" : false,
+                                "Elements" : [ {
+                                  "CType" : "FilterOperation",
+                                  "Comparison" : "=",
+                                  "Exactness" : 0,
+                                  "FieldName" : "[Measures].[Measures]",
+                                  "HasDepth" : false,
+                                  "HasLevelOffset" : false,
+                                  "Id" : "bd01b9bc-7452-d83d-2487-b54fccd3ce25",
+                                  "IsExcluding" : false,
+                                  "Values" : [ {
+                                    "Value" : "Marks",
+                                    "ValueType" : "String"
+                                  } ]
+                                } ],
+                                "FieldName" : "[Measures].[Measures]",
+                                "Id" : "ba7d5dd1-1417-7534-58f3-beaa693cb88d"
+                              } ]
+                            },
+                            "Id" : "432711be-8a24-9697-0ab7-f67fcdfa6013",
+                            "IsSuppressingNulls" : false
+                          }
+                        },
+                        "FormulaExceptionManager" : {
+                          "ActiveStatusModelExceptions" : [ ],
+                          "CType" : "FormulaExceptions",
+                          "FormulaExceptions" : [ ],
+                          "FormulaResultVisible" : false
+                        },
+                        "HierarchyNavigationsRepo" : { },
+                        "IsVersionDimensionValidationEnabled" : true,
+                        "LovAbstractionRepo" : {
+                          "AutoVhDrillLevelConfig" : true,
+                          "AutoVhReadModeConfig" : true,
+                          "Enabled" : false,
+                          "IgnoreMultipleDrillsInVh" : false,
+                          "Measures" : false,
+                          "RestoreSettingsAfterImplicitSubmit" : false,
+                          "Sort" : false
+                        },
+                        "Query" : {
+                          "AxesLayout" : [ {
+                            "Axis" : "Free",
+                            "OrderedDimensionNames" : [ "CustomDimension2", "Version" ]
+                          }, {
+                            "Axis" : "Columns",
+                            "OrderedDimensionNames" : [ "CustomDimension1" ]
+                          }, {
+                            "Axis" : "Rows",
+                            "OrderedDimensionNames" : [ "Names", "Place" ]
+                          }, {
+                            "Axis" : "Technical",
+                            "OrderedDimensionNames" : [ "$$Cells$$" ]
+                          } ],
+                          "AxesRepo" : {
+                            "CType" : "AxesSettings",
+                            "ComponentTags" : [ {
+                              "KEY" : "UDM_INSTANCE_ID",
+                              "VALUE" : "[{\"app\":\"MAIN_APPLICATION\"},{\"story\":\"storyID\"},{\"udm\":\"udm\"}]"
+                            }, {
+                              "KEY" : "localId",
+                              "VALUE" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]"
+                            } ],
+                            "Elements" : [ {
+                              "Axis" : "Columns",
+                              "CType" : "Axis",
+                              "Layout" : [ "CustomDimension1" ],
+                              "ResultStructureRepo" : {
+                                "CType" : "Totals",
+                                "ResultAlignment" : "Default",
+                                "Visibility" : "Default"
+                              },
+                              "Type" : 2,
+                              "ZeroSuppressionType" : 0
+                            }, {
+                              "Axis" : "Rows",
+                              "CType" : "Axis",
+                              "Layout" : [ "Names", "Place" ],
+                              "ResultStructureRepo" : {
+                                "CType" : "Totals",
+                                "ResultAlignment" : "Default",
+                                "Visibility" : "Default"
+                              },
+                              "Type" : 1,
+                              "ZeroSuppressionType" : 0
+                            } ]
+                          }
+                        },
+                        "QueryDataCellsRepo" : {
+                          "CType" : "DataCells",
+                          "ComponentTags" : [ {
+                            "KEY" : "UDM_INSTANCE_ID",
+                            "VALUE" : "[{\"app\":\"MAIN_APPLICATION\"},{\"story\":\"storyID\"},{\"udm\":\"udm\"}]"
+                          }, {
+                            "KEY" : "localId",
+                            "VALUE" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]"
+                          } ]
+                        },
+                        "ResultSetPersistanceIdentifier" : null,
+                        "ResultSetPersistanceSchema" : null,
+                        "ResultSetPersistanceTable" : null,
+                        "ResultStructureRepo" : {
+                          "CType" : "Totals",
+                          "ResultAlignment" : "Default",
+                          "Visibility" : "Default"
+                        },
+                        "SortRepo" : {
+                          "CType" : "Sorting",
+                          "Elements" : [ ]
+                        },
+                        "SubSetDescription" : {
+                          "ColumnFrom" : 0,
+                          "ColumnTo" : 11,
+                          "RowFrom" : 0,
+                          "RowTo" : 10000
+                        },
+                        "ValidateContextFreeNavigations" : false
+                      },
+                      "initialUQMExternalState" : {
+                        "hierarchyLevels" : [ ],
+                        "hierarchyOptions" : [ {
+                          "entityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Names\"}]",
+                          "showLeavesOnly" : false
+                        }, {
+                          "entityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Place\"}]",
+                          "showLeavesOnly" : false
+                        }, {
+                          "entityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"}]",
+                          "showLeavesOnly" : false
+                        }, {
+                          "entityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"}]",
+                          "showLeavesOnly" : false
+                        } ],
+                        "ranks" : [ ],
+                        "totals" : [ {
+                          "entityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Names\"}]",
+                          "enabled" : false,
+                          "useAlways" : false
+                        }, {
+                          "entityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Place\"}]",
+                          "enabled" : false,
+                          "useAlways" : false
+                        }, {
+                          "entityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"}]",
+                          "enabled" : false,
+                          "useAlways" : false
+                        } ],
+                        "resultAlignment" : {
+                          "ROWS" : 1,
+                          "COLUMNS" : 1
+                        },
+                        "lowerLevelNodeAlignment" : {
+                          "ROWS" : 2,
+                          "COLUMNS" : 2
+                        },
+                        "topEntries" : [ ],
+                        "usedMeasures" : [ "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"},{\"measureId\":\"Marks\"}]" ],
+                        "usedSecondaryMeasures" : [ ],
+                        "usedDimensions" : {
+                          "rowAxis" : [ "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Names\"}]", "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Place\"}]" ],
+                          "columnAxis" : [ "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"}]" ],
+                          "filterDimensions" : [ "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"}]", "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"}]" ]
+                        },
+                        "maxRows" : 10000,
+                        "variableScope" : "EXTERNAL",
+                        "version" : "1.0"
+                      },
+                      "filters" : [ {
+                        "display" : {
+                          "showApplySelectionsButton" : true
+                        },
+                        "icProps" : {
+                          "isViewerAllowedToDeleteIC" : false,
+                          "isViewerAllowedToChangeSelection" : false
+                        },
+                        "extendedSelection" : {
+                          "isCascadedOut" : false,
+                          "targetEntity" : {
+                            "datasetEntityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"}]",
+                            "dimensionEntityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"}]"
+                          },
+                          "isAllowReset" : true
+                        },
+                        "lovInfo" : {
+                          "staticMembers" : [ {
+                            "key" : "public.Actual",
+                            "caption" : "Actual",
+                            "displayId" : "(Missing)"
+                          } ]
+                        },
+                        "schemaType" : "IC_MEMBER",
+                        "icElementStringId" : "55534169-8227-4210-9741-144157025159",
+                        "selection" : {
+                          "isAllSelected" : false,
+                          "isDeselection" : false,
+                          "selectedValues" : [ {
+                            "key" : "public.Actual",
+                            "caption" : "Actual",
+                            "displayId" : "public.Actual"
+                          } ]
+                        },
+                        "userSelection" : {
+                          "isAllSelected" : false,
+                          "selections" : [ [ "public.Actual", {
+                            "selected" : true,
+                            "caption" : "Actual",
+                            "children" : [ ],
+                            "depth" : 0
+                          } ] ]
+                        }
+                      } ],
+                      "referenceLines" : [ ],
+                      "headerProperties" : {
+                        "isTitleExpanded" : true
+                      },
+                      "htmlTitle" : "<p><span style=\"font-family: &#34;courgette&#34; , &#34;72-web&#34;\">Marks per Names, Place</span></p>",
+                      "htmlSubtitle" : "<p><span style=\"font-family: &#34;courgette&#34; , &#34;72-web&#34; ; font-size: 16px\">Subtitle</span></p>",
+                      "uqmHasError" : false,
+                      "filtersFFQueries" : { },
+                      "shouldScaleChart" : false
+                    },
+                    "autoJoinWidgetGroup" : true,
+                    "isPlaceholder" : true
+                  },
+                  "themeClasses" : [ ],
+                  "dimension" : null,
+                  "serviceValidationHashes" : { },
+                  "dataChangeInsights" : {
+                    "snapshotSubscribed" : -1
+                  }
+                } ],
+                "filters" : [ ],
+                "uqmPageFilters" : [ ],
+                "uqmLAPageGroups" : [ ],
+                "uqmLAPageFilters" : [ ],
+                "uqmScopedPageGroups" : [ ],
+                "uqmCascadeGroupings" : [ ],
+                "uqmLAPageFilterFFQueries" : { }
+              },
+              "applyThemeSettings" : "applyToNew",
+              "id" : "a31b3cd2-f023-4b22-ac46-3e90b81c8e7a",
+              "suggestedVizSettings" : { },
+              "thumbnail" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABQCAYAAADRAH3kAAAAAXNSR0IArs4c6QAAA21JREFUeF7tnb9uE0EYxL+9818cokQpkCIoAAUHQUNBJF4gNQ0Fb8QTQEURGp6DAlokCorQQIKsEGGBE2wcQXLIkSJR5Mjuam884iZtbnfm5vvl2/X6YruiKArTT20TcAKgtrU/vXFXDLbUAc4Y6N02W7xfKyJcsfu0sMHzWt106c2uP6svAB8O7kVDsLb4Nnos1cA6A/DqyyObHveC6+HsxDZXXwSPoxxQZwAoC4I2JQDQiZPpCQCygqDtCAB04mR6AoCsIGg7AgCdOJmeACArCNqOAEAnTqYnAMoL8nmyZivtPevmh2RVS2hHAAgAvRlUwoA6QMJOQzSV97uBu5Nb1s0n1snGRPbPt7LQ/BbnUUtAeW4zAKzIrJ1P4sIFjWplU1tq7cepCQABoD1ACQPqAHFNhX1U0B5ASwB7OcP9BQHQaxxaJ/sRrgIecakReVahPYDOAbQH0DkAuF/NV857CdgZr1sj+23tLO5l4Ep7MN879VHXElCe0gyA1/sPfWI895rH159Ej4UNFAACQHuAEgbUAWB9CCoUtAfQEgCtDUQsCID33x9Y5k6ijG2ubkWNgw7SHkDnANoD6BwA2nTmLea9BOiBkHmXqhp9bwB2xn37NL5rDferEic3Ft7Zle7HSub2nlR7gH+dA/Rt+2DDMjv2zjPkwjtLbwRASGCJrg3qAAIgUepE0wiAv4uhJUBLgF4Glh4F9+1yc2SdvLoHQroVzu3VddUBdBCkDqCDIK9m8b9c5L0JnD0VXBS5tbKfc7332f8lLMc+93+Rcy0B5QnNAPg6vWYNd3RRjJX+/mpvWwAkTDioAwiAhMmTTCUAdA7g91GxWgJI/mQT2wjqAM6ctSKfCk7lu5kdaQ+QKszTTwv3/LBovR2cMHWiqQSA9gB+ewB1AKI/24RWvDtAQk3eqXQQxFsbiDMBAImZV0QA8NYG4kwAQGLmFREAvLWBOKslAHsv9bVxZ3R1b9bwW8P0zaGQ5sIq4kajkToAa3UAvtxwOBQAgKBZJQQAa2VAvgQAKGhWGQHAWhmQLwEACppVRgCwVgbkSwCAgmaVEQCslQH5EgCgoFllBABrZUC+BAAoaFYZAcBaGZAvAQAKmlVGALBWBuRLAICCZpURAKyVAfkSAKCgWWUEAGtlQL4EAChoVhkBwFoZkK8/JUt0zW0qYxgAAAAASUVORK5CYII="
+            } ],
+            "storyFilters" : [ ],
+            "hyperlinkFilters" : [ ],
+            "queryDefinitions" : [ ],
+            "themingReference" : null,
+            "colorSync" : {
+              "version" : "1.0.0",
+              "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"}]" : {
+                "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Names\"}]/[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Place\"}]" : {
+                  "id" : "66383361-1956-4106-9157-136124631963",
+                  "colors" : [ "#809E57", "#DC4180", "#636CDA", "#CC3DA8", "#E05C64", "#12A2AF", "#A36FC9", "#E467AA", "#52A37D", "#D87D4F", "#488CCC" ]
+                }
+              }
+            },
+            "promptTokenDetails" : [ ],
+            "uqmIntegrationEnabled" : true,
+            "uqmStoryFilters" : [ ],
+            "uqmHyperlinkFilters" : [ ],
+            "uqmStoryLAFilters" : [ ],
+            "lastDataSource" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]",
+            "supportsBatchQuery" : true,
+            "pinnedDataPoints" : { },
+            "thresholds" : {
+              "model" : { },
+              "story" : { }
+            },
+            "gradientSync" : {
+              "version" : "1.0.0"
+            },
+            "measureSync" : [ {
+              "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"},{\"measureId\":\"Marks\"}]",
+              "color" : "#c50064"
+            } ],
+            "patternSync" : { },
+            "waterfallColorSync" : {
+              "version" : "1.0.0"
+            },
+            "storyWideSettings" : {
+              "custom.color.palettes" : [ ],
+              "custom.markers" : [ ],
+              "markers.recent" : [ ],
+              "markers.recent.custom" : [ ]
+            },
+            "uqmDeletedDynamicFilters" : { },
+            "uqmDatasetAliasMap" : { },
+            "scaledMeasures" : [ ],
+            "variableSaveOptions" : "CURRENT",
+            "uqmRemoteSystemNames" : [ ],
+            "filterBarSettings" : {
+              "runtimeVisibility" : "auto",
+              "layoutType" : "vertical",
+              "runtimeToolbarEnabled" : true
+            },
+            "filterExperienceSettings" : {
+              "sortType" : "default",
+              "addFilterCapability" : true
+            },
+            "uqmHyperlinkFilterGroups" : { },
+            "uqmStoryLAFilterContributors" : { },
+            "presentationModel" : {
+              "presentationItems" : [ ],
+              "sidePanelSettings" : {
+                "panelPlacement" : "PinnedLeft",
+                "autoShowAndHidePanel" : true,
+                "isHeaderHidden" : false,
+                "defaultSidePanelExpanded" : "expanded"
+              },
+              "orderedTopicPageList" : [ ]
+            },
+            "topics" : [ ],
+            "filterBarInfo" : { },
+            "persistedUqmQuery" : [ {
+              "id" : "[{\"viz2\":\"30427081-6376-4965-9329-152646669525\"},{\"uqm\":\"30427081-6376-4965-9329-152646669525\"}]",
+              "datasetEntityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"}]",
+              "skipPreExecuteQuery" : false,
+              "inaQuery" : {
+                "Analytics" : {
+                  "Capabilities" : [ "AggregationNOPNULL", "AggregationNOPNULLZERO", "AsyncBatchRequest", "AsyncBlendingBatchRequest", "AsyncMetadataBatchRequest", "AttributeHierarchy", "AttributeHierarchyHierarchyFields", "AttributeHierarchyUniqueFields", "AttributeValueLookup", "AverageCountIgnoreNullZero", "BugFixHierarchyFlatKeys", "CEScenarioParams", "CalculateWithNullCellsUnitType", "CalculatedDimension", "CancelRunningRequests", "CellValueOperand", "ClientCapabilities", "Conditions", "ConditionsWithVersionDimension", "CubeBlending", "CubeBlendingCustomMembers", "CubeBlendingMemberSorting", "CubeBlendingOutOfContext", "CubeBlendingProperties", "CubeBlendingReadMode", "CurrencyTranslation", "CurrentMemberFilterExtension", "CustomDimension1MemberType", "CustomDimension2", "CustomDimensionFilterCapabilities", "CustomDimensionMemberExecutionStep", "CustomMemberSortOrder", "DataEntryOnUnbooked", "DatasourceAtService", "DimensionDescription", "DimensionKindChartOfAccounts", "DimensionKindEPMVersion", "EPMResponseListSharedVersions", "ExceptionAggregationAverageNullInSelectionMember", "ExceptionAggregationCountNullInSelectionMember", "ExceptionAggregationDimsAndFormulas", "ExceptionAggregationFirstLastInSelectionMember", "ExceptionSettings", "Exceptions", "ExpandHierarchyBottomUp", "ExtHierarchy", "ExtendedDimensions", "ExtendedDimensionsChangeDefaultRenamingAndDescription", "ExtendedDimensionsCopyAllHierarchies", "ExtendedDimensionsFieldMapping", "ExtendedDimensionsJoinCardinality", "ExtendedDimensionsJoinColumns", "ExtendedDimensionsOuterJoin", "ExtendedDimensionsSkip", "FastPath", "FixMetaDataHierarchyAttributes", "FlatKeyOnHierarchicalDisplay", "HierarchyAttributePathPresentationType", "HierarchyDataAndExcludingFilters", "HierarchyKeyTextName", "HierarchyNavigationDeltaMode", "HierarchyPath", "HierarchyPathUniqueName", "HierarchyTrapezoidFilter", "HierarchyVirtualRootNode", "IgnoreUnitOfNullValueInAggregation", "IgnoreUnitOfZeroValueInAggregation", "InAModelExternalDimension", "InAModelExternalValuehelp", "InputEnablementFilterSettings", "InputReadinessStates", "InputReadinessWithNavigationalAttributes", "IsVirtualDescription", "IteratedFormula", "LightWeightMetadata", "ListReporting", "LocaleSorting", "MasterReadModeByDimensionGrouping", "MaxResultRecords", "MdsExpression", "MeasureMemberCurrencyTranslations", "MeasureMemberDetails", "MeasureMemberMetadata", "MetadataCubeQuery", "MetadataDataCategory", "MetadataDataSourceDefinitionValidation", "MetadataDataSourceDefinitionValidationExposeDataSource", "MetadataDefaultResultStructureResultAlignmentBottom", "MetadataDimensionCanBeAggregated", "MetadataDimensionDefaultMember", "MetadataDimensionGroup", "MetadataDimensionVisibility", "MetadataDynamicVariable", "MetadataExtendedDimensionVisibility", "MetadataHierarchyLevels", "MetadataHierarchyRestNode", "MetadataHierarchyStructure", "MetadataHierarchyUniqueName", "MetadataIsDisplayAttribute", "MetadataRepositorySuffix", "MetadataResultFormatOptions", "MetadataSemanticType", "MultipleExAggDimsInCalcPlan", "NamedCustomDimensionMember", "NullZeroSuppression", "Obtainability", "OthersFromConditions", "PagingTupleCountTotal", "PerformanceAnalysis", "PersistResultSet", "PlanningOnCalculatedDimension", "ReadMode", "ReadModeRelatedBooked", "RemoteBlending", "RemoteBlendingBW", "RemoteBlendingMetadata", "RemoteFilter", "RequestTimeZone", "RestrictedMembersConvertToFlatSelection", "ResultSetAxisType", "ResultSetCellDataType", "ResultSetCellExplain", "ResultSetCellFormatString", "ResultSetCellNumericShift", "ResultSetHierarchyLevel", "ResultSetInterval", "ResultSetNumericValueWithInternalPrecision", "ResultSetState", "ResultSetUnitIndex", "ResultSetV2MetadataExtension1", "ReturnErrorForInvalidQueryModel", "ReturnRestrictedAndCalculatedMembersInReadmodeBooked", "ReturnedDataSelection", "RootOrphanNodesAfterVisibilityFilter", "SP9", "SemanticalErrorType", "SetNullCellsUnitType", "SetOperandCurrentMemberSingleNavigation", "SortNewValues", "SpatialClustering", "SpatialFilterSRID", "SpatialTransformDistanceFilter", "StatisticalAggregations", "SupportsComplexFilters", "SupportsCubeBlendingAggregation", "SupportsDataCellMixedValues", "SupportsEncodedResultSet", "SupportsEncodedResultSet2", "SupportsExtendedSort", "SupportsHierarchySelectionAsFlatSelection", "SupportsIgnoreExternalDimensions", "SupportsInAModelMetadata", "SupportsMemberVisibility", "SupportsSetOperand", "SupportsSpatialFilter", "SupportsSpatialTransformations", "TechnicalAxis", "Totals", "TotalsAfterVisibilityFilter", "UndefinedTupleCountTotals", "UniqueAttributeNames", "UnivModelInheritedPropsRaisedPriority", "UniversalModel", "UseEPMVersion", "ValuesRounded", "Variables", "VirtualDataSourceTypeColumns", "VirtualDataSourceVariableValues", "VisibilityFilter", "VisualAggregation" ],
+                  "DataSource" : {
+                    "InstanceId" : "0d28289a-8ce0-e017-a903-2ce03fcca270",
+                    "ObjectName" : "/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs",
+                    "SchemaName" : "TENANT_2",
+                    "Type" : "Planning"
+                  },
+                  "Definition" : {
+                    "Dimensions" : [ {
+                      "Attributes" : [ {
+                        "Name" : "Names.ID",
+                        "Obtainability" : "Always"
+                      } ],
+                      "Axis" : "Rows",
+                      "Name" : "Names",
+                      "NonEmpty" : false,
+                      "ReadMode" : "BookedAndSpaceAndState",
+                      "ResultStructure" : [ {
+                        "Result" : "Members",
+                        "Visibility" : "Visible"
+                      } ]
+                    }, {
+                      "Attributes" : [ {
+                        "Name" : "Place.ID",
+                        "Obtainability" : "Always"
+                      } ],
+                      "Axis" : "Rows",
+                      "Name" : "Place",
+                      "NonEmpty" : false,
+                      "ReadMode" : "BookedAndSpaceAndState",
+                      "ResultStructure" : [ {
+                        "Result" : "Members",
+                        "Visibility" : "Visible"
+                      } ]
+                    }, {
+                      "Attributes" : [ {
+                        "Name" : "[Measures].[Measures]",
+                        "Obtainability" : "Always"
+                      }, {
+                        "Name" : "[Measures].[Description]",
+                        "Obtainability" : "Always"
+                      } ],
+                      "Axis" : "Columns",
+                      "Members" : [ {
+                        "MemberName" : "Marks",
+                        "NumericPrecision" : 10,
+                        "SolveOrder" : 1,
+                        "Visibility" : "Visible"
+                      } ],
+                      "Name" : "CustomDimension1",
+                      "NonEmpty" : false,
+                      "ReadMode" : "BookedAndSpaceAndState"
+                    } ],
+                    "DynamicFilter" : {
+                      "Selection" : {
+                        "Operator" : {
+                          "Code" : "And",
+                          "SubSelections" : [ {
+                            "Operator" : {
+                              "Code" : "And",
+                              "SubSelections" : [ {
+                                "SetOperand" : {
+                                  "Elements" : [ {
+                                    "Comparison" : "=",
+                                    "Low" : "Marks"
+                                  } ],
+                                  "FieldName" : "[Measures].[Measures]"
+                                }
+                              } ]
+                            }
+                          }, {
+                            "SetOperand" : {
+                              "Elements" : [ {
+                                "Comparison" : "=",
+                                "Low" : "public.Actual"
+                              } ],
+                              "FieldName" : "Version.ID"
+                            }
+                          } ]
+                        }
+                      }
+                    },
+                    "Hints" : {
+                      "MDS" : [ {
+                        "Key" : "enable_cube_cache",
+                        "Value" : "true"
+                      }, {
+                        "Key" : "mds_plan_use_ce_new",
+                        "Value" : "true"
+                      } ]
+                    },
+                    "PlanningExtensions" : {
+                      "PlanningMode" : "ForPrivateVersionsOnly"
+                    },
+                    "ResultSetFeatureRequest" : {
+                      "ResultEncoding" : "None",
+                      "ResultFormat" : "Version2",
+                      "ReturnedDataSelection" : {
+                        "Actions" : true,
+                        "CellDataType" : true,
+                        "CellExplain" : true,
+                        "CellFormat" : true,
+                        "CellMeasure" : false,
+                        "CellValueTypes" : true,
+                        "ExceptionAlertLevel" : false,
+                        "ExceptionName" : false,
+                        "ExceptionSettings" : true,
+                        "Exceptions" : true,
+                        "InputEnabled" : false,
+                        "InputReadinessStates" : true,
+                        "NumericRounding" : true,
+                        "NumericShift" : true,
+                        "TupleDisplayLevel" : true,
+                        "TupleDrillState" : true,
+                        "TupleElementIds" : true,
+                        "TupleElementIndexes" : false,
+                        "TupleLevel" : true,
+                        "TupleParentIndexes" : true,
+                        "UnitDescriptions" : true,
+                        "UnitIndex" : true,
+                        "UnitTypes" : true,
+                        "Units" : true,
+                        "Values" : true,
+                        "ValuesFormatted" : true,
+                        "ValuesRounded" : true
+                      },
+                      "SubSetDescription" : {
+                        "ColumnFrom" : 0,
+                        "ColumnTo" : 11,
+                        "RowFrom" : 0,
+                        "RowTo" : 10000
+                      },
+                      "UseDefaultAttributeKey" : false
+                    },
+                    "Sort" : [ ]
+                  },
+                  "Language" : "EN"
+                },
+                "Options" : [ ]
+              },
+              "placeholderMappings" : "{}"
+            } ],
+            "persistedUdm" : [ {
+              "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"}]",
+              "dimensions" : [ {
+                "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"}]",
+                "dimensionId" : "CustomDimension1",
+                "entityType" : "DIMENSION",
+                "type" : "MeasureStructure",
+                "subType" : "measure",
+                "valueType" : "string",
+                "semanticType" : "dimension",
+                "sqlType" : "VARCHAR",
+                "isGroupingDimension" : false,
+                "caption" : "Measures",
+                "externalName" : null,
+                "attributes" : {
+                  "[Measures].[Measures]" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"},{\"attributeId\":\"[Measures].[Measures]\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "isKey" : true,
+                    "type" : "string",
+                    "text" : "Measures",
+                    "isFlatKey" : true
+                  },
+                  "[Measures].[Description]" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"},{\"attributeId\":\"[Measures].[Description]\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "type" : "string",
+                    "isTechnical" : false,
+                    "isHierarchyPathField" : false,
+                    "isCubeBlendingPropertiesField" : false,
+                    "semanticType" : "description"
+                  }
+                },
+                "isBWCompoundDimension" : false,
+                "isHierarchyMandatory" : false,
+                "supportsHierarchy" : false,
+                "hasFlexibleTimeGroupingDimension" : false,
+                "numberOfHierarchies" : 0
+              }, {
+                "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Names\"}]",
+                "dimensionId" : "Names",
+                "entityType" : "DIMENSION",
+                "type" : "Dimension",
+                "valueType" : "string",
+                "semanticType" : "dimension",
+                "sqlType" : "NVARCHAR",
+                "isGroupingDimension" : true,
+                "caption" : "Names",
+                "externalName" : null,
+                "attributes" : {
+                  "Names.ID" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Names\"},{\"attributeId\":\"Names.ID\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "isKey" : true,
+                    "type" : "string",
+                    "text" : "Member ID",
+                    "isFlatKey" : true
+                  },
+                  "[Names].path" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Names\"},{\"attributeId\":\"[Names].path\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "type" : "string",
+                    "isTechnical" : true,
+                    "isHierarchyPathField" : true,
+                    "isCubeBlendingPropertiesField" : false,
+                    "semanticType" : "dimension.path",
+                    "text" : "Names"
+                  }
+                },
+                "isBWCompoundDimension" : false,
+                "isHierarchyMandatory" : false,
+                "supportsHierarchy" : false,
+                "hasFlexibleTimeGroupingDimension" : false,
+                "numberOfHierarchies" : 0
+              }, {
+                "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Place\"}]",
+                "dimensionId" : "Place",
+                "entityType" : "DIMENSION",
+                "type" : "Dimension",
+                "valueType" : "string",
+                "semanticType" : "dimension",
+                "sqlType" : "NVARCHAR",
+                "isGroupingDimension" : true,
+                "caption" : "Place",
+                "externalName" : null,
+                "attributes" : {
+                  "Place.ID" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Place\"},{\"attributeId\":\"Place.ID\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "isKey" : true,
+                    "type" : "string",
+                    "text" : "Member ID",
+                    "isFlatKey" : true
+                  },
+                  "[Place].path" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Place\"},{\"attributeId\":\"[Place].path\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "type" : "string",
+                    "isTechnical" : true,
+                    "isHierarchyPathField" : true,
+                    "isCubeBlendingPropertiesField" : false,
+                    "semanticType" : "dimension.path",
+                    "text" : "Place"
+                  }
+                },
+                "isBWCompoundDimension" : false,
+                "isHierarchyMandatory" : false,
+                "supportsHierarchy" : false,
+                "hasFlexibleTimeGroupingDimension" : false,
+                "numberOfHierarchies" : 0
+              }, {
+                "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"}]",
+                "dimensionId" : "Version",
+                "entityType" : "DIMENSION",
+                "type" : "GeneralVersion",
+                "subType" : "nonaggregatable",
+                "valueType" : "string",
+                "semanticType" : "dataVersion",
+                "sqlType" : "NVARCHAR",
+                "isGroupingDimension" : true,
+                "caption" : "Version",
+                "externalName" : null,
+                "attributes" : {
+                  "Version.ID" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.ID\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "isKey" : true,
+                    "type" : "string",
+                    "text" : "ID",
+                    "isFlatKey" : true
+                  },
+                  "Version.Description" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.Description\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "type" : "string",
+                    "isTechnical" : false,
+                    "isHierarchyPathField" : false,
+                    "isCubeBlendingPropertiesField" : false,
+                    "semanticType" : "description"
+                  },
+                  "Version.VERSION" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.VERSION\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "type" : "string",
+                    "isTechnical" : false,
+                    "isHierarchyPathField" : false,
+                    "isCubeBlendingPropertiesField" : false,
+                    "semanticType" : "dataVersion.version",
+                    "text" : "Version"
+                  },
+                  "Version.USER" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.USER\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "type" : "string",
+                    "isTechnical" : false,
+                    "isHierarchyPathField" : false,
+                    "isCubeBlendingPropertiesField" : false,
+                    "semanticType" : "dataVersion.user",
+                    "text" : "User"
+                  },
+                  "Version.TYPE" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.TYPE\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "type" : "string",
+                    "isTechnical" : false,
+                    "isHierarchyPathField" : false,
+                    "isCubeBlendingPropertiesField" : false,
+                    "semanticType" : "dataVersion.type",
+                    "text" : "Type"
+                  },
+                  "Version.SOURCE_VERSION" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.SOURCE_VERSION\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "type" : "string",
+                    "isTechnical" : false,
+                    "isHierarchyPathField" : false,
+                    "isCubeBlendingPropertiesField" : false,
+                    "semanticType" : "dataVersion.source_version",
+                    "text" : "Source Version"
+                  },
+                  "Version.CATEGORY" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"Version.CATEGORY\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "type" : "string",
+                    "isTechnical" : false,
+                    "isHierarchyPathField" : false,
+                    "isCubeBlendingPropertiesField" : false,
+                    "semanticType" : "SAC::VersionCategory",
+                    "text" : "Category"
+                  },
+                  "[Version].path" : {
+                    "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"},{\"attributeId\":\"[Version].path\"}]",
+                    "entityType" : "ATTRIBUTE",
+                    "type" : "string",
+                    "isTechnical" : true,
+                    "isHierarchyPathField" : true,
+                    "isCubeBlendingPropertiesField" : false,
+                    "semanticType" : "dataVersion.path",
+                    "text" : "Version"
+                  }
+                },
+                "isBWCompoundDimension" : false,
+                "isHierarchyMandatory" : false,
+                "supportsHierarchy" : false,
+                "hasFlexibleTimeGroupingDimension" : false,
+                "numberOfHierarchies" : 0,
+                "defaultMemberValue" : "public.Actual"
+              } ],
+              "measures" : [ {
+                "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension1\"},{\"measureId\":\"Marks\"}]",
+                "entityType" : "MEASURE",
+                "valueType" : "integer",
+                "measureId" : "Marks",
+                "displayKey" : "Marks",
+                "description" : "Marks",
+                "isAccountMemeber" : false,
+                "isSecondary" : false,
+                "isNonNumeric" : false,
+                "isPercent" : false,
+                "isLeaf" : true,
+                "decimalPlaces" : null,
+                "numericShift" : null,
+                "defaultAggregationType" : "SUM",
+                "requiredDimensions" : [ ],
+                "isSelectionCandidate" : true,
+                "numericPrecision" : 10,
+                "memberType" : "BasicMeasure"
+              } ],
+              "secondaryMeasures" : [ ],
+              "dataModelInfo" : {
+                "systemName" : "EHS",
+                "name" : "Cmo19gc6hagp4iumj3jd73jp0a",
+                "displayName" : "Git Model",
+                "description" : "Git Model",
+                "shortDescription" : "Git Model",
+                "datasetId" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]",
+                "isInAModel" : false,
+                "isPlanning" : true,
+                "isExtendedHanaLiveWithCalcViewModelling" : false,
+                "isPlanningEnabled" : false,
+                "isRemote" : false,
+                "isEmbedded" : false,
+                "isPrivate" : false,
+                "isIntegrated" : false,
+                "isCurrencySupported" : false,
+                "currencies" : [ ],
+                "defaultCurrency" : "",
+                "hasAccountDimension" : false,
+                "hasUserDefinedMeasures" : true,
+                "hasVirtualVersionDimension" : false,
+                "extendedDimensions" : [ ],
+                "lastUpdated" : "2024-06-10T16:38:04.224Z",
+                "ancestorPath" : [ {
+                  "resourceId" : "PUBLIC",
+                  "name" : "PUBLIC",
+                  "auth" : {
+                    "read" : true
+                  }
+                } ],
+                "dataAccessLanguage" : "en",
+                "dataExportRestricted" : false,
+                "validationHash" : "844206793",
+                "isCurrencyTranslationEnabled" : false,
+                "isExtendedHanaLiveConnection" : false,
+                "supportsLWMD" : true,
+                "dataSource" : {
+                  "objectName" : "/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs",
+                  "schemaName" : "TENANT_2",
+                  "type" : "Planning"
+                },
+                "planningFeatures" : {
+                  "versionCreation" : false
+                },
+                "leadingStructure" : "CustomDimension1",
+                "hints" : [ {
+                  "Key" : "mds_plan_use_ce_new",
+                  "Value" : "true"
+                }, {
+                  "Key" : "mds_correct_time_description_handling",
+                  "Value" : "true"
+                } ],
+                "hasDatasetSource" : false,
+                "systemType" : "ORCA_MAIN",
+                "isBW" : false,
+                "isBPCE" : false,
+                "hasSecondaryStructure" : true,
+                "modelId" : "t.solexp.Cmo19gc6hagp4iumj3jd73jp0a:Cmo19gc6hagp4iumj3jd73jp0a",
+                "lastRefreshedAt" : null,
+                "lastChangedBy" : "",
+                "sourceDescription" : null,
+                "datasetHasDynamicFilters" : false,
+                "versionDimensionType" : "VersionDimension",
+                "isS4Hana" : false
+              },
+              "members" : {
+                "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"}]" : [ {
+                  "id" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"Version\"},{\"memberId\":\"public.Actual\"}]",
+                  "entityType" : "MEMBER",
+                  "name" : "public.Actual",
+                  "displayKey" : "public.Actual",
+                  "description" : "Actual",
+                  "isLeaf" : true,
+                  "category" : "Actuals"
+                } ]
+              }
+            } ],
+            "preExecuteUqmQueryIds" : [ "[{\"viz2\":\"30427081-6376-4965-9329-152646669525\"},{\"uqm\":\"30427081-6376-4965-9329-152646669525\"}]" ],
+            "uqmVariablesDataModelInfo" : {
+              "dataAccessLanguage" : "en",
+              "variableContainers" : { }
+            },
+            "persistedMergeGroupQuery" : "",
+            "persistedUqmQueryAndDMInfo" : { }
+          },
+          "dynamicText" : { },
+          "calculationsLoadOrder" : {
+            "calculationsLoadOrder" : [ "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]-MeasureValues" ],
+            "uqmVersion" : "1.0"
+          }
+        }, {
+          "appPages" : [ {
+            "instanceId" : "[{\"appPage\":\"a31b3cd2-f023-4b22-ac46-3e90b81c8e7a\"}]",
+            "payload" : {
+              "pageId" : "a31b3cd2-f023-4b22-ac46-3e90b81c8e7a",
+              "behaviorMode" : "RESPONSIVE",
+              "invalidPersistedInAWidgets" : { },
+              "referencedWidgetInstanceIds" : [ ]
+            }
+          } ],
+          "bookmarks" : [ {
+            "instanceId" : "[{\"bookmark\":\"24805817-9183-4299-9093-133682723641\"}]",
+            "payload" : {
+              "version" : 1,
+              "isOnlyChangedWidget" : true,
+              "isAllowDefaultPage" : true
+            }
+          } ],
+          "app" : {
+            "names" : {
+              "[{\"appPage\":\"a31b3cd2-f023-4b22-ac46-3e90b81c8e7a\"}]" : "Page_1",
+              "[{\"bookmark\":\"24805817-9183-4299-9093-133682723641\"}]" : "Bookmarks",
+              "[{\"story\":\"storyID\"},{\"gridlane\":\"19445885-4140-4379-9174-341243551661\"}]" : "Lane_1",
+              "[{\"story\":\"storyID\"},{\"viz2\":\"30427081-6376-4965-9329-152646669525\"}]" : "Chart_1"
+            },
+            "events" : { },
+            "globalVars" : { },
+            "partialLibraryLoading" : true,
+            "busyIndicatorProperties" : {
+              "enabledAuto" : false,
+              "delay" : 1000,
+              "text" : "Loading the application"
+            },
+            "loadInvisibleWidgets" : "inBackground",
+            "navigation" : {
+              "overrideDefaultSetting" : false,
+              "navigationType" : "tabs"
+            },
+            "devicePreview" : {
+              "enableDevicePreview" : true,
+              "devicePreviewSize" : {
+                "width" : "auto",
+                "height" : "auto"
+              }
+            },
+            "scheduling" : {
+              "isAuto" : true
+            },
+            "planning" : {
+              "showPlanningLeaveDialog" : true
+            }
+          },
+          "id" : "6e8b7961-9994-4bfd-bce6-e1ace133f6f5:application"
+        }, {
+          "type" : "responsiveContainer",
+          "id" : "24180192-1018-4171-a092-138365627026",
+          "vendorId" : "sap.epm.appBuilding.entity.responsiveContainer.ResponsiveContainerWidgetVendor",
+          "data" : {
+            "spacing" : 4,
+            "breakPointRules" : [ {
+              "breakPointName" : "BreakPoint",
+              "containerBreakPoint" : 480,
+              "entries" : [ {
+                "entryId" : "*",
+                "width" : 100
+              } ]
+            } ],
+            "panelPadding" : {
+              "topPadding" : {
+                "value" : 4,
+                "unit" : "pixel"
+              },
+              "bottomPadding" : {
+                "value" : 4,
+                "unit" : "pixel"
+              },
+              "leftPadding" : {
+                "value" : 4,
+                "unit" : "pixel"
+              },
+              "rightPadding" : {
+                "value" : 4,
+                "unit" : "pixel"
+              }
+            },
+            "showGrid" : false
+          }
+        }, {
+          "type" : "gridlane",
+          "id" : "19088912-4258-4719-b886-189439095129",
+          "vendorId" : "sap.epm.appBuilding.entity.gridlane.GridLaneWidgetVendor",
+          "data" : {
+            "breakPointRules" : [ {
+              "breakPointName" : "Break Point 1",
+              "enabled" : true,
+              "containerBreakPoint" : 375,
+              "deviceType" : "ios",
+              "widthEntries" : [ {
+                "entryId" : "*",
+                "value" : 36,
+                "unit" : "grid"
+              } ],
+              "heightEntries" : [ ],
+              "leftEntries" : [ ],
+              "topEntries" : [ ],
+              "visibilityEntries" : [ ],
+              "verticalPriority" : true,
+              "autoFlow" : true
+            }, {
+              "breakPointName" : "Break Point 2",
+              "enabled" : true,
+              "containerBreakPoint" : 480,
+              "deviceType" : "ios",
+              "widthEntries" : [ {
+                "entryId" : "*",
+                "value" : 36,
+                "unit" : "grid"
+              } ],
+              "heightEntries" : [ ],
+              "leftEntries" : [ ],
+              "topEntries" : [ ],
+              "visibilityEntries" : [ ],
+              "verticalPriority" : true,
+              "autoFlow" : true
+            }, {
+              "breakPointName" : "Break Point 3",
+              "enabled" : true,
+              "containerBreakPoint" : 480,
+              "deviceType" : "android",
+              "widthEntries" : [ {
+                "entryId" : "*",
+                "value" : 36,
+                "unit" : "grid"
+              } ],
+              "heightEntries" : [ ],
+              "leftEntries" : [ ],
+              "topEntries" : [ ],
+              "visibilityEntries" : [ ],
+              "verticalPriority" : true,
+              "autoFlow" : true
+            } ],
+            "showGrid" : false,
+            "applyRuleInDesignTime" : true,
+            "panelPadding" : {
+              "topPadding" : {
+                "value" : 4,
+                "unit" : "pixel"
+              },
+              "bottomPadding" : {
+                "value" : 4,
+                "unit" : "pixel"
+              },
+              "leftPadding" : {
+                "value" : 4,
+                "unit" : "pixel"
+              },
+              "rightPadding" : {
+                "value" : 4,
+                "unit" : "pixel"
+              }
+            },
+            "spacing" : 4
+          }
+        }, {
+          "id" : "6e8b7961-9994-4bfd-bce6-e1ace133f6f5:calculation",
+          "type" : "calculation",
+          "entities" : [ {
+            "id" : {
+              "id" : "MeasureValues",
+              "type" : "restrictedMeasure",
+              "parentKey" : {
+                "type" : "datasets",
+                "ids" : [ {
+                  "id" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]",
+                  "type" : "dataset"
+                } ]
+              }
+            },
+            "dateCreated" : 1718082691883,
+            "dateModified" : 1718082691913,
+            "isDeleted" : false,
+            "isHiddenCalculation" : false,
+            "name" : "Measure Values",
+            "description" : null,
+            "format" : {
+              "options" : {
+                "maximumFractionDigits" : 2,
+                "minimumFractionDigits" : 2
+              },
+              "scale" : {
+                "multiplier" : "1",
+                "prefix" : "",
+                "suffix" : "",
+                "symbolSuffix" : "",
+                "symbolPrefix" : "",
+                "toUse" : "",
+                "spaceSeparated" : false
+              },
+              "unit" : {
+                "symbol" : "",
+                "prefix" : "",
+                "suffix" : "",
+                "toUse" : "",
+                "symbolSuffix" : "",
+                "symbolPrefix" : "",
+                "spaceSeparated" : false
+              },
+              "plusSign" : {
+                "symbol" : "",
+                "isPrefix" : true
+              },
+              "minusSign" : {
+                "symbol" : "-",
+                "isPrefix" : true
+              },
+              "showSignAs" : "Default"
+            },
+            "version" : "1.6",
+            "isDynamicDescription" : null,
+            "shouldSuppressTranslation" : false,
+            "selections" : [ {
+              "entityId" : [ {
+                "id" : "CustomDimension2",
+                "parentKey" : {
+                  "id" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]",
+                  "type" : "dataset"
+                },
+                "type" : "dimension"
+              } ],
+              "exclude" : false,
+              "answers" : [ {
+                "function" : "IN",
+                "arguments" : [ [ "MeasureValues" ] ]
+              } ]
+            } ],
+            "ignoreChartContext" : false,
+            "ignoreAllSelectionContext" : false,
+            "_calculationVariableIdMap" : { },
+            "dimension" : {
+              "id" : "CustomDimension2",
+              "type" : "SecondaryStructure"
+            },
+            "isInheritFormat" : true,
+            "uqmIsInheritUnit" : true,
+            "qmfSelections" : [ {
+              "memberKeys" : [ "MeasureValues" ],
+              "operator" : "EQUAL",
+              "setSign" : "INCLUDING",
+              "selectionSchema" : "MEMBER",
+              "targetedEntity" : {
+                "datasetEntityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"}]",
+                "entityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"},{\"dimensionId\":\"CustomDimension2\"}]"
+              }
+            } ],
+            "uqmVersion" : "1.1",
+            "validationErrors" : [ ]
+          } ],
+          "version" : "1.6"
+        }, {
+          "id" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]",
+          "type" : "dataset",
+          "data" : {
+            "id" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]",
+            "isPrivate" : false,
+            "isRemote" : false,
+            "modelId" : "Git Model",
+            "systemType" : "ORCA_MAIN"
+          }
+        }, {
+          "datasetId" : "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]",
+          "alias" : "\"Git Model\"",
+          "type" : "datasetAlias",
+          "id" : "e959c8a7-cd3a-4e04-8b19-b1f3ed74fdb2"
+        }, {
+          "type" : "visualization.viz",
+          "id" : "921f279a-c87a-4f4d-be80-b1b2044eb352",
+          "vendorId" : "sap.epm.story.entity.viz.VizVendor",
+          "data" : {
+            "isPlaceHolder" : true,
+            "vizDefinition" : {
+              "properties" : { },
+              "datasetEntityId" : "[{\"datasetId\":\"planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]\"}]",
+              "cacheHintEnabled" : true
+            }
+          },
+          "datasets" : [ "planning:[TENANT_2][][/t.solexp.Cmo19gc6hagp4iumj3jd73jp0a/Cmo19gc6hagp4iumj3jd73jp0a_qs]" ]
+        }, {
+          "id" : "6e8b7961-9994-4bfd-bce6-e1ace133f6f5:fieldSelection",
+          "type" : "fieldSelection",
+          "entities" : [ ],
+          "version" : "1.0"
+        }, {
+          "id" : "f573a951-297a-4552-89b3-115d4d25a99b",
+          "entities" : [ ],
+          "type" : "uqmCustomCurrentDateEntityType",
+          "version" : "4.12"
+        } ],
+        "optimizedDesignEnabled" : true,
+        "folder" : "PRIVATE",
+        "title" : "Git_Story",
+        "optimizedEnabled" : true,
+        "optimizedBlockingUnsupportedFeatures" : false,
+        "bookmarkSettings" : {
+          "keepLastValueForDynamicVariable" : true,
+          "overrideDefaultSettings" : true,
+          "customDialogLicense" : true
+        },
+        "mobileSupportCanvasPage" : false
+      },
+      "isOptimizedEnabled" : true,
+      "tiles" : [ ],
+      "isSample" : false,
+      "isTemporary" : false
+    },
+    "storyContent" : null,
+    "metadata" : {
+      "id" : {
+        "type" : "STORY",
+        "name" : "D27031830D12DC3CE635E51C08A8378A",
+        "package" : "t.solexp"
+      },
+      "description" : "Git_Story",
+      "owner" : "I554236",
+      "changedBy" : "I554236",
+      "version" : 2,
+      "active" : true,
+      "tmCreated" : "2024-06-11T05:10:41.514Z",
+      "tmModified" : "2024-06-11T05:14:19.719Z",
+      "parentId" : null,
+      "isPrivate" : false,
+      "isSample" : false,
+      "dataSize" : 35455,
+      "createAppVer" : "2024.12.0",
+      "changeAppVer" : "2024.12.0",
+      "isEmbedded" : false,
+      "isTemporary" : false,
+      "ownerDisplayName" : "",
+      "changedByDisplayName" : ""
+    },
+    "dependentObjects" : [ ],
+    "subObjects" : [ ],
+    "data" : null,
+    "translationEnabled" : 0,
+    "featured" : 0,
+    "spaceId" : null,
+    "properties" : null,
+    "refObjects" : [ ],
+    "privateSubItemCount" : 0,
+    "privateRefObjCount" : 0,
+    "enhancedProperties" : {
+      "STORY_OPTIMIZED_INFO" : "VIEW_EDIT_STORY2",
+      "DEFAULT_VIEW_MODE" : "view"
+    }
+  },
+  "hasSecurityInfo" : false
+}
