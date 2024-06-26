@@ -1,0 +1,121 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:sap.epm:Account_BestRunJ_sold",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "sap.epm:Account_BestRunJ_sold",
+    "type" : "Account",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "sap.epm",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : false,
+      "multiLangEnabled" : false,
+      "showOrphans" : true,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true
+    },
+    "description" : "Account",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "",
+      "descriptions" : {
+        "en" : ""
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    }, {
+      "property" : "accType",
+      "propertyType" : "ACCOUNT_TYPE",
+      "description" : "Account Type",
+      "descriptions" : {
+        "en" : "Account Type"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 127,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ACCTYPE"
+    } ],
+    "hierarchies" : [ {
+      "hierarchy" : "parentId",
+      "hierarchyType" : "parent_child",
+      "description" : "Hierarchy",
+      "descriptions" : {
+        "en" : "Hierarchy"
+      },
+      "hierarchyViewName" : "\"TENANT_5RGA4G\".\"sap.epm:Account_BestRunJ_sold//hier/parentId\"",
+      "isMandatory" : false,
+      "levels" : [ ],
+      "nodeStyle" : null
+    } ],
+    "memberCount" : 5,
+    "lastUpdated" : "2024-04-09T08:36:14.781Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_5RGA4G",
+    "descriptions" : {
+      "en" : "Account"
+    },
+    "calculationMembersCount" : 200,
+    "name" : "Account_BestRunJ_sold",
+    "dimensionId" : "Account_BestRunJ_sold",
+    "defaultHierarchy" : "parentId",
+    "masterDataTableName" : "sap.epm::MSTR_Account_BestRunJ_sold",
+    "textTableName" : "sap.epm::TEXT_Account_BestRunJ_sold",
+    "hierarchyTableName" : "sap.epm::HIER_Account_BestRunJ_sold",
+    "formulaTableName" : "sap.epm::FRML_Account_BestRunJ_sold",
+    "hierarchyCount" : 1,
+    "propertyCount" : 2,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "",
+      "descriptions" : {
+        "en" : ""
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : true,
+    "isTemporary" : false
+  },
+  "status" : { },
+  "hasSecurityInfo" : false
+}

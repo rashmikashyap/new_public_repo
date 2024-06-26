@@ -1,0 +1,3435 @@
+{
+  "objectType" : "RESOURCE",
+  "packageId" : "t.13",
+  "objectId" : "RESOURCE:t.13:C7A0D0C4DD9426987D890597E70D135",
+  "isEmbedded" : false,
+  "content" : {
+    "resourceId" : "C7A0D0C4DD9426987D890597E70D135",
+    "resourceType" : "THEMING",
+    "ownerId" : "PUBLIC",
+    "ownerType" : "PUBLIC",
+    "parentResId" : "5C183986A5C6813A00EDE0E0D15E9439",
+    "updateCounter" : 0,
+    "origLangu" : "E",
+    "packageId" : "t.13",
+    "name" : "Fiori Morning Horizon Theme (1.0.3)",
+    "resourceSubtype" : "",
+    "mobileSupport" : 0,
+    "description" : "Fiori Morning Horizon Theme - Version 1.0.3",
+    "createdBy" : "C5185443",
+    "createdTime" : "2024-04-09T08:14:19.520Z",
+    "modifiedBy" : "C5185443",
+    "modifiedTime" : "2024-04-09T08:14:19.520Z",
+    "createdByDisplayName" : "",
+    "modifiedByDisplayName" : "",
+    "objectId" : "THEMING:t.13:C7A0D0C4DD9426987D890597E70D135",
+    "access" : { },
+    "accessExt" : { },
+    "texts" : [ {
+      "langu" : "E",
+      "description" : "Fiori Morning Horizon Theme - Version 1.0.3"
+    } ],
+    "views" : [ ],
+    "sourceResource" : {
+      "resourceId" : "",
+      "parentResId" : "",
+      "updateCounter" : 0,
+      "origLangu" : "E",
+      "packageId" : "sap.epm",
+      "name" : "",
+      "resourceSubtype" : "",
+      "mobileSupport" : 0,
+      "description" : "",
+      "createdBy" : "",
+      "createdTime" : "2024-04-11T04:15:50.489Z",
+      "modifiedBy" : "",
+      "modifiedTime" : "2024-04-11T04:15:50.489Z",
+      "createdByDisplayName" : "",
+      "modifiedByDisplayName" : "",
+      "access" : { },
+      "accessExt" : { },
+      "texts" : [ ],
+      "views" : [ ],
+      "sourceResource" : { },
+      "favResId" : "",
+      "shareResId" : "",
+      "ancestorResource" : [ ],
+      "ancestorPath" : [ ],
+      "auth" : null,
+      "canShare" : false,
+      "cdata" : null,
+      "storyContent" : null,
+      "metadata" : null,
+      "dependentObjects" : [ ],
+      "subObjects" : [ ],
+      "data" : null,
+      "featured" : 0,
+      "spaceId" : null
+    },
+    "favResId" : "",
+    "shareResId" : "",
+    "ancestorResource" : [ ],
+    "ancestorPath" : [ ],
+    "auth" : null,
+    "canShare" : false,
+    "cdata" : {
+      "applyToExisting" : [ {
+        "id" : "sap.fpa.appBuilding.theme.app.general",
+        "type" : "page",
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.app.css.theme",
+          "settings" : {
+            "enableThemeCss" : true,
+            "appCssStyle" : "/* Description:\n   - Variance Colors defined in UI Theme Dialog\n*/\n/*------------------------------------------------------------------ */\n/* ACCOUNT INPUT CONTROL-------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n/*------------------------------------------------------------------ */\n/* BPC PLANNING SEQUENCE TRIGGER------------------------------------ */\n/*------------------------------------------------------------------ */\n\n/*------------------------------------------------------------------ */\n/* BUTTON----------------------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n/**Standard Button - using global CSS class**/\n.saptheme .sap-custom-button:hover{\n    color:#0064D9;\n}\n.saptheme .sap-custom-button:active{\n    color:#0070f2;\n}\n\n/**Emphasized Button - .emphasizedButton class**/\n.emphasizedButton .sap-custom-button{\n    border-color:#0070f2;\n    background-color:#0070f2;\n    color:#FFFFFF;\n}\n.emphasizedButton .sap-custom-button:hover{\n    border-color:#0064d9;\n    background-color:#0064d9;\n    color:#FFFFFF;\n}\n.emphasizedButton .sap-custom-button:active{\n    border-color:#0070f2;\n    background-color:#ffffff;\n    color:#0070f2;\n}\n\n/**Lite Button - .liteButton class**/\n.liteButton .sap-custom-button{\n    border-color:transparent;\n    background-color:transparent;\n    color:#0064D9;\n}\n.liteButton .sap-custom-button:hover{\n    border-color:#d6dade;\n    background-color:#EAECEE;\n    color:#0064D9;\n}\n.liteButton .sap-custom-button:active{\n    border-color:#0070F2;\n    background-color:#ffffff;\n    color:#0064D9;\n}\n\n/**Accept Button - .acceptButton class**/\n.acceptButton .sap-custom-button{\n    border-color:#DBEDA1;\n    background-color:#EBF5CB;\n    color:#256F3A;\n}\n.acceptButton .sap-custom-button:hover{\n    border-color:#dbeda0;\n    background-color:#e3f1b6;\n    color:#256F3A;\n}\n.acceptButton .sap-custom-button:active{\n    border-color:#30914C;\n    background-color:#ffffff;\n    color:#256F3A;\n}\n\n/**Reject Button - .rejectButton class**/\n.rejectButton .sap-custom-button{\n    border-color:#FFC2de;\n    background-color:#FFD6E9;\n    color:#AA0808;\n}\n.rejectButton .sap-custom-button:hover{\n    border-color:#ffa8d0;\n    background-color:#FFBDDB;\n    color:#AA0808;\n}\n.rejectButton .sap-custom-button:active{\n    border-color:#f53232;\n    background-color:#ffffff;\n    color:#AA0808;}\n\n/*------------------------------------------------------------------ */\n/* CALCULATION INPUT CONTROL --------------------------------------- */\n/*------------------------------------------------------------------ */\n\n/*------------------------------------------------------------------ */\n/* CHART  ---------------------------------------------------------- */\n/*------------------------------------------------------------------ */\n/* \n- no data label color defined so the data label color is dynamic \n  depending on the background if inside a bar\n- Variance label need to be manually set because it's not available in CSS'\n*/\n\n.saptheme .sap-custom-chart-title{ /*checked*/\n    font-family: '72-Web';\n    font-size: 14px;\n    color: #1D2D3E;\n    font-weight: 700;\n}\n.saptheme .sap-custom-chart-subtitle{ /*checked*/\n    font-family: '72-Web';\n    font-size: 12px;\n    color: #556B82;\n    font-weight: 400;\n}\n.saptheme .sap-custom-chart-category-axis-label{ /*Dimension Axis Label*/ /*checked*/\n    font-family: '72-Web';\n    font-size: 12px;\n    fill: #1D2D3E;\n    font-weight: 400;}\n.saptheme .sap-custom-number-chart-primary-labels{\n    font-family: '72-Web';\n    font-size: 12px;\n    color: #556B82;\n}\n.saptheme .sap-custom-number-chart-secondary-labels{\n    font-family: '72-Web';\n    font-size: 12px;\n}\n.saptheme .sap-custom-number-chart-primary-values{ /*no font-size defined so the font-size is adaptive*/\n    font-family: '72-Web';\n    color: #1D2D3E;\n    font-weight: 400;\n}\n\n.saptheme .sap-custom-chart-data-labels { /*making data labels regular weight*/\n\tfont-weight: 400;\n}\n.saptheme .sap-custom-chart-footer{ /*checked*/\n    font-family: '72-Web';\n    font-size: 12px;\n    color: #1D2D3E;\n    font-weight: 400;\n}\n.saptheme .sap-custom-chart-footer-placeholder{ /*checked*/\n    font-size: 12px;\n    color: #1D2D3E;\n}\n.saptheme .sap-custom-geo-main-label{ /*checked*/\n    font-family: '72-Web';\n    font-size: 14px;\n    color: #1D2D3E;\n    font-weight: 700;\n}\n.saptheme .sap-custom-chart-reference-label{ /*checked*/\n    font-family: '72-Web';\n    font-size: 12px;\n    fill: #1D2D3E;\n    font-weight: 400;\n}\n/*------------------------------------------------------------------ */\n/* CHECKBOX GROUP--------------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n.saptheme .sap-custom-checkbox-group-item:hover .sap-custom-checkbox-group-mark-outer{ \n    background-color:#E3f0ff;\n}\n\n/*------------------------------------------------------------------ */\n/* CLOCK------------------------------------------------------------ */\n/*------------------------------------------------------------------ */\n\n\n/*------------------------------------------------------------------ */\n/* COMMENT WIDGET--------------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n\n/*------------------------------------------------------------------ */\n/* COMPOSITE-------------------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n/*------------------------------------------------------------------ */\n/* DATA ACTION TRIGGER---------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n/*------------------------------------------------------------------ */\n/* DIMENSION INPUT CONTROL------------------------------------------ */\n/*------------------------------------------------------------------ */\n    \n/*------------------------------------------------------------------ */\n/* DROPDOWN--------------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n.saptheme .sap-custom-dropdown-trigger{\n    border-radius: 4px 4px;\n    background-color: #ffffff;\n    border-top: solid #D5DADF 0.0625rem;\n    border-right: solid #D5DADF 0.0625rem;\n    border-left: solid #D5DADF 0.0625rem;\n    border-bottom: solid #556B82 0.0625rem;\n} \n\n.saptheme .sap-custom-dropdown-trigger:hover{  \n    border-radius: 4px 4px;\n    background-color: #ffffff;\n    border-top: solid #ABCFFF 0.0625rem;\n    border-right: solid #ABCFFF 0.0625rem;\n    border-left: solid #ABCFFF 0.0625rem;\n    border-bottom: solid #3082EC 0.0625rem;\n} \n\n.saptheme .sap-custom-dropdown-trigger:active{\n    border-radius: 4px 4px;\n    background-color: #ffffff;\n    border-top: solid #0064D9 0.0625rem;\n    border-right: solid #0064D9 0.0625rem;\n    border-left: solid #0064D9 0.0625rem;\n    border-bottom: solid #0064D9 0.0625rem;\n} \n\n.saptheme .sap-custom-dropdown-trigger-value{\n    font-family: '72-Web'; \n    font-size: 0.875rem;\n    color: #131e29; \n}\n\n.saptheme .sap-custom-dropdown-trigger-arrow{\n    background-color: #ffffff;\n    color: #1D2D3E; \n    border-radius: 4px;\n    border: solid transparent 0.0625rem;\n    padding: 0px 5px 0px 5px;\n    \n}\n\n.saptheme .sap-custom-dropdown-trigger-arrow:active{\n    background-color: #EEF6FF; \n    color: #0064D9; \n    border-radius: 4px;\n    border: solid #ABCFFF 0.0625rem;\n    padding: 0px 5px 0px 5px;\n}\n\n.saptheme .sap-custom-dropdown-trigger-arrow:hover{\n    color: #0064D9;\n    border-radius: 4px;\n    border: solid #ABCFFF 0.0625rem;\n    padding: 0px 5px 0px 5px;\n\n} \n \n.saptheme .sap-custom-dropdown-item:active{\n    color: #1D2D3E;\n    background-color: #DEE2E5;\n} \n\n.saptheme .sap-custom-dropdown-item{ \n    border: 1px solid transparent;\n} \n\n.saptheme .sap-custom-dropdown-selected-item{\n    color: #1D2D3E;\n    background-color: #DCF3FF; \n    border-bottom: 1px solid #0064d9;\n} \n\n.saptheme .sap-custom-dropdown-menu{\n    border: solid #87909B;\n    border-radius: 10px 10px; \n}\n\n.saptheme .sap-custom-dropdown-trigger-arrow-expanded{\n    background-color: #EDF6FF;\n} \n\n/*------------------------------------------------------------------ */\n/* FILTER LINE------------------------------------------------------ */\n/*------------------------------------------------------------------ */ \n\n.saptheme .sap-custom-filter-line-icon{\n    color: #1D2D3E;\n}\n.saptheme .sap-custom-filter-line-menu-item:active{\n    color:#1d2d3e;\n    background-color: red;\n}\n\n/*------------------------------------------------------------------ */\n/* FLOW LAYOUT PANEL------------------------------------------------ */\n/*------------------------------------------------------------------ */ \n\n/*------------------------------------------------------------------ */\n/* GEO MAP---------------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n    \n/*------------------------------------------------------------------ */\n/* IMAGE------------------------------------------------------------ */\n/*------------------------------------------------------------------ */ \n    \n/*------------------------------------------------------------------ */\n/* INPUT CONTROL---------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n.saptheme .sap-custom-input-control-sub-label{\n    color:#0064D9;\n    font-weight:bold;\n}\n\n/*------------------------------------------------------------------ */\n/* INPUT FIELD------------------------------------------------------ */\n/*------------------------------------------------------------------ */     \n\n.saptheme .sap-custom-input-field-widget{\n    border-bottom: solid #556B82 0.0625rem; \n}\n.saptheme .sap-custom-input-field-placeholder{\n    color:#556B82;\n}\n\n/*------------------------------------------------------------------ */\n/* LANE------------------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n\n/*------------------------------------------------------------------ */\n/* Logic Group - CARD ---------------------------------------------- */\n/*------------------------------------------------------------------ */\n/* Fiori Horizon Background Card with shadow. Can be applied to Panels and Flow Panels.*/ \n.logicGroup_card .sap-custom-flow-panel-widget, \n.logicGroup_card .sap-custom-panel-widget{\n    background-color: #fff;\n    box-shadow: 0 0 0.13rem rgba(34, 54, 73, 0.2), \n                0 0.13rem 0.3rem rgba(34, 54, 73, 0.2);\n}\n.logicGroup_card .sap-custom-button{\n    border-color:transparent;\n    background-color:transparent;\n    color:#0064D9;\n}\n.logicGroup_card .sap-custom-button:hover{\n    border-color:#d6dade;\n    background-color:transparent; /*background-color:#EAECEE;*/\n    color:#0064D9;\n}\n.logicGroup_card .sap-custom-button:active{\n    border-color:#0070F2;\n    background-color:transparent;\n    color:#0064D9;\n}\n.logicGroup_card_header .sap-custom-panel-widget{\n    border-bottom: 1px solid #A8B3BD;\n}\n.logicGroup_card_header_close .sap-custom-panel-widget{\n    background-color: transparent;\n    border-bottom: 1px solid transparent;\n}\n.logicGroup_card_title .sap-custom-text{\n    font-family: '72-Web';\n    font-size: 16px;\n    /*color: #1D2D3E;*/\n    font-weight: 700;\n}\n.logicGroup_card_chart_title .sap-custom-text{\n    font-family: '72-Web';\n    font-size: 14px;\n    /*color: #1D2D3E;*/\n    font-weight: 700;\n}\n\n/*------------------------------------------------------------------ */\n/* Logic Group HEADER  --------------------------------------------- */\n/*------------------------------------------------------------------ */\n/* Fiori Horizon Background Card with shadow. Can be applied to Panels and Flow Panels.*/ \n.logicGroup_header .sap-custom-flow-panel-widget, \n.logicGroup_header .sap-custom-panel-widget{\n    background-color: #fff;\n    box-shadow: 0 0 0.13rem rgba(34, 54, 73, 0.2), \n                0 0.13rem 0.3rem rgba(34, 54, 73, 0.2);\n}\n.logicGroup_header .sap-custom-button{\n    border-color:transparent;\n    background-color:transparent;\n    color:#0064D9;\n}\n.logicGroup_header .sap-custom-button:hover{\n    border-color:#d6dade;\n    background-color:#EAECEE;\n    color:#0064D9;\n}\n.logicGroup_header .sap-custom-button:active{\n    border-color:#0070F2;\n    background-color:#ffffff;\n    color:#0064D9;\n}\n.logicGroup_header_title .sap-custom-text{ /*checked*/\n    font-family: '72-Web';\n    font-size: 24px;\n    /*color: #1D2D3E;*/\n    font-weight: 900;\n}\n.logicGroup_header_subTitle .sap-custom-text{ /*checked*/\n    font-size: 12px;\n    color: #556B82;\n    font-weight: 400;\n}\n.logicGroup_header_descTitle .sap-custom-text{ /*checked*/\n    font-size: 14px;\n    /*color: #1D2D3E;*/\n    font-weight: 700;\n}\n.logicGroup_header_descContent .sap-custom-text{ /*checked*/\n    font-size: 14px;\n    /*color: #1D2D3E;*/\n    font-weight: 400;\n}\n.logicGroup_header_link .sap-custom-text{\n    color: #0064D9;\n    font-size: 14px;\n    text-decoration: underline;\n}\n\n/*------------------------------------------------------------------ */\n/* Logic Group LANE ------------------------------------------------ */\n/*------------------------------------------------------------------ */     \n.logicGroup_lane .sap-custom-panel-widget{\n    background-color: #fff;\n    border-bottom: 1px solid #A8B3BD;\n}\n.logicGroup_lane .sap-custom-text {\n    font-family: '72-Web';\n    font-size: 14px;\n    font-weight: 700;\n}\n.logicGroup_lane .sap-custom-button{\n    border-color:transparent;\n    background-color:transparent;\n    color:#0064D9;\n}\n.logicGroup_lane .sap-custom-button:hover{\n    border-color:#d6dade;\n    background-color:transparent; /*background-color:#EAECEE;*/\n    color:#0064D9;\n}\n.logicGroup_lane .sap-custom-button:active{\n    border-color:#0070F2;\n    background-color:transparent;\n    color:#0064D9;\n}  \n.logicGroup_lane_header .sap-custom-panel-widget{\n    border-bottom: 1px solid #A8B3BD;\n}\n.logicGroup_lane_header_close .sap-custom-panel-widget{\n    background-color: transparent;\n    border-bottom: 1px solid transparent;\n}\n.logicGroup_lane_title .sap-custom-text{\n    font-family: '72-Web';\n    font-size: 16px;\n    /*color: #1D2D3E;*/\n    font-weight: 700;\n}\n\n/*------------------------------------------------------------------ */\n/* LIST BOX--------------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n    \n/*------------------------------------------------------------------ */\n/* PAGE------------------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n    \n/*------------------------------------------------------------------ */\n/* PAGE BOOK-------------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n/*------------------------------------------------------------------ */\n/* PANEL------------------------------------------------------------ */\n/*------------------------------------------------------------------ */     \n\n/* Fiori Horizon Background Card with shadow. Can be applied to Panels and Flow Panels.\n   This CSS Class also applies to sidepanels to give them a shadow.*/ \n.sidepanel .sap-custom-flow-panel-widget, \n.sidepanel .sap-custom-panel-widget,\n.card .sap-custom-flow-panel-widget, \n.card .sap-custom-panel-widget{\n    background-color: #fff;\n    box-shadow: 0 0 0.13rem rgba(34, 54, 73, 0.2), \n                0 0.13rem 0.3rem rgba(34, 54, 73, 0.2);\n}\n\n.logicGroupHeader .sap-custom-panel-widget{\n    border-bottom: 1px solid #A8B3BD;\n}\n\n/*------------------------------------------------------------------ */\n/* POPUP------------------------------------------------------------ */\n/*------------------------------------------------------------------ */     \n\n.saptheme .sap-custom-popup-header-container{\n    background-color:#FFFFFF;\n}\n.saptheme .sap-custom-popup-header-font{\n    color:#1D2D3E;\n    font-family: sans-serif;\n}\n.saptheme .sap-custom-popup-footer-container{\n    background-color:#FFFFFF;\n}\n.saptheme .sap-custom-popup-footer-button{\n    border-color:#D6DADE;\n    background-color:#FFFFFF;\n    color:#0064D9;\n    font-family:\"72\";\n}\n.saptheme .sap-custom-popup-footer-button:hover{\n    border-color:#D6DADE;\n    background-color:#EAECEE;\n    color:#0064D9;\n    font-family: \"72\";\n}\n.saptheme .sap-custom-popup-footer-button:active{\n    border-color:#0070F2;\n    background-color:#FFFFFF;\n    color:#0070F2;\n    font-family: \"72\";\n}\n.saptheme .sap-custom-popup-footer-emphasized{\n    border-color:#0070f2;\n    background-color:#0070f2;\n    color:#FFFFFF;\n    font-family: \"72\";\n}\n.saptheme .sap-custom-popup-footer-emphasized:hover{\n    border-color:#0064d9;\n    background-color:#0064d9;\n    color:#FFFFFF;\n    font-family: \"72\";\n}\n.saptheme .sap-custom-popup-footer-emphasized:active{\n    border-color:#0070f2;\n    background-color:#ffffff;\n    color:#0070f2;\n    font-family: \"72\";\n}\n\n/*------------------------------------------------------------------ */\n/* R VISUALIZATION-------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n    \n/*------------------------------------------------------------------ */\n/* RADIO BUTTON GROUP----------------------------------------------- */\n/*------------------------------------------------------------------ */         \n\n.saptheme .sap-custom-radio-button-group-item:hover .sap-custom-radio-button-group-mark-outer{\n    background-color:#E3f0ff;\n}\n\n/*------------------------------------------------------------------ */\n/* RANGE SLIDER----------------------------------------------------- */\n/*------------------------------------------------------------------ */         \n\n.saptheme .sap-custom-range-slider-tooltip-font{\n    color:#ffffff;\n}\n\n/*------------------------------------------------------------------ */\n/* RSS READER------------------------------------------------------- */\n/*------------------------------------------------------------------ */         \n    \n/*------------------------------------------------------------------ */\n/* SHAPE------------------------------------------------------------ */\n/*------------------------------------------------------------------ */         \n    \n/*------------------------------------------------------------------ */\n/* SLIDER----------------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n.saptheme .sap-custom-slider-tooltip-font{\n    color:#ffffff;\n}\n\n/*------------------------------------------------------------------ */\n/* SWITCH----------------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n    \n/*------------------------------------------------------------------ */\n/* TAB STRIP-------------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n\n.saptheme .sap-custom-tab-strip-tab-bar{\n    background-color: #ffffff;\n}\n/*------------------------------------------------------------------ */\n/* TABLE------------------------------------------------------------ */\n/*------------------------------------------------------------------ */         \n\n.saptheme .sap-custom-table-dimension-member-expand-icon{\n    color:#1d2d3e;\n}\n.saptheme .sap-custom-table-data-cell{\n    color:#1d2d3e;\n}\n\n/*------------------------------------------------------------------ */\n/* TEXT ------------------------------------------------------------ */\n/*------------------------------------------------------------------ */\n\n.pageTitle .sap-custom-text{ /*checked*/\n    font-family: '72-Web';\n    font-size: 24px;\n    color: #1D2D3E;\n    font-weight: 900;   \n}\n\n.pageSubTitle .sap-custom-text{ /*checked*/\n    font-size: 12px;\n    color: #556B82;\n    font-weight: 400;\n}\n\n.descTitle .sap-custom-text{ /*checked*/\n    font-size: 14px;\n    color: #1D2D3E;\n    font-weight: 700;\n}\n\n.descContent .sap-custom-text{ /*checked*/\n    font-size: 14px;\n    color: #1D2D3E;\n    font-weight: 400;\n}\n.logicGroupTitle .sap-custom-text{ /*checked*/\n    font-family: '72-Web';\n    font-size: 16px;\n    color: #1D2D3E;\n    font-weight: 700;\n}\n.link .sap-custom-text{\n    color: #0064D9;\n    font-size: 14px;\n    text-decoration: underline;\n}\n.negativ .sap-custom-text{\n    color: #AA0808;\n}\n.critical .sap-custom-text{\n    color: #e76500;\n}\n.positive .sap-custom-text{\n    color: #256F3A;\n}\n.information .sap-custom-text{\n    color: #0070F2;\n}\n.neutral .sap-custom-text{\n    color: #788FA6;\n}\n\n/*------------------------------------------------------------------ */\n/* TEXT AREA-------------------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n.saptheme .sap-custom-text-area-widget{\n    border-bottom: solid #556B82 0.0625rem; \n}\n.saptheme .sap-custom-text-area-placeholder{\n    color:#556B82;\n\n}\n\n/*------------------------------------------------------------------ */\n/* VALUE DRIVER TREE------------------------------------------------ */\n/*------------------------------------------------------------------ */\n    \n/*------------------------------------------------------------------ */\n/* WEB PAGE--------------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n/*------------------------------------------------------------------ */\n/* CUSTOM PANEL AS POP OVER ---------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n.popover .sap-custom-panel-widget{\n    background-color: #fff;\n    border: 1px solid #A8B3BD;\n}\n\n/*------------------------------------------------------------------ */\n/* CUSTOM PANEL AS POP UP------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n.popup .sap-custom-panel-widget{\n    background-color:#FFFFFF;\n    box-shadow: 0 0 0.13rem rgba(34, 54, 73, 0.4),\n                0 0.13rem 0.3rem rgba(34, 54, 73, 0.4);\n}\n.popup_header .sap-custom-panel-widget{\n    background-color:transparent;\n    border-bottom: 1px solid #A8B3BD;\n}\n.popup_footer .sap-custom-panel-widget{\n    background-color:transparent;\n    border-top: 1px solid #A8B3BD;\n}\n.popup_title .sap-custom-text{\n    font-family: '72-Web';\n    font-size: 16px;\n    font-weight: 700;\n}\n.popup_button .sap-custom-button{\n    border-color:transparent;\n    background-color:transparent;\n    color:#0064D9;\n}\n.popup_button .sap-custom-button:hover{\n    border-color:#d6dade;\n    background-color:#EAECEE;\n    color:#0064D9;\n}\n.popup_button .sap-custom-button:active{\n    border-color:#0070F2;\n    background-color:#ffffff;\n    color:#0064D9;\n}\n.popup_emphasizedButton .sap-custom-button{\n    border-color:#0070f2;\n    background-color:#0070f2;\n    color:#FFFFFF;\n}\n.popup_emphasizedButton .sap-custom-button:hover{\n    border-color:#0064d9;\n    background-color:#0064d9;\n    color:#FFFFFF;\n}\n.popup_emphasizedButton .sap-custom-button:active{\n    border-color:#0070f2;\n    background-color:#ffffff;\n    color:#0070f2;\n}\n\n/*------------------------------------------------------------------ */\n/* Shell Bar ------------------------------------------------------- */\n/*------------------------------------------------------------------ */\n.shellBar .sap-custom-panel-widget{\n\tborder-bottom: 1px solid #d9d9d9;\n\tbackground-color: #fff;\n}\n\n.shellBar_title .sap-custom-text{\n\tfont-family: '72-Web';\n\tfont-size: 18px;\n\tfont-weight: 900;\n}\n\n",
+            "themeName" : "Fiori Morning Horizon Theme (1.0.2)",
+            "globalCssClassName" : "saptheme"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.page.canvas",
+        "type" : "page",
+        "pageType" : "CANVAS",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.canvas",
+          "settings" : {
+            "backgroundColor" : {
+              "path" : "/backgroundColor",
+              "value" : "rgba(245, 246, 247, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.page.responsive",
+        "type" : "page",
+        "pageType" : "RESPONSIVE",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.responsive.pagePreference",
+          "settings" : {
+            "gridSpacing" : {
+              "path" : "/gridSpacing",
+              "value" : 4
+            },
+            "pageBackground" : {
+              "value" : {
+                "type" : "color",
+                "value" : "rgba(245,246,247,1)"
+              },
+              "disableImage" : true,
+              "forceReset" : true
+            },
+            "laneBackground" : {
+              "value" : {
+                "type" : "color",
+                "value" : ""
+              },
+              "disableImage" : true,
+              "forceReset" : true
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.page.popup",
+        "type" : "page",
+        "pageType" : "CANVAS_POPUP",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.canvas",
+          "settings" : {
+            "backgroundColor" : {
+              "path" : "/backgroundColor",
+              "value" : "rgba(255, 255, 255, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.threshold",
+        "type" : "page",
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.thresholdSymbol",
+          "settings" : {
+            "ok" : {
+              "value" : {
+                "color" : "#188918",
+                "icon" : "sap-icon://fpa/threshold-good"
+              }
+            },
+            "warning" : {
+              "value" : {
+                "color" : "#f56a00",
+                "icon" : "sap-icon://fpa/threshold-warning"
+              }
+            },
+            "critical" : {
+              "value" : {
+                "color" : "#d20a0a",
+                "icon" : "sap-icon://fpa/threshold-alert"
+              }
+            },
+            "neutral" : {
+              "value" : {
+                "color" : "#5b738b",
+                "icon" : "sap-icon://fpa/diamond"
+              }
+            },
+            "informative" : {
+              "value" : {
+                "color" : "#0070f2",
+                "icon" : "sap-icon://fpa/threshold-information"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.numberFormat",
+        "type" : "page",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.viz.numberFormatting",
+          "settings" : {
+            "scales" : { },
+            "decimalFormat" : {
+              "measureTypes" : {
+                "values" : [ {
+                  "id" : "absolute_id_1",
+                  "type" : "absolute"
+                }, {
+                  "id" : "percentage_id_1",
+                  "type" : "percentage"
+                } ]
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.currency",
+        "type" : "page",
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.currency",
+          "settings" : {
+            "currency" : "default"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.button",
+        "type" : "widget",
+        "entityTypes" : [ "button" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.buttonStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "width" : "100%",
+              "height" : "100%",
+              "backgroundColor" : "#f7f7f7"
+            },
+            "borderStyle" : {
+              "borderColor" : "#bfbfbf"
+            },
+            "buttonType" : "Standard",
+            "hoverBorderStyle" : {
+              "borderColor" : "#bfbfbf"
+            },
+            "hoverBackgroundStyle" : {
+              "backgroundColor" : "#ebebeb"
+            },
+            "downBorderStyle" : {
+              "borderColor" : "#bfbfbf"
+            },
+            "downBackgroundStyle" : {
+              "backgroundColor" : "#427cac"
+            },
+            "showIcon" : true,
+            "buttonIcon" : "",
+            "iconPosition" : "Left"
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "Arial",
+              "fontSize" : "14px",
+              "color" : "#346187"
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.viz",
+        "type" : "widget",
+        "entityTypes" : [ "visualization.viz" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.viz.legend",
+          "settings" : {
+            "legend" : {
+              "path" : "general/vizLegend",
+              "value" : {
+                "isDefault" : true,
+                "isInlineApplicable" : true,
+                "isPositionApplicable" : true,
+                "isSecondaryPositionApplicable" : true,
+                "verticalAlign" : "top",
+                "horizontalAlign" : "center",
+                "align" : "horizontal",
+                "defaultSettings" : {
+                  "isInlineApplicable" : true,
+                  "isPositionApplicable" : true,
+                  "isSecondaryPositionApplicable" : true,
+                  "verticalAlign" : "top",
+                  "horizontalAlign" : "center",
+                  "align" : "horizontal"
+                }
+              }
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "includeUndo" : false
+              }
+            },
+            "axisLabelFontStyle" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "includeUndo" : false
+              }
+            },
+            "dataLabelFontStyle" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "includeUndo" : false
+              }
+            },
+            "totalLabelFontStyle" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "includeUndo" : false
+              }
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.multiColorPalette",
+          "settings" : {
+            "standard" : {
+              "path" : null,
+              "value" : "17494401-9825-4139-3190-329273876949",
+              "lastUpdatedUtcTime" : 1707748158984
+            },
+            "gradient" : {
+              "path" : null,
+              "value" : "42045699-9500-4311-8881-582198919193",
+              "lastUpdatedUtcTime" : 1699539642706
+            },
+            "diverging" : {
+              "path" : null,
+              "value" : ""
+            },
+            "sequential" : {
+              "path" : null,
+              "value" : ""
+            },
+            "waterfall_standard" : {
+              "path" : null,
+              "value" : "22580023-0130-4193-8261-735472573818",
+              "lastUpdatedUtcTime" : 1699539720494
+            },
+            "variance" : {
+              "path" : null,
+              "value" : ""
+            },
+            "single_color" : {
+              "path" : null,
+              "value" : ""
+            },
+            "null_color" : {
+              "path" : null,
+              "value" : "37554797-4026-4237-3003-441689037832",
+              "lastUpdatedUtcTime" : 1699539740083
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.varianceColor",
+          "settings" : {
+            "varianceColors" : {
+              "value" : {
+                "positiveColor" : "#30914c",
+                "negativeColor" : "#f53232",
+                "nullZeroColor" : "#788fa6"
+              }
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.axisstyling.properties",
+          "settings" : {
+            "axesColor" : {
+              "path" : "general/axesColor",
+              "value" : "rgba(29, 45, 62, 1)"
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.checkbox",
+        "type" : "widget",
+        "entityTypes" : [ "checkboxgroup" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.checkboxStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "rgba(85, 107, 130, 1)"
+            },
+            "checkMarkStyle" : {
+              "color" : "rgba(0, 100, 217, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(85, 107, 130, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "headerFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(29, 45, 62, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.comment",
+        "type" : "widget",
+        "entityTypes" : [ "sap.fpa.ui.story.entity.commentwidget" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.composite",
+        "type" : "widget",
+        "entityTypes" : [ "composite" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.compositeStyle",
+          "settings" : {
+            "canvasScrolling" : "auto"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.dropdown",
+        "type" : "widget",
+        "entityTypes" : [ "dropdownbox" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.dropdownStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "rgba(85, 107, 130, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.dropdownMenuStyle",
+          "settings" : {
+            "hoverStyle" : {
+              "backgroundColor" : "rgba(234, 236, 238, 1)"
+            },
+            "downStyle" : {
+              "backgroundColor" : "rgba(222, 226, 229, 1)"
+            },
+            "selectedStyle" : {
+              "backgroundColor" : "rgba(235, 248, 255, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "'72-Web'",
+              "fontSize" : "",
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.filterline",
+        "type" : "widget",
+        "entityTypes" : [ "filterline" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.filterlineStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "rgba(214, 218, 222, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.filterlineMenuStyle",
+          "settings" : {
+            "hoverStyle" : {
+              "backgroundColor" : "rgba(234, 236, 238, 1)"
+            },
+            "downStyle" : {
+              "backgroundColor" : "rgba(222, 226, 229, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "'72-Web'",
+              "fontSize" : "",
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.flowpanel",
+        "type" : "widget",
+        "entityTypes" : [ "flowpanel" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "all_borders",
+                "style" : "solid",
+                "color" : "transparent",
+                "thickness" : "1",
+                "radius" : 16,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.chart",
+        "type" : "widget",
+        "entityTypes" : [ "visualization.geo" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "'72-Web'",
+                "color" : "rgba(29, 45, 62, 1)",
+                "includeUndo" : false,
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.multiColorPalette",
+          "settings" : {
+            "standard" : {
+              "path" : null,
+              "value" : "28721823-5031-4910-b812-338903298815",
+              "lastUpdatedUtcTime" : 1699540792701
+            },
+            "gradient" : {
+              "path" : null,
+              "value" : "42045699-9500-4311-8881-582198919193",
+              "lastUpdatedUtcTime" : 1699540802900
+            },
+            "diverging" : {
+              "path" : null,
+              "value" : "40641515-7634-4926-a667-870724000816",
+              "lastUpdatedUtcTime" : 1699540983335
+            },
+            "sequential" : {
+              "path" : null,
+              "value" : "23530910-5126-4887-b202-546809327919",
+              "lastUpdatedUtcTime" : 1699541020009
+            },
+            "waterfall_standard" : {
+              "path" : null,
+              "value" : ""
+            },
+            "variance" : {
+              "path" : null,
+              "value" : ""
+            },
+            "single_color" : {
+              "path" : null,
+              "value" : "10000111-6016-4419-3654-277818295255",
+              "lastUpdatedUtcTime" : 1699541044289
+            },
+            "geo_poi" : {
+              "path" : null,
+              "value" : ""
+            },
+            "geo_cluster" : {
+              "path" : null,
+              "value" : ""
+            },
+            "null_color" : {
+              "path" : null,
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.geo.control.styling",
+          "settings" : {
+            "map" : {
+              "opacity" : 1,
+              "theme" : "light"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.header",
+        "type" : "widget",
+        "entityTypes" : [ "sap.lumira.story.entity.header" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.responsive.titleProperties",
+          "settings" : {
+            "font" : {
+              "path" : "/font",
+              "value" : {
+                "forecolor" : "rgba(29, 45, 62, 1)",
+                "fontname" : "'72-Web'",
+                "fontsize" : "16px",
+                "bold" : false,
+                "underline" : false,
+                "italic" : false,
+                "strikethrough" : false,
+                "black" : true,
+                "commentstyle" : "none"
+              },
+              "hideStyleButtons" : false,
+              "hideDecorationButtons" : true,
+              "valueChanged" : {
+                "fontsize" : "16px",
+                "bold" : false,
+                "italic" : false,
+                "commentstyle" : "none"
+              }
+            },
+            "paragraph" : {
+              "path" : "/paragraph",
+              "value" : {
+                "justify" : "justifyleft",
+                "align" : "middle"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            },
+            "warningMessage" : {
+              "value" : "MOBILE_PREVIEW_HEADER_ROUND_BORDER_WARNING"
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.image",
+        "type" : "widget",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.inputcontrol",
+        "type" : "widget",
+        "entityTypes" : [ "sap.fpa.ui.story.entity.pagefilter" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "colorForCollapsed" : {
+              "value" : "rgba(255, 255, 255, 1)"
+            },
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            },
+            "dropdownArrowColor" : {
+              "value" : "rgba(0, 100, 217, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.story.setting.pagefilter.multiFontSetting",
+          "settings" : {
+            "fontForCollapsed" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "'72-Web'",
+                "color" : "rgba(29, 45, 62, 1)",
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            },
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "color" : "rgba(29, 45, 62, 1)",
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "borderForCollapsed" : {
+              "value" : {
+                "format" : "all_borders",
+                "style" : "solid",
+                "thickness" : "1",
+                "color" : "rgba(229, 229, 229, 1)",
+                "radius" : 6,
+                "max_thickness" : "2"
+              }
+            },
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.pagefilter.selection.properties",
+          "settings" : {
+            "multiColors" : [ {
+              "settings" : {
+                "color" : {
+                  "title" : "Border",
+                  "value" : "rgba(85, 107, 130, 1)"
+                }
+              }
+            }, {
+              "settings" : {
+                "color" : {
+                  "title" : "Content",
+                  "value" : "rgba(0, 100, 217, 1)"
+                }
+              }
+            } ]
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.pagefilter.slider.properties",
+          "settings" : {
+            "multiColors" : [ {
+              "settings" : {
+                "color" : {
+                  "title" : "Background",
+                  "value" : "rgba(213, 218, 221, 1)"
+                }
+              }
+            }, {
+              "settings" : {
+                "color" : {
+                  "title" : "Progress",
+                  "value" : "rgba(0, 100, 217, 1)"
+                }
+              }
+            } ]
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.inputField",
+        "type" : "widget",
+        "entityTypes" : [ "inputfield" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.inputfieldStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "",
+              "fontSize" : "",
+              "color" : "rgba(19, 30, 41, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.Listbox",
+        "type" : "widget",
+        "entityTypes" : [ "listbox" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.ListBoxStyle",
+          "settings" : {
+            "hoverStyle" : {
+              "backgroundColor" : "rgba(234, 236, 238, 1)"
+            },
+            "downStyle" : {
+              "backgroundColor" : "rgba(222, 226, 229, 1)"
+            },
+            "selectedStyle" : {
+              "backgroundColor" : "rgba(235, 248, 255, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "'72-Web'",
+              "fontSize" : "",
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.pagebook",
+        "type" : "widget",
+        "entityTypes" : [ "pagebook" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.pagebookStyle",
+          "settings" : {
+            "indicatorStyle" : {
+              "backgroundColor" : "rgba(120, 143, 166, 1)"
+            },
+            "activeIndicatorStyle" : {
+              "backgroundColor" : "rgba(0, 112, 242, 1)"
+            },
+            "canvasScrolling" : "fixed-width"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.panel",
+        "type" : "widget",
+        "entityTypes" : [ "panel" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "all_borders",
+                "style" : "solid",
+                "color" : "transparent",
+                "thickness" : "1",
+                "radius" : 16,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.panelStyle",
+          "settings" : {
+            "canvasScrolling" : "auto"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.r",
+        "type" : "widget",
+        "entityTypes" : [ "r.language" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "'72-Web'",
+                "color" : "rgba(29, 45, 62, 1)",
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.Radiobutton",
+        "type" : "widget",
+        "entityTypes" : [ "radiobuttongroup" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.radiobuttonStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "rgba(85, 107, 130, 1)"
+            },
+            "checkMarkStyle" : {
+              "color" : "rgba(0, 100, 217, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(85, 107, 130, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "headerFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(29, 45, 62, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.rangeslider",
+        "type" : "widget",
+        "entityTypes" : [ "rangeslider" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.rangeSliderstyle",
+          "settings" : {
+            "progressBarStyle" : {
+              "backgroundColor" : "rgba(0, 112, 242, 1)"
+            },
+            "backgroundBarStyle" : {
+              "backgroundColor" : "rgba(213, 218, 221, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(85, 107, 130, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.rss",
+        "type" : "widget",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "'72-Web'",
+                "color" : "rgba(29, 45, 62, 1)",
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.shape",
+        "type" : "widget",
+        "entityTypes" : [ "sap.lumira.story.entity.pictogram" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.pictogram.properties",
+          "settings" : {
+            "fillColor" : {
+              "path" : "/fillColor",
+              "value" : "rgba(29, 45, 62, 1)"
+            },
+            "strokeColor" : {
+              "path" : "/strokeColor",
+              "value" : ""
+            },
+            "strokeWidth" : {
+              "path" : "/strokeWidth",
+              "value" : 1
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.slider",
+        "type" : "widget",
+        "entityTypes" : [ "slider" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.sliderstyle",
+          "settings" : {
+            "progressBarStyle" : {
+              "backgroundColor" : "rgba(0, 112, 242, 1)"
+            },
+            "backgroundBarStyle" : {
+              "backgroundColor" : "rgba(213, 218, 221, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(85, 107, 130, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.switch",
+        "type" : "widget",
+        "entityTypes" : [ "switch" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.switchstyle",
+          "settings" : {
+            "switchBackgroundStyle" : {
+              "color" : "rgba(0, 100, 217, 1)"
+            },
+            "switchToggleStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "switchOffBackgroundStyle" : {
+              "color" : "rgba(120, 143, 166, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.tabstrip",
+        "type" : "widget",
+        "entityTypes" : [ "tabstrip" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : "rgba(255, 255, 255, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "all_borders",
+                "style" : "solid",
+                "color" : "transparent",
+                "thickness" : "1",
+                "radius" : 4,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "tabStyle" : {
+              "fontFamily" : "Arial",
+              "fontSize" : "14px",
+              "color" : "#333333"
+            },
+            "contentFontStyle" : {
+              "fontFamily" : "'72-Web'",
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.tabstripStyle",
+          "settings" : {
+            "headerStyle" : {
+              "backgroundColor" : "transparent"
+            },
+            "tabHoverStyle" : {
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "activeTabStyle" : {
+              "color" : "rgba(0, 100, 217, 1)"
+            },
+            "canvasScrolling" : "auto",
+            "tabMargin" : 10
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.table",
+        "type" : "widget",
+        "entityTypes" : [ "analyticgrid.dynamictable" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.table.behaviourOnCanvas",
+          "settings" : {
+            "responsiveness" : {
+              "path" : "/responsiveness",
+              "value" : true
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "color" : "rgb(88, 89, 91)"
+              },
+              "hideStyleButtons" : false
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.table.stylingtemplate",
+          "settings" : {
+            "stylingTemplate" : {
+              "value" : "defaultstyle"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.table.thresholdstyle",
+          "settings" : {
+            "thresholdStyle" : {
+              "value" : 0
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.text",
+        "type" : "widget",
+        "entityTypes" : [ "sap.lumira.story.entity.text" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "'72-Web'",
+                "color" : "rgba(29, 45, 62, 1)",
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.textArea",
+        "type" : "widget",
+        "entityTypes" : [ "textarea" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.textareaStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "'72-Web'",
+              "fontSize" : "",
+              "color" : "rgba(19, 30, 41, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.vdt",
+        "type" : "widget",
+        "entityTypes" : [ "planningFlow" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.planningFlow.node",
+          "settings" : {
+            "nodeStyleSettings" : {
+              "value" : {
+                "header" : {
+                  "backgroundColor" : "rgba(255, 255, 255, 1)"
+                }
+              }
+            },
+            "isAppBuildingThemeSetting" : true
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.planningFlow.font",
+          "settings" : {
+            "title" : {
+              "fontFamily" : "'72-Web'",
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "isAppBuildingThemeSetting" : true
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.webpage",
+        "type" : "widget",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      } ],
+      "applyToNew" : [ {
+        "id" : "sap.fpa.appBuilding.theme.app.general",
+        "type" : "page",
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.app.css.theme",
+          "settings" : {
+            "enableThemeCss" : true,
+            "appCssStyle" : "/* Description:\n   - Variance Colors defined in UI Theme Dialog\n*/\n/*------------------------------------------------------------------ */\n/* ACCOUNT INPUT CONTROL-------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n/*------------------------------------------------------------------ */\n/* BPC PLANNING SEQUENCE TRIGGER------------------------------------ */\n/*------------------------------------------------------------------ */\n\n/*------------------------------------------------------------------ */\n/* BUTTON----------------------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n/**Standard Button - using global CSS class**/\n.saptheme .sap-custom-button:hover{\n    color:#0064D9;\n}\n.saptheme .sap-custom-button:active{\n    color:#0070f2;\n}\n\n/**Emphasized Button - .emphasizedButton class**/\n.emphasizedButton .sap-custom-button{\n    border-color:#0070f2;\n    background-color:#0070f2;\n    color:#FFFFFF;\n}\n.emphasizedButton .sap-custom-button:hover{\n    border-color:#0064d9;\n    background-color:#0064d9;\n    color:#FFFFFF;\n}\n.emphasizedButton .sap-custom-button:active{\n    border-color:#0070f2;\n    background-color:#ffffff;\n    color:#0070f2;\n}\n\n/**Lite Button - .liteButton class**/\n.liteButton .sap-custom-button{\n    border-color:transparent;\n    background-color:transparent;\n    color:#0064D9;\n}\n.liteButton .sap-custom-button:hover{\n    border-color:#d6dade;\n    background-color:#EAECEE;\n    color:#0064D9;\n}\n.liteButton .sap-custom-button:active{\n    border-color:#0070F2;\n    background-color:#ffffff;\n    color:#0064D9;\n}\n\n/**Accept Button - .acceptButton class**/\n.acceptButton .sap-custom-button{\n    border-color:#DBEDA1;\n    background-color:#EBF5CB;\n    color:#256F3A;\n}\n.acceptButton .sap-custom-button:hover{\n    border-color:#dbeda0;\n    background-color:#e3f1b6;\n    color:#256F3A;\n}\n.acceptButton .sap-custom-button:active{\n    border-color:#30914C;\n    background-color:#ffffff;\n    color:#256F3A;\n}\n\n/**Reject Button - .rejectButton class**/\n.rejectButton .sap-custom-button{\n    border-color:#FFC2de;\n    background-color:#FFD6E9;\n    color:#AA0808;\n}\n.rejectButton .sap-custom-button:hover{\n    border-color:#ffa8d0;\n    background-color:#FFBDDB;\n    color:#AA0808;\n}\n.rejectButton .sap-custom-button:active{\n    border-color:#f53232;\n    background-color:#ffffff;\n    color:#AA0808;}\n\n/*------------------------------------------------------------------ */\n/* CALCULATION INPUT CONTROL --------------------------------------- */\n/*------------------------------------------------------------------ */\n\n/*------------------------------------------------------------------ */\n/* CHART  ---------------------------------------------------------- */\n/*------------------------------------------------------------------ */\n/* \n- no data label color defined so the data label color is dynamic \n  depending on the background if inside a bar\n- Variance label need to be manually set because it's not available in CSS'\n*/\n\n.saptheme .sap-custom-chart-title{ /*checked*/\n    font-family: '72-Web';\n    font-size: 14px;\n    color: #1D2D3E;\n    font-weight: 700;\n}\n.saptheme .sap-custom-chart-subtitle{ /*checked*/\n    font-family: '72-Web';\n    font-size: 12px;\n    color: #556B82;\n    font-weight: 400;\n}\n.saptheme .sap-custom-chart-category-axis-label{ /*Dimension Axis Label*/ /*checked*/\n    font-family: '72-Web';\n    font-size: 12px;\n    fill: #1D2D3E;\n    font-weight: 400;}\n.saptheme .sap-custom-number-chart-primary-labels{\n    font-family: '72-Web';\n    font-size: 12px;\n    color: #556B82;\n}\n.saptheme .sap-custom-number-chart-secondary-labels{\n    font-family: '72-Web';\n    font-size: 12px;\n}\n.saptheme .sap-custom-number-chart-primary-values{ /*no font-size defined so the font-size is adaptive*/\n    font-family: '72-Web';\n    color: #1D2D3E;\n    font-weight: 400;\n}\n\n.saptheme .sap-custom-chart-data-labels { /*making data labels regular weight*/\n\tfont-weight: 400;\n}\n.saptheme .sap-custom-chart-footer{ /*checked*/\n    font-family: '72-Web';\n    font-size: 12px;\n    color: #1D2D3E;\n    font-weight: 400;\n}\n.saptheme .sap-custom-chart-footer-placeholder{ /*checked*/\n    font-size: 12px;\n    color: #1D2D3E;\n}\n.saptheme .sap-custom-geo-main-label{ /*checked*/\n    font-family: '72-Web';\n    font-size: 14px;\n    color: #1D2D3E;\n    font-weight: 700;\n}\n.saptheme .sap-custom-chart-reference-label{ /*checked*/\n    font-family: '72-Web';\n    font-size: 12px;\n    fill: #1D2D3E;\n    font-weight: 400;\n}\n/*------------------------------------------------------------------ */\n/* CHECKBOX GROUP--------------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n.saptheme .sap-custom-checkbox-group-item:hover .sap-custom-checkbox-group-mark-outer{ \n    background-color:#E3f0ff;\n}\n\n/*------------------------------------------------------------------ */\n/* CLOCK------------------------------------------------------------ */\n/*------------------------------------------------------------------ */\n\n\n/*------------------------------------------------------------------ */\n/* COMMENT WIDGET--------------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n\n/*------------------------------------------------------------------ */\n/* COMPOSITE-------------------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n/*------------------------------------------------------------------ */\n/* DATA ACTION TRIGGER---------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n/*------------------------------------------------------------------ */\n/* DIMENSION INPUT CONTROL------------------------------------------ */\n/*------------------------------------------------------------------ */\n    \n/*------------------------------------------------------------------ */\n/* DROPDOWN--------------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n.saptheme .sap-custom-dropdown-trigger{\n    border-radius: 4px 4px;\n    background-color: #ffffff;\n    border-top: solid #D5DADF 0.0625rem;\n    border-right: solid #D5DADF 0.0625rem;\n    border-left: solid #D5DADF 0.0625rem;\n    border-bottom: solid #556B82 0.0625rem;\n} \n\n.saptheme .sap-custom-dropdown-trigger:hover{  \n    border-radius: 4px 4px;\n    background-color: #ffffff;\n    border-top: solid #ABCFFF 0.0625rem;\n    border-right: solid #ABCFFF 0.0625rem;\n    border-left: solid #ABCFFF 0.0625rem;\n    border-bottom: solid #3082EC 0.0625rem;\n} \n\n.saptheme .sap-custom-dropdown-trigger:active{\n    border-radius: 4px 4px;\n    background-color: #ffffff;\n    border-top: solid #0064D9 0.0625rem;\n    border-right: solid #0064D9 0.0625rem;\n    border-left: solid #0064D9 0.0625rem;\n    border-bottom: solid #0064D9 0.0625rem;\n} \n\n.saptheme .sap-custom-dropdown-trigger-value{\n    font-family: '72-Web'; \n    font-size: 0.875rem;\n    color: #131e29; \n}\n\n.saptheme .sap-custom-dropdown-trigger-arrow{\n    background-color: #ffffff;\n    color: #1D2D3E; \n    border-radius: 4px;\n    border: solid transparent 0.0625rem;\n    padding: 0px 5px 0px 5px;\n    \n}\n\n.saptheme .sap-custom-dropdown-trigger-arrow:active{\n    background-color: #EEF6FF; \n    color: #0064D9; \n    border-radius: 4px;\n    border: solid #ABCFFF 0.0625rem;\n    padding: 0px 5px 0px 5px;\n}\n\n.saptheme .sap-custom-dropdown-trigger-arrow:hover{\n    color: #0064D9;\n    border-radius: 4px;\n    border: solid #ABCFFF 0.0625rem;\n    padding: 0px 5px 0px 5px;\n\n} \n \n.saptheme .sap-custom-dropdown-item:active{\n    color: #1D2D3E;\n    background-color: #DEE2E5;\n} \n\n.saptheme .sap-custom-dropdown-item{ \n    border: 1px solid transparent;\n} \n\n.saptheme .sap-custom-dropdown-selected-item{\n    color: #1D2D3E;\n    background-color: #DCF3FF; \n    border-bottom: 1px solid #0064d9;\n} \n\n.saptheme .sap-custom-dropdown-menu{\n    border: solid #87909B;\n    border-radius: 10px 10px; \n}\n\n.saptheme .sap-custom-dropdown-trigger-arrow-expanded{\n    background-color: #EDF6FF;\n} \n\n/*------------------------------------------------------------------ */\n/* FILTER LINE------------------------------------------------------ */\n/*------------------------------------------------------------------ */ \n\n.saptheme .sap-custom-filter-line-icon{\n    color: #1D2D3E;\n}\n.saptheme .sap-custom-filter-line-menu-item:active{\n    color:#1d2d3e;\n    background-color: red;\n}\n\n/*------------------------------------------------------------------ */\n/* FLOW LAYOUT PANEL------------------------------------------------ */\n/*------------------------------------------------------------------ */ \n\n/*------------------------------------------------------------------ */\n/* GEO MAP---------------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n    \n/*------------------------------------------------------------------ */\n/* IMAGE------------------------------------------------------------ */\n/*------------------------------------------------------------------ */ \n    \n/*------------------------------------------------------------------ */\n/* INPUT CONTROL---------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n.saptheme .sap-custom-input-control-sub-label{\n    color:#0064D9;\n    font-weight:bold;\n}\n\n/*------------------------------------------------------------------ */\n/* INPUT FIELD------------------------------------------------------ */\n/*------------------------------------------------------------------ */     \n\n.saptheme .sap-custom-input-field-widget{\n    border-bottom: solid #556B82 0.0625rem; \n}\n.saptheme .sap-custom-input-field-placeholder{\n    color:#556B82;\n}\n\n/*------------------------------------------------------------------ */\n/* LANE------------------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n\n/*------------------------------------------------------------------ */\n/* Logic Group - CARD ---------------------------------------------- */\n/*------------------------------------------------------------------ */\n/* Fiori Horizon Background Card with shadow. Can be applied to Panels and Flow Panels.*/ \n.logicGroup_card .sap-custom-flow-panel-widget, \n.logicGroup_card .sap-custom-panel-widget{\n    background-color: #fff;\n    box-shadow: 0 0 0.13rem rgba(34, 54, 73, 0.2), \n                0 0.13rem 0.3rem rgba(34, 54, 73, 0.2);\n}\n.logicGroup_card .sap-custom-button{\n    border-color:transparent;\n    background-color:transparent;\n    color:#0064D9;\n}\n.logicGroup_card .sap-custom-button:hover{\n    border-color:#d6dade;\n    background-color:transparent; /*background-color:#EAECEE;*/\n    color:#0064D9;\n}\n.logicGroup_card .sap-custom-button:active{\n    border-color:#0070F2;\n    background-color:transparent;\n    color:#0064D9;\n}\n.logicGroup_card_header .sap-custom-panel-widget{\n    border-bottom: 1px solid #A8B3BD;\n}\n.logicGroup_card_header_close .sap-custom-panel-widget{\n    background-color: transparent;\n    border-bottom: 1px solid transparent;\n}\n.logicGroup_card_title .sap-custom-text{\n    font-family: '72-Web';\n    font-size: 16px;\n    /*color: #1D2D3E;*/\n    font-weight: 700;\n}\n.logicGroup_card_chart_title .sap-custom-text{\n    font-family: '72-Web';\n    font-size: 14px;\n    /*color: #1D2D3E;*/\n    font-weight: 700;\n}\n\n/*------------------------------------------------------------------ */\n/* Logic Group HEADER  --------------------------------------------- */\n/*------------------------------------------------------------------ */\n/* Fiori Horizon Background Card with shadow. Can be applied to Panels and Flow Panels.*/ \n.logicGroup_header .sap-custom-flow-panel-widget, \n.logicGroup_header .sap-custom-panel-widget{\n    background-color: #fff;\n    box-shadow: 0 0 0.13rem rgba(34, 54, 73, 0.2), \n                0 0.13rem 0.3rem rgba(34, 54, 73, 0.2);\n}\n.logicGroup_header .sap-custom-button{\n    border-color:transparent;\n    background-color:transparent;\n    color:#0064D9;\n}\n.logicGroup_header .sap-custom-button:hover{\n    border-color:#d6dade;\n    background-color:#EAECEE;\n    color:#0064D9;\n}\n.logicGroup_header .sap-custom-button:active{\n    border-color:#0070F2;\n    background-color:#ffffff;\n    color:#0064D9;\n}\n.logicGroup_header_title .sap-custom-text{ /*checked*/\n    font-family: '72-Web';\n    font-size: 24px;\n    /*color: #1D2D3E;*/\n    font-weight: 900;\n}\n.logicGroup_header_subTitle .sap-custom-text{ /*checked*/\n    font-size: 12px;\n    color: #556B82;\n    font-weight: 400;\n}\n.logicGroup_header_descTitle .sap-custom-text{ /*checked*/\n    font-size: 14px;\n    /*color: #1D2D3E;*/\n    font-weight: 700;\n}\n.logicGroup_header_descContent .sap-custom-text{ /*checked*/\n    font-size: 14px;\n    /*color: #1D2D3E;*/\n    font-weight: 400;\n}\n.logicGroup_header_link .sap-custom-text{\n    color: #0064D9;\n    font-size: 14px;\n    text-decoration: underline;\n}\n\n/*------------------------------------------------------------------ */\n/* Logic Group LANE ------------------------------------------------ */\n/*------------------------------------------------------------------ */     \n.logicGroup_lane .sap-custom-panel-widget{\n    background-color: #fff;\n    border-bottom: 1px solid #A8B3BD;\n}\n.logicGroup_lane .sap-custom-text {\n    font-family: '72-Web';\n    font-size: 14px;\n    font-weight: 700;\n}\n.logicGroup_lane .sap-custom-button{\n    border-color:transparent;\n    background-color:transparent;\n    color:#0064D9;\n}\n.logicGroup_lane .sap-custom-button:hover{\n    border-color:#d6dade;\n    background-color:transparent; /*background-color:#EAECEE;*/\n    color:#0064D9;\n}\n.logicGroup_lane .sap-custom-button:active{\n    border-color:#0070F2;\n    background-color:transparent;\n    color:#0064D9;\n}  \n.logicGroup_lane_header .sap-custom-panel-widget{\n    border-bottom: 1px solid #A8B3BD;\n}\n.logicGroup_lane_header_close .sap-custom-panel-widget{\n    background-color: transparent;\n    border-bottom: 1px solid transparent;\n}\n.logicGroup_lane_title .sap-custom-text{\n    font-family: '72-Web';\n    font-size: 16px;\n    /*color: #1D2D3E;*/\n    font-weight: 700;\n}\n\n/*------------------------------------------------------------------ */\n/* LIST BOX--------------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n    \n/*------------------------------------------------------------------ */\n/* PAGE------------------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n    \n/*------------------------------------------------------------------ */\n/* PAGE BOOK-------------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n/*------------------------------------------------------------------ */\n/* PANEL------------------------------------------------------------ */\n/*------------------------------------------------------------------ */     \n\n/* Fiori Horizon Background Card with shadow. Can be applied to Panels and Flow Panels.\n   This CSS Class also applies to sidepanels to give them a shadow.*/ \n.sidepanel .sap-custom-flow-panel-widget, \n.sidepanel .sap-custom-panel-widget,\n.card .sap-custom-flow-panel-widget, \n.card .sap-custom-panel-widget{\n    background-color: #fff;\n    box-shadow: 0 0 0.13rem rgba(34, 54, 73, 0.2), \n                0 0.13rem 0.3rem rgba(34, 54, 73, 0.2);\n}\n\n.logicGroupHeader .sap-custom-panel-widget{\n    border-bottom: 1px solid #A8B3BD;\n}\n\n/*------------------------------------------------------------------ */\n/* POPUP------------------------------------------------------------ */\n/*------------------------------------------------------------------ */     \n\n.saptheme .sap-custom-popup-header-container{\n    background-color:#FFFFFF;\n}\n.saptheme .sap-custom-popup-header-font{\n    color:#1D2D3E;\n    font-family: sans-serif;\n}\n.saptheme .sap-custom-popup-footer-container{\n    background-color:#FFFFFF;\n}\n.saptheme .sap-custom-popup-footer-button{\n    border-color:#D6DADE;\n    background-color:#FFFFFF;\n    color:#0064D9;\n    font-family:\"72\";\n}\n.saptheme .sap-custom-popup-footer-button:hover{\n    border-color:#D6DADE;\n    background-color:#EAECEE;\n    color:#0064D9;\n    font-family: \"72\";\n}\n.saptheme .sap-custom-popup-footer-button:active{\n    border-color:#0070F2;\n    background-color:#FFFFFF;\n    color:#0070F2;\n    font-family: \"72\";\n}\n.saptheme .sap-custom-popup-footer-emphasized{\n    border-color:#0070f2;\n    background-color:#0070f2;\n    color:#FFFFFF;\n    font-family: \"72\";\n}\n.saptheme .sap-custom-popup-footer-emphasized:hover{\n    border-color:#0064d9;\n    background-color:#0064d9;\n    color:#FFFFFF;\n    font-family: \"72\";\n}\n.saptheme .sap-custom-popup-footer-emphasized:active{\n    border-color:#0070f2;\n    background-color:#ffffff;\n    color:#0070f2;\n    font-family: \"72\";\n}\n\n/*------------------------------------------------------------------ */\n/* R VISUALIZATION-------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n    \n/*------------------------------------------------------------------ */\n/* RADIO BUTTON GROUP----------------------------------------------- */\n/*------------------------------------------------------------------ */         \n\n.saptheme .sap-custom-radio-button-group-item:hover .sap-custom-radio-button-group-mark-outer{\n    background-color:#E3f0ff;\n}\n\n/*------------------------------------------------------------------ */\n/* RANGE SLIDER----------------------------------------------------- */\n/*------------------------------------------------------------------ */         \n\n.saptheme .sap-custom-range-slider-tooltip-font{\n    color:#ffffff;\n}\n\n/*------------------------------------------------------------------ */\n/* RSS READER------------------------------------------------------- */\n/*------------------------------------------------------------------ */         \n    \n/*------------------------------------------------------------------ */\n/* SHAPE------------------------------------------------------------ */\n/*------------------------------------------------------------------ */         \n    \n/*------------------------------------------------------------------ */\n/* SLIDER----------------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n.saptheme .sap-custom-slider-tooltip-font{\n    color:#ffffff;\n}\n\n/*------------------------------------------------------------------ */\n/* SWITCH----------------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n    \n/*------------------------------------------------------------------ */\n/* TAB STRIP-------------------------------------------------------- */\n/*------------------------------------------------------------------ */     \n\n.saptheme .sap-custom-tab-strip-tab-bar{\n    background-color: #ffffff;\n}\n/*------------------------------------------------------------------ */\n/* TABLE------------------------------------------------------------ */\n/*------------------------------------------------------------------ */         \n\n.saptheme .sap-custom-table-dimension-member-expand-icon{\n    color:#1d2d3e;\n}\n.saptheme .sap-custom-table-data-cell{\n    color:#1d2d3e;\n}\n\n/*------------------------------------------------------------------ */\n/* TEXT ------------------------------------------------------------ */\n/*------------------------------------------------------------------ */\n\n.pageTitle .sap-custom-text{ /*checked*/\n    font-family: '72-Web';\n    font-size: 24px;\n    color: #1D2D3E;\n    font-weight: 900;   \n}\n\n.pageSubTitle .sap-custom-text{ /*checked*/\n    font-size: 12px;\n    color: #556B82;\n    font-weight: 400;\n}\n\n.descTitle .sap-custom-text{ /*checked*/\n    font-size: 14px;\n    color: #1D2D3E;\n    font-weight: 700;\n}\n\n.descContent .sap-custom-text{ /*checked*/\n    font-size: 14px;\n    color: #1D2D3E;\n    font-weight: 400;\n}\n.logicGroupTitle .sap-custom-text{ /*checked*/\n    font-family: '72-Web';\n    font-size: 16px;\n    color: #1D2D3E;\n    font-weight: 700;\n}\n.link .sap-custom-text{\n    color: #0064D9;\n    font-size: 14px;\n    text-decoration: underline;\n}\n.negativ .sap-custom-text{\n    color: #AA0808;\n}\n.critical .sap-custom-text{\n    color: #e76500;\n}\n.positive .sap-custom-text{\n    color: #256F3A;\n}\n.information .sap-custom-text{\n    color: #0070F2;\n}\n.neutral .sap-custom-text{\n    color: #788FA6;\n}\n\n/*------------------------------------------------------------------ */\n/* TEXT AREA-------------------------------------------------------- */\n/*------------------------------------------------------------------ */\n\n.saptheme .sap-custom-text-area-widget{\n    border-bottom: solid #556B82 0.0625rem; \n}\n.saptheme .sap-custom-text-area-placeholder{\n    color:#556B82;\n\n}\n\n/*------------------------------------------------------------------ */\n/* VALUE DRIVER TREE------------------------------------------------ */\n/*------------------------------------------------------------------ */\n    \n/*------------------------------------------------------------------ */\n/* WEB PAGE--------------------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n/*------------------------------------------------------------------ */\n/* CUSTOM PANEL AS POP OVER ---------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n.popover .sap-custom-panel-widget{\n    background-color: #fff;\n    border: 1px solid #A8B3BD;\n}\n\n/*------------------------------------------------------------------ */\n/* CUSTOM PANEL AS POP UP------------------------------------------- */\n/*------------------------------------------------------------------ */ \n\n.popup .sap-custom-panel-widget{\n    background-color:#FFFFFF;\n    box-shadow: 0 0 0.13rem rgba(34, 54, 73, 0.4),\n                0 0.13rem 0.3rem rgba(34, 54, 73, 0.4);\n}\n.popup_header .sap-custom-panel-widget{\n    background-color:transparent;\n    border-bottom: 1px solid #A8B3BD;\n}\n.popup_footer .sap-custom-panel-widget{\n    background-color:transparent;\n    border-top: 1px solid #A8B3BD;\n}\n.popup_title .sap-custom-text{\n    font-family: '72-Web';\n    font-size: 16px;\n    font-weight: 700;\n}\n.popup_button .sap-custom-button{\n    border-color:transparent;\n    background-color:transparent;\n    color:#0064D9;\n}\n.popup_button .sap-custom-button:hover{\n    border-color:#d6dade;\n    background-color:#EAECEE;\n    color:#0064D9;\n}\n.popup_button .sap-custom-button:active{\n    border-color:#0070F2;\n    background-color:#ffffff;\n    color:#0064D9;\n}\n.popup_emphasizedButton .sap-custom-button{\n    border-color:#0070f2;\n    background-color:#0070f2;\n    color:#FFFFFF;\n}\n.popup_emphasizedButton .sap-custom-button:hover{\n    border-color:#0064d9;\n    background-color:#0064d9;\n    color:#FFFFFF;\n}\n.popup_emphasizedButton .sap-custom-button:active{\n    border-color:#0070f2;\n    background-color:#ffffff;\n    color:#0070f2;\n}\n\n/*------------------------------------------------------------------ */\n/* Shell Bar ------------------------------------------------------- */\n/*------------------------------------------------------------------ */\n.shellBar .sap-custom-panel-widget{\n\tborder-bottom: 1px solid #d9d9d9;\n\tbackground-color: #fff;\n}\n\n.shellBar_title .sap-custom-text{\n\tfont-family: '72-Web';\n\tfont-size: 18px;\n\tfont-weight: 900;\n}\n\n",
+            "themeName" : "Fiori Morning Horizon Theme (1.0.2)",
+            "globalCssClassName" : "saptheme"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.page.canvas",
+        "type" : "page",
+        "pageType" : "CANVAS",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.canvas",
+          "settings" : {
+            "backgroundColor" : {
+              "path" : "/backgroundColor",
+              "value" : "rgba(245, 246, 247, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.page.responsive",
+        "type" : "page",
+        "pageType" : "RESPONSIVE",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.responsive.pagePreference",
+          "settings" : {
+            "gridSpacing" : {
+              "path" : "/gridSpacing",
+              "value" : 4
+            },
+            "pageBackground" : {
+              "value" : {
+                "type" : "color",
+                "value" : "rgba(245,246,247,1)"
+              },
+              "disableImage" : true,
+              "forceReset" : true
+            },
+            "laneBackground" : {
+              "value" : {
+                "type" : "color",
+                "value" : ""
+              },
+              "disableImage" : true,
+              "forceReset" : true
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.page.popup",
+        "type" : "page",
+        "pageType" : "CANVAS_POPUP",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.canvas",
+          "settings" : {
+            "backgroundColor" : {
+              "path" : "/backgroundColor",
+              "value" : "rgba(255, 255, 255, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.threshold",
+        "type" : "page",
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.thresholdSymbol",
+          "settings" : {
+            "ok" : {
+              "value" : {
+                "color" : "#188918",
+                "icon" : "sap-icon://fpa/threshold-good"
+              }
+            },
+            "warning" : {
+              "value" : {
+                "color" : "#f56a00",
+                "icon" : "sap-icon://fpa/threshold-warning"
+              }
+            },
+            "critical" : {
+              "value" : {
+                "color" : "#d20a0a",
+                "icon" : "sap-icon://fpa/threshold-alert"
+              }
+            },
+            "neutral" : {
+              "value" : {
+                "color" : "#5b738b",
+                "icon" : "sap-icon://fpa/diamond"
+              }
+            },
+            "informative" : {
+              "value" : {
+                "color" : "#0070f2",
+                "icon" : "sap-icon://fpa/threshold-information"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.numberFormat",
+        "type" : "page",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.viz.numberFormatting",
+          "settings" : {
+            "scales" : { },
+            "decimalFormat" : {
+              "measureTypes" : {
+                "values" : [ {
+                  "id" : "absolute_id_1",
+                  "type" : "absolute"
+                }, {
+                  "id" : "percentage_id_1",
+                  "type" : "percentage"
+                } ]
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.currency",
+        "type" : "page",
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.currency",
+          "settings" : {
+            "currency" : "default"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.button",
+        "type" : "widget",
+        "entityTypes" : [ "button" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.buttonStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "width" : "100%",
+              "height" : "100%",
+              "backgroundColor" : "#f7f7f7"
+            },
+            "borderStyle" : {
+              "borderColor" : "#bfbfbf"
+            },
+            "buttonType" : "Standard",
+            "hoverBorderStyle" : {
+              "borderColor" : "#bfbfbf"
+            },
+            "hoverBackgroundStyle" : {
+              "backgroundColor" : "#ebebeb"
+            },
+            "downBorderStyle" : {
+              "borderColor" : "#bfbfbf"
+            },
+            "downBackgroundStyle" : {
+              "backgroundColor" : "#427cac"
+            },
+            "showIcon" : true,
+            "buttonIcon" : "",
+            "iconPosition" : "Left"
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "Arial",
+              "fontSize" : "14px",
+              "color" : "#346187"
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.viz",
+        "type" : "widget",
+        "entityTypes" : [ "visualization.viz" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.viz.legend",
+          "settings" : {
+            "legend" : {
+              "path" : "general/vizLegend",
+              "value" : {
+                "isDefault" : true,
+                "isInlineApplicable" : true,
+                "isPositionApplicable" : true,
+                "isSecondaryPositionApplicable" : true,
+                "verticalAlign" : "top",
+                "horizontalAlign" : "center",
+                "align" : "horizontal",
+                "defaultSettings" : {
+                  "isInlineApplicable" : true,
+                  "isPositionApplicable" : true,
+                  "isSecondaryPositionApplicable" : true,
+                  "verticalAlign" : "top",
+                  "horizontalAlign" : "center",
+                  "align" : "horizontal"
+                }
+              }
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "includeUndo" : false
+              }
+            },
+            "axisLabelFontStyle" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "includeUndo" : false
+              }
+            },
+            "dataLabelFontStyle" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "includeUndo" : false
+              }
+            },
+            "totalLabelFontStyle" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "includeUndo" : false
+              }
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.multiColorPalette",
+          "settings" : {
+            "standard" : {
+              "path" : null,
+              "value" : "17494401-9825-4139-3190-329273876949",
+              "lastUpdatedUtcTime" : 1707748158984
+            },
+            "gradient" : {
+              "path" : null,
+              "value" : "42045699-9500-4311-8881-582198919193",
+              "lastUpdatedUtcTime" : 1699539642706
+            },
+            "diverging" : {
+              "path" : null,
+              "value" : ""
+            },
+            "sequential" : {
+              "path" : null,
+              "value" : ""
+            },
+            "waterfall_standard" : {
+              "path" : null,
+              "value" : "22580023-0130-4193-8261-735472573818",
+              "lastUpdatedUtcTime" : 1699539720494
+            },
+            "variance" : {
+              "path" : null,
+              "value" : ""
+            },
+            "single_color" : {
+              "path" : null,
+              "value" : ""
+            },
+            "null_color" : {
+              "path" : null,
+              "value" : "37554797-4026-4237-3003-441689037832",
+              "lastUpdatedUtcTime" : 1699539740083
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.varianceColor",
+          "settings" : {
+            "varianceColors" : {
+              "value" : {
+                "positiveColor" : "#30914c",
+                "negativeColor" : "#f53232",
+                "nullZeroColor" : "#788fa6"
+              }
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.axisstyling.properties",
+          "settings" : {
+            "axesColor" : {
+              "path" : "general/axesColor",
+              "value" : "rgba(29, 45, 62, 1)"
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true,
+          "isChartSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.checkbox",
+        "type" : "widget",
+        "entityTypes" : [ "checkboxgroup" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.checkboxStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "rgba(85, 107, 130, 1)"
+            },
+            "checkMarkStyle" : {
+              "color" : "rgba(0, 100, 217, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(85, 107, 130, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "headerFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(29, 45, 62, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.comment",
+        "type" : "widget",
+        "entityTypes" : [ "sap.fpa.ui.story.entity.commentwidget" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.composite",
+        "type" : "widget",
+        "entityTypes" : [ "composite" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.compositeStyle",
+          "settings" : {
+            "canvasScrolling" : "auto"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.dropdown",
+        "type" : "widget",
+        "entityTypes" : [ "dropdownbox" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.dropdownStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "rgba(85, 107, 130, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.dropdownMenuStyle",
+          "settings" : {
+            "hoverStyle" : {
+              "backgroundColor" : "rgba(234, 236, 238, 1)"
+            },
+            "downStyle" : {
+              "backgroundColor" : "rgba(222, 226, 229, 1)"
+            },
+            "selectedStyle" : {
+              "backgroundColor" : "rgba(235, 248, 255, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "'72-Web'",
+              "fontSize" : "",
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.filterline",
+        "type" : "widget",
+        "entityTypes" : [ "filterline" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.filterlineStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "rgba(214, 218, 222, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.filterlineMenuStyle",
+          "settings" : {
+            "hoverStyle" : {
+              "backgroundColor" : "rgba(234, 236, 238, 1)"
+            },
+            "downStyle" : {
+              "backgroundColor" : "rgba(222, 226, 229, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "'72-Web'",
+              "fontSize" : "",
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.flowpanel",
+        "type" : "widget",
+        "entityTypes" : [ "flowpanel" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "all_borders",
+                "style" : "solid",
+                "color" : "transparent",
+                "thickness" : "1",
+                "radius" : 16,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.chart",
+        "type" : "widget",
+        "entityTypes" : [ "visualization.geo" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "'72-Web'",
+                "color" : "rgba(29, 45, 62, 1)",
+                "includeUndo" : false,
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.multiColorPalette",
+          "settings" : {
+            "standard" : {
+              "path" : null,
+              "value" : "28721823-5031-4910-b812-338903298815",
+              "lastUpdatedUtcTime" : 1699540792701
+            },
+            "gradient" : {
+              "path" : null,
+              "value" : "42045699-9500-4311-8881-582198919193",
+              "lastUpdatedUtcTime" : 1699540802900
+            },
+            "diverging" : {
+              "path" : null,
+              "value" : "40641515-7634-4926-a667-870724000816",
+              "lastUpdatedUtcTime" : 1699540983335
+            },
+            "sequential" : {
+              "path" : null,
+              "value" : "23530910-5126-4887-b202-546809327919",
+              "lastUpdatedUtcTime" : 1699541020009
+            },
+            "waterfall_standard" : {
+              "path" : null,
+              "value" : ""
+            },
+            "variance" : {
+              "path" : null,
+              "value" : ""
+            },
+            "single_color" : {
+              "path" : null,
+              "value" : "10000111-6016-4419-3654-277818295255",
+              "lastUpdatedUtcTime" : 1699541044289
+            },
+            "geo_poi" : {
+              "path" : null,
+              "value" : ""
+            },
+            "geo_cluster" : {
+              "path" : null,
+              "value" : ""
+            },
+            "null_color" : {
+              "path" : null,
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.geo.control.styling",
+          "settings" : {
+            "map" : {
+              "opacity" : 1,
+              "theme" : "light"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.header",
+        "type" : "widget",
+        "entityTypes" : [ "sap.lumira.story.entity.header" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.responsive.titleProperties",
+          "settings" : {
+            "font" : {
+              "path" : "/font",
+              "value" : {
+                "forecolor" : "rgba(29, 45, 62, 1)",
+                "fontname" : "'72-Web'",
+                "fontsize" : "16px",
+                "bold" : false,
+                "underline" : false,
+                "italic" : false,
+                "strikethrough" : false,
+                "black" : true,
+                "commentstyle" : "none"
+              },
+              "hideStyleButtons" : false,
+              "hideDecorationButtons" : true,
+              "valueChanged" : {
+                "fontsize" : "16px",
+                "bold" : false,
+                "italic" : false,
+                "commentstyle" : "none"
+              }
+            },
+            "paragraph" : {
+              "path" : "/paragraph",
+              "value" : {
+                "justify" : "justifyleft",
+                "align" : "middle"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            },
+            "warningMessage" : {
+              "value" : "MOBILE_PREVIEW_HEADER_ROUND_BORDER_WARNING"
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.image",
+        "type" : "widget",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.inputcontrol",
+        "type" : "widget",
+        "entityTypes" : [ "sap.fpa.ui.story.entity.pagefilter" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "colorForCollapsed" : {
+              "value" : "rgba(255, 255, 255, 1)"
+            },
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            },
+            "dropdownArrowColor" : {
+              "value" : "rgba(0, 100, 217, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.story.setting.pagefilter.multiFontSetting",
+          "settings" : {
+            "fontForCollapsed" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "'72-Web'",
+                "color" : "rgba(29, 45, 62, 1)",
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            },
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "color" : "rgba(29, 45, 62, 1)",
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "borderForCollapsed" : {
+              "value" : {
+                "format" : "all_borders",
+                "style" : "solid",
+                "thickness" : "1",
+                "color" : "rgba(229, 229, 229, 1)",
+                "radius" : 6,
+                "max_thickness" : "2"
+              }
+            },
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.pagefilter.selection.properties",
+          "settings" : {
+            "multiColors" : [ {
+              "settings" : {
+                "color" : {
+                  "title" : "Border",
+                  "value" : "rgba(85, 107, 130, 1)"
+                }
+              }
+            }, {
+              "settings" : {
+                "color" : {
+                  "title" : "Content",
+                  "value" : "rgba(0, 100, 217, 1)"
+                }
+              }
+            } ]
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.pagefilter.slider.properties",
+          "settings" : {
+            "multiColors" : [ {
+              "settings" : {
+                "color" : {
+                  "title" : "Background",
+                  "value" : "rgba(213, 218, 221, 1)"
+                }
+              }
+            }, {
+              "settings" : {
+                "color" : {
+                  "title" : "Progress",
+                  "value" : "rgba(0, 100, 217, 1)"
+                }
+              }
+            } ]
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.inputField",
+        "type" : "widget",
+        "entityTypes" : [ "inputfield" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.inputfieldStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "",
+              "fontSize" : "",
+              "color" : "rgba(19, 30, 41, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.Listbox",
+        "type" : "widget",
+        "entityTypes" : [ "listbox" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.ListBoxStyle",
+          "settings" : {
+            "hoverStyle" : {
+              "backgroundColor" : "rgba(234, 236, 238, 1)"
+            },
+            "downStyle" : {
+              "backgroundColor" : "rgba(222, 226, 229, 1)"
+            },
+            "selectedStyle" : {
+              "backgroundColor" : "rgba(235, 248, 255, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "'72-Web'",
+              "fontSize" : "",
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.pagebook",
+        "type" : "widget",
+        "entityTypes" : [ "pagebook" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.pagebookStyle",
+          "settings" : {
+            "indicatorStyle" : {
+              "backgroundColor" : "rgba(120, 143, 166, 1)"
+            },
+            "activeIndicatorStyle" : {
+              "backgroundColor" : "rgba(0, 112, 242, 1)"
+            },
+            "canvasScrolling" : "fixed-width"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.panel",
+        "type" : "widget",
+        "entityTypes" : [ "panel" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "all_borders",
+                "style" : "solid",
+                "color" : "transparent",
+                "thickness" : "1",
+                "radius" : 16,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.panelStyle",
+          "settings" : {
+            "canvasScrolling" : "auto"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.r",
+        "type" : "widget",
+        "entityTypes" : [ "r.language" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "'72-Web'",
+                "color" : "rgba(29, 45, 62, 1)",
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.Radiobutton",
+        "type" : "widget",
+        "entityTypes" : [ "radiobuttongroup" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.radiobuttonStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "rgba(85, 107, 130, 1)"
+            },
+            "checkMarkStyle" : {
+              "color" : "rgba(0, 100, 217, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(85, 107, 130, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "headerFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(29, 45, 62, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.rangeslider",
+        "type" : "widget",
+        "entityTypes" : [ "rangeslider" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.rangeSliderstyle",
+          "settings" : {
+            "progressBarStyle" : {
+              "backgroundColor" : "rgba(0, 112, 242, 1)"
+            },
+            "backgroundBarStyle" : {
+              "backgroundColor" : "rgba(213, 218, 221, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(85, 107, 130, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.rss",
+        "type" : "widget",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "'72-Web'",
+                "color" : "rgba(29, 45, 62, 1)",
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.shape",
+        "type" : "widget",
+        "entityTypes" : [ "sap.lumira.story.entity.pictogram" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.pictogram.properties",
+          "settings" : {
+            "fillColor" : {
+              "path" : "/fillColor",
+              "value" : "rgba(29, 45, 62, 1)"
+            },
+            "strokeColor" : {
+              "path" : "/strokeColor",
+              "value" : ""
+            },
+            "strokeWidth" : {
+              "path" : "/strokeWidth",
+              "value" : 1
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.slider",
+        "type" : "widget",
+        "entityTypes" : [ "slider" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.sliderstyle",
+          "settings" : {
+            "progressBarStyle" : {
+              "backgroundColor" : "rgba(0, 112, 242, 1)"
+            },
+            "backgroundBarStyle" : {
+              "backgroundColor" : "rgba(213, 218, 221, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontSize" : "",
+              "color" : "rgba(85, 107, 130, 1)",
+              "fontFamily" : "'72-Web'"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.switch",
+        "type" : "widget",
+        "entityTypes" : [ "switch" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.switchstyle",
+          "settings" : {
+            "switchBackgroundStyle" : {
+              "color" : "rgba(0, 100, 217, 1)"
+            },
+            "switchToggleStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "switchOffBackgroundStyle" : {
+              "color" : "rgba(120, 143, 166, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.tabstrip",
+        "type" : "widget",
+        "entityTypes" : [ "tabstrip" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : "rgba(255, 255, 255, 1)"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "all_borders",
+                "style" : "solid",
+                "color" : "transparent",
+                "thickness" : "1",
+                "radius" : 4,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "tabStyle" : {
+              "fontFamily" : "Arial",
+              "fontSize" : "14px",
+              "color" : "#333333"
+            },
+            "contentFontStyle" : {
+              "fontFamily" : "'72-Web'",
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.tabstripStyle",
+          "settings" : {
+            "headerStyle" : {
+              "backgroundColor" : "transparent"
+            },
+            "tabHoverStyle" : {
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "activeTabStyle" : {
+              "color" : "rgba(0, 100, 217, 1)"
+            },
+            "canvasScrolling" : "auto",
+            "tabMargin" : 10
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.table",
+        "type" : "widget",
+        "entityTypes" : [ "analyticgrid.dynamictable" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.table.behaviourOnCanvas",
+          "settings" : {
+            "responsiveness" : {
+              "path" : "/responsiveness",
+              "value" : true
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "",
+                "color" : "rgb(88, 89, 91)"
+              },
+              "hideStyleButtons" : false
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.table.stylingtemplate",
+          "settings" : {
+            "stylingTemplate" : {
+              "value" : "defaultstyle"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.table.thresholdstyle",
+          "settings" : {
+            "thresholdStyle" : {
+              "value" : 0
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.story.theme.tile.text",
+        "type" : "widget",
+        "entityTypes" : [ "sap.lumira.story.entity.text" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.widget.text",
+          "settings" : {
+            "font" : {
+              "path" : null,
+              "value" : {
+                "fontFamily" : "'72-Web'",
+                "color" : "rgba(29, 45, 62, 1)",
+                "fontWeight" : false,
+                "fontStyle" : false,
+                "textDecoration" : ""
+              }
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.textArea",
+        "type" : "widget",
+        "entityTypes" : [ "textarea" ],
+        "preferences" : [ {
+          "type" : "sap.epm.appBuilding.settings.textareaStyle",
+          "settings" : {
+            "backgroundStyle" : {
+              "backgroundColor" : "rgba(255, 255, 255, 1)"
+            },
+            "borderStyle" : {
+              "borderColor" : "transparent"
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.epm.appBuilding.settings.font",
+          "settings" : {
+            "contentFontStyle" : {
+              "fontFamily" : "'72-Web'",
+              "fontSize" : "",
+              "color" : "rgba(19, 30, 41, 1)"
+            },
+            "editKey" : "contentFontStyle"
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.vdt",
+        "type" : "widget",
+        "entityTypes" : [ "planningFlow" ],
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.planningFlow.node",
+          "settings" : {
+            "nodeStyleSettings" : {
+              "value" : {
+                "header" : {
+                  "backgroundColor" : "rgba(255, 255, 255, 1)"
+                }
+              }
+            },
+            "isAppBuildingThemeSetting" : true
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.planningFlow.font",
+          "settings" : {
+            "title" : {
+              "fontFamily" : "'72-Web'",
+              "color" : "rgba(29, 45, 62, 1)"
+            },
+            "isAppBuildingThemeSetting" : true
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      }, {
+        "id" : "sap.fpa.appBuilding.theme.widget.webpage",
+        "type" : "widget",
+        "preferences" : [ {
+          "type" : "sap.lumira.story.setting.unifiedBackgroundColor",
+          "settings" : {
+            "color" : {
+              "path" : "/backgroundColor",
+              "value" : ""
+            }
+          },
+          "isThemeSetting" : true
+        }, {
+          "type" : "sap.lumira.story.setting.border.borderSetting",
+          "settings" : {
+            "border" : {
+              "value" : {
+                "format" : "none",
+                "style" : "solid",
+                "color" : "rgb(88,89,91)",
+                "thickness" : "1",
+                "radius" : 0,
+                "max_thickness" : "8"
+              }
+            }
+          },
+          "isThemeSetting" : true
+        } ]
+      } ],
+      "lastModified" : "applyToExisting",
+      "version" : 20,
+      "customColorPalettes" : [ {
+        "startColor" : "#ff0000",
+        "endColor" : "#8cb400",
+        "type" : "diverging",
+        "id" : "11853199-1410-4309-b939-094731584975",
+        "default" : false,
+        "midColor" : "#f1f1f2"
+      }, {
+        "colors" : [ "#8896a5", "#607182", "#354a5f" ],
+        "type" : "waterfall_standard",
+        "id" : "24741228-0711-4361-b844-120864551943",
+        "default" : false
+      }, {
+        "gradient" : {
+          "0" : "#b2d4f5",
+          "100" : "#1866b4"
+        },
+        "type" : "gradient",
+        "id" : "35407071-0441-4689-9667-524076890373"
+      }, {
+        "startColor" : "#b2d4f5",
+        "endColor" : "#1866b4",
+        "type" : "sequential",
+        "id" : "22888563-1989-4733-8831-203178474228",
+        "default" : false
+      }, {
+        "color" : "#e8743b",
+        "type" : "single_color",
+        "id" : "31820327-6436-4572-8369-541312535972"
+      }, {
+        "color" : "#5899da",
+        "type" : "single_color",
+        "id" : "50141981-7381-4097-8209-178323569921"
+      }, {
+        "color" : "#e8743b",
+        "type" : "single_color",
+        "id" : "30267708-3224-4645-9906-410957091561"
+      }, {
+        "color" : "#5899da",
+        "type" : "single_color",
+        "id" : "15252965-8119-4411-9161-526568366824"
+      }, {
+        "startColor" : "#bb0000",
+        "endColor" : "#107e3e",
+        "type" : "diverging",
+        "id" : "67011394-2934-4009-b512-615584961236",
+        "default" : false,
+        "midColor" : "#e9730c"
+      }, {
+        "color" : "#e8743b",
+        "type" : "single_color",
+        "id" : "30267708-3224-4645-9906-410957091561"
+      }, {
+        "color" : "#5899da",
+        "type" : "single_color",
+        "id" : "50141981-7381-4097-8209-178323569921"
+      }, {
+        "color" : "#5899da",
+        "type" : "single_color",
+        "id" : "15252965-8119-4411-9161-526568366824"
+      }, {
+        "color" : "#bfbfbf",
+        "type" : "single_color",
+        "id" : "45147735-9104-4414-9911-472691715489"
+      }, {
+        "gradient" : {
+          "0" : "#97c1ea",
+          "100" : "#1866b4"
+        },
+        "type" : "gradient",
+        "id" : "33629861-9125-4780-9252-796857435413"
+      }, {
+        "color" : "#3391D5",
+        "type" : "single_color",
+        "id" : "80962822-1474-4852-9637-398634382234",
+        "default" : false
+      }, {
+        "color" : "#f24269",
+        "type" : "single_color",
+        "id" : "22969595-8015-4183-9192-477259887140",
+        "default" : false
+      }, {
+        "colors" : [ "#2395ff", "#f56a00", "#04a6a1", "#fa4f96", "#9b76ff", "#aa8f62", "#7a91d2", "#f31ded", "#8396a8" ],
+        "type" : "standard",
+        "id" : "28721823-5031-4910-b812-338903298815",
+        "default" : false
+      }, {
+        "gradient" : {
+          "0" : "#0070f2",
+          "100" : "#cc00dc"
+        },
+        "type" : "gradient",
+        "id" : "28634325-7442-4048-a644-436255523714",
+        "default" : false
+      }, {
+        "startColor" : "#2395ff",
+        "endColor" : "#00144a",
+        "type" : "sequential",
+        "id" : "23530910-5126-4887-b202-546809327919",
+        "default" : false
+      }, {
+        "startColor" : "#840a2f",
+        "endColor" : "#093966",
+        "type" : "diverging",
+        "id" : "13101922-4836-4680-8321-825582949516",
+        "default" : false,
+        "midColor" : "#8396a8"
+      }, {
+        "startColor" : "#0070f2",
+        "endColor" : "#cc00dc",
+        "type" : "diverging",
+        "id" : "12963248-8717-4931-b989-039461162582",
+        "default" : false,
+        "midColor" : "#6837e7"
+      }, {
+        "color" : "#f62866",
+        "type" : "single_color",
+        "id" : "39179400-0221-4434-b087-632392100456",
+        "default" : false
+      }, {
+        "color" : "#1b90ff",
+        "type" : "single_color",
+        "id" : "20176698-0618-4125-8352-114602002081",
+        "default" : false
+      }, {
+        "color" : "#1b90ff",
+        "type" : "single_color",
+        "id" : "39623770-5670-4207-b973-288994148124",
+        "default" : false
+      }, {
+        "color" : "#788fa6",
+        "type" : "single_color",
+        "id" : "33979930-0274-4589-9182-305880216172",
+        "default" : false
+      }, {
+        "colors" : [ "#36a41d", "#ee3939", "#5b738b" ],
+        "type" : "waterfall_standard",
+        "id" : "22580023-0130-4193-8261-735472573818",
+        "default" : false
+      }, {
+        "color" : "#2395ff",
+        "type" : "single_color",
+        "id" : "39628410-3540-4661-9820-359298854540",
+        "default" : false
+      }, {
+        "color" : "#2395ff",
+        "type" : "single_color",
+        "id" : "15152017-0619-4124-b324-263600901564",
+        "default" : false
+      }, {
+        "color" : "#fa4f96",
+        "type" : "single_color",
+        "id" : "98697193-9209-4643-8376-232093455434",
+        "default" : false
+      }, {
+        "startColor" : "#aa0808",
+        "endColor" : "#256f3a",
+        "type" : "diverging",
+        "id" : "26986227-1210-4125-9538-027627977111",
+        "default" : false,
+        "midColor" : "#ffb300"
+      }, {
+        "startColor" : "#aa0808",
+        "endColor" : "#256f3a",
+        "type" : "diverging",
+        "id" : "16511611-0740-4367-9270-437679363391",
+        "default" : false,
+        "midColor" : "#8396a8"
+      }, {
+        "startColor" : "#00709f",
+        "endColor" : "#776240",
+        "type" : "diverging",
+        "id" : "34043104-6439-4031-a758-024572350605",
+        "default" : false,
+        "midColor" : "#8396a8"
+      }, {
+        "startColor" : "#00709f",
+        "endColor" : "#776240",
+        "type" : "diverging",
+        "id" : "40641515-7634-4926-a667-870724000816",
+        "default" : false,
+        "midColor" : "#ffb300"
+      }, {
+        "startColor" : "#00709f",
+        "endColor" : "#aa0808",
+        "type" : "diverging",
+        "id" : "33333319-7542-4263-8111-127421448242",
+        "default" : false,
+        "midColor" : "#ffb300"
+      }, {
+        "startColor" : "#00709f",
+        "endColor" : "#c35500",
+        "type" : "diverging",
+        "id" : "34088768-8912-4205-b809-012622533853",
+        "default" : false,
+        "midColor" : "#ffb300"
+      }, {
+        "color" : "#5b738b",
+        "type" : "single_color",
+        "id" : "59631498-4262-4383-8823-157557614530",
+        "default" : false
+      }, {
+        "color" : "#fa4f96",
+        "type" : "single_color",
+        "id" : "21055312-9912-4468-b723-845350465742",
+        "default" : false
+      }, {
+        "color" : "#2395ff",
+        "type" : "single_color",
+        "id" : "12799182-7217-4942-8680-117934438502",
+        "default" : false
+      }, {
+        "color" : "#2395ff",
+        "type" : "single_color",
+        "id" : "30723675-0817-4146-8241-138909090993",
+        "default" : false
+      }, {
+        "color" : "#fa4f96",
+        "type" : "single_color",
+        "id" : "30796040-8722-4536-a352-436049544001",
+        "default" : false
+      }, {
+        "color" : "#2395ff",
+        "type" : "single_color",
+        "id" : "39909753-8815-4253-9249-212870282962",
+        "default" : false
+      }, {
+        "colors" : [ "#354a5f", "#495c6f", "#5d6e7f", "#71808e", "#86929e", "#9aa4ae", "#aeb6bf", "#c1c8cd", "#d5dadd" ],
+        "type" : "standard",
+        "id" : "11909058-1841-4763-3532-634517425232",
+        "default" : false
+      }, {
+        "color" : "#2395ff",
+        "type" : "single_color",
+        "id" : "10556184-4126-4094-8871-221353012331",
+        "default" : false
+      }, {
+        "color" : "#5b738b",
+        "type" : "single_color",
+        "id" : "37134721-4635-4333-a121-436499916290",
+        "default" : false
+      }, {
+        "color" : "#5b738b",
+        "type" : "single_color",
+        "id" : "26193415-7130-4594-3929-138629887603",
+        "default" : false
+      }, {
+        "colors" : [ "#1a2733", "#5b738b" ],
+        "type" : "standard",
+        "id" : "27118662-0787-4713-3494-368413451516",
+        "default" : false
+      }, {
+        "gradient" : {
+          "0" : "#0070f2",
+          "100" : "#cc00dc"
+        },
+        "type" : "gradient",
+        "id" : "42045699-9500-4311-8881-582198919193",
+        "default" : false
+      }, {
+        "color" : "#5b738b",
+        "type" : "single_color",
+        "id" : "37554797-4026-4237-3003-441689037832",
+        "default" : false
+      }, {
+        "color" : "#f24269",
+        "type" : "single_color",
+        "id" : "10000111-6016-4419-3654-277818295255",
+        "default" : false
+      }, {
+        "colors" : [ "#0070f2", "#0057d2", "#0040b0", "#002a86", "#00144a", "#2395ff", "#4db1ff", "#89d1ff", "#d1efff" ],
+        "type" : "standard",
+        "id" : "17494401-9825-4139-3190-329273876949",
+        "default" : false
+      }, {
+        "colors" : [ "#0070f2", "#0040b0", "#00144a", "#4db1ff", "#d1efff" ],
+        "type" : "standard",
+        "id" : "16470298-8070-4215-3672-415429841122",
+        "default" : false
+      } ],
+      "customGradients" : [ ],
+      "isSample" : false,
+      "isTemporary" : false
+    },
+    "storyContent" : null,
+    "metadata" : {
+      "id" : {
+        "type" : "THEMING",
+        "name" : "C7A0D0C4DD9426987D890597E70D135",
+        "package" : "t.13"
+      },
+      "description" : "C7A0D0C4DD9426987D890597E70D135",
+      "owner" : "C5185443",
+      "changedBy" : "C5185443",
+      "version" : 1,
+      "active" : true,
+      "tmCreated" : "2024-04-09T08:14:19.522Z",
+      "tmModified" : "2024-04-09T08:14:19.522Z",
+      "parentId" : null,
+      "isPrivate" : false,
+      "isSample" : false,
+      "dataSize" : 106381,
+      "createAppVer" : "2024.6.1",
+      "changeAppVer" : "2024.6.1",
+      "isEmbedded" : false,
+      "isTemporary" : false,
+      "ownerDisplayName" : "SaikiranManchikatla",
+      "changedByDisplayName" : "SaikiranManchikatla"
+    },
+    "dependentObjects" : [ ],
+    "subObjects" : [ ],
+    "data" : null,
+    "translationEnabled" : 0,
+    "featured" : 0,
+    "spaceId" : null,
+    "properties" : null,
+    "refObjects" : [ ],
+    "privateSubItemCount" : 0,
+    "privateRefObjCount" : 0
+  },
+  "hasSecurityInfo" : false
+}

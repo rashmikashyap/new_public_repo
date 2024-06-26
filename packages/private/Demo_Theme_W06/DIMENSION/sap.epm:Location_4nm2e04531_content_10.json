@@ -1,0 +1,102 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:sap.epm:Location_4nm2e04531",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "sap.epm:Location_4nm2e04531",
+    "type" : "Generic",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "sap.epm",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : false,
+      "multiLangEnabled" : false,
+      "showOrphans" : true,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true
+    },
+    "description" : "Location",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "hierarchies" : [ {
+      "hierarchy" : "State_47acc246_4m5x6u3k6s",
+      "hierarchyType" : "parent_child",
+      "description" : "State",
+      "descriptions" : {
+        "en" : "State"
+      },
+      "hierarchyViewName" : "\"TENANT_5RGA4G\".\"sap.epm:Location_4nm2e04531//hier/State_47acc246_4m5x6u3k6s\"",
+      "isMandatory" : false,
+      "levels" : [ ],
+      "nodeStyle" : null
+    } ],
+    "memberCount" : 21,
+    "lastUpdated" : "2024-01-02T15:45:06.285Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_5RGA4G",
+    "descriptions" : {
+      "en" : "Location"
+    },
+    "name" : "Location_4nm2e04531",
+    "dimensionId" : "Location_4nm2e04531",
+    "defaultHierarchy" : "State_47acc246_4m5x6u3k6s",
+    "masterDataTableName" : "sap.epm::MSTR_Location_4nm2e04531",
+    "textTableName" : "sap.epm::TEXT_Location_4nm2e04531",
+    "hierarchyTableName" : "sap.epm::HIER_Location_4nm2e04531",
+    "hierarchyCount" : 1,
+    "propertyCount" : 1,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : true,
+    "isTemporary" : false
+  },
+  "status" : { },
+  "hasSecurityInfo" : false
+}

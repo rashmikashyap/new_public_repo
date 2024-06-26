@@ -1,0 +1,89 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:sap.epm:Sales_Manager__5w3m5d06b5",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "sap.epm:Sales_Manager__5w3m5d06b5",
+    "type" : "Generic",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "sap.epm",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : false,
+      "multiLangEnabled" : false,
+      "showOrphans" : true,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true
+    },
+    "description" : "Sales Manager",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "hierarchies" : [ ],
+    "memberCount" : 11,
+    "lastUpdated" : "2024-01-02T15:45:14.556Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_5RGA4G",
+    "descriptions" : {
+      "en" : "Sales Manager"
+    },
+    "name" : "Sales_Manager__5w3m5d06b5",
+    "dimensionId" : "Sales_Manager__5w3m5d06b5",
+    "masterDataTableName" : "sap.epm::MSTR_Sales_Manager__5w3m5d06b5",
+    "textTableName" : "sap.epm::TEXT_Sales_Manager__5w3m5d06b5",
+    "hierarchyCount" : 0,
+    "propertyCount" : 1,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : true,
+    "isTemporary" : false
+  },
+  "status" : { },
+  "hasSecurityInfo" : false
+}

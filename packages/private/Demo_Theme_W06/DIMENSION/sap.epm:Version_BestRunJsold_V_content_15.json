@@ -1,0 +1,157 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:sap.epm:Version_BestRunJsold_V",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "sap.epm:Version_BestRunJsold_V",
+    "type" : "VersionDim",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "sap.epm",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : false,
+      "multiLangEnabled" : false,
+      "showOrphans" : true,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true
+    },
+    "description" : "Category",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 300,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    }, {
+      "property" : "VERSION",
+      "propertyType" : "VERSION",
+      "description" : "Version",
+      "descriptions" : {
+        "en" : "Version"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 300,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "VERSION"
+    }, {
+      "property" : "CATEGORY",
+      "propertyType" : "CATEGORY",
+      "description" : "Category",
+      "descriptions" : {
+        "en" : "Category"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 127,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "CATEGORY"
+    }, {
+      "property" : "CURRENCY_CONVERSION_CATEGORY",
+      "propertyType" : "CURRENCY_CONVERSION_CATEGORY",
+      "description" : "Category for Currency Conversion",
+      "descriptions" : {
+        "en" : "Category for Currency Conversion"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 127,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "CURRENCY_CONVERSION_CATEGORY"
+    }, {
+      "property" : "RATE_VERSION",
+      "propertyType" : "RATE_VERSION",
+      "description" : "Rate Version",
+      "descriptions" : {
+        "en" : "Rate Version"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 127,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "RATE_VERSION"
+    } ],
+    "hierarchies" : [ ],
+    "memberCount" : 1,
+    "lastUpdated" : "2024-01-02T15:45:25.386Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_5RGA4G",
+    "descriptions" : {
+      "en" : "Category"
+    },
+    "name" : "Version_BestRunJsold_V",
+    "dimensionId" : "Version_BestRunJsold_V",
+    "masterDataTableName" : "sap.epm::MSTR_Version_BestRunJsold_V",
+    "textTableName" : "sap.epm::TEXT_Version_BestRunJsold_V",
+    "hierarchyCount" : 0,
+    "propertyCount" : 5,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 300,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : true,
+    "isTemporary" : false
+  },
+  "status" : { },
+  "hasSecurityInfo" : false
+}
